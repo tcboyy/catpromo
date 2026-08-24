@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CAT TECH PROMO — ofertas de tech conferidas</title>
+<meta name="description" content="Tr&ecirc;s ofertas de tech por dia, conferidas uma a uma. Sem enxurrada de link. Entrada gratuita no canal do WhatsApp.">
+<meta name="theme-color" content="#0b0b0f">
+<link rel="icon" href="../cat-logo.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="CAT TECH PROMO">
+<meta property="og:description" content="Tr&ecirc;s ofertas de tech por dia, conferidas uma a uma. Sem enxurrada de link.">
+<meta property="og:image" content="https://tcboyy.github.io/catpromo/cat-logo.png">
+
+<!--
+  ============================================================
+  PIXEL DO META  —  trocar SEU_PIXEL_ID e descomentar
+  Sem isso o an&uacute;ncio n&atilde;o otimiza: o Meta n&atilde;o sabe quem clicou.
+  ============================================================
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','SEU_PIXEL_ID');fbq('track','PageView');
+</script>
+-->
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0b0b0f; --bg2:#12121a; --card:#16161f; --line:#24242f;
+  --ink:#f4f4f6; --dim:#a0a0ae; --faint:#6e6e7d;
+  --brand:#ff7a1a; --brand2:#ffa14d; --ok:#25d366;
+  --wrap:520px;
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg); color:var(--ink);
+  font:400 16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased; overflow-x:hidden;
+}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 20px}
+section{padding:44px 0}
+
+/* ---------- topo ---------- */
+.bar{
+  position:sticky;top:0;z-index:20;
+  background:rgba(11,11,15,.86);backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.bar .wrap{display:flex;align-items:center;gap:10px;padding-top:11px;padding-bottom:11px}
+.bar img{width:30px;height:30px;border-radius:8px;display:block}
+.bar b{font-size:14px;letter-spacing:.16em;font-weight:700}
+.bar span{margin-left:auto;font-size:11px;color:var(--faint);letter-spacing:.1em}
+
+/* ---------- hero ---------- */
+.hero{
+  padding:38px 0 8px;
+  background:
+    radial-gradient(80% 55% at 50% 0%, rgba(255,122,26,.16), transparent 70%),
+    var(--bg);
+  text-align:center;
+}
+.tag{
+  display:inline-block;padding:5px 12px;border-radius:999px;
+  background:rgba(255,122,26,.12);border:1px solid rgba(255,122,26,.35);
+  color:var(--brand2);font-size:11.5px;font-weight:700;letter-spacing:.09em;
+  margin-bottom:18px;
+}
+h1{font-size:clamp(30px,8.6vw,40px);line-height:1.1;letter-spacing:-.022em;font-weight:800}
+h1 em{font-style:normal;color:var(--brand)}
+.sub{margin-top:14px;color:var(--dim);font-size:16.5px;line-height:1.5}
+.sub b{color:var(--ink);font-weight:600}
+
+/* ---------- cta ---------- */
+.cta{
+  display:flex;align-items:center;justify-content:center;gap:9px;
+  width:100%;padding:17px 20px;margin-top:24px;
+  background:linear-gradient(180deg,var(--brand2),var(--brand));
+  color:#20130a;font-size:17px;font-weight:800;letter-spacing:-.01em;
+  border:0;border-radius:14px;text-decoration:none;
+  box-shadow:0 8px 26px rgba(255,122,26,.3);
+  transition:transform .12s ease, box-shadow .12s ease;
+}
+.cta:active{transform:translateY(1px);box-shadow:0 4px 16px rgba(255,122,26,.26)}
+.cta svg{width:19px;height:19px;flex:0 0 auto}
+.under{margin-top:11px;font-size:12.5px;color:var(--faint)}
+.under b{color:var(--ok);font-weight:600}
+
+/* ---------- cards ---------- */
+h2{font-size:22px;line-height:1.25;letter-spacing:-.02em;font-weight:800;margin-bottom:6px}
+.lead{color:var(--dim);font-size:15px;margin-bottom:22px}
+.cards{display:grid;gap:11px}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:16px 17px;display:flex;gap:13px;align-items:flex-start;
+}
+.card .ic{font-size:20px;line-height:1.3;flex:0 0 auto}
+.card h3{font-size:15px;font-weight:700;margin-bottom:3px}
+.card p{font-size:14px;color:var(--dim);line-height:1.5}
+
+/* ---------- diferencial ---------- */
+.alt{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.vs{display:grid;gap:10px;margin-top:20px}
+.row{
+  display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:start;
+  padding:14px 15px;border-radius:12px;border:1px solid var(--line);background:var(--card);
+}
+.row.bad{opacity:.62}
+.row .mk{font-size:15px;font-weight:800;line-height:1.5}
+.row.bad .mk{color:#ff6b6b}
+.row.good .mk{color:var(--ok)}
+.row p{font-size:14.5px;line-height:1.5}
+.row.bad p{color:var(--faint)}
+
+/* ---------- passos ---------- */
+.steps{counter-reset:s;display:grid;gap:13px;margin-top:20px}
+.step{display:grid;grid-template-columns:30px 1fr;gap:13px;align-items:start}
+.step::before{
+  counter-increment:s;content:counter(s);
+  width:30px;height:30px;border-radius:50%;
+  background:rgba(255,122,26,.13);border:1px solid rgba(255,122,26,.4);
+  color:var(--brand2);font-size:13px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;
+}
+.step p{font-size:14.5px;color:var(--dim);padding-top:4px}
+.step p b{color:var(--ink);font-weight:600}
+
+/* ---------- fechamento ---------- */
+.close{text-align:center;padding-bottom:52px}
+.close h2{font-size:clamp(24px,6.6vw,30px);letter-spacing:-.022em}
+.close h2 em{font-style:normal;color:var(--brand)}
+
+/* ---------- rodape ---------- */
+footer{border-top:1px solid var(--line);padding:26px 0 40px;background:var(--bg2)}
+footer p{font-size:11.5px;color:var(--faint);line-height:1.65}
+footer p + p{margin-top:9px}
+footer a{color:var(--dim)}
+.disc{
+  margin-top:14px;padding:12px 13px;border:1px solid var(--line);
+  border-radius:10px;background:var(--bg);
+}
+
+@media (min-width:560px){ section{padding:56px 0} .cards{gap:12px} }
+@media (prefers-reduced-motion:reduce){ *{transition:none!important} }
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <div class="wrap">
+    <img src="../cat-logo.png" alt="">
+    <b>CAT TECH PROMO</b>
+    <span>CNPJ 58.017.406/0001-67</span>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="tag">ENTRADA GRATUITA</div>
+    <h1>Tr&ecirc;s ofertas de tech por dia.<br><em>Conferidas uma a uma.</em></h1>
+    <p class="sub">
+      Sem enxurrada de link. Sem "promo&ccedil;&atilde;o" que subiu de pre&ccedil;o ontem.
+      S&oacute; o que <b>a gente compraria</b>.
+    </p>
+
+    <a class="cta" href="https://whatsapp.com/channel/0029VbCtLQF7IUYMZhrwvM2y" id="cta-hero">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+      Entrar no canal gr&aacute;tis
+    </a>
+    <p class="under"><b>&#9679;</b> Sem custo &middot; sai quando quiser &middot; s&oacute; ofertas, nada de spam</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>O que voc&ecirc; recebe</h2>
+    <p class="lead">Todo dia, direto no WhatsApp.</p>
+    <div class="cards">
+      <div class="card"><div class="ic">&#128187;</div><div>
+        <h3>S&oacute; tech</h3>
+        <p>Perif&eacute;rico, setup, hardware, celular e acess&oacute;rio. Nada de panela e chinelo no meio.</p>
+      </div></div>
+      <div class="card"><div class="ic">&#128200;</div><div>
+        <h3>Pre&ccedil;o checado antes</h3>
+        <p>A gente olha o hist&oacute;rico. Se subiu semana passada pra "cair" hoje, n&atilde;o entra.</p>
+      </div></div>
+      <div class="card"><div class="ic">&#127915;</div><div>
+        <h3>Cupom quando existe</h3>
+        <p>Quando tem cupom que soma, vai junto com a oferta &mdash; e explicado onde aplicar.</p>
+      </div></div>
+      <div class="card"><div class="ic">&#9889;</div><div>
+        <h3>Avisos de rel&acirc;mpago</h3>
+        <p>Oferta com estoque curto vai com aviso, pra voc&ecirc; decidir r&aacute;pido em vez de descobrir depois.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Por que s&oacute; tr&ecirc;s por dia?</h2>
+    <p class="lead">Porque grupo de oferta morre de duas coisas &mdash; e volume &eacute; uma delas.</p>
+    <div class="vs">
+      <div class="row bad">
+        <div class="mk">&times;</div>
+        <p>Grupo com 100 ofertas por dia: voc&ecirc; silencia na primeira semana e nunca mais abre.</p>
+      </div>
+      <div class="row bad">
+        <div class="mk">&times;</div>
+        <p>Tudo virou "oferta". Quando tudo &eacute; urgente, nada &eacute; urgente.</p>
+      </div>
+      <div class="row good">
+        <div class="mk">&#10003;</div>
+        <p>Tr&ecirc;s por dia significa que cada uma passou por uma checagem &mdash; e que vale abrir a notifica&ccedil;&atilde;o.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Como funciona</h2>
+    <div class="steps">
+      <div class="step"><p>Voc&ecirc; entra no canal. <b>&Eacute; gr&aacute;tis e leva 5 segundos.</b></p></div>
+      <div class="step"><p>Recebe as ofertas do dia direto no WhatsApp, <b>sem grupo lotado de conversa</b>.</p></div>
+      <div class="step"><p>Gostou de uma, toca no link e compra. <b>N&atilde;o gostou, ignora</b> &mdash; nenhuma cobran&ccedil;a, nunca.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="close">
+  <div class="wrap">
+    <h2>Sua pr&oacute;xima compra de tech<br><em>pode sair bem mais barata.</em></h2>
+    <a class="cta" href="https://whatsapp.com/channel/0029VbCtLQF7IUYMZhrwvM2y" id="cta-final">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+      Entrar no canal gr&aacute;tis
+    </a>
+    <p class="under"><b>&#9679;</b> Canal oficial &middot; sem custo &middot; sai a qualquer momento</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b style="color:var(--dim)">CAT TECH PROMO</b> &mdash; PXC SERVICOS DE VENDAS ONLINE LTDA</p>
+    <p>CNPJ 58.017.406/0001-67 &middot; Caxias do Sul &mdash; RS</p>
+    <div class="disc">
+      <p>
+        Esta p&aacute;gina e o canal cont&ecirc;m <b style="color:var(--dim)">links de afiliado</b>.
+        Ao comprar por eles, podemos receber uma comiss&atilde;o da loja
+        <b style="color:var(--dim)">sem nenhum custo adicional pra voc&ecirc;</b>.
+        Pre&ccedil;os e disponibilidade s&atilde;o da loja e podem mudar a qualquer momento.
+        N&atilde;o vendemos produtos nem processamos pagamentos.
+      </p>
+    </div>
+    <p style="margin-top:14px"><a href="../">Voltar ao site</a></p>
+  </div>
+</footer>
+
+<script>
+// Marca o clique no CTA para o pixel e para o parametro de origem do link.
+(function () {
+  var qs = new URLSearchParams(location.search);
+  var src = qs.get('utm_source') || 'direto';
+
+  document.querySelectorAll('.cta').forEach(function (el) {
+    el.addEventListener('click', function () {
+      if (window.fbq) fbq('track', 'Lead', { content_name: 'canal-wpp', source: src });
+      if (window.ttq) ttq.track('ClickButton', { content_name: 'canal-wpp' });
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
