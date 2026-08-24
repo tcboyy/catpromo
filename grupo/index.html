@@ -13,20 +13,19 @@
 <meta property="og:description" content="Ofertas de tech conferidas uma a uma, com cupom. Tr&ecirc;s por dia, no WhatsApp.">
 <meta property="og:image" content="https://tcboyy.github.io/catpromo/cat-logo.png">
 
-<!--
-  ============================================================
-  PIXEL DO META  —  trocar SEU_PIXEL_ID e descomentar
-  Sem isso o an&uacute;ncio n&atilde;o otimiza: o Meta n&atilde;o sabe quem clicou.
-  ============================================================
+<!-- Meta Pixel — dataset CAT TECH PROMO -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','SEU_PIXEL_ID');fbq('track','PageView');
+fbq('init','1404403115150528');
+fbq('track','PageView');
 </script>
--->
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
 
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -276,15 +275,32 @@ footer b{color:var(--dim)}
 
   var origem = new URLSearchParams(location.search).get('utm_source') || 'direto';
 
-  function track(evento, dados) {
-    if (window.fbq) fbq('track', evento, dados);
-    if (window.ttq) ttq.track(evento === 'Lead' ? 'ClickButton' : evento, dados);
+  // ------------------------------------------------------------------
+  // Dois eventos DIFERENTES, de proposito.
+  //
+  //   entrarNoCanal() -> 'Lead'  = a conversao que o anuncio otimiza.
+  //   cliqueNaLoja()  -> custom  = intencao de compra, nao entra no Lead.
+  //
+  // Se os dois disparassem 'Lead', o Meta passaria a otimizar para quem
+  // clica em cupom e vai embora, em vez de para quem entra no canal.
+  // ------------------------------------------------------------------
+  function entrarNoCanal(onde) {
+    if (window.fbq) fbq('track', 'Lead', { content_name: onde, source: origem });
+    if (window.ttq) ttq.track('ClickButton', { content_name: onde });
+  }
+
+  function cliqueNaLoja(oferta, loja) {
+    if (window.fbq) {
+      fbq('trackCustom', 'CliqueOferta', {
+        content_name: oferta, content_category: loja || '', source: origem
+      });
+      fbq('track', 'ViewContent', { content_name: oferta });
+    }
+    if (window.ttq) ttq.track('ClickButton', { content_name: 'oferta:' + oferta });
   }
 
   document.querySelectorAll('[data-cta]').forEach(function (el) {
-    el.addEventListener('click', function () {
-      track('Lead', { content_name: 'canal-wpp', source: origem });
-    });
+    el.addEventListener('click', function () { entrarNoCanal('canal-wpp'); });
   });
 
   function aviso(txt) {
@@ -327,9 +343,7 @@ footer b{color:var(--dim)}
         '<a class="cta" href="' + CANAL + '" data-cta style="margin-top:16px">Entrar no canal gr&aacute;tis</a>' +
       '</div>';
     grid.querySelectorAll('[data-cta]').forEach(function (el) {
-      el.addEventListener('click', function () {
-        track('Lead', { content_name: 'canal-wpp-vazio', source: origem });
-      });
+      el.addEventListener('click', function () { entrarNoCanal('canal-wpp-vazio'); });
     });
   }
 
@@ -358,7 +372,7 @@ footer b{color:var(--dim)}
     var acao = o.cupom
       ? '<div class="cup"><code>' + esc(o.cupom) + '</code><small>OCULTO</small></div>' +
         '<button class="go" type="button">REVELAR CUPOM E IR PRA LOJA</button>'
-      : '<a class="go plain" href="' + esc(o.url) + '" target="_blank" rel="nofollow sponsored noopener">VER OFERTA NA LOJA</a>';
+      : '<a class="go plain" href="' + esc(o.url) + '" target="_blank" rel="nofollow sponsored noopener" data-loja>VER OFERTA NA LOJA</a>';
 
     el.innerHTML =
       '<div class="ph">' + foto + '</div>' +
@@ -366,6 +380,11 @@ footer b{color:var(--dim)}
         (bs ? '<div class="badges">' + bs + '</div>' : '') +
         '<h3>' + esc(o.produto) + '</h3>' + pr + acao +
       '</div>';
+
+    var direto = el.querySelector('[data-loja]');
+    if (direto) {
+      direto.addEventListener('click', function () { cliqueNaLoja(o.produto, o.loja); });
+    }
 
     if (o.cupom) {
       var cx  = el.querySelector('.cup');
@@ -378,7 +397,7 @@ footer b{color:var(--dim)}
         try { navigator.clipboard.writeText(o.cupom); aviso('Cupom ' + o.cupom + ' copiado!'); }
         catch (e) { aviso('Cupom: ' + o.cupom); }
 
-        track('Lead', { content_name: 'cupom:' + o.produto, source: origem });
+        cliqueNaLoja(o.produto, o.loja);
         setTimeout(function () { window.open(o.url, '_blank', 'noopener'); }, 550);
       });
     }
