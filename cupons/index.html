@@ -3,6 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://connect.facebook.net https://analytics.tiktok.com; connect-src 'self' https://*.facebook.com https://analytics.tiktok.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script>
+/* Anti-clickjacking. O GitHub Pages nao permite definir cabecalho
+   X-Frame-Options, e frame-ancestors so vale como cabecalho real —
+   dentro de <meta> o navegador ignora. Entao a quebra de moldura
+   precisa ser feita aqui. */
+if (window.top !== window.self) {
+  try { window.top.location = window.self.location; }
+  catch (e) { document.documentElement.style.display = 'none'; }
+}
+</script>
 <title>Cupons e ofertas — CAT TECH PROMO</title>
 <meta name="description" content="Ofertas de tech conferidas uma a uma, com cupom. Tr&ecirc;s por dia, direto no canal do WhatsApp. Entrada gratuita.">
 <meta name="theme-color" content="#0b141a">
@@ -315,6 +328,19 @@ footer b{color:var(--dim)}
     });
   }
 
+  // So http(s). Bloqueia javascript:, data:, vbscript: e afins vindos
+  // do ofertas.json — esc() impede quebrar o atributo, mas nao impede
+  // o navegador de executar um href javascript: no clique.
+  function urlSegura(u) {
+    var bruto = String(u == null ? '' : u).trim();
+    if (!bruto) return '';                 // vazio resolveria para a propria pagina
+    if (bruto.slice(0, 2) === '//') return '';  // protocolo-relativo esconde o destino
+    try {
+      var url = new URL(bruto, location.href);
+      return (url.protocol === 'https:' || url.protocol === 'http:') ? url.href : '';
+    } catch (e) { return ''; }
+  }
+
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
@@ -351,7 +377,7 @@ footer b{color:var(--dim)}
     el.className = 'of';
 
     var foto = o.imagem
-      ? '<img src="' + esc(o.imagem) + '" alt="" loading="lazy">'
+      ? '<img src="' + esc(urlSegura(o.imagem)) + '" alt="" loading="lazy" referrerpolicy="no-referrer">'
       : esc(o.emoji || '📦');
 
     var bs = '';
@@ -364,14 +390,14 @@ footer b{color:var(--dim)}
     if (o.preco) {
       pr = '<div class="pr"><span class="now">' + reais(o.preco) + '</span>';
       if (o.precoDe)  pr += '<span class="was">' + reais(o.precoDe) + '</span>';
-      if (o.desconto) pr += '<span class="off">-' + o.desconto + '%</span>';
+      if (o.desconto) pr += '<span class="off">-' + (parseInt(o.desconto, 10) || 0) + '%</span>';
       pr += '</div>';
     }
 
     var acao = o.cupom
       ? '<div class="cup"><code>' + esc(o.cupom) + '</code><small>OCULTO</small></div>' +
         '<button class="go" type="button">REVELAR CUPOM E IR PRA LOJA</button>'
-      : '<a class="go plain" href="' + esc(o.url) + '" target="_blank" rel="nofollow sponsored noopener" data-loja>VER OFERTA NA LOJA</a>';
+      : '<a class="go plain" href="' + esc(urlSegura(o.url)) + '" target="_blank" rel="nofollow sponsored noopener noreferrer" data-loja>VER OFERTA NA LOJA</a>';
 
     el.innerHTML =
       '<div class="ph">' + foto + '</div>' +
@@ -393,11 +419,13 @@ footer b{color:var(--dim)}
         cx.querySelector('small').textContent = 'LIBERADO';
         btn.textContent = 'IR PRA LOJA';
 
-        try { navigator.clipboard.writeText(o.cupom); aviso('Cupom ' + o.cupom + ' copiado!'); }
-        catch (e) { aviso('Cupom: ' + o.cupom); }
+        var cupom = String(o.cupom).slice(0, 64);
+        try { navigator.clipboard.writeText(cupom); aviso('Cupom ' + cupom + ' copiado!'); }
+        catch (e) { aviso('Cupom: ' + cupom); }
 
         cliqueNaLoja(o.produto, o.loja);
-        setTimeout(function () { window.open(o.url, '_blank', 'noopener'); }, 550);
+        var destino = urlSegura(o.url);
+        if (destino) setTimeout(function () { window.open(destino, '_blank', 'noopener,noreferrer'); }, 550);
       });
     }
     return el;

@@ -3,6 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://connect.facebook.net https://analytics.tiktok.com; connect-src 'self' https://*.facebook.com https://analytics.tiktok.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script>
+/* Anti-clickjacking. O GitHub Pages nao permite definir cabecalho
+   X-Frame-Options, e frame-ancestors so vale como cabecalho real —
+   dentro de <meta> o navegador ignora. Entao a quebra de moldura
+   precisa ser feita aqui. */
+if (window.top !== window.self) {
+  try { window.top.location = window.self.location; }
+  catch (e) { document.documentElement.style.display = 'none'; }
+}
+</script>
 <title>CAT TECH PROMO — Ofertas de tecnologia</title>
 <meta name="description" content="Curadoria diária de ofertas de tecnologia: periféricos, componentes, celulares e acessórios.">
 
