@@ -247,11 +247,21 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
    ================================================================== */
 var CONFIG = {
 
-  // 'telegram' (azul) | 'whatsapp' (verde)
+  // Icone do botao: 'telegram' ou 'whatsapp'
   plataforma: 'whatsapp',
 
-  // cor do selo, independente do tema acima
-  seloCor: '#49ADF4',   // cor da linha de texto do selo
+  // VERDE = acao. So o botao, porque so ele leva pro WhatsApp.
+  corAcao: '#25D366',
+
+  // AZUL = acento. Selo do topo, borda do card, barra de vagas,
+  // anel e borda da foto. E o azul do layout original.
+  corAcento: '#1E99FD',
+
+  // realce das palavras em destaque (PIX / ENTRAR)
+  corRealce: '#32BCAD',
+
+  // cor da linha de texto do selo de verificado
+  seloCor: '#49ADF4',
 
   selo:      '🔒 SOMENTE PARA MEMBROS INSCRITOS',
   titulo:    'SORTEIOS EM ',
@@ -310,16 +320,39 @@ var CONFIG = {
 
   // ---- cor da plataforma ----
   var p = PLAT[CONFIG.plataforma] || PLAT.telegram;
-  var selo = CONFIG.seloCor || p.cor;
+
+  var acao   = CONFIG.corAcao   || p.cor;
+  var acento = CONFIG.corAcento || p.cor;
+  var realce = CONFIG.corRealce || p.realce;
+  var selo   = CONFIG.seloCor   || acento;
+
+  // '#1E99FD' -> 'rgba(30,153,253,.1)'
+  function rgba(hex, a) {
+    var n = parseInt(hex.slice(1), 16);
+    return 'rgba(' + ((n >> 16) & 255) + ',' + ((n >> 8) & 255) + ',' + (n & 255) + ',' + a + ')';
+  }
+  // escurece pra fazer o degrade da barra
+  function escuro(hex, f) {
+    var n = parseInt(hex.slice(1), 16), o = '';
+    for (var i = 16; i >= 0; i -= 8) {
+      o += ('0' + Math.round(((n >> i) & 255) * f).toString(16)).slice(-2);
+    }
+    return '#' + o;
+  }
+
   var css = document.createElement('style');
   css.textContent =
-    '.lp-container{border-color:' + p.borda + '}' +
-    '.lp-button{background:' + p.cor + '}' +
-    '.progress-bar-fill{background:linear-gradient(90deg,' + p.cor + ',' + p.cor2 + ')}' +
-    '.pix-text,.word-entrar{color:' + p.realce + '}' +
-    '.badge-exclusivo{background:' + p.badgeBg + ';color:' + p.cor + ';border-color:' + p.badgeBd + '}' +
-    '.profile-pic{border-color:' + p.cor + '}' +
-    '.ring-animado::before{border-color:' + p.cor + '}' +
+    // acao
+    '.lp-button{background:' + acao + '}' +
+    // acento
+    '.lp-container{border-color:' + rgba(acento, .5) + '}' +
+    '.badge-exclusivo{background:' + rgba(acento, .1) + ';color:' + acento +
+      ';border-color:' + rgba(acento, .2) + '}' +
+    '.progress-bar-fill{background:linear-gradient(90deg,' + acento + ',' + escuro(acento, .78) + ')}' +
+    '.profile-pic{border-color:' + acento + '}' +
+    '.ring-animado::before{border-color:' + acento + '}' +
+    // realce e selo
+    '.pix-text,.word-entrar{color:' + realce + '}' +
     '.linha-oficial{color:' + selo + '}' +
     '.linha-oficial svg{fill:' + selo + '}';
   document.head.appendChild(css);
