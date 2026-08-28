@@ -91,8 +91,8 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 }
 
 .titulo-pix{
-  font-size:2.3rem;font-weight:900;color:#FFFFFF;margin-bottom:2px;
-  line-height:1.1;letter-spacing:-.5px;
+  font-size:clamp(1.45rem,7.6vw,2.3rem);font-weight:900;color:#FFFFFF;
+  margin-bottom:2px;line-height:1.1;letter-spacing:-.5px;
 }
 .pix-text{color:#32BCAD;display:inline-block;animation:pulsePix 2s infinite}
 @keyframes pulsePix{
@@ -100,7 +100,7 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
   50%{text-shadow:0 0 16px rgba(50,188,173,.8)}
 }
 
-.titulo-cupons{font-size:1.3rem;font-weight:800;color:#FFE700;margin-bottom:18px}
+.titulo-cupons{font-size:clamp(1rem,4.7vw,1.3rem);font-weight:800;color:#FFE700;margin-bottom:18px}
 
 .badge-exclusivo{
   background:rgba(30,153,253,.1);color:#1E99FD;font-size:.72rem;font-weight:800;
@@ -113,13 +113,13 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
   text-align:center;border:1px solid rgba(255,255,255,.2);
   background:rgba(255,255,255,.05);border-radius:8px;padding:10px;margin-bottom:15px;
 }
-.lp-descricao p{margin-bottom:10px;color:#E2E8F0;font-weight:500}
+.lp-descricao p{margin-bottom:10px;color:#E2E8F0;font-weight:500;font-size:clamp(.86rem,3.7vw,1rem)}
 .lp-descricao p:last-child{margin-bottom:0}
-.word-obrigatorio{color:#FF3B3B;font-size:1.3rem;font-weight:900}
-.word-entrar{color:#32BCAD;font-size:1.3rem;font-weight:900}
+.word-obrigatorio{color:#FF3B3B;font-size:clamp(1rem,4.7vw,1.3rem);font-weight:900}
+.word-entrar{color:#32BCAD;font-size:clamp(1rem,4.7vw,1.3rem);font-weight:900}
 
 .lp-button{
-  width:100%;background:#1E99FD;padding:8px;font-size:1.25rem;font-weight:800;
+  width:100%;background:#1E99FD;padding:8px;font-size:clamp(.92rem,4.3vw,1.25rem);font-weight:800;
   color:#FFFFFF!important;border-radius:50px;text-decoration:none;
   display:flex;align-items:center;animation:pulseButton 1.6s infinite;
   margin-bottom:8px;
@@ -131,7 +131,11 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
   flex:0 0 auto;
 }
 .button-icon-wrapper svg{width:26px;height:26px;fill:#FFFFFF}
-.button-text{flex-grow:1;text-align:center;padding-right:60px}
+/* No original ha padding-right:60px aqui, so pra compensar o icone e
+   centralizar o texto no botao inteiro. Em tela estreita isso rouba
+   60px e quebra uma palavra por linha, entao vira responsivo:
+   compensacao total no desktop, nenhuma no celular. */
+.button-text{flex-grow:1;text-align:center;padding-right:clamp(0px,calc((100vw - 360px) * 0.6),60px)}
 
 .vagas-container{margin-top:14px}
 .vagas-texto{font-weight:700;margin-bottom:4px}
