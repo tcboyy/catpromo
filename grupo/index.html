@@ -60,11 +60,14 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 
 #particles{position:fixed;inset:0;pointer-events:none;z-index:2}
 .particle{
-  position:absolute;width:6px;height:6px;background:rgba(255,193,7,.9);
-  border-radius:50%;animation:cair 6s linear infinite;opacity:.85;
+  position:absolute;top:0;width:6px;height:6px;background:rgba(255,193,7,.9);
+  border-radius:50%;animation:cair 6s linear infinite;opacity:0;
+  will-change:transform,opacity;
 }
 @keyframes cair{
-  0%{transform:translateY(-10vh) scale(1);opacity:1}
+  0%{transform:translateY(-10vh) scale(1);opacity:0}
+  8%{opacity:.85}
+  85%{opacity:.85}
   100%{transform:translateY(110vh) scale(.85);opacity:0}
 }
 
@@ -157,6 +160,8 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
+  /* sem animacao as particulas ficariam paradas no topo pra sempre */
+  #particles{display:none}
 }
 </style>
 </head>
@@ -296,13 +301,24 @@ var CONFIG = {
 
   // ---- particulas douradas ----
   var box = $('particles');
-  for (var i = 0; i < 22; i++) {
-    var d = document.createElement('div');
-    d.className = 'particle';
-    d.style.left = (Math.random() * 100) + '%';
-    d.style.animationDelay = (Math.random() * 6) + 's';
-    d.style.animationDuration = (4.5 + Math.random() * 3.5) + 's';
-    box.appendChild(d);
+  if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var frag = document.createDocumentFragment();
+    for (var i = 0; i < 22; i++) {
+      var d   = document.createElement('div');
+      var dur = 4.5 + Math.random() * 3.5;
+      var tam = 4 + Math.random() * 3;
+      d.className = 'particle';
+      d.style.left   = (Math.random() * 100) + '%';
+      d.style.width  = tam.toFixed(1) + 'px';
+      d.style.height = tam.toFixed(1) + 'px';
+      d.style.animationDuration = dur.toFixed(2) + 's';
+      // delay NEGATIVO: a particula ja entra no meio da queda.
+      // Com delay positivo ela fica parada no topo ate o delay vencer,
+      // o que aparece como uma fileira de pontos travados no carregamento.
+      d.style.animationDelay = (-Math.random() * dur).toFixed(2) + 's';
+      frag.appendChild(d);
+    }
+    box.appendChild(frag);
   }
 
   // ---- contador ----
