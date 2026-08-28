@@ -292,8 +292,8 @@ var CONFIG = {
     // Cadencia da queda. Intervalo sorteado nesta faixa a cada passo,
     // com pausas longas ocasionais e quedas de 1 ou 2 — para nao ter
     // o ritmo metronomico que entrega contador automatico.
-    intervaloMin: 6000,
-    intervaloMax: 26000,
+    intervaloMin: 3000,
+    intervaloMax: 13000,
 
     // Guarda o valor no navegador do visitante: recarregar a pagina
     // nao devolve o contador ao inicio.
@@ -426,14 +426,14 @@ var CONFIG = {
 
       pinta(n);
 
-      var min = v.intervaloMin || 6000, max = v.intervaloMax || 26000;
+      var min = v.intervaloMin || 3000, max = v.intervaloMax || 13000;
 
       function proximoIntervalo() {
         // media de dois sorteios: concentra no meio da faixa e ainda
         // deixa escapar pausas curtas e longas de vez em quando
         var r = (Math.random() + Math.random()) / 2;
         var t = min + (max - min) * r;
-        if (Math.random() < 0.12) t *= 1.9;   // pausa longa ocasional
+        if (Math.random() < 0.14) t *= 2.1;   // pausa longa ocasional
         return t;
       }
 
