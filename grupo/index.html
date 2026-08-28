@@ -3,15 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>CAT TECH PROMO — cupons de tech</title>
-<meta name="description" content="Cupons e ofertas de tech conferidas. Entrada gratuita no canal do WhatsApp.">
-<meta name="theme-color" content="#0d0d0d">
+<title>CAT TECH PROMO</title>
+<meta name="description" content="Sorteios e cupons de tech. Entrada gratuita.">
+<meta name="theme-color" content="#121212">
 <link rel="icon" href="../cat-logo.png">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="CAT TECH PROMO">
-<meta property="og:description" content="Cupons e ofertas de tech conferidas, todo dia no WhatsApp.">
+<meta property="og:description" content="Sorteios e cupons de tech, todo dia.">
 <meta property="og:image" content="https://tcboyy.github.io/catpromo/cat-logo.png">
+
+<link rel="preload" href="../fontes/montserrat.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Meta Pixel — dataset CAT TECH PROMO -->
 <script>
@@ -29,180 +31,218 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 
 <style>
 /* ==================================================================
-   Cores e medidas extraidas pixel a pixel do print de referencia
-   (968x1282). Fator de escala aplicado: 2x -> viewport de 484px.
+   Regras replicadas do layout de referencia, valor por valor.
+   Marca, textos e destino sao nossos — ver CONFIG no fim do arquivo.
    ================================================================== */
+/* Montserrat variavel, hospedada no proprio site: nao depende do
+   Google Fonts, carrega antes e nao vaza visita pra terceiro. */
+@font-face{
+  font-family:'Montserrat';font-style:normal;font-weight:100 900;
+  font-display:swap;src:url('../fontes/montserrat.woff2') format('woff2');
+}
+
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --page:#0d0d0d;      /* fundo da pagina                 */
-  --card:#191919;      /* coluna central                  */
-  --badge:#17252f;     /* fundo do selo do topo           */
-  --ink:#ffffff;
-  --body:#dee5ed;      /* texto corrido                   */
-  --dim:#8e8e8e;
-  --faint:#474747;     /* "VER CUPONS"                    */
-  --yellow:#ffe235;    /* 2a linha do titulo              */
-  --red:#fd3337;       /* "OBRIGATORIO"                   */
-  --blue:#0c90f8;      /* botao principal                 */
-  --blue2:#0476cb;     /* preenchimento da barra          */
-  --track:#171717;     /* trilho da barra                 */
-  --wrap:484px;        /* 968 / 2                         */
+
+.landing-page-root{
+  background:linear-gradient(135deg,#121212 0%,#000000 100%);
+  min-height:100vh;width:100%;position:relative;overflow-x:hidden;
+  font-family:'Montserrat',sans-serif;color:#fff;
+  display:flex;flex-direction:column;align-items:center;
+  padding:18px 0 20px;
 }
-html{-webkit-text-size-adjust:100%}
-body{
-  background:var(--page);color:var(--ink);
-  font:400 16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  -webkit-font-smoothing:antialiased;
-  min-height:100vh;display:flex;justify-content:center;
-}
-.card{
-  width:100%;max-width:var(--wrap);background:var(--card);
-  padding:26px 28px 34px;text-align:center;
-  display:flex;flex-direction:column;min-height:100vh;
+.landing-page-root::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:1;
+  background-image:
+    radial-gradient(circle at 0 0, rgba(255,255,255,.08) 0, transparent 55%),
+    radial-gradient(circle at 100% 0, rgba(0,0,0,.18) 0, transparent 55%);
+  mix-blend-mode:soft-light;opacity:.55;
 }
 
-/* ---------- logo ---------- */
-.logo{
-  width:104px;height:104px;border-radius:50%;object-fit:cover;
-  margin:4px auto 22px;display:block;
+#particles{position:fixed;inset:0;pointer-events:none;z-index:2}
+.particle{
+  position:absolute;width:6px;height:6px;background:rgba(255,193,7,.9);
+  border-radius:50%;animation:cair 6s linear infinite;opacity:.85;
+}
+@keyframes cair{
+  0%{transform:translateY(-10vh) scale(1);opacity:1}
+  100%{transform:translateY(110vh) scale(.85);opacity:0}
 }
 
-/* ---------- selo ---------- */
-.badge{
-  background:var(--badge);border-radius:8px;
-  padding:8px 12px;margin-bottom:26px;
-  font-size:11.5px;font-weight:800;letter-spacing:.13em;
-  color:#cfe0ee;text-transform:uppercase;line-height:1.3;
+.lp-container{
+  max-width:430px;width:92%;margin:0 auto;background:#1A1A1A;
+  border-radius:20px;padding:18px 14px 14px;text-align:center;
+  box-shadow:0 20px 60px rgba(0,0,0,.5);
+  border:2px solid rgba(30,153,253,.5);
+  position:relative;z-index:3;
 }
 
-/* ---------- titulo ---------- */
-h1{line-height:1.02;letter-spacing:-.015em;text-transform:uppercase;font-weight:900}
-h1 .l1{display:block;font-size:clamp(30px,8.6vw,40px);color:var(--ink)}
-h1 .l2{display:block;font-size:clamp(24px,6.8vw,32px);color:var(--yellow);margin-top:8px}
-
-/* ---------- requisito ---------- */
-.req{
-  margin:26px auto 0;max-width:330px;
-  font-size:16px;line-height:1.42;color:var(--body);font-weight:500;
+.ring-animado{position:relative;display:inline-block;margin:0 auto 24px auto}
+.ring-animado::before{
+  content:"";position:absolute;inset:-10px;border-radius:50%;
+  border:4px solid #1E99FD;animation:giro 6s linear infinite;opacity:.9;
 }
-.req b{display:block;color:var(--red);font-weight:900;font-size:20px;
-       letter-spacing:.02em;margin:4px 0}
-.req u{text-decoration:none;color:var(--ink);font-weight:800}
-
-/* ---------- botao principal ---------- */
-.btn{
-  display:flex;align-items:center;justify-content:center;
-  width:100%;min-height:77px;margin-top:28px;padding:12px 22px;
-  border:0;border-radius:999px;background:var(--blue);color:#fff;
-  font:900 18px/1.16 inherit;letter-spacing:.01em;text-transform:uppercase;
-  text-decoration:none;cursor:pointer;
-  transition:transform .12s ease,filter .12s ease;
+@keyframes giro{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+.profile-pic{
+  width:100px;height:100px;border-radius:50%;border:5px solid #1E99FD;
+  object-fit:cover;display:block;margin:0 auto;
 }
-.btn:active{transform:translateY(1px);filter:brightness(.9)}
 
-/* ---------- escassez ---------- */
-.scarce{margin-top:24px}
-.scarce .txt{font-size:16px;font-weight:800;color:var(--ink)}
-.track{
-  display:flex;align-items:center;gap:10px;margin-top:12px;
+.titulo-pix{
+  font-size:2.3rem;font-weight:900;color:#FFFFFF;margin-bottom:2px;
+  line-height:1.1;letter-spacing:-.5px;
 }
-.track .rail{
-  flex:1;height:14px;border-radius:99px;background:var(--track);overflow:hidden;
+.pix-text{color:#32BCAD;display:inline-block;animation:pulsePix 2s infinite}
+@keyframes pulsePix{
+  0%,100%{text-shadow:0 0 8px rgba(50,188,173,.2)}
+  50%{text-shadow:0 0 16px rgba(50,188,173,.8)}
 }
-.track .fill{
-  height:100%;border-radius:99px;background:var(--blue2);
-  width:0;transition:width .9s cubic-bezier(.22,1,.36,1);
+
+.titulo-cupons{font-size:1.3rem;font-weight:800;color:#FFE700;margin-bottom:18px}
+
+.badge-exclusivo{
+  background:rgba(30,153,253,.1);color:#1E99FD;font-size:.72rem;font-weight:800;
+  text-transform:uppercase;padding:6px 14px;border-radius:50px;
+  display:inline-block;margin-bottom:14px;letter-spacing:.5px;
+  border:1px solid rgba(30,153,253,.2);
 }
-.track .pct{font-size:13px;font-weight:800;color:var(--dim);min-width:38px;text-align:right}
 
-/* ---------- rodape do bloco ---------- */
-.fine{margin-top:22px;font-size:13px;line-height:1.5;color:var(--dim)}
-
-.ghost{
-  display:block;margin-top:20px;padding:14px;
-  font-size:14px;font-weight:800;letter-spacing:.06em;
-  color:var(--faint);text-decoration:none;text-transform:uppercase;
+.lp-descricao{
+  text-align:center;border:1px solid rgba(255,255,255,.2);
+  background:rgba(255,255,255,.05);border-radius:8px;padding:10px;margin-bottom:15px;
 }
-.ghost:active{color:var(--dim)}
+.lp-descricao p{margin-bottom:10px;color:#E2E8F0;font-weight:500}
+.lp-descricao p:last-child{margin-bottom:0}
+.word-obrigatorio{color:#FF3B3B;font-size:1.3rem;font-weight:900}
+.word-entrar{color:#32BCAD;font-size:1.3rem;font-weight:900}
 
-.legal{margin-top:auto;padding-top:26px}
-.legal p{font-size:10.5px;line-height:1.6;color:#3d3d3d}
-.legal p+p{margin-top:6px}
-.legal a{color:var(--faint)}
+.lp-button{
+  width:100%;background:#1E99FD;padding:8px;font-size:1.25rem;font-weight:800;
+  color:#FFFFFF!important;border-radius:50px;text-decoration:none;
+  display:flex;align-items:center;animation:pulseButton 1.6s infinite;
+  margin-bottom:8px;
+}
+@keyframes pulseButton{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.button-icon-wrapper{
+  background:rgba(255,255,255,.15);border-radius:50%;width:50px;height:50px;
+  display:flex;justify-content:center;align-items:center;margin-right:10px;
+  flex:0 0 auto;
+}
+.button-icon-wrapper svg{width:26px;height:26px;fill:#FFFFFF}
+.button-text{flex-grow:1;text-align:center;padding-right:60px}
 
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.vagas-container{margin-top:14px}
+.vagas-texto{font-weight:700;margin-bottom:4px}
+.progress-bar{height:18px;background:rgba(0,0,0,.08);border-radius:10px;overflow:hidden}
+.progress-bar-fill{
+  height:100%;background:linear-gradient(90deg,#1E99FD,#1279CA);
+  transition:width .5s;display:flex;justify-content:flex-end;align-items:center;
+}
+.progress-bar-text{color:#FFFFFF;font-weight:800;font-size:.75rem;padding-right:6px}
+
+.cta-secundario{font-size:.70rem;color:rgba(255,255,255,.82);margin-top:10px}
+
+.ver-cupons{
+  display:inline-block;color:rgba(255,255,255,.2);font-size:10px;margin-top:16px;
+  text-transform:uppercase;letter-spacing:.1em;font-weight:900;text-decoration:none;
+  transition:color .15s;
+}
+.ver-cupons:hover{color:rgba(255,255,255,.4)}
+
+.rodape{
+  position:relative;z-index:3;max-width:430px;width:92%;margin:18px auto 0;
+  text-align:center;font-size:9.5px;line-height:1.6;color:rgba(255,255,255,.22);
+}
+.rodape p+p{margin-top:5px}
+.rodape a{color:rgba(255,255,255,.32)}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
 </style>
 </head>
 <body>
 
-<div class="card">
+<div class="landing-page-root">
+  <div id="particles"></div>
 
-  <img class="logo" src="../cat-logo.png" alt="CAT TECH PROMO">
-
-  <div class="badge" id="badge"></div>
-
-  <h1>
-    <span class="l1" id="h1a"></span>
-    <span class="l2" id="h1b"></span>
-  </h1>
-
-  <p class="req" id="req"></p>
-
-  <a class="btn" id="btnEntrar" href="#"><span id="btnEntrarTxt"></span></a>
-
-  <div class="scarce" id="scarce" hidden>
-    <div class="txt" id="scarceTxt"></div>
-    <div class="track">
-      <div class="rail"><div class="fill" id="fill"></div></div>
-      <div class="pct" id="pctLbl"></div>
+  <div class="lp-container">
+    <div class="ring-animado">
+      <img class="profile-pic" src="../cat-logo.png" alt="Perfil">
     </div>
+
+    <div class="badge-exclusivo" id="badge"></div>
+
+    <h1 class="titulo-pix" id="h1"></h1>
+    <h2 class="titulo-cupons" id="h2"></h2>
+
+    <div class="lp-descricao">
+      <p><strong id="desc1"></strong></p>
+      <p><strong id="desc2"></strong></p>
+    </div>
+
+    <a class="lp-button" id="btn" href="#" target="_blank" rel="noopener noreferrer">
+      <div class="button-icon-wrapper" id="icone"></div>
+      <span class="button-text" id="btnTxt"></span>
+    </a>
+
+    <div class="vagas-container" id="vagas" hidden>
+      <div class="vagas-texto">CORRA, restam <strong id="restam"></strong> vagas.</div>
+      <div class="progress-bar">
+        <div class="progress-bar-fill" id="fill">
+          <span class="progress-bar-text" id="pct"></span>
+        </div>
+      </div>
+    </div>
+
+    <p class="cta-secundario" id="fino"></p>
+
+    <a class="ver-cupons" id="verCupons" href="../cupons/">Ver Cupons</a>
   </div>
 
-  <p class="fine" id="fine"></p>
-
-  <a class="ghost" id="btnCupons" href="../cupons/">Ver cupons</a>
-
-  <div class="legal">
+  <div class="rodape">
     <p>PXC SERVICOS DE VENDAS ONLINE LTDA &middot; CNPJ 58.017.406/0001-67</p>
     <p>Cont&eacute;m links de afiliado. Podemos receber comiss&atilde;o da loja, sem custo adicional pra voc&ecirc;.</p>
     <p><a href="../">Site</a></p>
   </div>
-
 </div>
 
 <script>
 /* ==================================================================
-   TUDO QUE VOCE VAI QUERER MEXER ESTA AQUI.
-   Nao precisa tocar em HTML nem CSS.
+   AREA DE EDICAO
    ================================================================== */
 var CONFIG = {
 
-  // ---- textos -------------------------------------------------
-  selo:    'SOMENTE PARA MEMBROS DO CANAL',
-  titulo1: 'CUPONS DE TECH',
-  titulo2: 'ATÉ 50% OFF +',
+  // 'telegram' (azul) | 'whatsapp' (verde)
+  plataforma: 'telegram',
 
-  // {obrigatorio} vira o bloco vermelho, {destaque} fica branco forte
-  requisito:   'Para receber os cupons é {obrigatorio} {destaque} no canal do WhatsApp.',
-  obrigatorio: 'OBRIGATÓRIO',
-  destaque:    'ENTRAR',
+  selo:      '🔒 SOMENTE PARA MEMBROS INSCRITOS',
+  titulo:    'SORTEIOS EM ',
+  destaque:  'PIX',                     // teal, com pulso
+  subtitulo: 'CUPONS DE 20/30/50% +',   // amarelo
 
-  textoBotao: 'ENTRAR NO CANAL DO WHATSAPP',
+  linha1:   'Para participar dos sorteios é ',
+  palavra1: 'OBRIGATÓRIO',              // vermelho
+  palavra2: 'ENTRAR',                   // teal
+  linha2:   ' no grupo do Telegram .',
+
+  textoBotao: 'ENTRAR NO GRUPO DO TELEGRAM',
   textoFino:  'Sem spam. Só ofertas reais. Você pode sair quando quiser.',
 
-  // ---- destino ------------------------------------------------
   link: 'https://whatsapp.com/channel/0029VbCtLQF7IUYMZhrwvM2y',
 
   // ---- contador de vagas --------------------------------------
-  // ATENCAO: e afirmacao factual pro consumidor.
-  // Grupo de WhatsApp tem teto REAL de 1024 membros — entao pode ser
-  // verdade. Canal nao tem teto. Numero inventado e propaganda
-  // enganosa (CDC art. 37) e queima no primeiro membro que reparar
-  // que o contador nao anda.
+  // modo 'real'    -> total e ocupadas de verdade. Grupo do WhatsApp
+  //                   tem teto REAL de 1024 membros.
+  // modo 'animado' -> replica o mecanismo do original: comeca em
+  //                   `inicio` e cai 1 a cada 3s ate parar em `piso`.
+  //                   O numero nao corresponde a vaga nenhuma.
   vagas: {
     mostrar:  true,
-    total:    1024,   // teto real do grupo de WhatsApp
-    ocupadas: 0       // membros de hoje — manter atualizado
+    modo:     'animado',
+    total:    850,
+    inicio:   693,
+    piso:     15,
+    ocupadas: 0        // usado so no modo 'real'
   }
 };
 /* ================= fim da area de edicao ========================= */
@@ -211,41 +251,93 @@ var CONFIG = {
   var $ = function (id) { return document.getElementById(id); };
   var origem = new URLSearchParams(location.search).get('utm_source') || 'direto';
 
+  var PLAT = {
+    telegram: {
+      cor:'#1E99FD', cor2:'#1279CA', borda:'rgba(30,153,253,.5)',
+      badgeBg:'rgba(30,153,253,.1)', badgeBd:'rgba(30,153,253,.2)', realce:'#32BCAD',
+      svg:'<svg viewBox="0 0 24 24"><path d="M21.1098 3.51139C20.8409 3.23595 20.4431 3.12037 20.0653 3.20822L2.73142 7.23434C2.26128 7.34358 1.92131 7.7288 1.83852 8.216C1.7587 8.68884 1.95669 9.16781 2.34863 9.429L6.50293 12.1923L9.63004 18.2711C9.8427 18.6833 10.2709 18.914 10.7251 18.8953C11.1613 18.8778 11.5586 18.6183 11.7512 18.2323L13.7844 14.1565L18.4982 17.5132C18.7997 17.7275 19.1683 17.7884 19.5109 17.6806C19.8643 17.5704 20.1428 17.3014 20.2442 16.9408L21.9056 4.39707C21.9722 3.89675 21.3846 3.7925 21.1098 3.51139ZM6.96987 11.5283L4.14441 9.64893L17.7661 6.48421L6.96987 11.5283ZM16.3236 15.656L12.5539 12.9715L15.9084 9.17726L16.3236 15.656Z"/></svg>'
+    },
+    whatsapp: {
+      cor:'#25D366', cor2:'#0E8A3E', borda:'rgba(37,211,102,.5)',
+      badgeBg:'rgba(37,211,102,.1)', badgeBd:'rgba(37,211,102,.2)', realce:'#25D366',
+      svg:'<svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>'
+    }
+  };
+
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
     });
   }
 
-  $('badge').textContent        = CONFIG.selo;
-  $('h1a').textContent          = CONFIG.titulo1;
-  $('h1b').textContent          = CONFIG.titulo2;
-  $('btnEntrarTxt').textContent = CONFIG.textoBotao;
-  $('fine').textContent         = CONFIG.textoFino;
-  $('btnEntrar').href           = CONFIG.link;
+  // ---- cor da plataforma ----
+  var p = PLAT[CONFIG.plataforma] || PLAT.telegram;
+  var css = document.createElement('style');
+  css.textContent =
+    '.lp-container{border-color:' + p.borda + '}' +
+    '.lp-button{background:' + p.cor + '}' +
+    '.progress-bar-fill{background:linear-gradient(90deg,' + p.cor + ',' + p.cor2 + ')}' +
+    '.pix-text,.word-entrar{color:' + p.realce + '}' +
+    '.badge-exclusivo{background:' + p.badgeBg + ';color:' + p.cor + ';border-color:' + p.badgeBd + '}' +
+    '.profile-pic{border-color:' + p.cor + '}' +
+    '.ring-animado::before{border-color:' + p.cor + '}';
+  document.head.appendChild(css);
+  $('icone').innerHTML = p.svg;
 
-  $('req').innerHTML = esc(CONFIG.requisito)
-    .replace('{obrigatorio}', '<b>' + esc(CONFIG.obrigatorio) + '</b>')
-    .replace('{destaque}',    '<u>' + esc(CONFIG.destaque)    + '</u>');
+  // ---- textos ----
+  $('badge').textContent  = CONFIG.selo;
+  $('h1').innerHTML       = esc(CONFIG.titulo) + '<span class="pix-text">' + esc(CONFIG.destaque) + '</span>';
+  $('h2').textContent     = CONFIG.subtitulo;
+  $('desc1').innerHTML    = esc(CONFIG.linha1) + '<span class="word-obrigatorio">' + esc(CONFIG.palavra1) + '</span>';
+  $('desc2').innerHTML    = '<span class="word-entrar">' + esc(CONFIG.palavra2) + '</span>' + esc(CONFIG.linha2);
+  $('btnTxt').textContent = CONFIG.textoBotao;
+  $('fino').textContent   = CONFIG.textoFino;
+  $('btn').href           = CONFIG.link;
 
-  var v = CONFIG.vagas;
-  if (v && v.mostrar && v.total > 0) {
-    var restam = Math.max(0, v.total - v.ocupadas);
-    var pct    = Math.min(100, Math.round(v.ocupadas / v.total * 100));
-    $('scarceTxt').textContent = 'CORRA, restam ' + restam.toLocaleString('pt-BR') + ' vagas.';
-    $('pctLbl').textContent    = pct + '%';
-    $('scarce').hidden = false;
-    requestAnimationFrame(function () { $('fill').style.width = pct + '%'; });
+  // ---- particulas douradas ----
+  var box = $('particles');
+  for (var i = 0; i < 22; i++) {
+    var d = document.createElement('div');
+    d.className = 'particle';
+    d.style.left = (Math.random() * 100) + '%';
+    d.style.animationDelay = (Math.random() * 6) + 's';
+    d.style.animationDuration = (4.5 + Math.random() * 3.5) + 's';
+    box.appendChild(d);
   }
 
-  // Lead = entrar no canal. E a conversao que o anuncio otimiza.
-  $('btnEntrar').addEventListener('click', function () {
-    if (window.fbq) fbq('track', 'Lead', { content_name: 'canal-wpp', source: origem });
-    if (window.ttq) ttq.track('ClickButton', { content_name: 'canal-wpp' });
-  });
+  // ---- contador ----
+  var v = CONFIG.vagas;
+  if (v && v.mostrar) {
+    var total = v.total || 1;
 
-  // Navegacao interna: evento proprio, nao polui o Lead.
-  $('btnCupons').addEventListener('click', function () {
+    var pinta = function (restam) {
+      var ocup = Math.max(0, total - restam);
+      var pct  = Math.min(100, Math.max(0, Math.round(ocup / total * 100)));
+      $('restam').textContent = restam.toLocaleString('pt-BR');
+      $('pct').textContent    = pct + '%';
+      $('fill').style.width   = pct + '%';
+    };
+
+    $('vagas').hidden = false;
+
+    if (v.modo === 'animado') {
+      var n = v.inicio;
+      pinta(n);
+      setInterval(function () {
+        n = n > v.piso ? n - 1 : v.piso;
+        pinta(n);
+      }, 3000);
+    } else {
+      pinta(Math.max(0, total - v.ocupadas));
+    }
+  }
+
+  // ---- eventos ----
+  $('btn').addEventListener('click', function () {
+    if (window.fbq) fbq('track', 'Lead', { content_name: 'entrar', source: origem });
+    if (window.ttq) ttq.track('ClickButton', { content_name: 'entrar' });
+  });
+  $('verCupons').addEventListener('click', function () {
     if (window.fbq) fbq('trackCustom', 'VerCupons', { source: origem });
   });
 })();
