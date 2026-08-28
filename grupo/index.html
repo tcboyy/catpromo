@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>CAT TECH PROMO — ofertas de tech e cupons</title>
+<title>CAT TECH PROMO — cupons de tech</title>
 <meta name="description" content="Cupons e ofertas de tech conferidas. Entrada gratuita no canal do WhatsApp.">
-<meta name="theme-color" content="#191919">
+<meta name="theme-color" content="#0d0d0d">
 <link rel="icon" href="../cat-logo.png">
 
 <meta property="og:type" content="website">
@@ -28,179 +28,181 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 <!-- End Meta Pixel Code -->
 
 <style>
+/* ==================================================================
+   Cores e medidas extraidas pixel a pixel do print de referencia
+   (968x1282). Fator de escala aplicado: 2x -> viewport de 484px.
+   ================================================================== */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  /* paleta tirada do print de referencia */
-  --bg:#191919;        /* fundo                    */
-  --panel:#252525;     /* blocos e barra           */
-  --edge:#0e0e0e;      /* topo e rodape            */
-  --line:#333;
-  --ink:#fff;
-  --dim:#9a9a9a;
-  --faint:#6f6f6f;
-  --alert:#fd3337;     /* "OBRIGATORIO" e escassez */
-  --cta:#25d366;       /* verde do WhatsApp        */
-  --cta2:#1fbb5a;
-  --wrap:420px;
+  --page:#0d0d0d;      /* fundo da pagina                 */
+  --card:#191919;      /* coluna central                  */
+  --badge:#17252f;     /* fundo do selo do topo           */
+  --ink:#ffffff;
+  --body:#dee5ed;      /* texto corrido                   */
+  --dim:#8e8e8e;
+  --faint:#474747;     /* "VER CUPONS"                    */
+  --yellow:#ffe235;    /* 2a linha do titulo              */
+  --red:#fd3337;       /* "OBRIGATORIO"                   */
+  --blue:#0c90f8;      /* botao principal                 */
+  --blue2:#0476cb;     /* preenchimento da barra          */
+  --track:#171717;     /* trilho da barra                 */
+  --wrap:484px;        /* 968 / 2                         */
 }
 html{-webkit-text-size-adjust:100%}
 body{
-  background:var(--bg);color:var(--ink);
-  font:400 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:var(--page);color:var(--ink);
+  font:400 16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing:antialiased;
-  min-height:100vh;display:flex;flex-direction:column;
+  min-height:100vh;display:flex;justify-content:center;
 }
-.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 22px}
+.card{
+  width:100%;max-width:var(--wrap);background:var(--card);
+  padding:26px 28px 34px;text-align:center;
+  display:flex;flex-direction:column;min-height:100vh;
+}
 
-/* ---------- topo ---------- */
-.top{background:var(--edge);padding:14px 0;text-align:center}
-.top span{font-size:10.5px;letter-spacing:.22em;color:var(--faint);font-weight:700}
-
-/* ---------- miolo ---------- */
-main{flex:1;padding:30px 0 34px;text-align:center}
-
+/* ---------- logo ---------- */
 .logo{
-  width:96px;height:96px;border-radius:50%;object-fit:cover;
-  margin:0 auto 18px;display:block;border:2px solid var(--panel);
+  width:104px;height:104px;border-radius:50%;object-fit:cover;
+  margin:4px auto 22px;display:block;
 }
 
-.eyebrow{
-  font-size:10.5px;font-weight:800;letter-spacing:.19em;color:var(--dim);
-  margin-bottom:16px;
+/* ---------- selo ---------- */
+.badge{
+  background:var(--badge);border-radius:8px;
+  padding:8px 12px;margin-bottom:26px;
+  font-size:11.5px;font-weight:800;letter-spacing:.13em;
+  color:#cfe0ee;text-transform:uppercase;line-height:1.3;
 }
 
-h1{
-  font-size:clamp(30px,9vw,38px);line-height:1.06;font-weight:900;
-  letter-spacing:-.02em;text-transform:uppercase;
-}
-h1 .l2{display:block;margin-top:4px}
-h1 .pct{color:var(--cta)}
+/* ---------- titulo ---------- */
+h1{line-height:1.02;letter-spacing:-.015em;text-transform:uppercase;font-weight:900}
+h1 .l1{display:block;font-size:clamp(30px,8.6vw,40px);color:var(--ink)}
+h1 .l2{display:block;font-size:clamp(24px,6.8vw,32px);color:var(--yellow);margin-top:8px}
 
+/* ---------- requisito ---------- */
 .req{
-  margin:18px auto 0;max-width:340px;
-  font-size:15px;line-height:1.45;color:var(--dim);
+  margin:26px auto 0;max-width:330px;
+  font-size:16px;line-height:1.42;color:var(--body);font-weight:500;
 }
-.req b{color:var(--alert);font-weight:800}
-.req u{color:var(--ink);text-decoration:none;font-weight:700}
+.req b{display:block;color:var(--red);font-weight:900;font-size:20px;
+       letter-spacing:.02em;margin:4px 0}
+.req u{text-decoration:none;color:var(--ink);font-weight:800}
 
-/* ---------- botoes ---------- */
+/* ---------- botao principal ---------- */
 .btn{
-  display:flex;align-items:center;justify-content:center;gap:9px;
-  width:100%;padding:18px 18px;margin-top:22px;border:0;border-radius:12px;
-  font:900 16px/1.15 inherit;letter-spacing:.01em;text-decoration:none;
-  text-transform:uppercase;cursor:pointer;
-  background:var(--cta);color:#0a2318;
-  transition:transform .12s ease,background .12s ease;
+  display:flex;align-items:center;justify-content:center;
+  width:100%;min-height:77px;margin-top:28px;padding:12px 22px;
+  border:0;border-radius:999px;background:var(--blue);color:#fff;
+  font:900 18px/1.16 inherit;letter-spacing:.01em;text-transform:uppercase;
+  text-decoration:none;cursor:pointer;
+  transition:transform .12s ease,filter .12s ease;
 }
-.btn:active{transform:translateY(1px);background:var(--cta2)}
-.btn svg{width:20px;height:20px;flex:0 0 auto}
-.btn.ghost{
-  background:transparent;color:var(--ink);
-  border:1px solid var(--line);font-weight:800;
-}
-.btn.ghost:active{background:var(--panel)}
+.btn:active{transform:translateY(1px);filter:brightness(.9)}
 
 /* ---------- escassez ---------- */
-.scarce{margin-top:20px}
-.scarce .txt{font-size:13.5px;font-weight:800;color:var(--alert);letter-spacing:.01em}
+.scarce{margin-top:24px}
+.scarce .txt{font-size:16px;font-weight:800;color:var(--ink)}
 .track{
-  margin-top:9px;height:9px;border-radius:99px;background:var(--panel);
-  overflow:hidden;position:relative;
+  display:flex;align-items:center;gap:10px;margin-top:12px;
 }
-.fill{
-  height:100%;border-radius:99px;background:var(--alert);
+.track .rail{
+  flex:1;height:14px;border-radius:99px;background:var(--track);overflow:hidden;
+}
+.track .fill{
+  height:100%;border-radius:99px;background:var(--blue2);
   width:0;transition:width .9s cubic-bezier(.22,1,.36,1);
 }
-.pct-lbl{margin-top:6px;font-size:11px;color:var(--faint);font-weight:700}
+.track .pct{font-size:13px;font-weight:800;color:var(--dim);min-width:38px;text-align:right}
 
-.fine{margin-top:20px;font-size:12px;line-height:1.55;color:var(--faint)}
+/* ---------- rodape do bloco ---------- */
+.fine{margin-top:22px;font-size:13px;line-height:1.5;color:var(--dim)}
 
-/* ---------- rodape ---------- */
-footer{background:var(--edge);padding:20px 0 30px;text-align:center}
-footer p{font-size:10.5px;line-height:1.6;color:var(--faint)}
-footer p+p{margin-top:7px}
-footer a{color:var(--dim)}
+.ghost{
+  display:block;margin-top:20px;padding:14px;
+  font-size:14px;font-weight:800;letter-spacing:.06em;
+  color:var(--faint);text-decoration:none;text-transform:uppercase;
+}
+.ghost:active{color:var(--dim)}
+
+.legal{margin-top:auto;padding-top:26px}
+.legal p{font-size:10.5px;line-height:1.6;color:#3d3d3d}
+.legal p+p{margin-top:6px}
+.legal a{color:var(--faint)}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
 <body>
 
-<div class="top"><span>CAT TECH PROMO</span></div>
+<div class="card">
 
-<main>
-  <div class="wrap">
-    <img class="logo" src="../cat-logo.png" alt="CAT TECH PROMO">
+  <img class="logo" src="../cat-logo.png" alt="CAT TECH PROMO">
 
-    <div class="eyebrow" id="eyebrow"></div>
+  <div class="badge" id="badge"></div>
 
-    <h1>
-      <span class="l1" id="h1a"></span>
-      <span class="l2" id="h1b"></span>
-    </h1>
+  <h1>
+    <span class="l1" id="h1a"></span>
+    <span class="l2" id="h1b"></span>
+  </h1>
 
-    <p class="req" id="req"></p>
+  <p class="req" id="req"></p>
 
-    <a class="btn" id="btnEntrar" href="#">
-      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
-      <span id="btnEntrarTxt"></span>
-    </a>
+  <a class="btn" id="btnEntrar" href="#"><span id="btnEntrarTxt"></span></a>
 
-    <div class="scarce" id="scarce" hidden>
-      <div class="txt" id="scarceTxt"></div>
-      <div class="track"><div class="fill" id="fill"></div></div>
-      <div class="pct-lbl" id="pctLbl"></div>
+  <div class="scarce" id="scarce" hidden>
+    <div class="txt" id="scarceTxt"></div>
+    <div class="track">
+      <div class="rail"><div class="fill" id="fill"></div></div>
+      <div class="pct" id="pctLbl"></div>
     </div>
-
-    <p class="fine" id="fine"></p>
-
-    <a class="btn ghost" id="btnCupons" href="../cupons/">VER CUPONS</a>
   </div>
-</main>
 
-<footer>
-  <div class="wrap">
+  <p class="fine" id="fine"></p>
+
+  <a class="ghost" id="btnCupons" href="../cupons/">Ver cupons</a>
+
+  <div class="legal">
     <p>PXC SERVICOS DE VENDAS ONLINE LTDA &middot; CNPJ 58.017.406/0001-67</p>
     <p>Cont&eacute;m links de afiliado. Podemos receber comiss&atilde;o da loja, sem custo adicional pra voc&ecirc;.</p>
     <p><a href="../">Site</a></p>
   </div>
-</footer>
+
+</div>
 
 <script>
 /* ==================================================================
    TUDO QUE VOCE VAI QUERER MEXER ESTA AQUI.
-   Nao precisa tocar no HTML nem no CSS.
+   Nao precisa tocar em HTML nem CSS.
    ================================================================== */
 var CONFIG = {
 
   // ---- textos -------------------------------------------------
-  eyebrow:  'SOMENTE PARA QUEM ENTRA NO CANAL',
-  titulo1:  'CUPONS DE TECH',
-  titulo2:  'ATE 50% OFF',
+  selo:    'SOMENTE PARA MEMBROS DO CANAL',
+  titulo1: 'CUPONS DE TECH',
+  titulo2: 'ATÉ 50% OFF +',
 
-  // {obrigatorio} sai em vermelho, {destaque} sai em branco forte
-  requisito: 'Pra receber os cupons do dia é {obrigatorio} {destaque} no canal do WhatsApp.',
+  // {obrigatorio} vira o bloco vermelho, {destaque} fica branco forte
+  requisito:   'Para receber os cupons é {obrigatorio} {destaque} no canal do WhatsApp.',
   obrigatorio: 'OBRIGATÓRIO',
   destaque:    'ENTRAR',
 
-  textoBotao: 'ENTRAR NO CANAL GRÁTIS',
+  textoBotao: 'ENTRAR NO CANAL DO WHATSAPP',
   textoFino:  'Sem spam. Só ofertas reais. Você pode sair quando quiser.',
 
   // ---- destino ------------------------------------------------
   link: 'https://whatsapp.com/channel/0029VbCtLQF7IUYMZhrwvM2y',
 
   // ---- contador de vagas --------------------------------------
-  // mostrar:false esconde o bloco inteiro.
-  //
-  // ATENCAO: isto e uma afirmacao factual pro consumidor.
-  // Grupo de WhatsApp tem teto REAL de 1024 membros — entao da pra
-  // ser verdade. Canal nao tem teto, entao aqui fica desligado ate
-  // o destino virar um grupo. Numero inventado e propaganda enganosa
-  // (CDC art. 37) e queima a confianca no primeiro membro que contar.
+  // ATENCAO: e afirmacao factual pro consumidor.
+  // Grupo de WhatsApp tem teto REAL de 1024 membros — entao pode ser
+  // verdade. Canal nao tem teto. Numero inventado e propaganda
+  // enganosa (CDC art. 37) e queima no primeiro membro que reparar
+  // que o contador nao anda.
   vagas: {
     mostrar:  true,
     total:    1024,   // teto real do grupo de WhatsApp
-    ocupadas: 0       // membros de hoje — atualizar de verdade
+    ocupadas: 0       // membros de hoje — manter atualizado
   }
 };
 /* ================= fim da area de edicao ========================= */
@@ -215,7 +217,7 @@ var CONFIG = {
     });
   }
 
-  $('eyebrow').textContent      = CONFIG.eyebrow;
+  $('badge').textContent        = CONFIG.selo;
   $('h1a').textContent          = CONFIG.titulo1;
   $('h1b').textContent          = CONFIG.titulo2;
   $('btnEntrarTxt').textContent = CONFIG.textoBotao;
@@ -242,7 +244,7 @@ var CONFIG = {
     if (window.ttq) ttq.track('ClickButton', { content_name: 'canal-wpp' });
   });
 
-  // Ver cupons = navegacao interna, evento proprio, nao polui o Lead.
+  // Navegacao interna: evento proprio, nao polui o Lead.
   $('btnCupons').addEventListener('click', function () {
     if (window.fbq) fbq('trackCustom', 'VerCupons', { source: origem });
   });
