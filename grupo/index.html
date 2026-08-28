@@ -90,6 +90,22 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
   object-fit:cover;display:block;margin:0 auto;
 }
 
+/* Selo proprio. NAO e o verificado da Meta — aquele afirma que a
+   plataforma verificou a conta, e nao verificou. Este afirma o que e
+   verdade: canal oficial de uma empresa com CNPJ ativo. */
+.selo-oficial{
+  position:absolute;right:-2px;bottom:2px;width:30px;height:30px;
+  border-radius:50%;background:#25D366;border:3px solid #1A1A1A;
+  display:flex;align-items:center;justify-content:center;
+}
+.selo-oficial svg{width:15px;height:15px;fill:#0a2318}
+.linha-oficial{
+  display:flex;align-items:center;justify-content:center;gap:5px;
+  margin:-14px 0 14px;font-size:10.5px;font-weight:800;
+  letter-spacing:.08em;color:#25D366;text-transform:uppercase;
+}
+.linha-oficial svg{width:12px;height:12px;fill:#25D366}
+
 .titulo-pix{
   font-size:clamp(1.45rem,7.6vw,2.3rem);font-weight:900;color:#FFFFFF;
   margin-bottom:2px;line-height:1.1;letter-spacing:-.5px;
@@ -177,6 +193,14 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
   <div class="lp-container">
     <div class="ring-animado">
       <img class="profile-pic" src="../cat-logo.png" alt="Perfil">
+      <span class="selo-oficial" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M9.55 17.6 4.4 12.45l1.5-1.5 3.65 3.65 8.55-8.55 1.5 1.5z"/></svg>
+      </span>
+    </div>
+
+    <div class="linha-oficial">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.55 17.6 4.4 12.45l1.5-1.5 3.65 3.65 8.55-8.55 1.5 1.5z"/></svg>
+      Canal oficial &middot; CNPJ ativo
     </div>
 
     <div class="badge-exclusivo" id="badge"></div>
@@ -289,7 +313,10 @@ var CONFIG = {
     '.pix-text,.word-entrar{color:' + p.realce + '}' +
     '.badge-exclusivo{background:' + p.badgeBg + ';color:' + p.cor + ';border-color:' + p.badgeBd + '}' +
     '.profile-pic{border-color:' + p.cor + '}' +
-    '.ring-animado::before{border-color:' + p.cor + '}';
+    '.ring-animado::before{border-color:' + p.cor + '}' +
+    '.selo-oficial{background:' + p.cor + '}' +
+    '.linha-oficial{color:' + p.cor + '}' +
+    '.linha-oficial svg{fill:' + p.cor + '}';
   document.head.appendChild(css);
   $('icone').innerHTML = p.svg;
 
