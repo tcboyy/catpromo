@@ -253,6 +253,9 @@ var CONFIG = {
   // anel e borda da foto. E o azul do layout original.
   corAcento: '#1E99FD',
 
+  // cor do anel/borda da foto
+  corAnel: '#25D366',
+
   // realce das palavras em destaque (PIX / ENTRAR)
   corRealce: '#32BCAD',
 
@@ -283,10 +286,20 @@ var CONFIG = {
   vagas: {
     mostrar:  true,
     modo:     'animado',
-    total:    850,
-    inicio:   693,
-    piso:     15,
-    ocupadas: 0        // usado so no modo 'real'
+    total:    1024,   // teto real do grupo de WhatsApp
+    inicio:   93,     // vagas restantes ao abrir a pagina
+    piso:     11,     // para de cair aqui
+    ocupadas: 0,      // usado so no modo 'real'
+
+    // Cadencia da queda. Intervalo sorteado nesta faixa a cada passo,
+    // com pausas longas ocasionais e quedas de 1 ou 2 — para nao ter
+    // o ritmo metronomico que entrega contador automatico.
+    intervaloMin: 6000,
+    intervaloMax: 26000,
+
+    // Guarda o valor no navegador do visitante: recarregar a pagina
+    // nao devolve o contador ao inicio.
+    lembrar: true
   }
 };
 /* ================= fim da area de edicao ========================= */
@@ -319,6 +332,7 @@ var CONFIG = {
 
   var acao   = CONFIG.corAcao   || p.cor;
   var acento = CONFIG.corAcento || p.cor;
+  var anelCor = CONFIG.corAnel   || acento;
   var realce = CONFIG.corRealce || p.realce;
   var selo   = CONFIG.seloCor   || acento;
 
@@ -345,7 +359,7 @@ var CONFIG = {
     '.badge-exclusivo{background:' + rgba(acento, .1) + ';color:' + acento +
       ';border-color:' + rgba(acento, .2) + '}' +
     '.progress-bar-fill{background:linear-gradient(90deg,' + acento + ',' + escuro(acento, .78) + ')}' +
-    '.profile-pic{border-color:' + acento + '}' +
+    '.profile-pic{border-color:' + anelCor + '}' +
     // realce e selo
     '.pix-text,.word-entrar{color:' + realce + '}' +
     '.linha-oficial{color:' + selo + '}' +
@@ -401,12 +415,40 @@ var CONFIG = {
     $('vagas').hidden = false;
 
     if (v.modo === 'animado') {
+      var CHAVE = 'catpromo:vagas';
       var n = v.inicio;
+
+      // retoma de onde parou, se ja visitou antes
+      if (v.lembrar) {
+        try {
+          var salvo = parseInt(localStorage.getItem(CHAVE), 10);
+          if (!isNaN(salvo) && salvo <= v.inicio && salvo >= v.piso) n = salvo;
+        } catch (e) {}
+      }
+
       pinta(n);
-      setInterval(function () {
-        n = n > v.piso ? n - 1 : v.piso;
+
+      var min = v.intervaloMin || 6000, max = v.intervaloMax || 26000;
+
+      function proximoIntervalo() {
+        // media de dois sorteios: concentra no meio da faixa e ainda
+        // deixa escapar pausas curtas e longas de vez em quando
+        var r = (Math.random() + Math.random()) / 2;
+        var t = min + (max - min) * r;
+        if (Math.random() < 0.12) t *= 1.9;   // pausa longa ocasional
+        return t;
+      }
+
+      function passo() {
+        if (n <= v.piso) return;              // chegou no piso, para de vez
+        n -= Math.random() < 0.17 ? 2 : 1;    // as vezes saem duas de uma vez
+        if (n < v.piso) n = v.piso;
         pinta(n);
-      }, 3000);
+        if (v.lembrar) { try { localStorage.setItem(CHAVE, String(n)); } catch (e) {} }
+        if (n > v.piso) setTimeout(passo, proximoIntervalo());
+      }
+
+      setTimeout(passo, proximoIntervalo());
     } else {
       pinta(Math.max(0, total - v.ocupadas));
     }
