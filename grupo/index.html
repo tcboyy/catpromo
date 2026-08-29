@@ -186,35 +186,63 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 /* ---------- dialogo de saida (back redirect) ---------- */
 .bk{
   position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;
-  padding:22px;background:rgba(4,4,7,.86);
-  opacity:0;visibility:hidden;transition:opacity .18s ease;
+  padding:20px;background:rgba(0,0,0,.78);backdrop-filter:blur(3px);
+  opacity:0;visibility:hidden;transition:opacity .2s ease;
 }
 .bk.on{opacity:1;visibility:visible}
 .bk-card{
-  width:100%;max-width:400px;background:#1A1A1A;border-radius:18px;
-  border:1px solid rgba(255,255,255,.09);
-  box-shadow:0 24px 70px rgba(0,0,0,.6);
-  padding:30px 22px 22px;text-align:center;
-  transform:translateY(14px) scale(.97);transition:transform .2s cubic-bezier(.22,1,.36,1);
+  position:relative;width:100%;max-width:352px;
+  background:#1C1C1C;border-radius:22px;
+  border:1px solid rgba(255,255,255,.07);
+  box-shadow:0 30px 80px rgba(0,0,0,.7);
+  padding:0 24px 22px;text-align:center;
+  transform:translateY(16px) scale(.96);
+  transition:transform .24s cubic-bezier(.22,1,.36,1);
 }
 .bk.on .bk-card{transform:none}
-.bk-ico{font-size:46px;line-height:1;margin-bottom:12px}
-.bk-card h3{font-size:clamp(24px,7vw,30px);font-weight:900;letter-spacing:-.02em;margin-bottom:10px}
-.bk-card p{font-size:15px;line-height:1.5;color:rgba(255,255,255,.72);margin-bottom:22px}
+
+/* foto sobreposta na borda de cima, como aviso de perfil */
+.bk-foto{
+  position:relative;width:72px;height:72px;margin:-36px auto 16px;
+}
+.bk-foto img.rosto{
+  width:72px;height:72px;border-radius:50%;object-fit:cover;
+  border:3px solid #1C1C1C;display:block;
+}
+.bk-foto .selo{
+  position:absolute;right:-2px;bottom:-1px;width:26px;height:26px;display:block;line-height:0;
+  filter:drop-shadow(0 0 1.5px #1C1C1C) drop-shadow(0 0 1.5px #1C1C1C);
+}
+.bk-foto .selo img{width:26px;height:26px;display:block}
+
+.bk-card h3{
+  font-size:25px;font-weight:800;letter-spacing:-.02em;line-height:1.15;margin-bottom:9px;
+}
+.bk-card p{
+  font-size:14.5px;line-height:1.5;color:rgba(255,255,255,.62);
+  max-width:270px;margin:0 auto 6px;
+}
+/* linha de escassez, herda a cor de acento */
+.bk-vagas{
+  font-size:12.5px;font-weight:800;letter-spacing:.02em;margin:14px 0 18px;
+}
 .bk-btn{
   display:flex;align-items:center;justify-content:center;gap:8px;width:100%;
-  padding:16px;border:0;border-radius:99px;font-weight:900;font-size:15.5px;
-  text-transform:uppercase;text-decoration:none;cursor:pointer;font-family:inherit;
-  letter-spacing:.01em;
+  min-height:54px;padding:15px 18px;border:0;border-radius:99px;
+  font-family:inherit;font-weight:800;font-size:15.5px;letter-spacing:-.005em;
+  text-decoration:none;cursor:pointer;
+  transition:transform .12s ease,filter .12s ease;
 }
-.bk-btn+.bk-btn{margin-top:10px}
+.bk-btn:active{transform:translateY(1px);filter:brightness(.93)}
+.bk-btn+.bk-btn{margin-top:9px}
+.bk-btn svg{width:19px;height:19px;fill:currentColor;flex:0 0 auto}
 .bk-sair{
-  display:block;width:100%;margin-top:16px;padding:8px;background:none;border:0;
-  color:rgba(255,255,255,.34);font-family:inherit;font-size:12.5px;font-weight:600;
-  cursor:pointer;text-decoration:underline;text-underline-offset:3px;
+  display:block;width:100%;margin-top:14px;padding:6px;background:none;border:0;
+  color:rgba(255,255,255,.3);font-family:inherit;font-size:12.5px;font-weight:600;
+  cursor:pointer;transition:color .15s;
 }
-.bk-sair:hover{color:rgba(255,255,255,.55)}
-@media (prefers-reduced-motion:reduce){.bk,.bk-card{transition:none}}
+.bk-sair:hover{color:rgba(255,255,255,.5)}
+@media (prefers-reduced-motion:reduce){.bk,.bk-card,.bk-btn{transition:none}}
 
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
@@ -275,10 +303,17 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
   <!-- dialogo de saida -->
   <div class="bk" id="bk" role="dialog" aria-modal="true" aria-hidden="true">
     <div class="bk-card">
-      <div class="bk-ico" id="bkIco"></div>
+      <div class="bk-foto">
+        <img class="rosto" src="../cat-logo.png" alt="">
+        <span class="selo"><img src="../verificado.png" alt="" width="26" height="26"></span>
+      </div>
       <h3 id="bkTitulo"></h3>
       <p id="bkTexto"></p>
-      <a class="bk-btn" id="bkPrim" href="#"></a>
+      <div class="bk-vagas" id="bkVagas"></div>
+      <a class="bk-btn" id="bkPrim" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+        <span id="bkPrimTxt"></span>
+      </a>
       <a class="bk-btn" id="bkSec" href="#"></a>
       <button class="bk-sair" type="button" id="bkSair"></button>
     </div>
@@ -330,13 +365,13 @@ var CONFIG = {
   // depois disso o botao voltar funciona normalmente.
   saida: {
     ativo: true,
-    icone: '\u26A0\uFE0F',
     titulo: 'Espera a\u00ED!',
-    texto: 'Voc\u00EA est\u00E1 perdendo ofertas de tech todos os dias. Entra agora e economiza de verdade.',
-    botao1: 'Entrar no canal',
+    texto: 'As ofertas de hoje j\u00E1 est\u00E3o no canal. Voc\u00EA sai sem ver?',
+    botao1: 'Entrar no canal gr\u00E1tis',
     botao2: '',            // vazio esconde o segundo botao
     link2:  '',
-    recusar: 'N\u00E3o quero economizar'
+    recusar: 'Agora n\u00E3o',
+    mostrarVagas: true     // repete o contador de vagas dentro do dialogo
   },
 
   // ---- contador de vagas --------------------------------------
@@ -527,16 +562,29 @@ var CONFIG = {
     // uma vez por sessao: quem ja viu e voltou nao ve de novo
     try { if (sessionStorage.getItem(CHAVE)) jaMostrou = true; } catch (e) {}
 
-    $('bkIco').textContent    = cfg.icone   || '';
     $('bkTitulo').textContent = cfg.titulo  || '';
     $('bkTexto').textContent  = cfg.texto   || '';
     $('bkSair').textContent   = cfg.recusar || 'Fechar';
 
     var b1 = $('bkPrim'), b2 = $('bkSec');
-    b1.textContent = cfg.botao1 || 'Entrar';
+    $('bkPrimTxt').textContent = cfg.botao1 || 'Entrar';
     b1.href = CONFIG.link;
     b1.style.background = acao;
     b1.style.color = '#0a2318';
+
+    // repete a escassez no momento da saida, com o valor corrente
+    var elVagas = $('bkVagas');
+    if (cfg.mostrarVagas && CONFIG.vagas && CONFIG.vagas.mostrar) {
+      elVagas.style.color = acento;
+      var sincroniza = function () {
+        var n = $('restam') && $('restam').textContent;
+        elVagas.textContent = n ? ('Restam apenas ' + n + ' vagas') : '';
+      };
+      sincroniza();
+      elVagas.__sync = sincroniza;
+    } else {
+      elVagas.style.display = 'none';
+    }
 
     if (cfg.botao2 && cfg.link2) {
       b2.textContent = cfg.botao2;
@@ -551,6 +599,7 @@ var CONFIG = {
       if (aberto || jaMostrou) return false;
       aberto = true; jaMostrou = true;
       try { sessionStorage.setItem(CHAVE, '1'); } catch (e) {}
+      if (elVagas.__sync) elVagas.__sync();
       tela.classList.add('on');
       tela.setAttribute('aria-hidden', 'false');
       if (window.fbq) fbq('trackCustom', 'DialogoSaida', { trigger: origemEvento, source: origem });
