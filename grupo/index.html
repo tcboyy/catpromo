@@ -183,6 +183,39 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 .ver-cupons:hover{color:rgba(255,255,255,.4)}
 
 
+/* ---------- dialogo de saida (back redirect) ---------- */
+.bk{
+  position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;
+  padding:22px;background:rgba(4,4,7,.86);
+  opacity:0;visibility:hidden;transition:opacity .18s ease;
+}
+.bk.on{opacity:1;visibility:visible}
+.bk-card{
+  width:100%;max-width:400px;background:#1A1A1A;border-radius:18px;
+  border:1px solid rgba(255,255,255,.09);
+  box-shadow:0 24px 70px rgba(0,0,0,.6);
+  padding:30px 22px 22px;text-align:center;
+  transform:translateY(14px) scale(.97);transition:transform .2s cubic-bezier(.22,1,.36,1);
+}
+.bk.on .bk-card{transform:none}
+.bk-ico{font-size:46px;line-height:1;margin-bottom:12px}
+.bk-card h3{font-size:clamp(24px,7vw,30px);font-weight:900;letter-spacing:-.02em;margin-bottom:10px}
+.bk-card p{font-size:15px;line-height:1.5;color:rgba(255,255,255,.72);margin-bottom:22px}
+.bk-btn{
+  display:flex;align-items:center;justify-content:center;gap:8px;width:100%;
+  padding:16px;border:0;border-radius:99px;font-weight:900;font-size:15.5px;
+  text-transform:uppercase;text-decoration:none;cursor:pointer;font-family:inherit;
+  letter-spacing:.01em;
+}
+.bk-btn+.bk-btn{margin-top:10px}
+.bk-sair{
+  display:block;width:100%;margin-top:16px;padding:8px;background:none;border:0;
+  color:rgba(255,255,255,.34);font-family:inherit;font-size:12.5px;font-weight:600;
+  cursor:pointer;text-decoration:underline;text-underline-offset:3px;
+}
+.bk-sair:hover{color:rgba(255,255,255,.55)}
+@media (prefers-reduced-motion:reduce){.bk,.bk-card{transition:none}}
+
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
   /* sem animacao as particulas ficariam paradas no topo pra sempre */
@@ -239,6 +272,18 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 
 </div>
 
+  <!-- dialogo de saida -->
+  <div class="bk" id="bk" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="bk-card">
+      <div class="bk-ico" id="bkIco"></div>
+      <h3 id="bkTitulo"></h3>
+      <p id="bkTexto"></p>
+      <a class="bk-btn" id="bkPrim" href="#"></a>
+      <a class="bk-btn" id="bkSec" href="#"></a>
+      <button class="bk-sair" type="button" id="bkSair"></button>
+    </div>
+  </div>
+
 <script>
 /* ==================================================================
    AREA DE EDICAO
@@ -278,6 +323,21 @@ var CONFIG = {
   textoFino:  'Sem spam. Só ofertas reais. Você pode sair quando quiser.',
 
   link: 'https://whatsapp.com/channel/0029VbCtLQF7IUYMZhrwvM2y',
+
+  // ---- dialogo de saida (back redirect) -----------------------
+  // Dispara quando a pessoa aperta voltar, ou leva o mouse pra fora
+  // pelo topo da janela no desktop. Aparece UMA vez por sessao:
+  // depois disso o botao voltar funciona normalmente.
+  saida: {
+    ativo: true,
+    icone: '\u26A0\uFE0F',
+    titulo: 'Espera a\u00ED!',
+    texto: 'Voc\u00EA est\u00E1 perdendo ofertas de tech todos os dias. Entra agora e economiza de verdade.',
+    botao1: 'Entrar no canal',
+    botao2: 'Ver os cupons',
+    link2:  '../cupons/',
+    recusar: 'N\u00E3o quero economizar'
+  },
 
   // ---- contador de vagas --------------------------------------
   // modo 'real'    -> total e ocupadas de verdade. Grupo do WhatsApp
@@ -455,6 +515,95 @@ var CONFIG = {
       pinta(Math.max(0, total - v.ocupadas));
     }
   }
+
+  // ================= dialogo de saida (back redirect) =================
+  (function () {
+    var cfg = CONFIG.saida || {};
+    if (!cfg.ativo) return;
+
+    var tela = $('bk'), aberto = false, jaMostrou = false;
+    var CHAVE = 'catpromo:bk';
+
+    // uma vez por sessao: quem ja viu e voltou nao ve de novo
+    try { if (sessionStorage.getItem(CHAVE)) jaMostrou = true; } catch (e) {}
+
+    $('bkIco').textContent    = cfg.icone   || '';
+    $('bkTitulo').textContent = cfg.titulo  || '';
+    $('bkTexto').textContent  = cfg.texto   || '';
+    $('bkSair').textContent   = cfg.recusar || 'Fechar';
+
+    var b1 = $('bkPrim'), b2 = $('bkSec');
+    b1.textContent = cfg.botao1 || 'Entrar';
+    b1.href = CONFIG.link;
+    b1.style.background = acao;
+    b1.style.color = '#0a2318';
+
+    if (cfg.botao2 && cfg.link2) {
+      b2.textContent = cfg.botao2;
+      b2.href = cfg.link2;
+      b2.style.background = acento;
+      b2.style.color = '#fff';
+    } else {
+      b2.style.display = 'none';
+    }
+
+    function abre(origemEvento) {
+      if (aberto || jaMostrou) return false;
+      aberto = true; jaMostrou = true;
+      try { sessionStorage.setItem(CHAVE, '1'); } catch (e) {}
+      tela.classList.add('on');
+      tela.setAttribute('aria-hidden', 'false');
+      if (window.fbq) fbq('trackCustom', 'DialogoSaida', { trigger: origemEvento, source: origem });
+      return true;
+    }
+
+    function fecha() {
+      aberto = false;
+      tela.classList.remove('on');
+      tela.setAttribute('aria-hidden', 'true');
+    }
+
+    // --- gatilho 1: botao voltar -----------------------------------
+    // Empilha um estado a mais. O primeiro "voltar" consome esse
+    // estado e cai no popstate em vez de sair da pagina.
+    //
+    // Deliberadamente NAO re-empilha depois de mostrar: o dialogo
+    // aparece uma vez e o voltar volta a funcionar. Prender a pessoa
+    // na pagina e o que faz o Chrome penalizar o site e o Meta
+    // reprovar o anuncio — alem de irritar quem quer sair.
+    if (history.pushState) {
+      try { history.pushState({ bk: 1 }, '', location.href); } catch (e) {}
+      window.addEventListener('popstate', function () {
+        if (aberto) { fecha(); return; }
+        if (!jaMostrou) {
+          abre('voltar');
+          try { history.pushState({ bk: 1 }, '', location.href); } catch (e) {}
+        }
+      });
+    }
+
+    // --- gatilho 2: mouse saindo pelo topo (so desktop) ------------
+    if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      document.addEventListener('mouseout', function (e) {
+        if (e.relatedTarget || e.clientY > 8) return;
+        abre('mouse');
+      });
+    }
+
+    // --- fechar ----------------------------------------------------
+    $('bkSair').addEventListener('click', fecha);
+    tela.addEventListener('click', function (e) { if (e.target === tela) fecha(); });
+    document.addEventListener('keydown', function (e) {
+      if (aberto && e.key === 'Escape') fecha();
+    });
+
+    b1.addEventListener('click', function () {
+      if (window.fbq) fbq('track', 'Lead', { content_name: 'saida-canal', source: origem });
+    });
+    b2.addEventListener('click', function () {
+      if (window.fbq) fbq('trackCustom', 'SaidaCupons', { source: origem });
+    });
+  })();
 
   // ---- eventos ----
   $('btn').addEventListener('click', function () {
