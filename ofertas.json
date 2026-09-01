@@ -1,6 +1,6 @@
 [
  {
-  "id": "1",
+  "id": "p1",
   "produto": "Mini Laptop com Sistema Operacional Windows, Notebook de 8 Polegadas com Tela Touch N95, 12GB+128G/256G/512G/1T/2T, Note",
   "marca": "",
   "categoria": "Computador e escritório",
@@ -17,7 +17,24 @@
   "data": "2026-08-31"
  },
  {
-  "id": "2",
+  "id": "p3",
+  "produto": "Placas gráficas Veineda RX580 8GB DDR5 GPU rx 580 8GB Placa de vídeo para jogos de PC Placa de vídeo para jogos de deskt",
+  "marca": "",
+  "categoria": "Computador e escritório",
+  "loja": "PC-IT Store",
+  "preco": 795.6,
+  "precoDe": 1371.71,
+  "desconto": 42,
+  "menorHistorico": false,
+  "cupom": "",
+  "url": "https://s.click.aliexpress.com/e/_c3FiIuBz",
+  "imagem": "https://ae-pic-a1.aliexpress-media.com/kf/S2132b378379f4152898a1f981fb711e4V.jpg",
+  "emoji": "💻",
+  "destaque": false,
+  "data": "2026-08-31"
+ },
+ {
+  "id": "p2",
   "produto": "Mochila de Viagem de Negócios Expandível, Mochila Impermeável para Laptop que Acomoda Notebooks de 15,6 Polegadas com Al",
   "marca": "",
   "categoria": "Bolsas e malas",
