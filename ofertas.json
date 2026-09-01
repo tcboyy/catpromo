@@ -1,1 +1,36 @@
-[]
+[
+ {
+  "id": "1",
+  "produto": "Mini Laptop com Sistema Operacional Windows, Notebook de 8 Polegadas com Tela Touch N95, 12GB+128G/256G/512G/1T/2T, Note",
+  "marca": "",
+  "categoria": "Computador e escritório",
+  "loja": "PDAs Handheld Store",
+  "preco": 2237.85,
+  "precoDe": 3858.36,
+  "desconto": 42,
+  "menorHistorico": false,
+  "cupom": "",
+  "url": "https://s.click.aliexpress.com/e/_c41TmNv5",
+  "imagem": "https://ae-pic-a1.aliexpress-media.com/kf/S84ded9fdf83f4cbbac1bcd55cf7cd6f86.png",
+  "emoji": "💻",
+  "destaque": true,
+  "data": "2026-08-31"
+ },
+ {
+  "id": "2",
+  "produto": "Mochila de Viagem de Negócios Expandível, Mochila Impermeável para Laptop que Acomoda Notebooks de 15,6 Polegadas com Al",
+  "marca": "",
+  "categoria": "Bolsas e malas",
+  "loja": "Shop1104076014 Store",
+  "preco": 159.59,
+  "precoDe": 319.02,
+  "desconto": 50,
+  "menorHistorico": false,
+  "cupom": "",
+  "url": "https://s.click.aliexpress.com/e/_c3pD4xQJ",
+  "imagem": "https://ae-pic-a1.aliexpress-media.com/kf/S8dd2f44db5b54a7197afb3d4e27c9224h.jpg",
+  "emoji": "💻",
+  "destaque": false,
+  "data": "2026-08-31"
+ }
+]
