@@ -412,6 +412,25 @@ var CONFIG = {
   var $ = function (id) { return document.getElementById(id); };
   var origem = new URLSearchParams(location.search).get('utm_source') || 'direto';
 
+  /* ----------------------------------------------------------------
+     REPASSE DA CAMPANHA PRO ROTADOR
+     ----------------------------------------------------------------
+     O rotador conta o clique por `?c=`. Se o codigo do criativo morrer
+     aqui na LP, todo clique chega la como se fosse o mesmo anuncio — e
+     nao existe CAC por peca, que e a leitura inteira da onda de teste.
+
+     Aceita ?c= (curto, pra usar no anuncio) ou ?utm_campaign= (o que o
+     Meta preenche sozinho quando se usa o parametro de URL dele).
+     ---------------------------------------------------------------- */
+  function comCampanha(url) {
+    try {
+      var q = new URLSearchParams(location.search);
+      var c = (q.get('c') || q.get('utm_campaign') || '').slice(0, 40);
+      if (!c || url.indexOf('/entrar') === -1) return url;
+      return url + (url.indexOf('?') === -1 ? '?' : '&') + 'c=' + encodeURIComponent(c);
+    } catch (e) { return url; }
+  }
+
   var PLAT = {
     telegram: {
       cor:'#1E99FD', cor2:'#1279CA', borda:'rgba(30,153,253,.5)',
@@ -479,7 +498,7 @@ var CONFIG = {
   $('desc2').innerHTML    = '<span class="word-entrar">' + esc(CONFIG.palavra2) + '</span>' + esc(CONFIG.linha2);
   $('btnTxt').textContent = CONFIG.textoBotao;
   $('fino').textContent   = CONFIG.textoFino;
-  $('btn').href           = CONFIG.link;
+  $('btn').href           = comCampanha(CONFIG.link);
 
   // ---- particulas douradas ----
   var box = $('particles');
@@ -575,7 +594,7 @@ var CONFIG = {
 
     var b1 = $('bkPrim'), b2 = $('bkSec');
     $('bkPrimTxt').textContent = cfg.botao1 || 'Entrar';
-    b1.href = CONFIG.link;
+    b1.href = comCampanha(CONFIG.link);
     b1.style.background = acao;
     b1.style.color = '#0a2318';
 
