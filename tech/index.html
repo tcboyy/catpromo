@@ -358,7 +358,13 @@ var CONFIG = {
   textoBotao: 'ENTRAR NO CANAL DO WHATSAPP',
   textoFino:  'Sem spam. Só ofertas reais. Você pode sair quando quiser.',
 
-  link: 'https://chat.whatsapp.com/In1aYsYbgNqFpAxmj2QaUf',
+  /* ROTADOR, nao link de convite direto.
+     Grupo do WhatsApp lota em 1.024 e o convite morre SEM AVISAR: apontando
+     direto, o anuncio continuaria gastando num link morto e nada no painel do
+     Meta denunciaria. O rotador manda pro proximo grupo com vaga e conta o
+     clique — o degrau anterior a entrada, que o Meta nao mede.
+     Codigo: 08-site/rotador/ */
+  link: 'https://cat-rotador.catpromo.workers.dev/entrar?n=tech',
 
   // ---- dialogo de saida (back redirect) -----------------------
   // Dispara quando a pessoa aperta voltar, ou leva o mouse pra fora
