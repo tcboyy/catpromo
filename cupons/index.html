@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://connect.facebook.net https://analytics.tiktok.com; connect-src 'self' https://*.facebook.com https://analytics.tiktok.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://connect.facebook.net https://analytics.tiktok.com; connect-src 'self' https://*.facebook.com https://analytics.tiktok.com https://cat-capi.catpromo.workers.dev https://capi.catpromo.com.br; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <script>
 /* Anti-clickjacking. O GitHub Pages nao permite definir cabecalho
@@ -36,10 +36,12 @@ n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init','1404403115150528');
-fbq('track','PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none" alt=""
 src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
+
+<script src="../capi.js"></script>
 <!-- End Meta Pixel Code -->
 
 <style>
@@ -450,7 +452,7 @@ var CONFIG = {
     $(par[0]).href = CONFIG.link;
     $(par[1]).textContent = CONFIG.botaoWpp;
     $(par[0]).addEventListener('click', function () {
-      if (window.fbq) fbq('track', 'Lead', { content_name: 'cupons-wpp', source: origem });
+      if (window.CAPI) CAPI.envia('Lead', { content_name: 'cupons-wpp', source: origem });
       if (window.ttq) ttq.track('ClickButton', { content_name: 'cupons-wpp' });
     });
   });
@@ -460,7 +462,7 @@ var CONFIG = {
     $(par[0]).href = CONFIG.linkTg;
     $(par[1]).textContent = CONFIG.botaoTg;
     $(par[0]).addEventListener('click', function () {
-      if (window.fbq) fbq('track', 'Lead', { content_name: 'cupons-tg', source: origem });
+      if (window.CAPI) CAPI.envia('Lead', { content_name: 'cupons-tg', source: origem });
     });
   });
 
