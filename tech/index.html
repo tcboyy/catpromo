@@ -184,6 +184,28 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 .ver-cupons:hover{color:rgba(255,255,255,.4)}
 
 
+/* ---------- aviso de entrada ----------
+   Nomes REAIS de quem entrou pelo organico, primeiro nome + inicial. Nao diz
+   "agora" nem hora nenhuma: a pessoa entrou mesmo, so nao foi neste segundo.
+   Estilizado com a linguagem do card (mesmo preto, mesma borda, avatar da
+   marca) e NAO como banner do sistema — imitar a notificacao do iOS faria a
+   pessoa achar que o celular dela avisou, e ai deixaria de ser prova e viraria
+   engano. A lista e finita e cada nome aparece UMA vez: acabou, para. */
+.aviso{
+  position:fixed;left:50%;z-index:55;width:calc(100% - 28px);max-width:330px;
+  display:flex;align-items:center;gap:9px;padding:9px 13px 9px 9px;
+  background:#1C1C1C;border:1px solid rgba(255,255,255,.09);border-radius:14px;
+  box-shadow:0 12px 34px rgba(0,0,0,.55);
+  opacity:0;pointer-events:none;transition:opacity .3s ease,transform .3s cubic-bezier(.22,1,.36,1);
+}
+.aviso.topo   {top:14px;    transform:translate(-50%,-16px)}
+.aviso.rodape {bottom:14px; transform:translate(-50%, 16px)}
+.aviso.on{opacity:1;transform:translate(-50%,0)}
+.aviso img{width:30px;height:30px;border-radius:50%;object-fit:cover;flex:0 0 auto}
+.aviso-txt{font-size:12.5px;line-height:1.3;color:#E2E8F0;min-width:0}
+.aviso-txt b{font-weight:800;color:#fff}
+@media (prefers-reduced-motion:reduce){.aviso{transition:none}}
+
 /* ---------- prova: as ofertas que sairam no grupo ----------
    Deliberadamente NAO clicavel. O OfertasGamer linka as ofertas porque vende
    em varias pontas; aqui a unica acao da pagina tem que continuar sendo o
@@ -344,6 +366,13 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 
 </div>
 
+
+  <!-- aviso de entrada (nomes reais) -->
+  <div class="aviso" id="aviso" role="status" aria-live="polite">
+    <img src="../cat-logo.png" alt="">
+    <div class="aviso-txt" id="avisoTxt"></div>
+  </div>
+
   <!-- dialogo de saida -->
   <div class="bk" id="bk" role="dialog" aria-modal="true" aria-hidden="true">
     <div class="bk-card">
@@ -410,6 +439,29 @@ var CONFIG = {
      clique — o degrau anterior a entrada, que o Meta nao mede.
      Codigo: 08-site/rotador/ */
   link: 'https://cat-rotador.catpromo.workers.dev/entrar?n=tech',
+
+
+  /* ---- faixa de ofertas ----
+     DESLIGADA em 14/09: o ofertas.json so tinha mini laptop generico, uma
+     RX 580 de marca desconhecida e uma mochila. Prova ruim e pior que prova
+     nenhuma — a faixa diz "olha nossa curadoria" e mostrava o que sobrou.
+     Religar quando o painel publicar oferta que aguente ser vitrine. */
+  provaOfertas: false,
+
+  /* ---- aviso de entrada ------------------------------------------
+     Nomes REAIS de membros que entraram pelo organico, encurtados pra
+     primeiro nome + inicial. Nao inventar nome aqui: a faixa so vale
+     enquanto for verdade, e o padrao de lista gerada aparece rapido. */
+  aviso: {
+    ativo: true,
+    nomes: ['Matheus R.','Gabriel L.','Guilherme S.','Bruno Z.','Vitor Hugo S.',
+            'Yan B.','Fagner O.','João V.','Artur V.','Ryan C.','Daniel F.',
+            'Felipe N.','Marcelo Y.','Samuel H.'],
+    texto:   'entrou no grupo',
+    primeiro: 6000,    // espera antes do primeiro
+    intervalo: 9000,   // base entre um e outro (sorteia ate +5s)
+    duracao:  4500     // quanto tempo fica na tela
+  },
 
   // ---- dialogo de saida (back redirect) -----------------------
   // Dispara quando a pessoa aperta voltar, ou leva o mouse pra fora
@@ -736,6 +788,7 @@ var CONFIG = {
      Falha em silencio de proposito: a faixa e reforco, nunca pre-requisito.
      Se o fetch cair, a pagina continua exatamente como era. */
   (function () {
+    if (!CONFIG.provaOfertas) return;
     try {
       fetch('../ofertas.json', { cache: 'no-store' })
         .then(function (r) { return r.ok ? r.json() : null; })
@@ -763,6 +816,39 @@ var CONFIG = {
         })
         .catch(function () {});
     } catch (e) {}
+  })();
+
+
+  /* ---- aviso de entrada ---- */
+  (function () {
+    var cfg = CONFIG.aviso || {};
+    var nomes = (cfg.nomes || []).slice();
+    if (!cfg.ativo || !nomes.length) return;
+
+    var caixa = $('aviso');
+    /* Topo no iOS, rodape no resto — a convencao de cada plataforma. */
+    var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+              (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    caixa.classList.add(ios ? 'topo' : 'rodape');
+
+    // embaralha pra nao sair sempre na mesma ordem
+    for (var i = nomes.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = nomes[i]; nomes[i] = nomes[j]; nomes[j] = tmp;
+    }
+
+    var n = 0;
+    function mostra() {
+      if (n >= nomes.length) return;            // lista acabou: para de vez
+      $('avisoTxt').innerHTML = '<b>' + esc(nomes[n]) + '</b> ' + esc(cfg.texto || 'entrou no grupo');
+      n++;
+      caixa.classList.add('on');
+      setTimeout(function () {
+        caixa.classList.remove('on');
+        setTimeout(mostra, (cfg.intervalo || 9000) + Math.random() * 5000);
+      }, cfg.duracao || 4500);
+    }
+    setTimeout(mostra, cfg.primeiro || 6000);
   })();
 
   // ---- eventos ----
