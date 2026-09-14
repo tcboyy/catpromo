@@ -538,9 +538,17 @@ var CONFIG = {
   function comCampanha(url) {
     try {
       var q = new URLSearchParams(location.search);
+      if (url.indexOf('/entrar') === -1) return url;
+      var extra = [];
       var c = (q.get('c') || q.get('utm_campaign') || '').slice(0, 40);
-      if (!c || url.indexOf('/entrar') === -1) return url;
-      return url + (url.indexOf('?') === -1 ? '?' : '&') + 'c=' + encodeURIComponent(c);
+      if (c) extra.push('c=' + encodeURIComponent(c));
+      /* O fbclid tambem viaja: e o unico fio que liga este clique ao anuncio
+         la na Meta. Sem ele guardado no rotador, o dia em que a entrada no
+         grupo virar evento de CAPI nao tem como dizer de qual clique veio. */
+      var fb = (q.get('fbclid') || '').slice(0, 255);
+      if (fb) extra.push('fbclid=' + encodeURIComponent(fb));
+      if (!extra.length) return url;
+      return url + (url.indexOf('?') === -1 ? '?' : '&') + extra.join('&');
     } catch (e) { return url; }
   }
 
