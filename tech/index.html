@@ -462,9 +462,9 @@ var CONFIG = {
             'Yan B.','Fagner O.','João V.','Artur V.','Ryan C.','Daniel F.',
             'Felipe N.','Marcelo Y.','Samuel H.'],
     texto:   'entrou no grupo',
-    primeiro: 6000,    // espera antes do primeiro
-    intervalo: 9000,   // base entre um e outro (sorteia ate +5s)
-    duracao:  4500     // quanto tempo fica na tela
+    primeiro: 3500,    // espera antes do primeiro
+    intervalo: 6500,   // base entre um e outro (sorteia ate +4s)
+    duracao:  4000     // quanto tempo fica na tela
   },
 
   // ---- dialogo de saida (back redirect) -----------------------
@@ -849,10 +849,10 @@ var CONFIG = {
       caixa.classList.add('on');
       setTimeout(function () {
         caixa.classList.remove('on');
-        setTimeout(mostra, (cfg.intervalo || 9000) + Math.random() * 5000);
+        setTimeout(mostra, (cfg.intervalo || 6500) + Math.random() * 4000);
       }, cfg.duracao || 4500);
     }
-    setTimeout(mostra, cfg.primeiro || 6000);
+    setTimeout(mostra, cfg.primeiro || 3500);
   })();
 
   // ---- eventos ----
