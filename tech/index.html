@@ -370,7 +370,8 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
       <div class="prova-titulo">Últimas ofertas postadas no grupo</div>
       <div class="prova-lista" id="provaLista"></div>
     </div>
-    <a class="ver-cupons" id="verCupons" href="../cupons/">Ver Cupons</a>
+    <!-- "Ver Cupons" removido em 14/09: era a unica saida alternativa da
+         pagina. Numa LP de uma acao so, link secundario e vazamento. -->
   </div>
 
 </div>
@@ -434,12 +435,12 @@ var CONFIG = {
   selo:      '',
   titulo:    'As melhores ofertas do ',
   destaque:  'MUNDO TECH',              // realce, com pulso
-  subtitulo: 'Placa de vídeo, monitor, processador, periférico.',   // amarelo
+  subtitulo: '',   // vazio esconde a linha
 
   linha1:   'Todo dia a gente garimpa e manda só o que tem ',
   palavra1: 'DESCONTO REAL',            // vermelho
-  palavra2: 'SEM SPAM',                 // teal
-  linha2:   '. Você sai quando quiser.',
+  palavra2: '',
+  linha2:   '',
 
   textoBotao: 'ENTRAR NO GRUPO DO WHATSAPP',
   textoFino:  'Sem taxa, sem cadastro. É só entrar.',
@@ -608,9 +609,16 @@ var CONFIG = {
   if (CONFIG.selo) { $('badge').textContent = CONFIG.selo; }
   else { $('badge').style.display = 'none'; }
   $('h1').innerHTML       = esc(CONFIG.titulo) + '<span class="pix-text">' + esc(CONFIG.destaque) + '</span>';
-  $('h2').textContent     = CONFIG.subtitulo;
+  /* Campo vazio some. Sem isto sobra um <h2> de altura zero mas com
+     margin-bottom de 14px, e o buraco aparece sem ninguem entender de onde vem. */
+  if (CONFIG.subtitulo) { $('h2').textContent = CONFIG.subtitulo; }
+  else { $('h2').style.display = 'none'; }
   $('desc1').innerHTML    = esc(CONFIG.linha1) + '<span class="word-obrigatorio">' + esc(CONFIG.palavra1) + '</span>';
-  $('desc2').innerHTML    = '<span class="word-entrar">' + esc(CONFIG.palavra2) + '</span>' + esc(CONFIG.linha2);
+  if (CONFIG.palavra2 || CONFIG.linha2) {
+    $('desc2').innerHTML  = '<span class="word-entrar">' + esc(CONFIG.palavra2) + '</span>' + esc(CONFIG.linha2);
+  } else {
+    $('desc2').parentNode.style.display = 'none';   // o <p> inteiro, nao so o texto
+  }
   $('btnTxt').textContent = CONFIG.textoBotao;
   $('fino').textContent   = CONFIG.textoFino;
   $('btn').href           = comCampanha(CONFIG.link);
@@ -868,9 +876,7 @@ var CONFIG = {
     if (window.CAPI) CAPI.envia('Lead', { content_name: 'entrar', source: origem });
     if (window.ttq) ttq.track('ClickButton', { content_name: 'entrar' });
   });
-  $('verCupons').addEventListener('click', function () {
-    if (window.CAPI) CAPI.envia('VerCupons', { source: origem }, 'trackCustom');
-  });
+  /* o link "Ver Cupons" saiu; o evento some junto */
 })();
 </script>
 
