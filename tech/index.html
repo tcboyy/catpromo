@@ -280,7 +280,12 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
       <p><strong id="desc2"></strong></p>
     </div>
 
-    <a class="lp-button" id="btn" href="#" target="_blank" rel="noopener noreferrer">
+    <!-- SEM target="_blank": o navegador interno do Instagram e do Facebook
+     engole a abertura em nova aba com frequencia — a pessoa clica, nada
+     acontece e ela sai. Todo o trafego pago entra por ali. Navegacao na
+     mesma aba e o comportamento confiavel, e pra deeplink de WhatsApp
+     tambem e o melhor: o app assume e a aba volta pro lugar. -->
+    <a class="lp-button" id="btn" href="#" rel="noopener noreferrer">
       <div class="button-icon-wrapper" id="icone"></div>
       <span class="button-text" id="btnTxt"></span>
     </a>
