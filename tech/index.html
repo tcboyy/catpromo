@@ -17,13 +17,13 @@ if (window.top !== window.self) {
 }
 </script>
 <title>CAT TECH PROMO</title>
-<meta name="description" content="Sorteios e cupons de tech. Entrada gratuita.">
+<meta name="description" content="Ofertas de tech conferidas, todo dia: placa de vídeo, monitor, processador e periférico.">
 <meta name="theme-color" content="#121212">
 <link rel="icon" href="../cat-logo.png">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="CAT TECH PROMO">
-<meta property="og:description" content="Sorteios e cupons de tech, todo dia.">
+<meta property="og:description" content="Ofertas de tech conferidas, todo dia.">
 <meta property="og:image" content="https://linkdapromo.com/cat-logo.png">
 
 <link rel="preload" href="../fontes/montserrat.woff2" as="font" type="font/woff2" crossorigin>
@@ -350,18 +350,20 @@ var CONFIG = {
   // cor da linha de texto do selo de verificado
   seloCor: '#49ADF4',
 
-  selo:      '🔒 SOMENTE PARA MEMBROS INSCRITOS',
-  titulo:    'SORTEIOS EM ',
-  destaque:  'PIX',                     // teal, com pulso
-  subtitulo: 'CUPONS DE 20/30/50% +',   // amarelo
+  // Vazio esconde a tarja. A referencia nao tem nenhuma, e a antiga
+  // ("somente para membros inscritos") prometia exclusividade que nao existe.
+  selo:      '',
+  titulo:    'As melhores ofertas do ',
+  destaque:  'MUNDO TECH',              // realce, com pulso
+  subtitulo: 'Placa de vídeo, monitor, processador, periférico.',   // amarelo
 
-  linha1:   'Para participar dos sorteios é ',
-  palavra1: 'OBRIGATÓRIO',              // vermelho
-  palavra2: 'ENTRAR',                   // teal
-  linha2:   ' no grupo do WhatsApp.',
+  linha1:   'Todo dia a gente garimpa e manda só o que tem ',
+  palavra1: 'DESCONTO REAL',            // vermelho
+  palavra2: 'SEM SPAM',                 // teal
+  linha2:   ' — você sai quando quiser.',
 
   textoBotao: 'ENTRAR NO GRUPO DO WHATSAPP',
-  textoFino:  'Sem spam. Só ofertas reais. Você pode sair quando quiser.',
+  textoFino:  'Sem taxa, sem cadastro. É só entrar.',
 
   /* ROTADOR, nao link de convite direto.
      Grupo do WhatsApp lota em 1.024 e o convite morre SEM AVISAR: apontando
@@ -393,7 +395,10 @@ var CONFIG = {
   //                   `inicio` e cai 1 a cada 3s ate parar em `piso`.
   //                   O numero nao corresponde a vaga nenhuma.
   vagas: {
-    mostrar:  true,
+    // 🔴 DESLIGADO em 14/09. O contador caia sozinho de 93 ate 11 sem
+    // corresponder a vaga nenhuma. Escassez inventada numa pagina que ja
+    // tinha promessa trocada e o visitante desconfiava do conjunto.
+    mostrar:  false,
     modo:     'animado',
     total:    1024,   // teto real do grupo de WhatsApp
     inicio:   93,     // vagas restantes ao abrir a pagina
@@ -496,7 +501,10 @@ var CONFIG = {
   $('icone').innerHTML = p.svg;
 
   // ---- textos ----
-  $('badge').textContent  = CONFIG.selo;
+  /* Sem texto, a tarja some inteira. Deixar ela vazia pintaria uma pilula
+     azul de 6px sem conteudo em cima do titulo. */
+  if (CONFIG.selo) { $('badge').textContent = CONFIG.selo; }
+  else { $('badge').style.display = 'none'; }
   $('h1').innerHTML       = esc(CONFIG.titulo) + '<span class="pix-text">' + esc(CONFIG.destaque) + '</span>';
   $('h2').textContent     = CONFIG.subtitulo;
   $('desc1').innerHTML    = esc(CONFIG.linha1) + '<span class="word-obrigatorio">' + esc(CONFIG.palavra1) + '</span>';
