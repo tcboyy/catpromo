@@ -184,6 +184,39 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 .ver-cupons:hover{color:rgba(255,255,255,.4)}
 
 
+/* ---------- prova: as ofertas que sairam no grupo ----------
+   Deliberadamente NAO clicavel. O OfertasGamer linka as ofertas porque vende
+   em varias pontas; aqui a unica acao da pagina tem que continuar sendo o
+   botao verde. Oferta clicavel roubaria o clique e entregaria comissao avulsa
+   no lugar de membro — e o modelo inteiro depende de encher grupo. */
+.prova{margin-top:16px;text-align:left}
+.prova-titulo{
+  font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  color:rgba(255,255,255,.45);margin-bottom:8px;text-align:center;
+}
+.prova-lista{display:flex;flex-direction:column;gap:7px}
+.prova-item{
+  display:flex;align-items:center;gap:9px;padding:7px 9px;
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);
+  border-radius:10px;
+}
+.prova-foto{
+  width:40px;height:40px;flex:0 0 auto;border-radius:7px;object-fit:cover;
+  background:rgba(255,255,255,.06);
+}
+.prova-txt{min-width:0;flex:1}
+.prova-nome{
+  font-size:11.5px;font-weight:600;color:#E2E8F0;line-height:1.25;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.prova-precos{display:flex;align-items:baseline;gap:6px;margin-top:3px;flex-wrap:wrap}
+.prova-de{font-size:10.5px;color:rgba(255,255,255,.38);text-decoration:line-through}
+.prova-por{font-size:13px;font-weight:800;color:#25D366}
+.prova-off{
+  font-size:9.5px;font-weight:800;color:#FFE700;background:rgba(255,231,0,.12);
+  border-radius:4px;padding:1px 5px;letter-spacing:.02em;
+}
+
 /* ---------- dialogo de saida (back redirect) ---------- */
 .bk{
   position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;
@@ -301,6 +334,11 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 
     <p class="cta-secundario" id="fino"></p>
 
+
+    <div class="prova" id="prova" hidden>
+      <div class="prova-titulo">Últimas ofertas postadas no grupo</div>
+      <div class="prova-lista" id="provaLista"></div>
+    </div>
     <a class="ver-cupons" id="verCupons" href="../cupons/">Ver Cupons</a>
   </div>
 
@@ -691,6 +729,40 @@ var CONFIG = {
     b2.addEventListener('click', function () {
       if (window.CAPI) CAPI.envia('SaidaCupons', { source: origem }, 'trackCustom');
     });
+  })();
+
+
+  /* ---- prova: ofertas reais, puxadas do mesmo arquivo que alimenta /ofertas
+     Falha em silencio de proposito: a faixa e reforco, nunca pre-requisito.
+     Se o fetch cair, a pagina continua exatamente como era. */
+  (function () {
+    try {
+      fetch('../ofertas.json', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (lista) {
+          if (!lista || !lista.length) return;
+          var brl = function (v) {
+            return 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          };
+          var html = lista.slice(0, 3).map(function (o) {
+            var off = o.desconto ? '<span class="prova-off">-' + Math.round(o.desconto) + '%</span>' : '';
+            var de  = o.precoDe ? '<span class="prova-de">' + esc(brl(o.precoDe)) + '</span>' : '';
+            var img = o.imagem ? '<img class="prova-foto" src="' + esc(o.imagem) + '" alt="" loading="lazy">'
+                               : '<div class="prova-foto"></div>';
+            return '<div class="prova-item">' + img +
+                     '<div class="prova-txt">' +
+                       '<div class="prova-nome">' + esc(o.produto || '') + '</div>' +
+                       '<div class="prova-precos">' + de +
+                         '<span class="prova-por">' + esc(brl(o.preco)) + '</span>' + off +
+                       '</div>' +
+                     '</div>' +
+                   '</div>';
+          }).join('');
+          $('provaLista').innerHTML = html;
+          $('prova').hidden = false;
+        })
+        .catch(function () {});
+    } catch (e) {}
   })();
 
   // ---- eventos ----
