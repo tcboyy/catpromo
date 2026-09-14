@@ -77,7 +77,7 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 
 #particles{position:fixed;inset:0;pointer-events:none;z-index:2}
 .particle{
-  position:absolute;top:0;width:6px;height:6px;background:rgba(255,193,7,.9);
+  position:absolute;top:0;width:6px;height:6px;background:rgba(245,165,36,.45);
   border-radius:50%;animation:cair 6s linear infinite;opacity:0;
   will-change:transform,opacity;
 }
@@ -127,11 +127,13 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 }
 .pix-text{color:#32BCAD;display:inline-block;animation:pulsePix 2s infinite}
 @keyframes pulsePix{
-  0%,100%{text-shadow:0 0 8px rgba(50,188,173,.2)}
-  50%{text-shadow:0 0 16px rgba(50,188,173,.8)}
+  0%,100%{text-shadow:0 0 8px rgba(245,165,36,.18)}
+  50%{text-shadow:0 0 16px rgba(245,165,36,.55)}
 }
 
-.titulo-cupons{font-size:clamp(1rem,4.7vw,1.3rem);font-weight:800;color:#FFE700;margin-bottom:14px}
+/* O subtitulo era #FFE700 inteiro. Amarelo puro numa linha de 5 palavras
+   grita mais que o botao. Branco fosco: le igual, compete zero. */
+.titulo-cupons{font-size:clamp(.95rem,4.3vw,1.2rem);font-weight:700;color:rgba(255,255,255,.70);margin-bottom:14px}
 
 .badge-exclusivo{
   background:rgba(30,153,253,.1);color:#1E99FD;font-size:.72rem;font-weight:800;
@@ -146,8 +148,10 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 }
 .lp-descricao p{margin-bottom:10px;color:#E2E8F0;font-weight:500;font-size:clamp(.86rem,3.7vw,1rem)}
 .lp-descricao p:last-child{margin-bottom:0}
-.word-obrigatorio{color:#FF3B3B;font-size:clamp(1rem,4.7vw,1.3rem);font-weight:900}
-.word-entrar{color:#32BCAD;font-size:clamp(1rem,4.7vw,1.3rem);font-weight:900}
+/* Era vermelho. Vermelho e alarme — e nao ha nada de errado acontecendo. */
+.word-obrigatorio{color:#FFFFFF;font-size:clamp(1rem,4.7vw,1.3rem);font-weight:900}
+/* So 'MUNDO TECH' carrega o ambar. Dois destaques na mesma cor viram um so. */
+.word-entrar{color:#FFFFFF;font-size:clamp(1rem,4.7vw,1.3rem);font-weight:900}
 
 .lp-button{
   width:100%;background:#1E99FD;padding:8px;font-size:clamp(.92rem,4.3vw,1.25rem);font-weight:800;
@@ -405,21 +409,24 @@ var CONFIG = {
   // Icone do botao: 'telegram' ou 'whatsapp'
   plataforma: 'whatsapp',
 
-  // VERDE = acao. So o botao, porque so ele leva pro WhatsApp.
+  // VERDE = acao, e SO a acao. Ele e a unica cor saturada da pagina:
+  // e assim que o olho sabe onde clicar sem ninguem explicar.
   corAcao: '#25D366',
 
-  // AZUL = acento. Selo do topo, borda do card, barra de vagas,
-  // anel e borda da foto. E o azul do layout original.
-  corAcento: '#1E99FD',
+  // ACENTO = quase neutro. Era azul #1E99FD (do layout de referencia) e
+  // disputava atencao com o verde na borda do card. Cinza nao disputa.
+  corAcento: '#4A4A4A',
 
-  // cor do anel/borda da foto
-  corAnel: '#25D366',
+  // O anel era VERDE — um circulo de 100px competindo com o botao pela
+  // mesma cor. Neutro, a foto continua destacada e o verde fica sozinho.
+  corAnel: '#5A5A5A',
 
-  // realce das palavras em destaque (PIX / ENTRAR)
-  corRealce: '#32BCAD',
+  // UM destaque so, e longe do verde: ambar. Casa com as particulas que
+  // ja caiam douradas, entao nao e cor nova — e consolidacao.
+  corRealce: '#F5A524',
 
-  // cor da linha de texto do selo de verificado
-  seloCor: '#49ADF4',
+  // A linha do CNPJ e informacao, nao chamada. Cinza claro basta.
+  seloCor: '#9AA0A6',
 
   // Vazio esconde a tarja. A referencia nao tem nenhuma, e a antiga
   // ("somente para membros inscritos") prometia exclusividade que nao existe.
@@ -588,7 +595,7 @@ var CONFIG = {
     '.progress-bar-fill{background:linear-gradient(90deg,' + acento + ',' + escuro(acento, .78) + ')}' +
     '.profile-pic{border-color:' + anelCor + '}' +
     // realce e selo
-    '.pix-text,.word-entrar{color:' + realce + '}' +
+    '.pix-text{color:' + realce + '}' +
     '.linha-oficial{color:' + selo + '}' +
     '.linha-oficial svg{fill:' + selo + '}';
   document.head.appendChild(css);
