@@ -101,7 +101,7 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 
 /* Selo proprio. NAO e o verificado da Meta — aquele afirma que a
    plataforma verificou a conta, e nao verificou. Este afirma o que e
-   verdade: canal oficial de uma empresa com CNPJ ativo. */
+   verdade: grupo oficial de uma empresa com CNPJ ativo. */
 .selo-oficial{
   /* box-sizing:border-box -> a foto tem 100px NO TOTAL, borda por dentro.
      Raio 50. Centro do selo a 45 graus: 50 + 50/V2 = 85.4.
@@ -267,7 +267,7 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 
     <div class="linha-oficial">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.55 17.6 4.4 12.45l1.5-1.5 3.65 3.65 8.55-8.55 1.5 1.5z"/></svg>
-      Canal oficial &middot; CNPJ ativo
+      Grupo oficial &middot; CNPJ ativo
     </div>
 
     <div class="badge-exclusivo" id="badge"></div>
@@ -358,9 +358,9 @@ var CONFIG = {
   linha1:   'Para participar dos sorteios é ',
   palavra1: 'OBRIGATÓRIO',              // vermelho
   palavra2: 'ENTRAR',                   // teal
-  linha2:   ' no canal do WhatsApp.',
+  linha2:   ' no grupo do WhatsApp.',
 
-  textoBotao: 'ENTRAR NO CANAL DO WHATSAPP',
+  textoBotao: 'ENTRAR NO GRUPO DO WHATSAPP',
   textoFino:  'Sem spam. Só ofertas reais. Você pode sair quando quiser.',
 
   /* ROTADOR, nao link de convite direto.
@@ -378,8 +378,8 @@ var CONFIG = {
   saida: {
     ativo: true,
     titulo: 'Espera a\u00ED!',
-    texto: 'As ofertas de hoje j\u00E1 est\u00E3o no canal. Voc\u00EA sai sem ver?',
-    botao1: 'Entrar no canal gr\u00E1tis',
+    texto: 'As ofertas de hoje j\u00E1 est\u00E3o no grupo. Voc\u00EA sai sem ver?',
+    botao1: 'Entrar no grupo',
     botao2: '',            // vazio esconde o segundo botao
     link2:  '',
     recusar: 'Agora n\u00E3o',
@@ -678,7 +678,7 @@ var CONFIG = {
     });
 
     b1.addEventListener('click', function () {
-      if (window.CAPI) CAPI.envia('Lead', { content_name: 'saida-canal', source: origem });
+      if (window.CAPI) CAPI.envia('Lead', { content_name: 'saida-grupo', source: origem });
     });
     b2.addEventListener('click', function () {
       if (window.CAPI) CAPI.envia('SaidaCupons', { source: origem }, 'trackCustom');
