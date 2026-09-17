@@ -28,7 +28,15 @@ if (window.top !== window.self) {
 
 <link rel="preload" href="../fontes/montserrat.woff2" as="font" type="font/woff2" crossorigin>
 
-<!-- Meta Pixel — dataset CAT TECH PROMO -->
+<!-- DOIS conjuntos de dados, de proposito (17/09/2026).
+     1404403115150528 — pixel pessoal. E quem atribui a onda 1, que rodou na
+       conta de anuncios pessoal. So navegador: o token de CAPI nao alcanca ele
+       (token e escopado por conjunto — testado e recusado com code 100).
+     1772413697427356 — CAT TECH PROMO web, nasceu no portfolio Cat grupos.
+       Recebe navegador + CAPI. E o que sobrevive a migracao pra conta nova.
+     O event_id e o mesmo nos dois caminhos, entao a Meta deduplica no novo e
+     o velho recebe so o do navegador. Nenhum conta em dobro.
+     Quando a onda 1 sair do ar de vez, o velho pode ser removido daqui. -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -36,11 +44,14 @@ n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init','1404403115150528');
+fbq('init','1772413697427356');
 </script>
 
 <script src="../capi.js"></script>
 <noscript><img height="1" width="1" style="display:none" alt=""
 src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></noscript>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></noscript>
 <!-- End Meta Pixel Code -->
 
 <style>
