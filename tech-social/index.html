@@ -132,7 +132,7 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
               <a class="nav-link" href="#ofertas">Ofertas</a>
             </li>
             <li class="nav-item ms-lg-2">
-              <a class="btn btn-sm btn-whatsapp" href="#" data-bs-toggle="modal" data-bs-target="#whatsappModal"><i class="bi bi-whatsapp me-1"></i> Entrar</a>
+              <a class="btn btn-sm btn-whatsapp js-entrar" href="https://ir.linkdapromo.com/entrar?n=tech"><i class="bi bi-whatsapp me-1"></i> Entrar</a>
             </li>
           </ul>
         </div>
@@ -156,13 +156,9 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
           class="d-flex flex-column flex-sm-row justify-content-center gap-2 gap-sm-3 sticky-cta"
         >
           <!-- [CAT] removido: CTA Telegram do hero -->
-          <button
-            class="btn btn-lg btn-whatsapp btn-cta px-4"
-            data-bs-toggle="modal"
-            data-bs-target="#whatsappModal"
-          >
+          <a class="btn btn-lg btn-whatsapp btn-cta px-4 js-entrar" href="https://ir.linkdapromo.com/entrar?n=tech">
             <i class="bi bi-whatsapp me-2"></i> Ofertas no Whatsapp
-          </button>
+          </a>
           <!-- [CAT] removido: CTA Baixar App do hero -->
         </div>
 
@@ -874,13 +870,9 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
               </p>
                 <div class="d-flex flex-column flex-sm-row gap-2">
                   <!-- [CAT] removido: CTA Telegram do rodape -->
-                  <button
-                    class="btn btn-lg btn-whatsapp btn-cta"
-                    data-bs-toggle="modal"
-                    data-bs-target="#whatsappModal"
-                  >
+                  <a class="btn btn-lg btn-whatsapp btn-cta js-entrar" href="https://ir.linkdapromo.com/entrar?n=tech">
                     <i class="bi bi-whatsapp me-2"></i> Ver grupos do WhatsApp
-                  </button>
+                  </a>
                   <!-- [CAT] removido: CTA Baixar App do rodape -->
                 </div>
             </div>
@@ -904,74 +896,7 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
     </footer>
 <!-- [CAT] removido: modal do app — nao existe app do CAT -->
 
-    <!-- MODAL WHATSAPP -->
-<div class="modal fade" id="whatsappModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content card-glass">
-      <div class="modal-header border-0">
-        <h5 class="modal-title">
-          <i class="bi bi-whatsapp me-2"></i>
-        </h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
-      </div>
-
-      <div class="modal-body">
-        
-                            <div class="og-flash-banner mb-3 text-center">
-              ⚡ Liberamos 5 vagas nos grupos abaixo!
-            </div>
-                                              <div class="d-grid mb-3">
-              <a
-                class="btn btn-lg btn-whatsapp btn-cta py-3"
-                href="https://whatsapp.com/channel/0029VaklNp8K5cDK9b5V5L0l"
-                target="_blank"
-                rel="nofollow noopener"
-                onclick="fbq('trackCustom', 'EntrarNoGrupo', {origem: 'CanalWhatsapp'});"
-              >
-                <i class="bi bi-megaphone me-2"></i> Entrar no canal do WhatsApp
-              </a>
-            </div>
-                                            <!-- Banner igual ao seu (uma vez só) -->
-            
-
-            <!-- Mesmo botão repetido para cada grupo setado -->
-            <div class="d-grid gap-2 mb-3">
-                              <a
-                  class="btn btn-lg og-cta py-3 js-wa-invite"
-                  href=""
-                  target="_blank"
-                  rel="nofollow noopener"
-                  onclick="fbq('trackCustom', 'EntrarNoGrupo', {origem: 'GrupoWhatsapp'});"
-                >
-                  <i class="bi bi-whatsapp me-2"></i> Entrar no grupo OFERTAS GAMER                </a>
-                              <a
-                  class="btn btn-lg og-cta py-3 js-wa-invite"
-                  href="https://ir.linkdapromo.com/entrar?n=tech"
-                  target="_blank"
-                  rel="nofollow noopener"
-                  onclick="fbq('trackCustom', 'EntrarNoGrupo', {origem: 'GrupoWhatsapp'});"
-                >
-                  <i class="bi bi-whatsapp me-2"></i> Entrar no grupo Ofertas Gamer #165                </a>
-                              <a
-                  class="btn btn-lg og-cta py-3 js-wa-invite"
-                  href="https://ir.linkdapromo.com/entrar?n=tech"
-                  target="_blank"
-                  rel="nofollow noopener"
-                  onclick="fbq('trackCustom', 'EntrarNoGrupo', {origem: 'GrupoWhatsapp'});"
-                >
-                  <i class="bi bi-whatsapp me-2"></i> Entrar no grupo Ofertas Gamer #157                </a>
-                          </div>
-          
-          
-
-          <div class="text-center mt-3 og-subtle small">
-            Corra! As vagas somem em minutos quando disparamos cupons 🔥
-          </div>
-              </div>
-
-    </div>
-  </div>
-</div>
+    <!-- [CAT] removido: modal do WhatsApp — o botao agora vai direto pro rotador -->
 
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -1035,5 +960,38 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
   }, { passive: false });
 </script>
 
-  </body>
+  
+<!-- [CAT] destino e medicao dos botoes de entrada.
+     Todo botao .js-entrar aponta pro rotador. O ?c= e o fbclid da URL do
+     anuncio sao repassados: sem isso o rotador nao separa este braco dos
+     outros tres do teste e o A/B/C/D nao existe.
+     O `Lead` com event_id compartilhado e IDENTICO ao de /tech/ e
+     /tech-min/ — se divergir, os bracos param de ser comparaveis. -->
+<script>
+(function () {
+  'use strict';
+  function comCampanha(url) {
+    try {
+      var q = new URLSearchParams(location.search), extra = [];
+      var c = (q.get('c') || q.get('utm_campaign') || '').slice(0, 40);
+      if (c) extra.push('c=' + encodeURIComponent(c));
+      var fb = (q.get('fbclid') || '').slice(0, 255);
+      if (fb) extra.push('fbclid=' + encodeURIComponent(fb));
+      if (!extra.length) return url;
+      return url + (url.indexOf('?') === -1 ? '?' : '&') + extra.join('&');
+    } catch (e) { return url; }
+  }
+  var bts = document.querySelectorAll('.js-entrar');
+  for (var i = 0; i < bts.length; i++) {
+    bts[i].href = comCampanha(bts[i].getAttribute('href'));
+    /* SEM target="_blank": o navegador interno do Instagram engole a
+       abertura em nova aba — foi o bug do dia 13/09 na /tech/. */
+    bts[i].removeAttribute('target');
+    bts[i].addEventListener('click', function () {
+      if (window.CAPI) CAPI.envia('Lead', { content_name: 'entrar', source: 'lp-social' });
+    });
+  }
+})();
+</script>
+</body>
 </html>
