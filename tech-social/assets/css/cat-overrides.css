@@ -1,0 +1,56 @@
+/* ==================================================================
+   AJUSTES DO CAT por cima do clone da OfertasGamer.
+
+   Arquivo separado DE PROPOSITO: o styles.css ao lado e o arquivo
+   original deles. Toda mudanca nossa entra aqui, entao da pra ver num
+   diff o que e clone e o que e nosso — e da pra apagar este arquivo e
+   voltar ao clone puro em um comando.
+
+   Carregado por ULTIMO no <head>, depois do bootstrap e do styles.css.
+   ================================================================== */
+
+/* ---- 1. FIM DO SCROLL LATERAL NO CELULAR ------------------------
+   Sintoma: no iPhone a pagina arrastava pro lado, o titulo cortava e
+   os botoes passavam da borda.
+
+   Duas causas somadas:
+
+   a) `.logo-wrap img` ganha `max-width: 400px` no media query de 576px.
+      Num iPhone de 390px de largura, 400px JA E mais largo que a tela.
+      O mesmo vale pro de 1024px com 600px.
+
+   b) O hero e `class="hero container p-0"`. O `.row` do Bootstrap tem
+      margem negativa nas laterais, que normalmente e absorvida pelo
+      padding do `.container`. Com `p-0` o padding some e a margem
+      negativa vaza pra fora da tela.
+
+   Nao e caso de largura fixa pra celular: largura fixa quebraria em
+   tela grande. A regra e que NADA pode ser mais largo que a viewport. */
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;   /* rede de seguranca; as regras abaixo tratam a causa */
+}
+
+/* causa (a) — a imagem do topo nunca passa da tela, em nenhum breakpoint */
+.logo-wrap img,
+.hero img {
+  max-width: 100% !important;
+  height: auto;
+}
+
+/* causa (b) — devolve a calha lateral que o `p-0` tirou */
+.hero.container.p-0 {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+/* qualquer midia que apareca depois tambem fica presa na tela */
+img, svg, video, iframe { max-width: 100%; }
+
+/* filho de flex/grid com conteudo longo (URL, palavra grande) para de
+   empurrar o pai: sem isto o `min-width:auto` do flex ignora o overflow */
+.row > *, .d-flex > * { min-width: 0; }
+
+/* titulo grande quebra em vez de cortar */
+h1, h2, .headline-xl, .display-5 { overflow-wrap: break-word; }
