@@ -49,7 +49,7 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
     <title>OfertasGamer — As melhores ofertas diárias de hardware e tecnologia.</title>
     <meta
       name="description"
-      content="Entre nos nossos grupos de ofertas e economize em tecnologia e games. Telegram e WhatsApp, ofertas em tempo real."
+      content="Entre nos nossos grupos de ofertas e economize em tecnologia e games. Grupos de WhatsApp, ofertas em tempo real."
     />
     <link rel="icon" href="favicon.ico" />
 
@@ -132,9 +132,7 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
               <a class="nav-link" href="#ofertas">Ofertas</a>
             </li>
             <li class="nav-item ms-lg-2">
-              <a class="btn btn-sm btn-telegram" href="#cta-telegram"
-                ><i class="bi bi-telegram me-1"></i> Entrar</a
-              >
+              <a class="btn btn-sm btn-whatsapp" href="#" data-bs-toggle="modal" data-bs-target="#whatsappModal"><i class="bi bi-whatsapp me-1"></i> Entrar</a>
             </li>
           </ul>
         </div>
@@ -151,24 +149,13 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
         Dezenas de ofertas todos os dias
       </h1>
       <p class="lead text-white-50 mb-4">
-        Ofertas e cupons em tempo real. Entre nos grupos do Telegram e WhatsApp
-        e não perca nenhum achado.
+        Ofertas e cupons em tempo real. Entre no grupo do WhatsApp e não perca nenhum achado.
       </p>
 
       <div
           class="d-flex flex-column flex-sm-row justify-content-center gap-2 gap-sm-3 sticky-cta"
         >
-          <a
-            id="cta-telegram"
-            class="btn btn-lg btn-telegram btn-cta px-4"
-            href="https://t.me/ofertasgamer_oficial"
-            target="_blank"
-            rel="nofollow noopener"
-            onclick="fbq('trackCustom', 'EntrarNoGrupo', {origem: 'CanalTelegram'});"
-          >
-            <i class="bi bi-telegram me-2"></i> Ofertas no Telegram
-          </a>
-        
+          <!-- [CAT] removido: CTA Telegram do hero -->
           <button
             class="btn btn-lg btn-whatsapp btn-cta px-4"
             data-bs-toggle="modal"
@@ -176,14 +163,7 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
           >
             <i class="bi bi-whatsapp me-2"></i> Ofertas no Whatsapp
           </button>
-        
-          <button
-            class="btn btn-lg btn-app btn-cta px-4"
-            data-bs-toggle="modal"
-            data-bs-target="#appModal"
-          >
-            <i class="bi bi-phone me-2"></i> Baixar App
-          </button>
+          <!-- [CAT] removido: CTA Baixar App do hero -->
         </div>
 
       <!-- KPIs com faixa brilhante -->
@@ -893,15 +873,7 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
                 Entre agora e receba as melhores oportunidades primeiro.
               </p>
                 <div class="d-flex flex-column flex-sm-row gap-2">
-                  <a
-                    class="btn btn-lg btn-telegram btn-cta"
-                    href="https://t.me/ofertasgamer_oficial"
-                    target="_blank"
-                    rel="nofollow noopener"
-                  >
-                    <i class="bi bi-telegram me-2"></i> Entrar no Telegram
-                  </a>
-                
+                  <!-- [CAT] removido: CTA Telegram do rodape -->
                   <button
                     class="btn btn-lg btn-whatsapp btn-cta"
                     data-bs-toggle="modal"
@@ -909,14 +881,7 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
                   >
                     <i class="bi bi-whatsapp me-2"></i> Ver grupos do WhatsApp
                   </button>
-                
-                  <button
-                    class="btn btn-lg btn-app btn-cta"
-                    data-bs-toggle="modal"
-                    data-bs-target="#appModal"
-                  >
-                    <i class="bi bi-phone me-2"></i> Baixar App
-                  </button>
+                  <!-- [CAT] removido: CTA Baixar App do rodape -->
                 </div>
             </div>
           </div>
@@ -937,62 +902,8 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
         <div class="small"><a href="#top">Voltar ao topo</a></div>
       </div>
     </footer>
-<!-- MODAL APP -->
-<div class="modal fade" id="appModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-md">
-    <div class="modal-content card-glass app-modal-content">
-      <div class="modal-header border-0 pb-0">
-        <h5 class="modal-title visually-hidden">Baixar App</h5>
-        <button
-          type="button"
-          class="btn-close btn-close-white"
-          data-bs-dismiss="modal"
-          aria-label="Fechar"
-        ></button>
-      </div>
+<!-- [CAT] removido: modal do app — nao existe app do CAT -->
 
-      <div class="modal-body pt-0 text-center">
-        <div class="app-modal-icon mb-3">
-          <i class="bi bi-apple"></i>
-        </div>
-
-        <h3 class="app-modal-title mb-2">Baixe o App</h3>
-        <p class="app-modal-subtitle mb-4">
-          Ofertas em tempo real no seu bolso.<br>
-          iOS em breve · Android disponível agora
-        </p>
-
-        <div class="app-qr-wrap mb-4">
-          <img
-            src="https://api.qrserver.com/v1/create-qr-code/?size=320x320&data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.ofertasgamer.app"
-            alt="QR Code para baixar o app OfertasGamer"
-            class="img-fluid app-qr-image"
-            loading="lazy"
-          />
-        </div>
-
-        <div class="d-grid gap-3">
-          <a
-            class="btn btn-lg btn-app-store btn-cta"
-            href="https://play.google.com/store/apps/details?id=com.ofertasgamer.app"
-            target="_blank"
-            rel="nofollow noopener"
-          >
-            <i class="bi bi-google-play me-2"></i> Google Play — Download grátis
-          </a>
-
-          <button
-            type="button"
-            class="btn btn-lg btn-app-store-disabled btn-cta"
-            disabled
-          >
-            <i class="bi bi-apple me-2"></i> App Store — em breve
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     <!-- MODAL WHATSAPP -->
 <div class="modal fade" id="whatsappModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
