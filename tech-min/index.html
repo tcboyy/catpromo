@@ -1,0 +1,906 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://connect.facebook.net https://analytics.tiktok.com; connect-src 'self' https://*.facebook.com https://analytics.tiktok.com https://cat-capi.catpromo.workers.dev https://capi.linkdapromo.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script>
+/* Anti-clickjacking. O GitHub Pages nao permite definir cabecalho
+   X-Frame-Options, e frame-ancestors so vale como cabecalho real —
+   dentro de <meta> o navegador ignora. Entao a quebra de moldura
+   precisa ser feita aqui. */
+if (window.top !== window.self) {
+  try { window.top.location = window.self.location; }
+  catch (e) { document.documentElement.style.display = 'none'; }
+}
+</script>
+<title>CAT TECH PROMO</title>
+<meta name="description" content="Ofertas de tech conferidas, todo dia: placa de vídeo, monitor, processador e periférico.">
+<meta name="theme-color" content="#121212">
+<link rel="icon" href="../cat-logo.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="CAT TECH PROMO">
+<meta property="og:description" content="Ofertas de tech conferidas, todo dia.">
+<meta property="og:image" content="https://linkdapromo.com/cat-logo.png">
+
+<link rel="preload" href="../fontes/montserrat.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- ==================================================================
+     LP MINIMA — braço B do teste de 17/09/2026.
+
+     Nao e uma "versao enxuta" por gosto: e uma VARIAVEL ISOLADA. Os tres
+     bracos do teste diferem so no tamanho do passo entre o anuncio e o grupo:
+
+       A  /tech/       pagina completa (foto, selo, texto, avisos)
+       B  /tech-min/   ESTA — titulo + botao. Nada pra ler.
+       C  ir.linkdapromo.com/entrar   sem pagina nenhuma
+
+       A x B  → o conteudo da pagina ajuda ou atrapalha?
+       B x C  → quanto custa o passo extra, sozinho?
+
+     Pixel, CAPI e rotador IGUAIS aos da /tech/. Se algo aqui divergir alem
+     do conteudo removido, o teste perde o sentido — mexer nos tres ou em
+     nenhum. Ver 06-ads/proximo-teste-lp-vs-direto.md.
+     ================================================================== -->
+<!-- DOIS conjuntos de dados, de proposito (17/09/2026).
+     1404403115150528 — pixel pessoal. E quem atribui a onda 1, que rodou na
+       conta de anuncios pessoal. So navegador: o token de CAPI nao alcanca ele
+       (token e escopado por conjunto — testado e recusado com code 100).
+     1772413697427356 — CAT TECH PROMO web, nasceu no portfolio Cat grupos.
+       Recebe navegador + CAPI. E o que sobrevive a migracao pra conta nova.
+     O event_id e o mesmo nos dois caminhos, entao a Meta deduplica no novo e
+     o velho recebe so o do navegador. Nenhum conta em dobro.
+     Quando a onda 1 sair do ar de vez, o velho pode ser removido daqui. -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1404403115150528');
+fbq('init','1772413697427356');
+</script>
+
+<script src="../capi.js"></script>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></noscript>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
+
+<style>
+/* ==================================================================
+   Regras replicadas do layout de referencia, valor por valor.
+   Marca, textos e destino sao nossos — ver CONFIG no fim do arquivo.
+   ================================================================== */
+/* Montserrat variavel, hospedada no proprio site: nao depende do
+   Google Fonts, carrega antes e nao vaza visita pra terceiro. */
+@font-face{
+  font-family:'Montserrat';font-style:normal;font-weight:100 900;
+  font-display:swap;src:url('../fontes/montserrat.woff2') format('woff2');
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+.landing-page-root{
+  background:linear-gradient(135deg,#121212 0%,#000000 100%);
+  min-height:100vh;width:100%;position:relative;overflow-x:hidden;
+  font-family:'Montserrat',sans-serif;color:#fff;
+  /* justify-content:center — com a tarja e o contador fora, o card encurtou e
+     a coluna alinhada no topo deixava um vazio grande embaixo. Centralizado,
+     ele ocupa a tela de novo sem precisar inventar conteudo pra preencher. */
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:18px 0 20px;
+}
+.landing-page-root::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:1;
+  background-image:
+    radial-gradient(circle at 0 0, rgba(255,255,255,.08) 0, transparent 55%),
+    radial-gradient(circle at 100% 0, rgba(0,0,0,.18) 0, transparent 55%);
+  mix-blend-mode:soft-light;opacity:.55;
+}
+
+#particles{position:fixed;inset:0;pointer-events:none;z-index:2}
+.particle{
+  position:absolute;top:0;width:6px;height:6px;background:rgba(245,165,36,.45);
+  border-radius:50%;animation:cair 6s linear infinite;opacity:0;
+  will-change:transform,opacity;
+}
+@keyframes cair{
+  0%{transform:translateY(-10vh) scale(1);opacity:0}
+  8%{opacity:.85}
+  85%{opacity:.85}
+  100%{transform:translateY(110vh) scale(.85);opacity:0}
+}
+
+.lp-container{
+  max-width:430px;width:92%;margin:0 auto;background:#1A1A1A;
+  border-radius:20px;padding:28px 20px 22px;text-align:center;
+  box-shadow:0 20px 60px rgba(0,0,0,.5);
+  border:2px solid rgba(30,153,253,.5);
+  position:relative;z-index:3;
+}
+
+.ring-animado{position:relative;display:inline-block;margin:0 auto 26px auto;line-height:0}
+.profile-pic{
+  width:100px;height:100px;border-radius:50%;border:5px solid #1E99FD;
+  object-fit:cover;display:block;margin:0 auto;
+}
+
+/* Selo proprio. NAO e o verificado da Meta — aquele afirma que a
+   plataforma verificou a conta, e nao verificou. Este afirma o que e
+   verdade: grupo oficial de uma empresa com CNPJ ativo. */
+.selo-oficial{
+  /* box-sizing:border-box -> a foto tem 100px NO TOTAL, borda por dentro.
+     Raio 50. Centro do selo a 45 graus: 50 + 50/V2 = 85.4.
+     Selo de 34px -> canto em 100 - (85.4 + 17) = -2.4px. */
+  position:absolute;right:-2px;bottom:-2px;width:34px;height:34px;
+  display:block;line-height:0;
+  filter:drop-shadow(0 0 1.5px #1A1A1A) drop-shadow(0 0 1.5px #1A1A1A);
+}
+.selo-oficial img{width:34px;height:34px;display:block}
+.linha-oficial{
+  display:flex;align-items:center;justify-content:center;gap:5px;
+  margin:-16px 0 18px;font-size:10.5px;font-weight:800;
+  letter-spacing:.08em;color:#49ADF4;text-transform:uppercase;
+}
+.linha-oficial svg{width:12px;height:12px;fill:#49ADF4}
+
+.titulo-pix{
+  font-size:clamp(1.45rem,7.6vw,2.3rem);font-weight:900;color:#FFFFFF;
+  margin-bottom:20px;line-height:1.12;letter-spacing:-.5px;
+}
+.pix-text{color:#32BCAD;display:inline-block;animation:pulsePix 2s infinite}
+@keyframes pulsePix{
+  0%,100%{text-shadow:0 0 8px rgba(245,165,36,.18)}
+  50%{text-shadow:0 0 16px rgba(245,165,36,.55)}
+}
+
+/* O subtitulo era #FFE700 inteiro. Amarelo puro numa linha de 5 palavras
+   grita mais que o botao. Branco fosco: le igual, compete zero. */
+.titulo-cupons{font-size:clamp(.95rem,4.3vw,1.2rem);font-weight:700;color:rgba(255,255,255,.70);margin-bottom:14px}
+
+.badge-exclusivo{
+  background:rgba(30,153,253,.1);color:#1E99FD;font-size:.72rem;font-weight:800;
+  text-transform:uppercase;padding:6px 14px;border-radius:50px;
+  display:inline-block;margin-bottom:14px;letter-spacing:.5px;
+  border:1px solid rgba(30,153,253,.2);
+}
+
+.lp-descricao{
+  text-align:center;border:1px solid rgba(255,255,255,.2);
+  background:rgba(255,255,255,.05);border-radius:10px;padding:14px 12px;margin-bottom:20px;
+}
+.lp-descricao p{margin-bottom:10px;color:#E2E8F0;font-weight:500;font-size:clamp(.86rem,3.7vw,1rem)}
+.lp-descricao p:last-child{margin-bottom:0}
+/* Era vermelho. Vermelho e alarme — e nao ha nada de errado acontecendo. */
+.word-obrigatorio{color:#FFFFFF;font-size:clamp(1rem,4.7vw,1.3rem);font-weight:900}
+/* So 'MUNDO TECH' carrega o ambar. Dois destaques na mesma cor viram um so. */
+.word-entrar{color:#FFFFFF;font-size:clamp(1rem,4.7vw,1.3rem);font-weight:900}
+
+.lp-button{
+  width:100%;background:#1E99FD;padding:8px;font-size:clamp(.92rem,4.3vw,1.25rem);font-weight:800;
+  color:#FFFFFF!important;border-radius:50px;text-decoration:none;
+  display:flex;align-items:center;animation:pulseButton 1.6s infinite;
+  margin-bottom:12px;
+}
+@keyframes pulseButton{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.button-icon-wrapper{
+  background:rgba(255,255,255,.15);border-radius:50%;width:50px;height:50px;
+  display:flex;justify-content:center;align-items:center;margin-right:10px;
+  flex:0 0 auto;
+}
+.button-icon-wrapper svg{width:26px;height:26px;fill:#FFFFFF}
+/* No original ha padding-right:60px aqui, so pra compensar o icone e
+   centralizar o texto no botao inteiro. Em tela estreita isso rouba
+   60px e quebra uma palavra por linha, entao vira responsivo:
+   compensacao total no desktop, nenhuma no celular. */
+.button-text{flex-grow:1;text-align:center;padding-right:clamp(0px,calc((100vw - 360px) * 0.6),60px)}
+
+.vagas-container{margin-top:14px}
+.vagas-texto{font-weight:700;margin-bottom:4px}
+.progress-bar{height:18px;background:rgba(0,0,0,.08);border-radius:10px;overflow:hidden}
+.progress-bar-fill{
+  height:100%;background:linear-gradient(90deg,#1E99FD,#1279CA);
+  transition:width .5s;display:flex;justify-content:flex-end;align-items:center;
+}
+.progress-bar-text{color:#FFFFFF;font-weight:800;font-size:.75rem;padding-right:6px}
+
+.cta-secundario{font-size:.72rem;color:rgba(255,255,255,.72);margin-top:14px}
+
+.ver-cupons{
+  display:inline-block;color:rgba(255,255,255,.2);font-size:10px;margin-top:16px;
+  text-transform:uppercase;letter-spacing:.1em;font-weight:900;text-decoration:none;
+  transition:color .15s;
+}
+.ver-cupons:hover{color:rgba(255,255,255,.4)}
+
+
+/* ---------- aviso de entrada ----------
+   Nomes REAIS de quem entrou pelo organico, primeiro nome + inicial. Nao diz
+   "agora" nem hora nenhuma: a pessoa entrou mesmo, so nao foi neste segundo.
+   Estilizado com a linguagem do card (mesmo preto, mesma borda, avatar da
+   marca) e NAO como banner do sistema — imitar a notificacao do iOS faria a
+   pessoa achar que o celular dela avisou, e ai deixaria de ser prova e viraria
+   engano. A lista e finita e cada nome aparece UMA vez: acabou, para. */
+.aviso{
+  position:fixed;left:50%;z-index:55;width:calc(100% - 28px);max-width:330px;
+  /* SEM FOTO. Avatar redondo ao lado de "Matheus R. entrou no grupo" le como
+     sendo a foto DO Matheus. Foto de membro so entra com autorizacao dele —
+     ver 00-estrategia/decisoes.md, decisao 13. */
+  display:flex;align-items:center;justify-content:center;gap:9px;padding:10px 14px;
+  background:#1C1C1C;border:1px solid rgba(255,255,255,.09);border-radius:14px;
+  box-shadow:0 12px 34px rgba(0,0,0,.55);
+  opacity:0;pointer-events:none;transition:opacity .3s ease,transform .3s cubic-bezier(.22,1,.36,1);
+}
+.aviso.topo   {top:14px;    transform:translate(-50%,-16px)}
+.aviso.rodape {bottom:14px; transform:translate(-50%, 16px)}
+.aviso.on{opacity:1;transform:translate(-50%,0)}
+.aviso-txt{font-size:12.5px;line-height:1.3;color:#E2E8F0;min-width:0;text-align:center}
+.aviso-txt b{font-weight:800;color:#fff}
+@media (prefers-reduced-motion:reduce){.aviso{transition:none}}
+
+/* ---------- prova: as ofertas que sairam no grupo ----------
+   Deliberadamente NAO clicavel. O OfertasGamer linka as ofertas porque vende
+   em varias pontas; aqui a unica acao da pagina tem que continuar sendo o
+   botao verde. Oferta clicavel roubaria o clique e entregaria comissao avulsa
+   no lugar de membro — e o modelo inteiro depende de encher grupo. */
+.prova{margin-top:16px;text-align:left}
+.prova-titulo{
+  font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  color:rgba(255,255,255,.45);margin-bottom:8px;text-align:center;
+}
+.prova-lista{display:flex;flex-direction:column;gap:7px}
+.prova-item{
+  display:flex;align-items:center;gap:9px;padding:7px 9px;
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);
+  border-radius:10px;
+}
+.prova-foto{
+  width:40px;height:40px;flex:0 0 auto;border-radius:7px;object-fit:cover;
+  background:rgba(255,255,255,.06);
+}
+.prova-txt{min-width:0;flex:1}
+.prova-nome{
+  font-size:11.5px;font-weight:600;color:#E2E8F0;line-height:1.25;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.prova-precos{display:flex;align-items:baseline;gap:6px;margin-top:3px;flex-wrap:wrap}
+.prova-de{font-size:10.5px;color:rgba(255,255,255,.38);text-decoration:line-through}
+.prova-por{font-size:13px;font-weight:800;color:#25D366}
+.prova-off{
+  font-size:9.5px;font-weight:800;color:#FFE700;background:rgba(255,231,0,.12);
+  border-radius:4px;padding:1px 5px;letter-spacing:.02em;
+}
+
+/* ---------- dialogo de saida (back redirect) ---------- */
+.bk{
+  position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;
+  padding:20px;background:rgba(0,0,0,.78);backdrop-filter:blur(3px);
+  opacity:0;visibility:hidden;transition:opacity .2s ease;
+}
+.bk.on{opacity:1;visibility:visible}
+.bk-card{
+  position:relative;width:100%;max-width:352px;
+  background:#1C1C1C;border-radius:22px;
+  border:1px solid rgba(255,255,255,.07);
+  box-shadow:0 30px 80px rgba(0,0,0,.7);
+  padding:0 24px 22px;text-align:center;
+  transform:translateY(16px) scale(.96);
+  transition:transform .24s cubic-bezier(.22,1,.36,1);
+}
+.bk.on .bk-card{transform:none}
+
+/* foto sobreposta na borda de cima, como aviso de perfil */
+.bk-foto{
+  position:relative;width:72px;height:72px;margin:-36px auto 16px;
+}
+.bk-foto img.rosto{
+  width:72px;height:72px;border-radius:50%;object-fit:cover;
+  border:3px solid #1C1C1C;display:block;
+}
+.bk-foto .selo{
+  position:absolute;right:-2px;bottom:-1px;width:26px;height:26px;display:block;line-height:0;
+  filter:drop-shadow(0 0 1.5px #1C1C1C) drop-shadow(0 0 1.5px #1C1C1C);
+}
+.bk-foto .selo img{width:26px;height:26px;display:block}
+
+.bk-card h3{
+  font-size:25px;font-weight:800;letter-spacing:-.02em;line-height:1.15;margin-bottom:9px;
+}
+.bk-card p{
+  font-size:14.5px;line-height:1.5;color:rgba(255,255,255,.62);
+  max-width:270px;margin:0 auto 6px;
+}
+/* linha de escassez, herda a cor de acento */
+.bk-vagas{
+  font-size:12.5px;font-weight:800;letter-spacing:.02em;margin:14px 0 18px;
+}
+.bk-btn{
+  display:flex;align-items:center;justify-content:center;gap:8px;width:100%;
+  min-height:54px;padding:15px 18px;border:0;border-radius:99px;
+  font-family:inherit;font-weight:800;font-size:15.5px;letter-spacing:-.005em;
+  text-decoration:none;cursor:pointer;
+  transition:transform .12s ease,filter .12s ease;
+}
+.bk-btn:active{transform:translateY(1px);filter:brightness(.93)}
+.bk-btn+.bk-btn{margin-top:9px}
+.bk-btn svg{width:19px;height:19px;fill:currentColor;flex:0 0 auto}
+.bk-sair{
+  display:block;width:100%;margin-top:14px;padding:6px;background:none;border:0;
+  color:rgba(255,255,255,.3);font-family:inherit;font-size:12.5px;font-weight:600;
+  cursor:pointer;transition:color .15s;
+}
+.bk-sair:hover{color:rgba(255,255,255,.5)}
+@media (prefers-reduced-motion:reduce){.bk,.bk-card,.bk-btn{transition:none}}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  /* sem animacao as particulas ficariam paradas no topo pra sempre */
+  #particles{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="landing-page-root">
+  <div id="particles"></div>
+
+  <div class="lp-container">
+
+
+    <div class="badge-exclusivo" id="badge"></div>
+
+    <h1 class="titulo-pix" id="h1"></h1>
+    <h2 class="titulo-cupons" id="h2"></h2>
+
+
+    <!-- SEM target="_blank": o navegador interno do Instagram e do Facebook
+     engole a abertura em nova aba com frequencia — a pessoa clica, nada
+     acontece e ela sai. Todo o trafego pago entra por ali. Navegacao na
+     mesma aba e o comportamento confiavel, e pra deeplink de WhatsApp
+     tambem e o melhor: o app assume e a aba volta pro lugar. -->
+    <a class="lp-button" id="btn" href="#" rel="noopener noreferrer">
+      <div class="button-icon-wrapper" id="icone"></div>
+      <span class="button-text" id="btnTxt"></span>
+    </a>
+
+    <div class="vagas-container" id="vagas" hidden>
+      <div class="vagas-texto">CORRA, restam <strong id="restam"></strong> vagas.</div>
+      <div class="progress-bar">
+        <div class="progress-bar-fill" id="fill">
+          <span class="progress-bar-text" id="pct"></span>
+        </div>
+      </div>
+    </div>
+
+    <p class="cta-secundario" id="fino"></p>
+
+
+    <div class="prova" id="prova" hidden>
+      <div class="prova-titulo">Últimas ofertas postadas no grupo</div>
+      <div class="prova-lista" id="provaLista"></div>
+    </div>
+    <!-- "Ver Cupons" removido em 14/09: era a unica saida alternativa da
+         pagina. Numa LP de uma acao so, link secundario e vazamento. -->
+  </div>
+
+</div>
+
+
+  <!-- aviso de entrada (nomes reais) -->
+  <div class="aviso" id="aviso" role="status" aria-live="polite">
+    <div class="aviso-txt" id="avisoTxt"></div>
+  </div>
+
+  <!-- dialogo de saida -->
+  <div class="bk" id="bk" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="bk-card">
+      <div class="bk-foto">
+        <img class="rosto" src="../cat-logo.png" alt="">
+        <span class="selo"><img src="../verificado.png" alt="" width="26" height="26"></span>
+      </div>
+      <h3 id="bkTitulo"></h3>
+      <p id="bkTexto"></p>
+      <div class="bk-vagas" id="bkVagas"></div>
+      <a class="bk-btn" id="bkPrim" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+        <span id="bkPrimTxt"></span>
+      </a>
+      <a class="bk-btn" id="bkSec" href="#"></a>
+      <button class="bk-sair" type="button" id="bkSair"></button>
+    </div>
+  </div>
+
+<script>
+/* ==================================================================
+   AREA DE EDICAO
+   ================================================================== */
+var CONFIG = {
+
+  // Icone do botao: 'telegram' ou 'whatsapp'
+  plataforma: 'whatsapp',
+
+  // VERDE = acao, e SO a acao. Ele e a unica cor saturada da pagina:
+  // e assim que o olho sabe onde clicar sem ninguem explicar.
+  corAcao: '#25D366',
+
+  // ACENTO = quase neutro. Era azul #1E99FD (do layout de referencia) e
+  // disputava atencao com o verde na borda do card. Cinza nao disputa.
+  corAcento: '#4A4A4A',
+
+  // Anel VERDE por decisao do operador (14/09): ele amarra a foto ao
+  // WhatsApp. Eu tinha tirado por competir com o botao — o resto da paleta
+  // foi pra neutro, entao o verde agora divide com um elemento so, nao com seis.
+  corAnel: '#25D366',
+
+  // UM destaque so, e longe do verde: ambar. Casa com as particulas que
+  // ja caiam douradas, entao nao e cor nova — e consolidacao.
+  corRealce: '#F5A524',
+
+  // A linha do CNPJ e informacao, nao chamada. Cinza claro basta.
+  seloCor: '#9AA0A6',
+
+  // Vazio esconde a tarja. A referencia nao tem nenhuma, e a antiga
+  // ("somente para membros inscritos") prometia exclusividade que nao existe.
+  selo:      '',
+  titulo:    'As melhores ofertas do ',
+  destaque:  'MUNDO TECH',              // realce, com pulso
+  subtitulo: '',   // vazio esconde a linha
+
+  linha1:   'A gente passa o dia caçando oferta de tech pra ',
+  palavra1: 'VOCÊ NÃO PRECISAR',        // destaque da frase
+  palavra2: '',
+  linha2:   '',
+
+  textoBotao: 'ENTRAR NO GRUPO DO WHATSAPP',
+  textoFino:  'Sem taxa, sem cadastro. É só entrar.',
+
+  /* ROTADOR, nao link de convite direto.
+     Grupo do WhatsApp lota em 1.024 e o convite morre SEM AVISAR: apontando
+     direto, o anuncio continuaria gastando num link morto e nada no painel do
+     Meta denunciaria. O rotador manda pro proximo grupo com vaga e conta o
+     clique — o degrau anterior a entrada, que o Meta nao mede.
+     Codigo: 08-site/rotador/ */
+  link: 'https://ir.linkdapromo.com/entrar?n=tech',   // ?c= vem da URL do anuncio
+
+
+  /* ---- faixa de ofertas ----
+     DESLIGADA em 14/09: o ofertas.json so tinha mini laptop generico, uma
+     RX 580 de marca desconhecida e uma mochila. Prova ruim e pior que prova
+     nenhuma — a faixa diz "olha nossa curadoria" e mostrava o que sobrou.
+     Religar quando o painel publicar oferta que aguente ser vitrine. */
+  provaOfertas: false,
+
+  /* ---- aviso de entrada ------------------------------------------
+     Nomes REAIS de membros que entraram pelo organico, encurtados pra
+     primeiro nome + inicial. Nao inventar nome aqui: a faixa so vale
+     enquanto for verdade, e o padrao de lista gerada aparece rapido. */
+  aviso: {
+    ativo: false,   // LP MINIMA: nada alem de titulo e botao
+    nomes: ['Matheus R.','Gabriel L.','Guilherme S.','Bruno Z.','Vitor Hugo S.',
+            'Yan B.','Fagner O.','João V.','Artur V.','Ryan C.','Daniel F.',
+            'Felipe N.','Marcelo Y.','Samuel H.'],
+    texto:   'entrou no grupo',
+    primeiro: 3500,    // espera antes do primeiro
+    intervalo: 6500,   // base entre um e outro (sorteia ate +4s)
+    duracao:  4000     // quanto tempo fica na tela
+  },
+
+  // ---- dialogo de saida (back redirect) -----------------------
+  // Dispara quando a pessoa aperta voltar, ou leva o mouse pra fora
+  // pelo topo da janela no desktop. Aparece UMA vez por sessao:
+  // depois disso o botao voltar funciona normalmente.
+  saida: {
+    ativo: false,   // LP MINIMA: sem back-redirect
+    titulo: 'Espera a\u00ED!',
+    texto: 'As ofertas de hoje j\u00E1 est\u00E3o no grupo. Voc\u00EA sai sem ver?',
+    botao1: 'Entrar no grupo',
+    botao2: '',            // vazio esconde o segundo botao
+    link2:  '',
+    recusar: 'Agora n\u00E3o',
+    mostrarVagas: true     // repete o contador de vagas dentro do dialogo
+  },
+
+  // ---- contador de vagas --------------------------------------
+  // modo 'real'    -> total e ocupadas de verdade. Grupo do WhatsApp
+  //                   tem teto REAL de 1024 membros.
+  // modo 'animado' -> replica o mecanismo do original: comeca em
+  //                   `inicio` e cai 1 a cada 3s ate parar em `piso`.
+  //                   O numero nao corresponde a vaga nenhuma.
+  vagas: {
+    // 🔴 DESLIGADO em 14/09. O contador caia sozinho de 93 ate 11 sem
+    // corresponder a vaga nenhuma. Escassez inventada numa pagina que ja
+    // tinha promessa trocada e o visitante desconfiava do conjunto.
+    mostrar:  false,
+    modo:     'animado',
+    total:    1024,   // teto real do grupo de WhatsApp
+    inicio:   93,     // vagas restantes ao abrir a pagina
+    piso:     11,     // para de cair aqui
+    ocupadas: 0,      // usado so no modo 'real'
+
+    // Cadencia da queda. Intervalo sorteado nesta faixa a cada passo,
+    // com pausas longas ocasionais e quedas de 1 ou 2 — para nao ter
+    // o ritmo metronomico que entrega contador automatico.
+    intervaloMin: 3000,
+    intervaloMax: 13000,
+
+    // Guarda o valor no navegador do visitante: recarregar a pagina
+    // nao devolve o contador ao inicio.
+    lembrar: true
+  }
+};
+/* ================= fim da area de edicao ========================= */
+
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var origem = new URLSearchParams(location.search).get('utm_source') || 'direto';
+
+  /* ----------------------------------------------------------------
+     REPASSE DA CAMPANHA PRO ROTADOR
+     ----------------------------------------------------------------
+     O rotador conta o clique por `?c=`. Se o codigo do criativo morrer
+     aqui na LP, todo clique chega la como se fosse o mesmo anuncio — e
+     nao existe CAC por peca, que e a leitura inteira da onda de teste.
+
+     Aceita ?c= (curto, pra usar no anuncio) ou ?utm_campaign= (o que o
+     Meta preenche sozinho quando se usa o parametro de URL dele).
+     ---------------------------------------------------------------- */
+  function comCampanha(url) {
+    try {
+      var q = new URLSearchParams(location.search);
+      if (url.indexOf('/entrar') === -1) return url;
+      var extra = [];
+      var c = (q.get('c') || q.get('utm_campaign') || '').slice(0, 40);
+      if (c) extra.push('c=' + encodeURIComponent(c));
+      /* O fbclid tambem viaja: e o unico fio que liga este clique ao anuncio
+         la na Meta. Sem ele guardado no rotador, o dia em que a entrada no
+         grupo virar evento de CAPI nao tem como dizer de qual clique veio. */
+      var fb = (q.get('fbclid') || '').slice(0, 255);
+      if (fb) extra.push('fbclid=' + encodeURIComponent(fb));
+      if (!extra.length) return url;
+      return url + (url.indexOf('?') === -1 ? '?' : '&') + extra.join('&');
+    } catch (e) { return url; }
+  }
+
+  var PLAT = {
+    telegram: {
+      cor:'#1E99FD', cor2:'#1279CA', borda:'rgba(30,153,253,.5)',
+      badgeBg:'rgba(30,153,253,.1)', badgeBd:'rgba(30,153,253,.2)', realce:'#32BCAD',
+      svg:'<svg viewBox="0 0 24 24"><path d="M21.1098 3.51139C20.8409 3.23595 20.4431 3.12037 20.0653 3.20822L2.73142 7.23434C2.26128 7.34358 1.92131 7.7288 1.83852 8.216C1.7587 8.68884 1.95669 9.16781 2.34863 9.429L6.50293 12.1923L9.63004 18.2711C9.8427 18.6833 10.2709 18.914 10.7251 18.8953C11.1613 18.8778 11.5586 18.6183 11.7512 18.2323L13.7844 14.1565L18.4982 17.5132C18.7997 17.7275 19.1683 17.7884 19.5109 17.6806C19.8643 17.5704 20.1428 17.3014 20.2442 16.9408L21.9056 4.39707C21.9722 3.89675 21.3846 3.7925 21.1098 3.51139ZM6.96987 11.5283L4.14441 9.64893L17.7661 6.48421L6.96987 11.5283ZM16.3236 15.656L12.5539 12.9715L15.9084 9.17726L16.3236 15.656Z"/></svg>'
+    },
+    whatsapp: {
+      cor:'#25D366', cor2:'#0E8A3E', borda:'rgba(37,211,102,.5)',
+      badgeBg:'rgba(37,211,102,.1)', badgeBd:'rgba(37,211,102,.2)', realce:'#32BCAD',
+      svg:'<svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>'
+    }
+  };
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
+    });
+  }
+
+  // ---- cor da plataforma ----
+  var p = PLAT[CONFIG.plataforma] || PLAT.telegram;
+
+  var acao   = CONFIG.corAcao   || p.cor;
+  var acento = CONFIG.corAcento || p.cor;
+  var anelCor = CONFIG.corAnel   || acento;
+  var realce = CONFIG.corRealce || p.realce;
+  var selo   = CONFIG.seloCor   || acento;
+
+  // '#1E99FD' -> 'rgba(30,153,253,.1)'
+  function rgba(hex, a) {
+    var n = parseInt(hex.slice(1), 16);
+    return 'rgba(' + ((n >> 16) & 255) + ',' + ((n >> 8) & 255) + ',' + (n & 255) + ',' + a + ')';
+  }
+  // escurece pra fazer o degrade da barra
+  function escuro(hex, f) {
+    var n = parseInt(hex.slice(1), 16), o = '';
+    for (var i = 16; i >= 0; i -= 8) {
+      o += ('0' + Math.round(((n >> i) & 255) * f).toString(16)).slice(-2);
+    }
+    return '#' + o;
+  }
+
+  var css = document.createElement('style');
+  css.textContent =
+    // acao
+    '.lp-button{background:' + acao + '}' +
+    // acento
+    '.lp-container{border-color:' + rgba(acento, .5) + '}' +
+    '.badge-exclusivo{background:' + rgba(acento, .1) + ';color:' + acento +
+      ';border-color:' + rgba(acento, .2) + '}' +
+    '.progress-bar-fill{background:linear-gradient(90deg,' + acento + ',' + escuro(acento, .78) + ')}' +
+    '.profile-pic{border-color:' + anelCor + '}' +
+    // realce e selo
+    '.pix-text{color:' + realce + '}' +
+    '.linha-oficial{color:' + selo + '}' +
+    '.linha-oficial svg{fill:' + selo + '}';
+  document.head.appendChild(css);
+  $('icone').innerHTML = p.svg;
+
+  // ---- textos ----
+  /* Sem texto, a tarja some inteira. Deixar ela vazia pintaria uma pilula
+     azul de 6px sem conteudo em cima do titulo. */
+  if (CONFIG.selo) { $('badge').textContent = CONFIG.selo; }
+  else { $('badge').style.display = 'none'; }
+  $('h1').innerHTML       = esc(CONFIG.titulo) + '<span class="pix-text">' + esc(CONFIG.destaque) + '</span>';
+  /* Campo vazio some. Sem isto sobra um <h2> de altura zero mas com
+     margin-bottom de 14px, e o buraco aparece sem ninguem entender de onde vem. */
+  if (CONFIG.subtitulo) { $('h2').textContent = CONFIG.subtitulo; }
+  else { $('h2').style.display = 'none'; }
+  $('desc1').innerHTML    = esc(CONFIG.linha1) + '<span class="word-obrigatorio">' + esc(CONFIG.palavra1) + '</span>';
+  if (CONFIG.palavra2 || CONFIG.linha2) {
+    $('desc2').innerHTML  = '<span class="word-entrar">' + esc(CONFIG.palavra2) + '</span>' + esc(CONFIG.linha2);
+  } else {
+    $('desc2').parentNode.style.display = 'none';   // o <p> inteiro, nao so o texto
+  }
+  $('btnTxt').textContent = CONFIG.textoBotao;
+  $('fino').textContent   = CONFIG.textoFino;
+  $('btn').href           = comCampanha(CONFIG.link);
+
+  // ---- particulas douradas ----
+  var box = $('particles');
+  if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var frag = document.createDocumentFragment();
+    for (var i = 0; i < 22; i++) {
+      var d   = document.createElement('div');
+      var dur = 4.5 + Math.random() * 3.5;
+      var tam = 4 + Math.random() * 3;
+      d.className = 'particle';
+      d.style.left   = (Math.random() * 100) + '%';
+      d.style.width  = tam.toFixed(1) + 'px';
+      d.style.height = tam.toFixed(1) + 'px';
+      d.style.animationDuration = dur.toFixed(2) + 's';
+      // delay NEGATIVO: a particula ja entra no meio da queda.
+      // Com delay positivo ela fica parada no topo ate o delay vencer,
+      // o que aparece como uma fileira de pontos travados no carregamento.
+      d.style.animationDelay = (-Math.random() * dur).toFixed(2) + 's';
+      frag.appendChild(d);
+    }
+    box.appendChild(frag);
+  }
+
+  // ---- contador ----
+  var v = CONFIG.vagas;
+  if (v && v.mostrar) {
+    var total = v.total || 1;
+
+    var pinta = function (restam) {
+      var ocup = Math.max(0, total - restam);
+      var pct  = Math.min(100, Math.max(0, Math.round(ocup / total * 100)));
+      $('restam').textContent = restam.toLocaleString('pt-BR');
+      $('pct').textContent    = pct + '%';
+      $('fill').style.width   = pct + '%';
+    };
+
+    $('vagas').hidden = false;
+
+    if (v.modo === 'animado') {
+      var CHAVE = 'catpromo:vagas';
+      var n = v.inicio;
+
+      // retoma de onde parou, se ja visitou antes
+      if (v.lembrar) {
+        try {
+          var salvo = parseInt(localStorage.getItem(CHAVE), 10);
+          if (!isNaN(salvo) && salvo <= v.inicio && salvo >= v.piso) n = salvo;
+        } catch (e) {}
+      }
+
+      pinta(n);
+
+      var min = v.intervaloMin || 3000, max = v.intervaloMax || 13000;
+
+      function proximoIntervalo() {
+        // media de dois sorteios: concentra no meio da faixa e ainda
+        // deixa escapar pausas curtas e longas de vez em quando
+        var r = (Math.random() + Math.random()) / 2;
+        var t = min + (max - min) * r;
+        if (Math.random() < 0.14) t *= 2.1;   // pausa longa ocasional
+        return t;
+      }
+
+      function passo() {
+        if (n <= v.piso) return;              // chegou no piso, para de vez
+        n -= Math.random() < 0.17 ? 2 : 1;    // as vezes saem duas de uma vez
+        if (n < v.piso) n = v.piso;
+        pinta(n);
+        if (v.lembrar) { try { localStorage.setItem(CHAVE, String(n)); } catch (e) {} }
+        if (n > v.piso) setTimeout(passo, proximoIntervalo());
+      }
+
+      setTimeout(passo, proximoIntervalo());
+    } else {
+      pinta(Math.max(0, total - v.ocupadas));
+    }
+  }
+
+  // ================= dialogo de saida (back redirect) =================
+  (function () {
+    var cfg = CONFIG.saida || {};
+    if (!cfg.ativo) return;
+
+    var tela = $('bk'), aberto = false, jaMostrou = false;
+    var CHAVE = 'catpromo:bk';
+
+    // uma vez por sessao: quem ja viu e voltou nao ve de novo
+    try { if (sessionStorage.getItem(CHAVE)) jaMostrou = true; } catch (e) {}
+
+    $('bkTitulo').textContent = cfg.titulo  || '';
+    $('bkTexto').textContent  = cfg.texto   || '';
+    $('bkSair').textContent   = cfg.recusar || 'Fechar';
+
+    var b1 = $('bkPrim'), b2 = $('bkSec');
+    $('bkPrimTxt').textContent = cfg.botao1 || 'Entrar';
+    b1.href = comCampanha(CONFIG.link);
+    b1.style.background = acao;
+    b1.style.color = '#0a2318';
+
+    // repete a escassez no momento da saida, com o valor corrente
+    var elVagas = $('bkVagas');
+    if (cfg.mostrarVagas && CONFIG.vagas && CONFIG.vagas.mostrar) {
+      elVagas.style.color = acento;
+      var sincroniza = function () {
+        var n = $('restam') && $('restam').textContent;
+        elVagas.textContent = n ? ('Restam apenas ' + n + ' vagas') : '';
+      };
+      sincroniza();
+      elVagas.__sync = sincroniza;
+    } else {
+      elVagas.style.display = 'none';
+    }
+
+    if (cfg.botao2 && cfg.link2) {
+      b2.textContent = cfg.botao2;
+      b2.href = cfg.link2;
+      b2.style.background = acento;
+      b2.style.color = '#fff';
+    } else {
+      b2.style.display = 'none';
+    }
+
+    function abre(origemEvento) {
+      if (aberto || jaMostrou) return false;
+      aberto = true; jaMostrou = true;
+      try { sessionStorage.setItem(CHAVE, '1'); } catch (e) {}
+      if (elVagas.__sync) elVagas.__sync();
+      tela.classList.add('on');
+      tela.setAttribute('aria-hidden', 'false');
+      if (window.CAPI) CAPI.envia('DialogoSaida', { trigger: origemEvento, source: origem }, 'trackCustom');
+      return true;
+    }
+
+    function fecha() {
+      aberto = false;
+      tela.classList.remove('on');
+      tela.setAttribute('aria-hidden', 'true');
+    }
+
+    // --- gatilho 1: botao voltar -----------------------------------
+    // Empilha um estado a mais. O primeiro "voltar" consome esse
+    // estado e cai no popstate em vez de sair da pagina.
+    //
+    // Deliberadamente NAO re-empilha depois de mostrar: o dialogo
+    // aparece uma vez e o voltar volta a funcionar. Prender a pessoa
+    // na pagina e o que faz o Chrome penalizar o site e o Meta
+    // reprovar o anuncio — alem de irritar quem quer sair.
+    if (history.pushState) {
+      try { history.pushState({ bk: 1 }, '', location.href); } catch (e) {}
+      window.addEventListener('popstate', function () {
+        if (aberto) { fecha(); return; }
+        if (!jaMostrou) {
+          abre('voltar');
+          try { history.pushState({ bk: 1 }, '', location.href); } catch (e) {}
+        }
+      });
+    }
+
+    // --- gatilho 2: mouse saindo pelo topo (so desktop) ------------
+    if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      document.addEventListener('mouseout', function (e) {
+        if (e.relatedTarget || e.clientY > 8) return;
+        abre('mouse');
+      });
+    }
+
+    // --- fechar ----------------------------------------------------
+    $('bkSair').addEventListener('click', fecha);
+    tela.addEventListener('click', function (e) { if (e.target === tela) fecha(); });
+    document.addEventListener('keydown', function (e) {
+      if (aberto && e.key === 'Escape') fecha();
+    });
+
+    b1.addEventListener('click', function () {
+      if (window.CAPI) CAPI.envia('Lead', { content_name: 'saida-grupo', source: origem });
+    });
+    b2.addEventListener('click', function () {
+      if (window.CAPI) CAPI.envia('SaidaCupons', { source: origem }, 'trackCustom');
+    });
+  })();
+
+
+  /* ---- prova: ofertas reais, puxadas do mesmo arquivo que alimenta /ofertas
+     Falha em silencio de proposito: a faixa e reforco, nunca pre-requisito.
+     Se o fetch cair, a pagina continua exatamente como era. */
+  (function () {
+    if (!CONFIG.provaOfertas) return;
+    try {
+      fetch('../ofertas.json', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (lista) {
+          if (!lista || !lista.length) return;
+          var brl = function (v) {
+            return 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          };
+          var html = lista.slice(0, 3).map(function (o) {
+            var off = o.desconto ? '<span class="prova-off">-' + Math.round(o.desconto) + '%</span>' : '';
+            var de  = o.precoDe ? '<span class="prova-de">' + esc(brl(o.precoDe)) + '</span>' : '';
+            var img = o.imagem ? '<img class="prova-foto" src="' + esc(o.imagem) + '" alt="" loading="lazy">'
+                               : '<div class="prova-foto"></div>';
+            return '<div class="prova-item">' + img +
+                     '<div class="prova-txt">' +
+                       '<div class="prova-nome">' + esc(o.produto || '') + '</div>' +
+                       '<div class="prova-precos">' + de +
+                         '<span class="prova-por">' + esc(brl(o.preco)) + '</span>' + off +
+                       '</div>' +
+                     '</div>' +
+                   '</div>';
+          }).join('');
+          $('provaLista').innerHTML = html;
+          $('prova').hidden = false;
+        })
+        .catch(function () {});
+    } catch (e) {}
+  })();
+
+
+  /* ---- aviso de entrada ---- */
+  (function () {
+    var cfg = CONFIG.aviso || {};
+    var nomes = (cfg.nomes || []).slice();
+    if (!cfg.ativo || !nomes.length) return;
+
+    var caixa = $('aviso');
+    /* Topo no iOS, rodape no resto — a convencao de cada plataforma. */
+    var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+              (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    caixa.classList.add(ios ? 'topo' : 'rodape');
+
+    // embaralha pra nao sair sempre na mesma ordem
+    for (var i = nomes.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = nomes[i]; nomes[i] = nomes[j]; nomes[j] = tmp;
+    }
+
+    var n = 0;
+    function mostra() {
+      if (n >= nomes.length) return;            // lista acabou: para de vez
+      $('avisoTxt').innerHTML = '<b>' + esc(nomes[n]) + '</b> ' + esc(cfg.texto || 'entrou no grupo');
+      n++;
+      caixa.classList.add('on');
+      setTimeout(function () {
+        caixa.classList.remove('on');
+        setTimeout(mostra, (cfg.intervalo || 6500) + Math.random() * 4000);
+      }, cfg.duracao || 4500);
+    }
+    setTimeout(mostra, cfg.primeiro || 3500);
+  })();
+
+  // ---- eventos ----
+  $('btn').addEventListener('click', function () {
+    if (window.CAPI) CAPI.envia('Lead', { content_name: 'entrar', source: origem });
+    if (window.ttq) ttq.track('ClickButton', { content_name: 'entrar' });
+  });
+  /* o link "Ver Cupons" saiu; o evento some junto */
+})();
+</script>
+
+</body>
+</html>
