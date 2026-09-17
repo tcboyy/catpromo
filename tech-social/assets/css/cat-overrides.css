@@ -84,3 +84,28 @@ h1, h2, .headline-xl, .display-5 { overflow-wrap: break-word; }
   height: 100%;
 }
 .kpis .kpi small { min-height: 2.4em; }
+
+/* ---- 3. CARDS DE OFERTA NO LUGAR DE PRINT DE CELULAR ------------
+   O `.phone-img` deles foi desenhado pra print de tela INTEIRA de
+   celular: 360x560 (proporcao 0,64), `object-fit: cover` e uma mascara
+   radial que apaga as bordas pra dar efeito de vinheta.
+
+   Os cards do CAT sao outra coisa: o balao da mensagem, proporcao ~0,84,
+   com a foto do produto em cima e o PRECO embaixo. Nas regras deles:
+
+     `cover` a 0,64 cortaria ~25% da largura — e o preco ("De R$ 1.400
+       por R$ 618") ocupa a largura toda, entao sairia picotado;
+     a mascara radial apagaria justamente o rodape do balao, que e onde
+       o preco esta.
+
+   Aqui a proporcao acompanha o card e a mascara sai. */
+
+.phone-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 27 / 32;
+  object-fit: cover;
+  -webkit-mask-image: none;
+  mask-image: none;
+  border-radius: 14px;
+}
