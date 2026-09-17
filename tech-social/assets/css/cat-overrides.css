@@ -120,6 +120,6 @@ h1, h2, .headline-xl, .display-5 { overflow-wrap: break-word; }
    o teto de 400px do media query de 576px passou a deixar a marca
    pequena demais. Solta um pouco. */
 .logo-wrap img {
-  max-width: min(100%, 460px) !important;
+  max-width: 100% !important;
   margin-inline: auto;
 }
