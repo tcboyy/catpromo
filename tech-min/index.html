@@ -635,11 +635,22 @@ var CONFIG = {
      margin-bottom de 14px, e o buraco aparece sem ninguem entender de onde vem. */
   if (CONFIG.subtitulo) { $('h2').textContent = CONFIG.subtitulo; }
   else { $('h2').style.display = 'none'; }
-  $('desc1').innerHTML    = esc(CONFIG.linha1) + '<span class="word-obrigatorio">' + esc(CONFIG.palavra1) + '</span>';
-  if (CONFIG.palavra2 || CONFIG.linha2) {
-    $('desc2').innerHTML  = '<span class="word-entrar">' + esc(CONFIG.palavra2) + '</span>' + esc(CONFIG.linha2);
-  } else {
-    $('desc2').parentNode.style.display = 'none';   // o <p> inteiro, nao so o texto
+  /* LP MINIMA: o bloco .lp-descricao foi removido do HTML, entao desc1 e
+     desc2 nao existem. Sem esta guarda, `$('desc1').innerHTML` lanca
+     TypeError em cima de null e MATA O RESTO DO SCRIPT — inclusive as
+     tres linhas logo abaixo, que sao o texto do botao, a linha fina e o
+     HREF do botao. Resultado: botao sem texto e sem link, exatamente o
+     bug de 13/09 (target=_blank) de novo, e a pagina nao reclama.
+     Nao apagar. Ver 06-ads/proximo-teste-lp-vs-direto.md, braco B. */
+  if ($('desc1')) {
+    $('desc1').innerHTML  = esc(CONFIG.linha1) + '<span class="word-obrigatorio">' + esc(CONFIG.palavra1) + '</span>';
+  }
+  if ($('desc2')) {
+    if (CONFIG.palavra2 || CONFIG.linha2) {
+      $('desc2').innerHTML = '<span class="word-entrar">' + esc(CONFIG.palavra2) + '</span>' + esc(CONFIG.linha2);
+    } else {
+      $('desc2').parentNode.style.display = 'none';
+    }
   }
   $('btnTxt').textContent = CONFIG.textoBotao;
   $('fino').textContent   = CONFIG.textoFino;
