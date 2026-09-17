@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://connect.facebook.net https://analytics.tiktok.com; connect-src 'self' https://*.facebook.com https://analytics.tiktok.com https://cat-capi.catpromo.workers.dev https://capi.linkdapromo.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script>
+/* Anti-clickjacking. O GitHub Pages nao permite definir cabecalho
+   X-Frame-Options, e frame-ancestors so vale como cabecalho real —
+   dentro de <meta> o navegador ignora. Entao a quebra de moldura
+   precisa ser feita aqui. */
+if (window.top !== window.self) {
+  try { window.top.location = window.self.location; }
+  catch (e) { document.documentElement.style.display = 'none'; }
+}
+</script>
+<title>CAT TECH PROMO — ofertas de tech todo dia</title>
+<meta name="description" content="Ofertas de tech conferidas, todo dia: placa de vídeo, monitor, processador e periférico.">
+<meta name="theme-color" content="#121212">
+<link rel="icon" href="../cat-logo.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="CAT TECH PROMO">
+<meta property="og:description" content="Ofertas de tech conferidas, todo dia.">
+<meta property="og:image" content="https://linkdapromo.com/cat-logo.png">
+
+<link rel="preload" href="../fontes/montserrat.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- DOIS conjuntos de dados, de proposito (17/09/2026).
+     1404403115150528 — pixel pessoal. E quem atribui a onda 1, que rodou na
+       conta de anuncios pessoal. So navegador: o token de CAPI nao alcanca ele
+       (token e escopado por conjunto — testado e recusado com code 100).
+     1772413697427356 — CAT TECH PROMO web, nasceu no portfolio Cat grupos.
+       Recebe navegador + CAPI. E o que sobrevive a migracao pra conta nova.
+     O event_id e o mesmo nos dois caminhos, entao a Meta deduplica no novo e
+     o velho recebe so o do navegador. Nenhum conta em dobro.
+     Quando a onda 1 sair do ar de vez, o velho pode ser removido daqui. -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1404403115150528');
+fbq('init','1772413697427356');
+</script>
+
+<script src="../capi.js"></script>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></noscript>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
+<!-- ==================================================================
+     LP LONGA — braço C do teste de estrutura (17/09/2026).
+
+     Clone da ESTRUTURA de ofertasgamer.com.br/social, que está escalada
+     no mesmo nicho. Bootstrap/Inter deles trocados por CSS próprio e
+     fonte de sistema: o CSP desta página é `font-src 'self'` e
+     `default-src 'none'`, então CDN externo não carregaria — e página de
+     anúncio não deve depender de terceiro pra pintar.
+
+     🔴 O QUE NÃO FOI CLONADO, DE PROPÓSITO: os depoimentos e os prints de
+     oferta deles. São conversas de pessoas reais elogiando OUTRA empresa.
+     As seções estão montadas e VAZIAS, marcadas como placeholder — ver
+     data-placeholder nos blocos. Preencher só com print do próprio grupo.
+     Mesma regra da decisão 13 em 00-estrategia/decisoes.md.
+
+     Pixel, CAPI e rotador idênticos aos de /tech/ e /tech-min/.
+     ================================================================== -->
+
+<style>
+:root{
+  --fundo:#0A1B2E; --fundo2:#0D2137; --card:rgba(255,255,255,.05);
+  --borda:rgba(255,255,255,.10); --txt:#E8EDF4; --txt2:rgba(232,237,244,.62);
+  --acao:#25D366; --acao2:#1EA952; --realce:#F5A524;
+  --fonte:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--fundo);color:var(--txt);font-family:var(--fonte);line-height:1.6;
+  -webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* ---- topo ---- */
+.topo{position:sticky;top:0;z-index:50;background:rgba(10,27,46,.88);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--borda)}
+.topo .wrap{display:flex;align-items:center;gap:14px;height:62px}
+.marca{display:flex;align-items:center;gap:9px;font-weight:800;letter-spacing:-.01em}
+.marca img{width:32px;height:32px;border-radius:50%;border:2px solid var(--acao)}
+.topo nav{margin-left:auto;display:flex;align-items:center;gap:22px;font-size:.9rem}
+.topo nav a{color:var(--txt2)}
+.topo nav a:hover{color:var(--txt)}
+.btn-topo{background:var(--acao);color:#062B16;padding:8px 16px;border-radius:99px;
+  font-weight:800;font-size:.85rem}
+@media(max-width:640px){.topo nav .some{display:none}}
+
+/* ---- botoes ---- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:15px 26px;border-radius:99px;font-weight:800;font-size:1rem;
+  border:1px solid transparent;cursor:pointer;transition:transform .15s,filter .15s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.07)}
+.btn-acao{background:var(--acao);color:#062B16;box-shadow:0 10px 28px rgba(37,211,102,.28)}
+.btn-fantasma{background:transparent;color:var(--txt);border-color:var(--borda)}
+.btn svg{width:20px;height:20px;fill:currentColor}
+.btn-g{padding:17px 34px;font-size:1.06rem}
+
+/* ---- hero ---- */
+.hero{position:relative;padding:74px 0 58px;text-align:center;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(900px 420px at 50% -10%,rgba(37,211,102,.16),transparent 70%);
+  pointer-events:none}
+.hero .wrap{position:relative}
+.selo-topo{display:inline-flex;align-items:center;gap:7px;font-size:.76rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:.06em;color:var(--txt2);
+  background:var(--card);border:1px solid var(--borda);padding:7px 15px;border-radius:99px;
+  margin-bottom:22px}
+.selo-topo svg{width:14px;height:14px;fill:var(--acao)}
+h1{font-size:clamp(2rem,6.2vw,3.35rem);line-height:1.1;font-weight:900;letter-spacing:-.025em}
+h1 em{font-style:normal;color:var(--realce)}
+.hero p.sub{margin:18px auto 30px;max-width:610px;color:var(--txt2);font-size:1.06rem}
+.acoes{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.hero .fino{margin-top:16px;font-size:.8rem;color:var(--txt2)}
+
+/* ---- contadores ---- */
+.numeros{border-top:1px solid var(--borda);border-bottom:1px solid var(--borda);
+  background:var(--fundo2);padding:34px 0}
+.numeros .grade{display:grid;grid-template-columns:1fr 1fr;gap:18px;text-align:center}
+.numeros b{display:block;font-size:clamp(1.7rem,5.5vw,2.5rem);font-weight:900;
+  color:var(--realce);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.numeros span{font-size:.85rem;color:var(--txt2)}
+
+/* ---- secoes ---- */
+section{padding:62px 0}
+.titulo-sec{text-align:center;margin-bottom:38px}
+.titulo-sec h2{font-size:clamp(1.5rem,4.2vw,2.05rem);font-weight:900;letter-spacing:-.02em}
+.titulo-sec p{color:var(--txt2);margin-top:9px;font-size:.98rem}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--borda);border-radius:16px;padding:26px 22px}
+.card .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
+  background:rgba(37,211,102,.12);margin-bottom:15px}
+.card .ico svg{width:22px;height:22px;fill:var(--acao)}
+.card h3{font-size:1.06rem;font-weight:800;margin-bottom:7px}
+.card p{color:var(--txt2);font-size:.93rem}
+
+/* ---- carrossel ---- */
+.carrossel{position:relative}
+.trilho{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding-bottom:10px;scrollbar-width:none}
+.trilho::-webkit-scrollbar{display:none}
+.slide{flex:0 0 clamp(230px,72vw,300px);scroll-snap-align:center;
+  background:var(--card);border:1px solid var(--borda);border-radius:16px;overflow:hidden}
+.slide img{width:100%;aspect-ratio:9/16;object-fit:cover}
+.vazio{display:grid;place-items:center;text-align:center;padding:34px 20px;
+  aspect-ratio:9/16;color:var(--txt2);font-size:.86rem;
+  border:1.5px dashed var(--borda);border-radius:16px;background:rgba(255,255,255,.02)}
+.vazio strong{display:block;color:var(--realce);font-weight:800;margin-bottom:8px;font-size:.95rem}
+.setas{display:flex;gap:9px;justify-content:center;margin-top:16px}
+.setas button{width:38px;height:38px;border-radius:50%;background:var(--card);
+  border:1px solid var(--borda);color:var(--txt);cursor:pointer;font-size:1.05rem;line-height:1}
+.setas button:hover{background:rgba(255,255,255,.1)}
+
+/* ---- faq ---- */
+.faq{max-width:760px;margin:0 auto}
+.faq details{background:var(--card);border:1px solid var(--borda);border-radius:13px;
+  padding:17px 20px;margin-bottom:11px}
+.faq summary{font-weight:700;cursor:pointer;list-style:none;display:flex;
+  justify-content:space-between;gap:14px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';color:var(--realce);font-weight:900;font-size:1.3rem;flex:none}
+.faq details[open] summary::after{content:'–'}
+.faq p{color:var(--txt2);font-size:.93rem;margin-top:12px}
+
+/* ---- cta final ---- */
+.final{text-align:center;background:var(--fundo2);border-top:1px solid var(--borda)}
+.final h2{font-size:clamp(1.55rem,4.6vw,2.2rem);font-weight:900;letter-spacing:-.02em}
+.final p{color:var(--txt2);margin:13px auto 28px;max-width:520px}
+
+footer{border-top:1px solid var(--borda);padding:30px 0 38px;text-align:center;
+  color:var(--txt2);font-size:.82rem}
+footer .cnpj{margin-top:7px;font-size:.76rem;opacity:.75}
+</style>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="#topo">
+      <img src="../cat-logo.png" alt="">CAT TECH PROMO
+    </a>
+    <nav>
+      <a class="some" href="#ofertas">Ofertas</a>
+      <a class="some" href="#depoimentos">Depoimentos</a>
+      <a class="some" href="#faq">Dúvidas</a>
+      <a class="btn-topo" href="#" data-entrar>Entrar</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+
+  <section class="hero">
+    <div class="wrap">
+      <span class="selo-topo">
+        <svg viewBox="0 0 24 24"><path d="M9.55 17.6 4.4 12.45l1.5-1.5 3.65 3.65 8.55-8.55 1.5 1.5z"/></svg>
+        Grupo oficial · CNPJ ativo
+      </span>
+      <h1>As melhores ofertas do <em>MUNDO TECH</em>, todo dia</h1>
+      <p class="sub">A gente passa o dia caçando oferta de tech pra você não precisar.
+        Placa de vídeo, monitor, periférico — só o que tem desconto real.</p>
+      <div class="acoes">
+        <a class="btn btn-acao btn-g" href="#" data-entrar>
+          <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm4.52 13.99c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+          ENTRAR NO GRUPO
+        </a>
+      </div>
+      <p class="fino">Sem taxa, sem cadastro. É só entrar.</p>
+    </div>
+  </section>
+
+  <!-- PLACEHOLDER 1 de 3 — contadores.
+       A referência anima "R$ X economizado" e "N pessoas nos grupos".
+       Os dois números TÊM que ser reais: o painel sabe o total de membros
+       e o 02-ofertas/ofertas.csv sabe o desconto acumulado. Enquanto não
+       vierem do operador, ficam com rótulo honesto em vez de número falso. -->
+  <section class="numeros" data-placeholder="contadores">
+    <div class="wrap">
+      <div class="grade">
+        <div><b data-num="0" data-prefixo="R$ ">—</b><span>Economia gerada no grupo</span></div>
+        <div><b data-num="0">—</b><span>Pessoas nos grupos</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="titulo-sec">
+        <h2>Por que entrar</h2>
+        <p>Três motivos, sem enrolação.</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M13 2 4.5 13.5H11l-1 8.5 8.5-11.5H12z"/></svg></div>
+          <h3>Oferta boa some rápido</h3>
+          <p>Preço de hardware cai no meio da tarde e volta antes de você ver. O aviso chega na hora, não no dia seguinte.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 10.6V6h-2v7.4l5.2 3.1 1-1.7z"/></svg></div>
+          <h3>Preço conferido</h3>
+          <p>Antes de postar, a gente olha o histórico. "Desconto" em cima de preço inflado não entra.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2Zm-10-2h4v2h-4z"/></svg></div>
+          <h3>Só tech</h3>
+          <p>Placa de vídeo, processador, monitor, periférico. Nada de panela em promoção no meio do caminho.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLACEHOLDER 2 de 3 — prints de oferta.
+       A referência mostra print das promoções postadas nos grupos DELES.
+       Aqui entram prints do CAT TECH PROMO, nenhum outro. Trocar cada
+       .vazio por <div class="slide"><img src="../provas/oferta-N.jpg" alt=""></div> -->
+  <section id="ofertas" data-placeholder="prints-de-oferta">
+    <div class="wrap">
+      <div class="titulo-sec">
+        <h2>Ofertas recentes</h2>
+        <p>Prints das promoções postadas no grupo.</p>
+      </div>
+      <div class="carrossel">
+        <div class="trilho" id="trilho1">
+          <div class="slide"><div class="vazio"><strong>Falta print de oferta</strong>Mandar 3 a 6 prints de ofertas postadas no grupo.</div></div>
+          <div class="slide"><div class="vazio"><strong>Falta print de oferta</strong>Preço riscado + preço final aparecendo.</div></div>
+          <div class="slide"><div class="vazio"><strong>Falta print de oferta</strong>De preferência hardware com desconto grande.</div></div>
+        </div>
+        <div class="setas"><button data-rola="trilho1" data-dir="-1">‹</button><button data-rola="trilho1" data-dir="1">›</button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLACEHOLDER 3 de 3 — depoimentos.
+       🔴 NUNCA colar depoimento de outra operação aqui. Só print de
+       conversa do PRÓPRIO grupo, e com o rosto/telefone tapado.
+       Ver decisão 13 em 00-estrategia/decisoes.md. -->
+  <section id="depoimentos" data-placeholder="depoimentos">
+    <div class="wrap">
+      <div class="titulo-sec">
+        <h2>Quem já economizou</h2>
+        <p>Prints reais de quem está no grupo.</p>
+      </div>
+      <div class="carrossel">
+        <div class="trilho" id="trilho2">
+          <div class="slide"><div class="vazio"><strong>Falta depoimento</strong>Print de membro do SEU grupo dizendo que comprou.</div></div>
+          <div class="slide"><div class="vazio"><strong>Falta depoimento</strong>Tapar telefone e foto antes de subir.</div></div>
+          <div class="slide"><div class="vazio"><strong>Falta depoimento</strong>Sem print, esta seção sai do ar — não se inventa.</div></div>
+        </div>
+        <div class="setas"><button data-rola="trilho2" data-dir="-1">‹</button><button data-rola="trilho2" data-dir="1">›</button></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="titulo-sec"><h2>Perguntas rápidas</h2></div>
+      <div class="faq">
+        <details open><summary>Vocês vendem alguma coisa?</summary>
+          <p>Não. A gente acha a promoção e manda o link da loja. Você compra direto com ela, pagando pra ela. Somos caçadores de oferta, não loja.</p></details>
+        <details><summary>Quais lojas vocês acompanham?</summary>
+          <p>Kabum, Terabyte, Pichau, Amazon, Mercado Livre, AliExpress, Shopee, Magazine Luiza — as grandes do Brasil, desde que o link seja confiável.</p></details>
+        <details><summary>Quanto custa entrar?</summary>
+          <p>Nada. Sem taxa, sem cadastro, sem pedir seus dados. É só entrar no grupo.</p></details>
+        <details><summary>Vai lotar meu WhatsApp de mensagem?</summary>
+          <p>Não. Só entra o que passou pela conferência de preço. Grupo de oferta morre por volume demais, e a gente sabe disso.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="wrap">
+      <h2>Pronto para economizar?</h2>
+      <p>Entra agora e recebe as próximas antes de esgotar.</p>
+      <a class="btn btn-acao btn-g" href="#" data-entrar>ENTRAR NO GRUPO DO WHATSAPP</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    © <span id="ano"></span> CAT TECH PROMO · Todos os direitos reservados
+    <div class="cnpj">PXC SERVIÇOS DE VENDAS ONLINE LTDA</div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ROTADOR, não link de convite direto — mesmo motivo da /tech/:
+     grupo do WhatsApp lota em 1.024 e o convite morre sem avisar. */
+  var LINK = 'https://ir.linkdapromo.com/entrar?n=tech';
+
+  /* Repassa ?c= e fbclid pro rotador. Sem isso o teste A/B/C/D não separa
+     nada: os cliques dos quatro braços chegam iguais no rotador. */
+  function comCampanha(url) {
+    try {
+      var q = new URLSearchParams(location.search), extra = [];
+      var c = (q.get('c') || q.get('utm_campaign') || '').slice(0, 40);
+      if (c) extra.push('c=' + encodeURIComponent(c));
+      var fb = (q.get('fbclid') || '').slice(0, 255);
+      if (fb) extra.push('fbclid=' + encodeURIComponent(fb));
+      if (!extra.length) return url;
+      return url + (url.indexOf('?') === -1 ? '?' : '&') + extra.join('&');
+    } catch (e) { return url; }
+  }
+
+  var destino = comCampanha(LINK);
+  var botoes = document.querySelectorAll('[data-entrar]');
+  for (var i = 0; i < botoes.length; i++) botoes[i].href = destino;
+
+  /* Lead no clique, com event_id compartilhado entre pixel e CAPI.
+     IDÊNTICO ao da /tech/ — se divergir, o braço C não é comparável. */
+  for (var j = 0; j < botoes.length; j++) {
+    botoes[j].addEventListener('click', function () {
+      if (window.CAPI) CAPI.envia('Lead', { content_name: 'entrar', source: 'lp-social' });
+    });
+  }
+
+  document.getElementById('ano').textContent = new Date().getFullYear();
+
+  /* setas do carrossel */
+  var setas = document.querySelectorAll('[data-rola]');
+  for (var k = 0; k < setas.length; k++) {
+    setas[k].addEventListener('click', function () {
+      var t = document.getElementById(this.getAttribute('data-rola'));
+      var d = parseInt(this.getAttribute('data-dir'), 10);
+      t.scrollBy({ left: d * (t.clientWidth * 0.8), behavior: 'smooth' });
+    });
+  }
+
+  /* Contadores: só animam se data-num for maior que zero. Enquanto o
+     operador não passar os números reais, fica o travessão — número
+     inventado em contador é o tipo de mentira que não se desfaz. */
+  var nums = document.querySelectorAll('[data-num]');
+  for (var n = 0; n < nums.length; n++) {
+    (function (el) {
+      var alvo = parseInt(el.getAttribute('data-num'), 10) || 0;
+      if (alvo <= 0) return;
+      var pre = el.getAttribute('data-prefixo') || '', ini = null;
+      function passo(t) {
+        if (!ini) ini = t;
+        var p = Math.min((t - ini) / 1400, 1);
+        el.textContent = pre + Math.floor(alvo * (1 - Math.pow(1 - p, 3))).toLocaleString('pt-BR');
+        if (p < 1) requestAnimationFrame(passo);
+      }
+      requestAnimationFrame(passo);
+    })(nums[n]);
+  }
+})();
+</script>
