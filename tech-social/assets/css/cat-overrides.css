@@ -54,3 +54,33 @@ img, svg, video, iframe { max-width: 100%; }
 
 /* titulo grande quebra em vez de cortar */
 h1, h2, .headline-xl, .display-5 { overflow-wrap: break-word; }
+
+/* ---- 2. OS DOIS NUMEROS DA FAIXA DE KPI ALINHADOS ---------------
+   Sintoma: no celular o bloco da esquerda descia em relacao ao da
+   direita.
+
+   Causa: `.counter` tem `font-size: 2.8rem` FIXO, sem media query.
+   No desktop tudo bem; num aparelho de 390px, "R$ 18.458.958,02" nesse
+   corpo nao cabe na coluna e quebra em duas linhas — enquanto o numero
+   de membros, curto, fica em uma. Duas alturas diferentes lado a lado =
+   desalinhamento.
+
+   Correcao em duas partes: o corpo passa a acompanhar a largura da tela,
+   e o numero fica proibido de quebrar. Se ainda assim faltar espaco,
+   o proprio clamp ja o deixou pequeno o bastante. */
+
+.kpis .counter {
+  font-size: clamp(1.45rem, 6.6vw, 2.8rem);
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+/* mesma linha de base pros dois blocos, com ou sem quebra no rotulo */
+.kpis .kpi > .text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+.kpis .kpi small { min-height: 2.4em; }
