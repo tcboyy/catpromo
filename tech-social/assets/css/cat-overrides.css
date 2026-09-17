@@ -109,3 +109,17 @@ h1, h2, .headline-xl, .display-5 { overflow-wrap: break-word; }
   mask-image: none;
   border-radius: 14px;
 }
+
+/* ---- 4. BANNER DO HERO AGORA E SO A MARCA ----------------------
+   Os dois celulares sairam. Motivo registrado no commit: num banner de
+   390px no celular, cada aparelho fica com ~90px de largura, e nesse
+   tamanho nada dentro da tela le. Seis tentativas de enquadramento
+   depois, a conclusao foi que o problema era a ideia, nao o corte.
+
+   Sem os aparelhos a imagem ficou mais larga que alta na area util, e
+   o teto de 400px do media query de 576px passou a deixar a marca
+   pequena demais. Solta um pouco. */
+.logo-wrap img {
+  max-width: min(100%, 460px) !important;
+  margin-inline: auto;
+}
