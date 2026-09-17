@@ -123,3 +123,21 @@ h1, h2, .headline-xl, .display-5 { overflow-wrap: break-word; }
   max-width: 100% !important;
   margin-inline: auto;
 }
+
+/* ---- 5. MOCKUP DOS APARELHOS ENTRE O BOTAO E OS NUMEROS ---------
+   No banner do topo os dois aparelhos dividiam espaco com a marca e
+   sobravam ~90px de largura pra cada um — nada dentro da tela lia.
+   Aqui embaixo cada um fica com quase metade da largura do conteudo, e
+   o preco da oferta volta a ser legivel.
+
+   `max-width` segura o tamanho no desktop: sem isso a imagem de 1280px
+   estica e os aparelhos ficam maiores que o resto da pagina. */
+.cat-mockups {
+  text-align: center;
+}
+.cat-mockups img {
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  margin-inline: auto;
+}
