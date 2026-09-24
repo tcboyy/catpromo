@@ -48,6 +48,43 @@ window.CAPI = (function () {
     catch (e) { return ''; }
   }
 
+  /*
+   * ID DO VISITANTE — o unico identificador de PESSOA que este funil tem.
+   *
+   * Em 24/09/2026 a nota de correspondencia do `Lead` estava em 5.9/10. Os
+   * quatro sinais que a gente mandava — ip, user agent, _fbp e _fbc — sao todos
+   * de NAVEGADOR: a Meta usa, mas nenhum deles diz "esta e a fulana". Por isso
+   * a nota nao passa da metade por mais parametro de browser que se mande.
+   *
+   * A saida obvia seria pedir e-mail, e ela esta DESCARTADA de proposito: a
+   * pagina inteira existe pra levar do anuncio ao grupo em um clique, e botar
+   * formulario no meio troca conversao de verdade por nota de painel.
+   *
+   * Entao fica isto: um id aleatorio, gravado uma vez, estavel enquanto o
+   * navegador guardar. Nao identifica ninguem pra nos — e nao precisa. Serve pra
+   * Meta reconhecer que dois eventos sao da MESMA pessoa, que e exatamente o que
+   * falta na conta hoje. Vai com hash no Worker, nunca cru.
+   *
+   * localStorage E NAO cookie: cookie de primeira parte em Safari morre em 7
+   * dias (ITP), e o ciclo de decisao aqui passa disso. Se o navegador bloquear
+   * storage (aba anonima, ITP agressivo), a funcao devolve '' e o campo some —
+   * o evento continua saindo com o que tem.
+   */
+  var CHAVE_VISITANTE = 'cat_vid';
+
+  function visitante() {
+    try {
+      var v = localStorage.getItem(CHAVE_VISITANTE);
+      if (!v) {
+        v = (crypto && crypto.randomUUID)
+          ? crypto.randomUUID()
+          : String(Date.now()) + '-' + Math.random().toString(36).slice(2);
+        localStorage.setItem(CHAVE_VISITANTE, v);
+      }
+      return v;
+    } catch (e) { return ''; }
+  }
+
   /* `atraso` existe por um motivo so: o pixel grava os cookies _fbp e _fbc de
      forma assincrona, depois que o fbevents.js carrega. Mandar o PageView pro
      Worker no mesmo instante chega sem os dois e derruba a correspondencia do
@@ -72,6 +109,7 @@ window.CAPI = (function () {
             fbp:      cookie('_fbp'),
             fbc:      cookie('_fbc'),
             fbclid:   param('fbclid'),   // o Worker monta o _fbc se o cookie ainda nao existir
+            external_id: visitante(),
             dados:    dados || {}
           })
         }).catch(function () {});
