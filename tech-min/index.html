@@ -465,7 +465,11 @@ var CONFIG = {
      Meta denunciaria. O rotador manda pro proximo grupo com vaga e conta o
      clique — o degrau anterior a entrada, que o Meta nao mede.
      Codigo: 08-site/rotador/ */
-  link: 'https://ir.linkdapromo.com/entrar?n=tech',   // ?c= vem da URL do anuncio
+  /* ?lp=min identifica o LAYOUT (braco B). Separado do ?c=, que e a campanha:
+     esta pagina ja recebeu trafego de duas (R2-lpB e L1-lead), e a pergunta
+     "a pagina minima converte melhor?" precisa das duas somadas. O referer nao
+     serve — chega sem caminho por ser outra origem. Ver /aquisicao. */
+  link: 'https://ir.linkdapromo.com/entrar?n=tech&lp=min',   // ?c= vem da URL do anuncio
 
 
   /* ---- faixa de ofertas ----

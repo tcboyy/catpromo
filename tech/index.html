@@ -461,8 +461,18 @@ var CONFIG = {
      direto, o anuncio continuaria gastando num link morto e nada no painel do
      Meta denunciaria. O rotador manda pro proximo grupo com vaga e conta o
      clique — o degrau anterior a entrada, que o Meta nao mede.
-     Codigo: 08-site/rotador/ */
-  link: 'https://ir.linkdapromo.com/entrar?n=tech',
+     Codigo: 08-site/rotador/
+
+     ?lp=completa — QUAL LAYOUT trouxe o clique, e nao qual campanha.
+     Sem isto nao da pra saber: o rotador mora em ir.linkdapromo.com e esta
+     pagina em linkdapromo.com, e navegacao entre origens diferentes chega la
+     sem o caminho da URL (strict-origin-when-cross-origin, padrao de todo
+     navegador). Conferido no banco em 24/09/2026: so 'https://linkdapromo.com/'
+     aparece no Referer, nunca '/tech'.
+     Fica FORA do ?c= de proposito — o ?c= e a campanha, e duas campanhas podem
+     apontar pra esta mesma pagina. Ver a tabela "Por pagina de destino"
+     em /aquisicao. */
+  link: 'https://ir.linkdapromo.com/entrar?n=tech&lp=completa',
 
 
   /* ---- faixa de ofertas ----
