@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-10-27 20:05:46",
+ "atualizado": "2026-10-27 20:36:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20377",
+   "plataforma": "mercadolivre",
+   "produto": "Processador Amd Ryzen 7 5700, 8-cores 16-threads 3.7ghz Am4",
+   "loja": "",
+   "preco": 891.1,
+   "precoDe": 1279.0,
+   "precoComCupom": null,
+   "desconto": 30,
+   "cupom": "SEMDEMORA",
+   "cupomTexto": "",
+   "url": "https://meli.la/1pEeTav",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_686695-MLB112974394362_072026-O.webp",
+   "emoji": "📦",
+   "visto": "2026-10-27 20:36:21"
+  },
+  {
+   "id": "p21205",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Arrow H858 Preto",
+   "loja": "",
+   "preco": 314.68,
+   "precoDe": 349.9,
+   "precoComCupom": null,
+   "desconto": 10,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2zofpLU",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_817338-MLA95369769233_102025-O.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-27 20:24:24"
+  },
+  {
+   "id": "p15306",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F",
+   "loja": "",
+   "preco": 719.1,
+   "precoDe": 1284.0,
+   "precoComCupom": 632.0,
+   "desconto": 44,
+   "cupom": "HOJETECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2qHZaoU",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_922246-MLA99988034526_122025-O.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-27 20:12:33"
+  },
   {
    "id": "p20987",
    "plataforma": "mercadolivre",
@@ -545,22 +593,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-O.webp",
    "emoji": "🎧",
    "visto": "2026-10-27 16:38:06"
-  },
-  {
-   "id": "p20377",
-   "plataforma": "mercadolivre",
-   "produto": "Processador Amd Ryzen 7 5700, 8-cores 16-threads 3.7ghz Am4",
-   "loja": "",
-   "preco": 891.1,
-   "precoDe": 1279.0,
-   "precoComCupom": null,
-   "desconto": 30,
-   "cupom": "SEMDEMORA",
-   "cupomTexto": "",
-   "url": "https://meli.la/1pEeTav",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_686695-MLB112974394362_072026-O.webp",
-   "emoji": "📦",
-   "visto": "2026-10-27 16:36:22"
   },
   {
    "id": "p21196",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_898286-MLA95664298408_102025-O.webp",
    "emoji": "🖱️",
    "visto": "2026-10-27 12:52:23"
-  },
-  {
-   "id": "p21096",
-   "plataforma": "mercadolivre",
-   "produto": "Kit Upgrade Gamer Amd Ryzen 5 5500 + B450m + 16gb Ddr4 Cor Preto",
-   "loja": "",
-   "preco": 1732.0,
-   "precoDe": 2090.0,
-   "precoComCupom": null,
-   "desconto": 17,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1HkcerJ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914077-MLA109770835437_032026-O.webp",
-   "emoji": "📦",
-   "visto": "2026-10-27 12:45:26"
-  },
-  {
-   "id": "p21186",
-   "plataforma": "mercadolivre",
-   "produto": "Memoria Adata Xpg Lancer Blade, Rgb, 8gb (1x8gb), Ddr5, 5600",
-   "loja": "",
-   "preco": 1358.0,
-   "precoDe": 1678.0,
-   "precoComCupom": null,
-   "desconto": 19,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1FutkXQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_763561-MLA99449654044_112025-O.webp",
-   "emoji": "💾",
-   "visto": "2026-10-27 12:37:41"
   }
  ]
 }
