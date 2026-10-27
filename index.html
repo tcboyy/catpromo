@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://connect.facebook.net https://analytics.tiktok.com; connect-src 'self' https://*.facebook.com https://analytics.tiktok.com https://cat-capi.catpromo.workers.dev https://capi.linkdapromo.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -16,8 +16,26 @@ if (window.top !== window.self) {
   catch (e) { document.documentElement.style.display = 'none'; }
 }
 </script>
+<!--
+  A VITRINE (27/10/2026). Esta pagina era so um cartao com o botao do canal, e
+  foi ela que a Amazon abriu pra reprovar a conta: "ofertas minimas, vencidas
+  ou invalidas" e nenhum link com ID de rastreamento. A KaBuM recusou pelo
+  mesmo motivo em 15/10. Agora a raiz mostra as ofertas que estao valendo.
+
+  QUEM ALIMENTA: /ofertas.json, escrito pela VPS de meia em meia hora
+  (09-saas/painel/ferramentas/vitrine/publicar.py). NAO edite o json a mao —
+  a proxima rodada sobrescreve. Oferta com mais de 24 h sai da lista la e,
+  por garantia, aqui tambem (se a VPS parar, a pagina nao mostra preco velho).
+-->
 <title>CAT TECH PROMO — Ofertas de tecnologia</title>
-<meta name="description" content="Curadoria diária de ofertas de tecnologia: periféricos, componentes, celulares e acessórios.">
+<meta name="description" content="Ofertas de tecnologia conferidas hoje: perif&eacute;ricos, componentes, celulares e acess&oacute;rios, com pre&ccedil;o, data e hora da checagem.">
+<meta name="theme-color" content="#0b141a">
+<link rel="icon" href="/cat-logo.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="CAT TECH PROMO">
+<meta property="og:description" content="Ofertas de tecnologia conferidas hoje, com pre&ccedil;o, data e hora.">
+<meta property="og:image" content="https://linkdapromo.com/cat-logo.png">
 
 <!-- DOIS conjuntos de dados, de proposito (17/09/2026).
      1404403115150528 — pixel pessoal. E quem atribui a onda 1, que rodou na
@@ -43,49 +61,408 @@ src="https://www.facebook.com/tr?id=1404403115150528&ev=PageView&noscript=1"></n
 src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></noscript>
 <!-- End Meta Pixel Code -->
 
-<script src="capi.js"></script>
-<!-- End Meta Pixel Code -->
+<script src="/capi.js"></script>
+
 <style>
-  :root{
-    --bg:#0d0f14; --card:#151922; --line:#232838;
-    --txt:#f2f4f8; --dim:#98a1b5; --accent:#ff7a1a;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    background:var(--bg); color:var(--txt);
-    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-    min-height:100vh; display:grid; place-items:center; padding:24px;
-  }
-  .card{
-    background:var(--card); border:1px solid var(--line); border-radius:20px;
-    padding:40px 28px; max-width:420px; width:100%; text-align:center;
-  }
-  .logo{
-    width:88px;height:88px;border-radius:22px;margin:0 auto 22px;
-    background:var(--accent); display:grid; place-items:center; font-size:44px;
-  }
-  h1{font-size:26px; letter-spacing:-.02em; margin-bottom:10px}
-  h1 span{color:var(--accent)}
-  p{color:var(--dim); font-size:15px; margin-bottom:26px}
-  a.cta{
-    display:block; background:var(--accent); color:#0d0f14; font-weight:700;
-    text-decoration:none; padding:15px; border-radius:12px; font-size:16px;
-  }
-  a.cta:hover{filter:brightness(1.08)}
-  footer{margin-top:26px; font-size:12px; color:#5c6478; line-height:1.7}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  /* paleta oficial do WhatsApp (modo escuro) */
+  --bg:#0b141a; --panel:#111b21; --card:#202c33; --line:#22303c;
+  --ink:#e9edef; --dim:#8696a0; --faint:#667781;
+  --green:#25d366; --green2:#00a884; --blue:#53bdeb;
+  --wrap:560px;
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg);color:var(--ink);
+  font:400 16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 16px}
+section{padding:34px 0}
+a{color:inherit}
+
+/* ---------- barra ---------- */
+.bar{position:sticky;top:0;z-index:30;background:var(--panel);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;gap:11px;padding:10px 16px}
+.bar img{width:34px;height:34px;border-radius:50%;object-fit:cover;display:block}
+.bar .who b{display:block;font-size:14.5px;font-weight:600;line-height:1.25}
+.bar .who i{display:block;font-style:normal;font-size:11.5px;color:var(--dim)}
+.bar .pill{
+  margin-left:auto;font-size:10.5px;font-weight:700;letter-spacing:.06em;color:var(--green);
+  border:1px solid rgba(37,211,102,.35);background:rgba(37,211,102,.1);padding:4px 9px;border-radius:999px;
+  text-decoration:none;white-space:nowrap;
+}
+
+/* ---------- hero ---------- */
+.hero{padding:30px 0 4px;text-align:center}
+.tag{
+  display:inline-block;padding:5px 12px;border-radius:999px;margin-bottom:14px;
+  background:rgba(37,211,102,.11);border:1px solid rgba(37,211,102,.34);
+  color:var(--green);font-size:11.5px;font-weight:700;letter-spacing:.09em;
+}
+h1{font-size:clamp(27px,8vw,36px);line-height:1.12;letter-spacing:-.022em;font-weight:800}
+h1 em{font-style:normal;color:var(--green)}
+.sub{margin-top:12px;color:var(--dim);font-size:15.5px;line-height:1.5}
+.sub b{color:var(--ink);font-weight:600}
+
+/* ---------- cta ---------- */
+.cta{
+  display:flex;align-items:center;justify-content:center;gap:9px;width:100%;
+  padding:15px 20px;margin-top:18px;background:var(--green);color:#0a2318;
+  font-size:16px;font-weight:800;letter-spacing:-.01em;border:0;border-radius:999px;
+  text-decoration:none;box-shadow:0 8px 26px rgba(37,211,102,.22);
+  transition:transform .12s ease,background .12s ease;font-family:inherit;cursor:pointer;
+}
+.cta:active{transform:translateY(1px);background:#1fbb5a}
+.cta svg{width:20px;height:20px;flex:0 0 auto}
+.under{margin-top:10px;font-size:12.5px;color:var(--faint)}
+
+/* ---------- catalogo ---------- */
+.head{display:flex;align-items:baseline;gap:9px;margin-bottom:4px}
+h2{font-size:21px;line-height:1.25;letter-spacing:-.02em;font-weight:800}
+.count{font-size:12px;color:var(--faint);margin-left:auto;white-space:nowrap}
+.lead{color:var(--dim);font-size:13.5px;margin-bottom:18px}
+
+.grid{display:grid;gap:12px}
+.of{
+  background:var(--card);border:1px solid var(--line);border-radius:14px;
+  overflow:hidden;display:grid;grid-template-columns:96px 1fr;
+}
+.of .ph{
+  background:#fff;display:flex;align-items:center;justify-content:center;
+  font-size:34px;border-right:1px solid var(--line);min-height:120px;
+}
+.of .ph.sem{background:var(--panel)}
+.of .ph img{width:100%;height:100%;object-fit:contain;display:block}
+.of .bd{padding:12px 13px;min-width:0}
+.badges{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:6px}
+.b{font-size:9.5px;line-height:1.3;font-weight:800;letter-spacing:.05em;padding:3px 7px;border-radius:5px}
+.b.mkt{background:rgba(83,189,235,.13);color:var(--blue);border:1px solid rgba(83,189,235,.3)}
+.b.cup{background:rgba(37,211,102,.13);color:var(--green);border:1px solid rgba(37,211,102,.32)}
+.b.loja{background:var(--panel);color:var(--dim);border:1px solid var(--line)}
+.of h3{font-size:14px;font-weight:600;line-height:1.35;margin-bottom:7px;overflow-wrap:anywhere}
+.pr{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap}
+.pr .now{font-size:18px;font-weight:800;color:var(--green)}
+.pr .was{font-size:12.5px;color:var(--faint);text-decoration:line-through}
+.pr .off{font-size:10.5px;font-weight:800;color:#f15c6d}
+.cc{font-size:12.5px;color:var(--ink);margin-top:2px}
+.cc b{color:var(--green)}
+.when{font-size:11px;color:var(--faint);margin:4px 0 10px}
+
+/* ---------- cupom ---------- */
+.cup{
+  display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:9px;
+  background:var(--panel);border:1px dashed var(--line);margin-bottom:9px;
+}
+.cup code{
+  font:700 13.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;flex:1;
+  filter:blur(4px);user-select:none;transition:filter .2s ease;color:var(--ink);overflow-wrap:anywhere;
+}
+.cup.on code{filter:none;user-select:text}
+.cup small{font-size:10px;color:var(--faint);letter-spacing:.05em;font-weight:700}
+.cup.on small{color:var(--green)}
+.go{
+  display:block;width:100%;padding:11px 14px;border:0;border-radius:9px;
+  background:var(--green);color:#0a2318;font-weight:800;font-size:13.5px;line-height:1.2;
+  letter-spacing:.02em;text-align:center;text-decoration:none;cursor:pointer;font-family:inherit;
+}
+.go:active{background:#1fbb5a}
+.go.plain{background:transparent;color:var(--green);border:1px solid rgba(37,211,102,.4)}
+
+/* ---------- vazio ---------- */
+.empty{
+  border:1px dashed var(--line);border-radius:14px;padding:22px 18px;text-align:center;background:var(--panel);
+}
+.empty .big{font-size:30px;margin-bottom:8px}
+.empty h3{font-size:16px;font-weight:700;margin-bottom:6px}
+.empty p{font-size:14px;color:var(--dim);line-height:1.5}
+
+.close{text-align:center;padding-bottom:44px}
+.close h2{font-size:clamp(22px,6.2vw,28px);letter-spacing:-.022em}
+.close h2 em{font-style:normal;color:var(--green)}
+
+footer{border-top:1px solid var(--line);padding:24px 0 38px;background:var(--panel)}
+footer p{font-size:11.5px;color:var(--faint);line-height:1.65}
+footer p+p{margin-top:8px}
+footer b{color:var(--dim)}
+.disc{margin-top:13px;padding:12px 13px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+
+/* ---------- aviso de copia ---------- */
+.toast{
+  position:fixed;left:50%;bottom:26px;transform:translate(-50%,14px);
+  background:var(--green);color:#0a2318;font-size:13.5px;font-weight:800;
+  padding:11px 18px;border-radius:999px;box-shadow:0 8px 26px rgba(0,0,0,.45);
+  opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease;z-index:60;
+}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+
+@media (min-width:560px){section{padding:44px 0}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
 <body>
-  <main class="card">
-    <div class="logo">🐱</div>
-    <h1>CAT <span>TECH</span> PROMO</h1>
-    <p>Curadoria diária de ofertas de tecnologia — periféricos, componentes, celulares e acessórios.</p>
-    <a class="cta" href="https://whatsapp.com/channel/0029VbCtLQF7IUYMZhrwvM2y">Entrar no canal</a>
-    <footer>
-      PXC Serviços de Vendas Online LTDA<br>
-      CNPJ 58.017.406/0001-67<br>
-      Como afiliados, podemos receber comissão pelas compras realizadas.
-    </footer>
-  </main>
+
+<div class="bar">
+  <div class="wrap">
+    <img src="/cat-logo.png" alt="">
+    <div class="who"><b>CAT TECH PROMO</b><i>ofertas de tecnologia</i></div>
+    <a class="pill" href="https://whatsapp.com/channel/0029VbCtLQF7IUYMZhrwvM2y" data-cta>CANAL GR&Aacute;TIS</a>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="tag">OFERTAS DE TECH</div>
+    <h1>Ofertas de tecnologia<br><em>conferidas hoje.</em></h1>
+    <p class="sub">
+      Perif&eacute;ricos, componentes, celulares e acess&oacute;rios. Cada oferta mostra
+      <b>o pre&ccedil;o e a hora em que foi conferida</b>, e sai da lista depois de 24 horas.
+    </p>
+  </div>
+</section>
+
+<section style="padding-top:22px">
+  <div class="wrap">
+    <div class="head">
+      <h2>Ofertas de hoje</h2>
+      <span class="count" id="count"></span>
+    </div>
+    <p class="lead" id="atualizado">Carregando as ofertas&hellip;</p>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="close">
+  <div class="wrap">
+    <h2>Quer receber as pr&oacute;ximas<br><em>no WhatsApp?</em></h2>
+    <a class="cta" href="https://whatsapp.com/channel/0029VbCtLQF7IUYMZhrwvM2y" data-cta>
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.71-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+      Entrar no canal gr&aacute;tis
+    </a>
+    <p class="under">Canal oficial &middot; sem custo &middot; sai quando quiser</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>CAT TECH PROMO</b> &middot; PXC Servi&ccedil;os de Vendas Online LTDA &middot; CNPJ 58.017.406/0001-67</p>
+    <div class="disc">
+      <p><b>Como Associado da Amazon, ganho com compras qualificadas.</b></p>
+      <p>Esta p&aacute;gina e o canal cont&ecirc;m <b>links de afiliado</b> (Amazon, Mercado Livre,
+      Shopee, AliExpress e outras lojas). Ao comprar por eles, podemos receber uma comiss&atilde;o
+      da loja <b>sem nenhum custo adicional pra voc&ecirc;</b>.</p>
+      <p>Pre&ccedil;os e disponibilidade foram conferidos na data e hora indicadas em cada oferta e
+      est&atilde;o sujeitos a altera&ccedil;&atilde;o. Vale o pre&ccedil;o exibido na loja no momento da compra.
+      Oferta v&aacute;lida enquanto durarem os estoques. Sujeito a disponibilidade do lote de cupons.</p>
+      <p>N&atilde;o vendemos produtos nem processamos pagamentos: a compra &eacute; feita direto na loja.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast">Cupom copiado!</div>
+
+<script>
+(function () {
+  var grid  = document.getElementById('grid');
+  var count = document.getElementById('count');
+  var quando = document.getElementById('atualizado');
+  var toast = document.getElementById('toast');
+
+  var origem = new URLSearchParams(location.search).get('utm_source') || 'direto';
+
+  // ------------------------------------------------------------------
+  // Dois eventos DIFERENTES, de proposito.
+  //
+  //   entrarNoCanal() -> 'Lead'  = a conversao que o anuncio otimiza.
+  //   cliqueNaLoja()  -> custom  = intencao de compra, nao entra no Lead.
+  //
+  // Se os dois disparassem 'Lead', o Meta passaria a otimizar para quem
+  // clica em cupom e vai embora, em vez de para quem entra no canal.
+  // ------------------------------------------------------------------
+  function entrarNoCanal(onde) {
+    if (window.CAPI) CAPI.envia('Lead', { content_name: onde, source: origem });
+    if (window.ttq) ttq.track('ClickButton', { content_name: onde });
+  }
+
+  function cliqueNaLoja(oferta, loja) {
+    if (window.CAPI) {
+      CAPI.envia('CliqueOferta', {
+        content_name: oferta, content_category: loja || '', source: origem
+      }, 'trackCustom');
+      CAPI.envia('ViewContent', { content_name: oferta });
+    }
+    if (window.ttq) ttq.track('ClickButton', { content_name: 'oferta:' + oferta });
+  }
+
+  document.querySelectorAll('[data-cta]').forEach(function (el) {
+    el.addEventListener('click', function () { entrarNoCanal('canal-wpp'); });
+  });
+
+  function aviso(txt) {
+    toast.textContent = txt;
+    toast.classList.add('on');
+    clearTimeout(aviso._t);
+    aviso._t = setTimeout(function () { toast.classList.remove('on'); }, 1900);
+  }
+
+  function reais(v) {
+    return 'R$ ' + Number(v).toLocaleString('pt-BR', {
+      minimumFractionDigits: 2, maximumFractionDigits: 2
+    });
+  }
+
+  // So http(s). Bloqueia javascript:, data:, vbscript: e afins vindos
+  // do ofertas.json — esc() impede quebrar o atributo, mas nao impede
+  // o navegador de executar um href javascript: no clique.
+  function urlSegura(u) {
+    var bruto = String(u == null ? '' : u).trim();
+    if (!bruto) return '';                 // vazio resolveria para a propria pagina
+    if (bruto.slice(0, 2) === '//') return '';  // protocolo-relativo esconde o destino
+    try {
+      var url = new URL(bruto, location.href);
+      return (url.protocol === 'https:' || url.protocol === 'http:') ? url.href : '';
+    } catch (e) { return ''; }
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  // O json traz a hora LOCAL de Brasilia ("2026-10-27 15:22:30"). O Brasil nao
+  // tem horario de verao desde 2019, entao -03:00 fixo esta certo o ano todo.
+  function instante(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/.exec(String(s || ''));
+    if (!m) return null;
+    return { t: Date.parse(m[1] + '-' + m[2] + '-' + m[3] + 'T' + m[4] + ':' + m[5] + ':00-03:00'),
+             txt: m[3] + '/' + m[2] + ' &agrave;s ' + m[4] + ':' + m[5] };
+  }
+
+  var LOJAS = {
+    amazon:       { nome: 'Amazon',        botao: 'VER NA AMAZON' },
+    mercadolivre: { nome: 'Mercado Livre', botao: 'VER NO MERCADO LIVRE' },
+    shopee:       { nome: 'Shopee',        botao: 'VER NA SHOPEE' },
+    aliexpress:   { nome: 'AliExpress',    botao: 'VER NO ALIEXPRESS' },
+    kabum:        { nome: 'KaBuM!',        botao: 'VER NA KABUM!' }
+  };
+
+  function vazio() {
+    count.textContent = '';
+    quando.textContent = 'Nenhuma oferta conferida nas últimas 24 horas.';
+    grid.innerHTML =
+      '<div class="empty">' +
+        '<div class="big">🐾</div>' +
+        '<h3>A lista se renova ao longo do dia</h3>' +
+        '<p>Oferta com mais de 24 horas sai daqui, porque pre&ccedil;o de loja muda r&aacute;pido. ' +
+        'Volte mais tarde ou receba as pr&oacute;ximas direto no canal.</p>' +
+        '<a class="cta" href="https://whatsapp.com/channel/0029VbCtLQF7IUYMZhrwvM2y" data-cta style="margin-top:16px">Entrar no canal gr&aacute;tis</a>' +
+      '</div>';
+    grid.querySelectorAll('[data-cta]').forEach(function (el) {
+      el.addEventListener('click', function () { entrarNoCanal('canal-wpp-vazio'); });
+    });
+  }
+
+  function card(o, visto) {
+    var el = document.createElement('article');
+    el.className = 'of';
+    var loja = LOJAS[o.plataforma] || { nome: '', botao: 'VER OFERTA NA LOJA' };
+    var destino = urlSegura(o.url);
+
+    var foto = o.imagem && urlSegura(o.imagem)
+      ? '<img src="' + esc(urlSegura(o.imagem)) + '" alt="" loading="lazy" referrerpolicy="no-referrer">'
+      : esc(o.emoji || '📦');
+
+    var bs = '';
+    if (loja.nome) bs += '<span class="b mkt">' + esc(loja.nome).toUpperCase() + '</span>';
+    if (o.loja && o.loja.toLowerCase() !== loja.nome.toLowerCase())
+      bs += '<span class="b loja">' + esc(o.loja).toUpperCase() + '</span>';
+    if (o.cupom || o.cupomTexto) bs += '<span class="b cup">COM CUPOM</span>';
+
+    var pr = '<div class="pr"><span class="now">' + reais(o.preco) + '</span>';
+    if (o.precoDe)  pr += '<span class="was">' + reais(o.precoDe) + '</span>';
+    if (o.desconto) pr += '<span class="off">-' + (parseInt(o.desconto, 10) || 0) + '%</span>';
+    pr += '</div>';
+    if (o.precoComCupom) pr += '<div class="cc">' + (o.cupomTexto ? esc(o.cupomTexto) : 'Com o cupom') +
+                              ': <b>' + reais(o.precoComCupom) + '</b></div>';
+    else if (o.cupomTexto) pr += '<div class="cc">' + esc(o.cupomTexto) + '</div>';
+    pr += '<div class="when">Pre&ccedil;o conferido em ' + visto.txt + '</div>';
+
+    // Sem noreferrer DE PROPOSITO: a loja precisa ver que o clique veio do
+    // linkdapromo.com. A Amazon reprovou dizendo que "nao conseguiu determinar
+    // a origem do trafego". A politica da pagina manda so a origem, nunca o caminho.
+    var acao = o.cupom
+      ? '<div class="cup"><code>' + esc(o.cupom) + '</code><small>OCULTO</small></div>' +
+        '<button class="go" type="button">REVELAR CUPOM E ' + esc(loja.botao.replace(/^VER /, 'IR ')) + '</button>'
+      : '<a class="go plain" href="' + esc(destino) + '" target="_blank" rel="sponsored nofollow noopener" data-loja>' + esc(loja.botao) + '</a>';
+
+    el.innerHTML =
+      '<div class="ph' + (o.imagem ? '' : ' sem') + '">' + foto + '</div>' +
+      '<div class="bd">' +
+        (bs ? '<div class="badges">' + bs + '</div>' : '') +
+        '<h3>' + esc(o.produto) + '</h3>' + pr + acao +
+      '</div>';
+
+    // Foto de loja expira sozinha: sem isto apareceria o icone de imagem quebrada.
+    var img = el.querySelector('.ph img');
+    if (img) img.addEventListener('error', function () {
+      img.parentNode.classList.add('sem');
+      img.parentNode.textContent = o.emoji || '📦';
+    });
+
+    var direto = el.querySelector('[data-loja]');
+    if (direto) {
+      direto.addEventListener('click', function () { cliqueNaLoja(o.produto, loja.nome || o.loja); });
+    }
+
+    if (o.cupom) {
+      var cx  = el.querySelector('.cup');
+      var btn = el.querySelector('.go');
+      btn.addEventListener('click', function () {
+        cx.classList.add('on');
+        cx.querySelector('small').textContent = 'LIBERADO';
+        btn.textContent = loja.botao.replace(/^VER /, 'IR ');
+
+        var cupom = String(o.cupom).slice(0, 64);
+        try { navigator.clipboard.writeText(cupom); aviso('Cupom ' + cupom + ' copiado!'); }
+        catch (e) { aviso('Cupom: ' + cupom); }
+
+        cliqueNaLoja(o.produto, loja.nome || o.loja);
+        if (destino) setTimeout(function () { window.open(destino, '_blank', 'noopener'); }, 550);
+      });
+    }
+    return el;
+  }
+
+  fetch('/ofertas.json?v=' + Date.now())
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (doc) {
+      // Aceita a lista solta do formato antigo, por garantia.
+      var lista = Array.isArray(doc) ? doc : (doc && Array.isArray(doc.ofertas) ? doc.ofertas : []);
+      var janela = ((doc && doc.janelaHoras) || 24) * 3600 * 1000;
+      var agora = Date.now();
+
+      // Segunda trava contra preco velho: se a VPS parar de publicar, a
+      // oferta some daqui no prazo mesmo assim.
+      var boas = [];
+      lista.forEach(function (o) {
+        var v = instante(o.visto);
+        if (!v || !(o.preco > 0) || !urlSegura(o.url)) return;
+        if (agora - v.t > janela || v.t - agora > 3600 * 1000) return;
+        boas.push([o, v]);
+      });
+      if (!boas.length) return vazio();
+
+      count.textContent = boas.length + (boas.length === 1 ? ' oferta' : ' ofertas');
+      var at = doc && !Array.isArray(doc) ? instante(doc.atualizado) : null;
+      quando.innerHTML = (at ? 'Lista atualizada em ' + at.txt + '. ' : '') +
+        'Cada oferta mostra quando o pre&ccedil;o foi conferido.';
+      boas.forEach(function (p) { grid.appendChild(card(p[0], p[1])); });
+    })
+    .catch(vazio);
+})();
+</script>
+
 </body>
 </html>
