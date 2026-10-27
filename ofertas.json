@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-10-27 15:28:30",
+ "atualizado": "2026-10-27 15:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6479",
+   "plataforma": "mercadolivre",
+   "produto": "Suporte De Mesa Para Tv/monitor De 17 Até 30 Preto Nb F80",
+   "loja": "",
+   "preco": 99.99,
+   "precoDe": null,
+   "precoComCupom": 92.0,
+   "desconto": null,
+   "cupom": "APROVEITA",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Ubuyvt",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_967508-MLA115291492479_072026-O.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-27 15:31:47"
+  },
   {
    "id": "p20647",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_775531-MLA99504512776_112025-O.webp",
    "emoji": "💻",
    "visto": "2026-10-27 09:42:43"
-  },
-  {
-   "id": "p18868",
-   "plataforma": "mercadolivre",
-   "produto": "Smart Tv Philips 50 4k 50pug7300 Comando De Voz Bluetooth",
-   "loja": "",
-   "preco": 1899.0,
-   "precoDe": 2680.0,
-   "precoComCupom": 1778.0,
-   "desconto": 29,
-   "cupom": "MELIMAIS2710",
-   "cupomTexto": "",
-   "url": "https://meli.la/1hyusvm",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_603690-MLA93305557455_092025-O.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-27 09:30:46"
   }
  ]
 }
