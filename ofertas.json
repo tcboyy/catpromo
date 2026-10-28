@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-27 20:36:45",
+ "atualizado": "2026-10-27 21:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p17321",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG UltraWide - Tela IPS de 29\", 21:9, HDR10, sRGB 99%, 100Hz, Preto- 29WQ500B",
+   "loja": "",
+   "preco": 999.9,
+   "precoDe": 1549.0,
+   "precoComCupom": 879.0,
+   "desconto": 35,
+   "cupom": "HOJETECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2PZfi5r",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_863773-MLA96861169915_102025-O.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-27 21:00:29"
+  },
+  {
+   "id": "p20878",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mãe Asus Prime A520m-r, Ddr4, Amd Am4, M-atx, Amd Am4",
+   "loja": "",
+   "preco": 394.68,
+   "precoDe": 429.0,
+   "precoComCupom": null,
+   "desconto": 8,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1sXgcTr",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_624412-MLB113978286411_062026-O.webp",
+   "emoji": "📦",
+   "visto": "2026-10-27 20:48:21"
+  },
   {
    "id": "p20377",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_753164-MLA98125108647_112025-O.webp",
    "emoji": "💻",
    "visto": "2026-10-27 13:07:58"
-  },
-  {
-   "id": "p21187",
-   "plataforma": "mercadolivre",
-   "produto": "Gabinete Gamer Mancer CV100 Branco Mid-Tower com Lateral de Vidro e USB 3.0",
-   "loja": "",
-   "preco": 208.47,
-   "precoDe": 324.7,
-   "precoComCupom": null,
-   "desconto": 36,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2N4i5Ag",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_861966-MLA96099989941_102025-O.webp",
-   "emoji": "📦",
-   "visto": "2026-10-27 13:01:23"
-  },
-  {
-   "id": "p19448",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Gamer M711 Cobra Chroma Redragon Com fio Para Jogos 12.400 DPI Com Led RGB Preto",
-   "loja": "",
-   "preco": 78.11,
-   "precoDe": 143.43,
-   "precoComCupom": null,
-   "desconto": 46,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2VsWN3P",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_898286-MLA95664298408_102025-O.webp",
-   "emoji": "🖱️",
-   "visto": "2026-10-27 12:52:23"
   }
  ]
 }
