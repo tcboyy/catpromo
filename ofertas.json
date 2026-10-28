@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-28 19:36:46",
+ "atualizado": "2026-10-28 20:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6549",
+   "plataforma": "mercadolivre",
+   "produto": "Ssd M.2 1tb Sandisk Plus Nvme 2280 - R$ 899,89",
+   "loja": "",
+   "preco": 899.89,
+   "precoDe": 1764.0,
+   "precoComCupom": 849.0,
+   "desconto": 49,
+   "cupom": "VALETECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/1DTQKiz",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_729633-MLA99465062840_112025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-10-28 20:01:15"
+  },
+  {
+   "id": "p21256",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Asus Tuf Gaming 27 , Qhd, 255hz, Ips, 0,3ms Preto 127/220v - R$ 1.354",
+   "loja": "",
+   "preco": 1354.0,
+   "precoDe": 1799.0,
+   "precoComCupom": null,
+   "desconto": 25,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/15JAYGR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_676958-MLB118854635909_102026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-28 19:48:51"
+  },
   {
    "id": "p20991",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lf-mtdzril7oa2r94",
    "emoji": "🪑",
    "visto": "2026-10-28 14:02:27"
-  },
-  {
-   "id": "p19785",
-   "plataforma": "mercadolivre",
-   "produto": "Ssd 1tb Western Digital Green Sn350 Nvme, Gen3, M.2 2280 Azul - R$ 932,75",
-   "loja": "",
-   "preco": 932.75,
-   "precoDe": 1025.0,
-   "precoComCupom": 839.0,
-   "desconto": 9,
-   "cupom": "VALETECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1KPvuaL",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_932631-MLA96073227449_102025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-10-28 13:55:03"
-  },
-  {
-   "id": "p19513",
-   "plataforma": "shopee",
-   "produto": "Gabinete Gamer Aquário Mancer CV700L, Mid Tower, Lateral De Vidro, Preto, MCR-CV700L-BK",
-   "loja": "Pichau",
-   "preco": 247.33,
-   "precoDe": 650.87,
-   "precoComCupom": 244.0,
-   "desconto": 62,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/2gCHF2RgkJ",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwp-m0xbq3ndlnay0f",
-   "emoji": "📦",
-   "visto": "2026-10-28 13:53:00"
   }
  ]
 }
