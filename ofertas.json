@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-10-28 15:05:45",
+ "atualizado": "2026-10-28 15:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15610",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira de Escritório Giratória HomeNow Columbus Presidente NR17 120kg Preta com Tela Mesh - R$ 286,98",
+   "loja": "",
+   "preco": 286.98,
+   "precoDe": 659.0,
+   "precoComCupom": 243.0,
+   "desconto": 56,
+   "cupom": "MOVEIS2810",
+   "cupomTexto": "",
+   "url": "https://meli.la/1z4t2oC",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-10-28 15:33:13"
+  },
+  {
+   "id": "p15291",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Magnético Monsgeek Akko Fun60 Pro RGB 60% - R$ 191,70",
+   "loja": "",
+   "preco": 191.7,
+   "precoDe": 213.0,
+   "precoComCupom": null,
+   "desconto": 10,
+   "cupom": "TECHPROMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2yUdHmK",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_804923-MLA114376583165_072026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-10-28 15:26:41"
+  },
+  {
+   "id": "p21190",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Pc Ddr4 16gb 2666 4bit Infinity Memory - R$ 537,64",
+   "loja": "",
+   "preco": 537.64,
+   "precoDe": 899.0,
+   "precoComCupom": null,
+   "desconto": 40,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/27VQ2MR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_786573-MLA81649546848_012025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-10-28 15:13:35"
+  },
   {
    "id": "p20112",
    "plataforma": "mercadolivre",
@@ -1139,22 +1187,6 @@
    "visto": "2026-10-28 10:48:19"
   },
   {
-   "id": "p21190",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Pc Ddr4 16gb 2666 4bit Infinity Memory - R$ 537,64",
-   "loja": "",
-   "preco": 537.64,
-   "precoDe": 899.0,
-   "precoComCupom": null,
-   "desconto": 40,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/27VQ2MR",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_786573-MLA81649546848_012025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-10-28 10:40:30"
-  },
-  {
    "id": "p15563",
    "plataforma": "mercadolivre",
    "produto": "Projetor Portátil 4k Hd Android 11.0 Smart Wifi 5g Bluetooth Branco 127/220v - R$ 175,27",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_866018-MLA99534240446_122025-P.webp",
    "emoji": "📦",
    "visto": "2026-10-28 10:20:34"
-  },
-  {
-   "id": "p6699",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G4S 25\" 310Hz 0.3ms HDR400 IPS Base Ajustável 25G4S/P Preto - R$ 1.204",
-   "loja": "",
-   "preco": 1204.0,
-   "precoDe": 2427.0,
-   "precoComCupom": 1085.0,
-   "desconto": 50,
-   "cupom": "VALETECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2KhvwBN",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_687589-MLA99536545292_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-28 10:17:35"
-  },
-  {
-   "id": "p21221",
-   "plataforma": "mercadolivre",
-   "produto": "Fones De Ouvido Sem Fio Enc Havit Tw984 Nc01t Bluetooth 5.4 Preto - R$ 96,03",
-   "loja": "",
-   "preco": 96.03,
-   "precoDe": 182.0,
-   "precoComCupom": null,
-   "desconto": 47,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2k2A53H",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_712637-MLA99959212069_112025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-10-28 10:11:19"
   }
  ]
 }
