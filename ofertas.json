@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-27 23:06:45",
+ "atualizado": "2026-10-27 23:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21008",
+   "plataforma": "mercadolivre",
+   "produto": "Gabinete Gamer Mancer CV100 Purple Edition Preto com Vidro e 3 Fans LED Rainbow",
+   "loja": "",
+   "preco": 239.99,
+   "precoDe": 541.16,
+   "precoComCupom": null,
+   "desconto": 56,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2rVHyc6",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_853865-MLA112546170168_062026-O.webp",
+   "emoji": "📦",
+   "visto": "2026-10-27 23:24:29"
+  },
+  {
+   "id": "p20137",
+   "plataforma": "mercadolivre",
+   "produto": "Fonte Gamer Rise Mode Elektra 650w Bronze Full Modular Pfc",
+   "loja": "",
+   "preco": 279.99,
+   "precoDe": 311.1,
+   "precoComCupom": 251.0,
+   "desconto": 10,
+   "cupom": "SEMPREOFF",
+   "cupomTexto": "",
+   "url": "https://meli.la/1i7KuCW",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_771285-MLB120320169937_102026-O.webp",
+   "emoji": "🔌",
+   "visto": "2026-10-27 23:12:19"
+  },
   {
    "id": "p15213",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_711855-MLA100039534581_122025-O.webp",
    "emoji": "📦",
    "visto": "2026-10-27 14:31:28"
-  },
-  {
-   "id": "p6617",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Philips Evnia 27'' Ips 144Hz 0.5ms Fhd27m2n3200nf Preto",
-   "loja": "",
-   "preco": 664.05,
-   "precoDe": 1999.0,
-   "precoComCupom": 530.0,
-   "desconto": 67,
-   "cupom": "MELITECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/27VkGvq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_997395-MLA114299889989_072026-O.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-27 14:20:20"
-  },
-  {
-   "id": "p21191",
-   "plataforma": "mercadolivre",
-   "produto": "Xiaomi Poco X7 Pro 5g 512gb Verde 12ram 50mpx",
-   "loja": "",
-   "preco": 2307.0,
-   "precoDe": 2479.0,
-   "precoComCupom": 2070.0,
-   "desconto": 7,
-   "cupom": "MELHORPROMO",
-   "cupomTexto": "",
-   "url": "https://meli.la/31kovTg",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_895820-MLA99444621534_112025-O.webp",
-   "emoji": "📱",
-   "visto": "2026-10-27 14:14:26"
   }
  ]
 }
