@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-10-28 08:05:45",
+ "atualizado": "2026-10-28 08:36:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20509",
+   "plataforma": "shopee",
+   "produto": "SSD WD Green 2.5'' 2TB SATA III 545 Mb/s WDS200T5G0A",
+   "loja": "Inpower MG",
+   "preco": 1299.9,
+   "precoDe": 1911.62,
+   "precoComCupom": 1057.0,
+   "desconto": 32,
+   "cupom": "3SQU3NT411",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/3VlNrSR0fl",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-81zw7-miqcxlkm2k1see",
+   "emoji": "💾",
+   "visto": "2026-10-28 08:16:27"
+  },
   {
    "id": "p21216",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_786855-MLB116510578452_092026-O.webp",
    "emoji": "📦",
    "visto": "2026-10-27 17:12:19"
-  },
-  {
-   "id": "p15243",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Tcl 25 Polegadas Qd-Mini Led Full Hd G64 300hz 1ms (Gtg) Freesync Hdr 600 Nits 25g64",
-   "loja": "",
-   "preco": 1287.0,
-   "precoDe": 1599.0,
-   "precoComCupom": 1132.0,
-   "desconto": 20,
-   "cupom": "HOJETECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/14dBmbe",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_994730-MLA115998386538_092026-O.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-27 17:01:28"
   }
  ]
 }
