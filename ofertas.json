@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-29 15:36:45",
+ "atualizado": "2026-10-29 16:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6566",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 677,32",
+   "loja": "",
+   "preco": 677.32,
+   "precoDe": 1311.0,
+   "precoComCupom": 664.0,
+   "desconto": 48,
+   "cupom": "VALETECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UDUtEP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-29 16:00:21"
+  },
+  {
+   "id": "p21106",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido Gamer Headset Havit H2015d Pc Consoles Branco - R$ 123",
+   "loja": "",
+   "preco": 123.0,
+   "precoDe": 189.0,
+   "precoComCupom": null,
+   "desconto": 35,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1So4TqB",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_977270-MLA108023072033_032026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-29 15:48:15"
+  },
   {
    "id": "p21040",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_752599-MLA100010456343_122025-P.webp",
    "emoji": "📦",
    "visto": "2026-10-29 09:25:36"
-  },
-  {
-   "id": "p20287",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy A17 5G Com IA, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto - R$ 860,18",
-   "loja": "",
-   "preco": 860.18,
-   "precoDe": 1855.0,
-   "precoComCupom": 774.0,
-   "desconto": 54,
-   "cupom": "OFERTAPRATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1PyB78H",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_864503-MLA118251143201_092026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-10-29 09:21:17"
-  },
-  {
-   "id": "p15651",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Pad Gamer Apex Control Profissional 49x42 Red Girl - R$ 69,90",
-   "loja": "",
-   "preco": 69.9,
-   "precoDe": 99.9,
-   "precoComCupom": 62.0,
-   "desconto": 30,
-   "cupom": "10D010TODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1pTRHxF",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_908667-MLA112780553692_062026-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-10-29 09:21:10"
   }
  ]
 }
