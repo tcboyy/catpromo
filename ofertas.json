@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-29 17:05:45",
+ "atualizado": "2026-10-29 17:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20932",
+   "plataforma": "mercadolivre",
+   "produto": "Placa De Video Zotac Rtx 5050 Twin Edge Oc 8gb Gddr6 128bits - R$ 2.413",
+   "loja": "",
+   "preco": 2413.0,
+   "precoDe": 2999.0,
+   "precoComCupom": null,
+   "desconto": 20,
+   "cupom": "OFFHOJENOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2cq2Xge",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_840993-MLA99524053544_122025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-10-29 17:25:07"
+  },
+  {
+   "id": "p6644",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 - R$ 551,65",
+   "loja": "",
+   "preco": 551.65,
+   "precoDe": 649.0,
+   "precoComCupom": 481.0,
+   "desconto": 15,
+   "cupom": "MELIMAISTODOSITE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CAGPWa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-29 17:11:07"
+  },
   {
    "id": "p21108",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_881201-MLB118626691850_102026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-29 09:49:49"
-  },
-  {
-   "id": "p20024",
-   "plataforma": "mercadolivre",
-   "produto": "Samsung Smart TV 65\" Mini LED 4K M75H 26/2027 - R$ 3.723",
-   "loja": "",
-   "preco": 3723.0,
-   "precoDe": 5699.0,
-   "precoComCupom": 3230.0,
-   "desconto": 35,
-   "cupom": "SOM1110",
-   "cupomTexto": "",
-   "url": "https://meli.la/27S4GLf",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_857357-MLA116062135096_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-29 09:46:54"
-  },
-  {
-   "id": "p20488",
-   "plataforma": "mercadolivre",
-   "produto": "Samsung Smart TV 55\" Mini LED 4K M75H 26/2027 - R$ 2.818",
-   "loja": "",
-   "preco": 2818.0,
-   "precoDe": 4299.0,
-   "precoComCupom": null,
-   "desconto": 34,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/25tQStg",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_615876-MLA116061870194_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-29 09:46:53"
   }
  ]
 }
