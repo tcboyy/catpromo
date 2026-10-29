@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-29 07:36:46",
+ "atualizado": "2026-10-29 08:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20492",
+   "plataforma": "mercadolivre",
+   "produto": "Mochila Para Notebook Impermeável com Porta USB e Senha Para Homem - R$ 91,06",
+   "loja": "",
+   "preco": 91.06,
+   "precoDe": 369.0,
+   "precoComCupom": 81.0,
+   "desconto": 75,
+   "cupom": "SITE2810TODO",
+   "cupomTexto": "",
+   "url": "https://meli.la/23d826k",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_760171-MLA113815933188_072026-P.webp",
+   "emoji": "💻",
+   "visto": "2026-10-29 07:54:30"
+  },
+  {
+   "id": "p21238",
+   "plataforma": "shopee",
+   "produto": "Smart TV HQ QLED 75 Polegadas HQ-QLED75SM 4K Wi-Fi Bluetooth, Apps, Netflix, YouTube e Prime Vídeo",
+   "loja": "Belmicro Oficial",
+   "preco": 3454.43,
+   "precoDe": 4668.15,
+   "precoComCupom": 3040.0,
+   "desconto": 26,
+   "cupom": "3SQU3NT411",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/2gCIQUnBxa",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lm-mo70rhzyae4k8a",
+   "emoji": "🖥️",
+   "visto": "2026-10-29 07:42:39"
+  },
   {
    "id": "p21265",
    "plataforma": "shopee",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_977921-MLA96972461760_112025-P.webp",
    "emoji": "🎧",
    "visto": "2026-10-28 17:29:09"
-  },
-  {
-   "id": "p20397",
-   "plataforma": "mercadolivre",
-   "produto": "Processador Amd Ryzen 5 5500, 6-core, 12-threads, 3.6ghz - R$ 539,57",
-   "loja": "",
-   "preco": 539.57,
-   "precoDe": 999.0,
-   "precoComCupom": 469.0,
-   "desconto": 46,
-   "cupom": "MELITODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2ToKoa6",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_616052-MLB71903820573_092023-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-28 17:26:52"
-  },
-  {
-   "id": "p20599",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Para Pc Gamer Office 150cm Industrial Estrutura Em Aço Preto - R$ 230,84",
-   "loja": "",
-   "preco": 230.84,
-   "precoDe": 299.99,
-   "precoComCupom": 184.0,
-   "desconto": 23,
-   "cupom": "OFERTASHJ",
-   "cupomTexto": "",
-   "url": "https://meli.la/26QAbqf",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_742310-MLB119934368167_102026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-28 17:24:41"
   }
  ]
 }
