@@ -1,22 +1,22 @@
 {
- "atualizado": "2026-10-29 01:35:45",
+ "atualizado": "2026-10-29 07:36:46",
  "janelaHoras": 24,
  "ofertas": [
   {
-   "id": "p15769",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Haiz 25'' Ips Fhd 144hz 0.5ms Hdmi Dp Vesa Preto - R$ 549,09",
-   "loja": "",
-   "preco": 549.09,
-   "precoDe": 879.0,
-   "precoComCupom": 494.0,
-   "desconto": 38,
-   "cupom": "SITE2810TODO",
+   "id": "p21265",
+   "plataforma": "shopee",
+   "produto": "ARZOPA Z1RC , Monitor Portátil 2.5K De 16 \" De Suporte 2560x1600 HDR Laptop HDMI QHD USB-C De 500 Litros E 8 Bits , Tela",
+   "loja": "ARZOPA Official Store",
+   "preco": 619.99,
+   "precoDe": 1291.65,
+   "precoComCupom": 487.0,
+   "desconto": 52,
+   "cupom": "3C0N0M1Z370",
    "cupomTexto": "",
-   "url": "https://meli.la/1xArdR5",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_795878-MLA118124227295_092026-P.webp",
+   "url": "https://s.shopee.com.br/7VHYAP7O7v",
+   "imagem": "https://cf.shopee.com.br/file/cn-11134207-820l4-mi5qohi0zqbn92",
    "emoji": "🖥️",
-   "visto": "2026-10-29 01:28:40"
+   "visto": "2026-10-29 07:28:28"
   },
   {
    "id": "p20176",
@@ -32,7 +32,39 @@
    "url": "https://meli.la/1wF55uU",
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_658374-MLA99957214369_112025-P.webp",
    "emoji": "🎮",
-   "visto": "2026-10-29 00:30:37"
+   "visto": "2026-10-29 07:26:20"
+  },
+  {
+   "id": "p21264",
+   "plataforma": "shopee",
+   "produto": "Monitor Gamer TCL 24 Polegadas Mini LED Full HD G54 100Hz HDR400 92% DCI-P3 450 nits 24G54",
+   "loja": "TCL SEMP",
+   "preco": 1012.77,
+   "precoDe": 1387.36,
+   "precoComCupom": 793.0,
+   "desconto": 27,
+   "cupom": "3SQU3NT411",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/7Aehkz1hT1",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-82587-msfo7f0cnldx5c",
+   "emoji": "🖥️",
+   "visto": "2026-10-29 07:16:42"
+  },
+  {
+   "id": "p15769",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Haiz 25'' Ips Fhd 144hz 0.5ms Hdmi Dp Vesa Preto - R$ 549,09",
+   "loja": "",
+   "preco": 549.09,
+   "precoDe": 879.0,
+   "precoComCupom": 494.0,
+   "desconto": 38,
+   "cupom": "SITE2810TODO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1xArdR5",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_795878-MLA118124227295_092026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-29 01:28:40"
   },
   {
    "id": "p21233",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_742310-MLB119934368167_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-10-28 17:24:41"
-  },
-  {
-   "id": "p19666",
-   "plataforma": "shopee",
-   "produto": "Cadeira Escritório Ergonômica Stoel Summit Pro Cinza e Branca ou Preta Confortável Reclinável Apoio Lombar 3D",
-   "loja": "StoelOffice",
-   "preco": 387.0,
-   "precoDe": 586.36,
-   "precoComCupom": 329.0,
-   "desconto": 34,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/9pfS0Z64Jj",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m9-mumh09j13q4gea",
-   "emoji": "🪑",
-   "visto": "2026-10-28 17:22:03"
-  },
-  {
-   "id": "p21251",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer 23.8\" Acer Nitro VG0 com Tela Full HD 200Hz IPS Resposta de 1ms GtoG AMD FreeSync Premium HDR10 Cores 99% sRGB Design ZeroFram",
-   "loja": "",
-   "preco": 599.9,
-   "precoDe": 902.11,
-   "precoComCupom": 519.0,
-   "desconto": 34,
-   "cupom": "MELITODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/16a7bDk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_981659-MLA118255571375_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-28 17:19:32"
   }
  ]
 }
