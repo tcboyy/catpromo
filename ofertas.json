@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-10-29 00:35:45",
+ "atualizado": "2026-10-29 01:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15769",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Haiz 25'' Ips Fhd 144hz 0.5ms Hdmi Dp Vesa Preto - R$ 549,09",
+   "loja": "",
+   "preco": 549.09,
+   "precoDe": 879.0,
+   "precoComCupom": 494.0,
+   "desconto": 38,
+   "cupom": "SITE2810TODO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1xArdR5",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_795878-MLA118124227295_092026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-29 01:28:40"
+  },
   {
    "id": "p20176",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_981659-MLA118255571375_092026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-28 17:19:32"
-  },
-  {
-   "id": "p21250",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Aoc 23,8 Full Hd 144hz Agon G50 0,5ms Preto Bivolt - R$ 569,05",
-   "loja": "",
-   "preco": 569.05,
-   "precoDe": null,
-   "precoComCupom": 489.0,
-   "desconto": null,
-   "cupom": "MELITODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2L6F1Dj",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_881201-MLB118626691850_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-28 17:17:04"
   }
  ]
 }
