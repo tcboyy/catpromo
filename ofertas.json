@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-28 22:36:46",
+ "atualizado": "2026-10-28 23:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21261",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Curvo Gawfolk 34 Uwqhd 165hz Alto-falante Dp Preto - R$ 1.654",
+   "loja": "",
+   "preco": 1654.0,
+   "precoDe": 2544.0,
+   "precoComCupom": null,
+   "desconto": 35,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2VGzMGe",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_958408-MLA111719820868_062026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-28 23:00:09"
+  },
+  {
+   "id": "p21260",
+   "plataforma": "mercadolivre",
+   "produto": "Marvel Spiderman Boneco Funko Pop Doutor Estranho #1162 - R$ 148,14",
+   "loja": "",
+   "preco": 148.14,
+   "precoDe": 169.5,
+   "precoComCupom": null,
+   "desconto": 13,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1E4oH6z",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_894344-MLB54747218626_032023-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-28 22:48:07"
+  },
   {
    "id": "p19801",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m3azpdpp7bxxe2",
    "emoji": "🎮",
    "visto": "2026-10-28 15:58:15"
-  },
-  {
-   "id": "p20451",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Tcl 25g64 25 Qd-mini Led 300hz Preto Preto - R$ 1.158",
-   "loja": "",
-   "preco": 1158.0,
-   "precoDe": 1599.0,
-   "precoComCupom": 1042.0,
-   "desconto": 28,
-   "cupom": "MELITODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qhQr7w",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_789392-MLA116823388817_082026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-28 15:49:20"
-  },
-  {
-   "id": "p15240",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Phillips 24 Evnia Ips 144hz 0.5ms Wide Fullhd Preto 127/220v - R$ 573",
-   "loja": "",
-   "preco": 573.0,
-   "precoDe": 999.98,
-   "precoComCupom": 516.0,
-   "desconto": 43,
-   "cupom": "VALETECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1wwMr5V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-28 15:48:29"
   }
  ]
 }
