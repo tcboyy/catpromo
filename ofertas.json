@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-29 08:05:45",
+ "atualizado": "2026-10-29 08:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15222",
+   "plataforma": "mercadolivre",
+   "produto": "Controle Sony CFI-ZCT1W Sem Fio White Ps5 - R$ 386,91",
+   "loja": "",
+   "preco": 386.91,
+   "precoDe": 681.87,
+   "precoComCupom": 355.0,
+   "desconto": 43,
+   "cupom": "SITE2810TODO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2bLjbxH",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_682801-MLA117393672127_092026-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-10-29 08:20:22"
+  },
+  {
+   "id": "p15354",
+   "plataforma": "mercadolivre",
+   "produto": "Fone Bluetooth Samsung Galaxy Buds Core Preto - R$ 205,20",
+   "loja": "",
+   "preco": 205.2,
+   "precoDe": 349.0,
+   "precoComCupom": 184.0,
+   "desconto": 41,
+   "cupom": "SITE2810TODO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1geiXMR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_733029-MLA96883295535_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-29 08:16:45"
+  },
   {
    "id": "p20492",
    "plataforma": "mercadolivre",
@@ -609,22 +641,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_737016-MLA116256824398_092026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-28 20:58:36"
-  },
-  {
-   "id": "p15354",
-   "plataforma": "mercadolivre",
-   "produto": "Fone Bluetooth Samsung Galaxy Buds Core Preto - R$ 205,20",
-   "loja": "",
-   "preco": 205.2,
-   "precoDe": 349.0,
-   "precoComCupom": 184.0,
-   "desconto": 41,
-   "cupom": "VALETECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1geiXMR",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_733029-MLA96883295535_102025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-10-28 20:50:34"
   },
   {
    "id": "p17342",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_958412-MLB90196173852_082025-P.webp",
    "emoji": "📦",
    "visto": "2026-10-28 17:33:12"
-  },
-  {
-   "id": "p6552",
-   "plataforma": "mercadolivre",
-   "produto": "Caixa de Som PCX6700 Amplificada 650W de Potência Ex Bass Philco - R$ 559",
-   "loja": "",
-   "preco": 559.0,
-   "precoDe": 899.0,
-   "precoComCupom": 479.0,
-   "desconto": 38,
-   "cupom": "MELITODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1oFJ75d",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_977921-MLA96972461760_112025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-10-28 17:29:09"
   }
  ]
 }
