@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-28 23:35:45",
+ "atualizado": "2026-10-29 00:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15528",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Redragon King Pro 1K Preto Preto - M916-PRO-1K - R$ 215",
+   "loja": "",
+   "preco": 215.0,
+   "precoDe": null,
+   "precoComCupom": 161.0,
+   "desconto": null,
+   "cupom": "MELIDATADUPLA",
+   "cupomTexto": "",
+   "url": "https://meli.la/2rQTrdu",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_789229-MLA99454988196_112025-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-10-28 23:48:07"
+  },
+  {
+   "id": "p20613",
+   "plataforma": "mercadolivre",
+   "produto": "Fones de ouvido Bluetooth Gamer Fuxi-H7 Havit com microfone branco - R$ 307",
+   "loja": "",
+   "preco": 307.0,
+   "precoDe": null,
+   "precoComCupom": 297.0,
+   "desconto": null,
+   "cupom": "COMPRANOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2h98d1L",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_921744-MLA117732019732_102026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-28 23:37:07"
+  },
   {
    "id": "p21147",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_971024-MLA99364905992_112025-P.webp",
    "emoji": "🪑",
    "visto": "2026-10-28 16:44:35"
-  },
-  {
-   "id": "p20313",
-   "plataforma": "mercadolivre",
-   "produto": "Tênis Masculino New Balance 413 Corrida Casual Original Cinza 42 Br - R$ 227,60",
-   "loja": "",
-   "preco": 227.6,
-   "precoDe": 417.99,
-   "precoComCupom": null,
-   "desconto": 46,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/13ar6u5",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_854788-MLB90818089195_082025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-28 16:36:22"
-  },
-  {
-   "id": "p20004",
-   "plataforma": "mercadolivre",
-   "produto": "Creatina Integralmédica Hardcore em cápsula Sem sabor x 105g de 120 un - R$ 29,09",
-   "loja": "",
-   "preco": 29.09,
-   "precoDe": 58.0,
-   "precoComCupom": null,
-   "desconto": 50,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/31JNaas",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_833789-MLA100590939374_122025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-28 16:26:40"
   }
  ]
 }
