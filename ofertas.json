@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-29 19:05:45",
+ "atualizado": "2026-10-29 19:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20207",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Sem Fio Logitech G703 LIGHTSPEED RGB LIGHTSYNC, 6 Botões Programáveis, Sensor HERO 25K, Recarregável, Compatível POWERPLAY - R$ ",
+   "loja": "",
+   "preco": 455.0,
+   "precoDe": null,
+   "precoComCupom": 376.0,
+   "desconto": null,
+   "cupom": "OFFNOMELIHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2GEDK5s",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_976729-MLA115970512909_082026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-10-29 19:24:40"
+  },
+  {
+   "id": "p6643",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 167,05",
+   "loja": "",
+   "preco": 167.05,
+   "precoDe": 209.0,
+   "precoComCupom": null,
+   "desconto": 20,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Dqv1ef",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-29 19:15:55"
+  },
   {
    "id": "p15240",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_912843-MLA99938852799_112025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-29 10:42:13"
-  },
-  {
-   "id": "p21270",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Pro Nintendo Switch Sem Fio Bluetooth Ergonomico e Preto - R$ 305,91",
-   "loja": "",
-   "preco": 305.91,
-   "precoDe": 359.9,
-   "precoComCupom": 275.0,
-   "desconto": 15,
-   "cupom": "OFERTAPRATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1AD8woZ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_702166-MLA91958546213_092025-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-10-29 10:35:52"
-  },
-  {
-   "id": "p21180",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Sem Fio Sony Dualsense Marvel's Wolverine Ps5 Amarelo - R$ 599",
-   "loja": "",
-   "preco": 599.0,
-   "precoDe": null,
-   "precoComCupom": 539.0,
-   "desconto": null,
-   "cupom": "OFERTAPRATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/33DKoYd",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_994947-MLB119283318025_102026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-10-29 10:33:56"
   }
  ]
 }
