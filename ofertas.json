@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-30 01:05:46",
+ "atualizado": "2026-10-30 07:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20667",
+   "plataforma": "mercadolivre",
+   "produto": "Controle sem fio PlayStation DualSense – Remix Green - R$ 499",
+   "loja": "",
+   "preco": 499.0,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2s2bRJ2",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_745279-MLA105010226029_012026-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-10-30 07:20:29"
+  },
+  {
+   "id": "p20666",
+   "plataforma": "mercadolivre",
+   "produto": "Controle sem fio DualSense - Rhythm Blue - R$ 367,20",
+   "loja": "",
+   "preco": 367.2,
+   "precoDe": 599.9,
+   "precoComCupom": null,
+   "desconto": 39,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/27r8isP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_715987-MLA109165109882_042026-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-10-30 07:20:27"
+  },
   {
    "id": "p15769",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_663942-MLA116503586141_082026-P.webp",
    "emoji": "🔌",
    "visto": "2026-10-29 16:24:25"
-  },
-  {
-   "id": "p21278",
-   "plataforma": "shopee",
-   "produto": "Fonte Cooler Master ATX 3.1 750W MWE Gold 750 V3 PFC Ativo 80 Plus Gold Sem/Cabo",
-   "loja": "TNTinfoLoja",
-   "preco": 369.9,
-   "precoDe": 1087.94,
-   "precoComCupom": 322.0,
-   "desconto": 66,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/5q9KljcXJX",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-824i5-mputbkgbcg759a",
-   "emoji": "🔌",
-   "visto": "2026-10-29 16:18:25"
-  },
-  {
-   "id": "p21277",
-   "plataforma": "shopee",
-   "produto": "Memória DDR4 Kingston Fury Beast 8GB 3200MHz KF432C16BB/8 NOVA LACRADA",
-   "loja": "Bastri  E-commerce",
-   "preco": 465.49,
-   "precoDe": 990.4,
-   "precoComCupom": 421.0,
-   "desconto": 53,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/6VP1Yo4VMG",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ll-mspm4cqsxpmvd8",
-   "emoji": "💾",
-   "visto": "2026-10-29 16:16:11"
   }
  ]
 }
