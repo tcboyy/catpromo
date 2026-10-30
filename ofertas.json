@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-10-30 08:05:46",
+ "atualizado": "2026-10-30 08:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21292",
+   "plataforma": "mercadolivre",
+   "produto": "Inversor Veicular IF-378 350W 12V para com USB e LED - R$ 89",
+   "loja": "",
+   "preco": 89.0,
+   "precoDe": 249.98,
+   "precoComCupom": null,
+   "desconto": 64,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1dVo8iZ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_839706-MLA100500303163_122025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-30 08:32:32"
+  },
   {
    "id": "p20182",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_630299-MLA115364447844_082026-P.webp",
    "emoji": "🎧",
    "visto": "2026-10-29 16:53:00"
-  },
-  {
-   "id": "p20934",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Desktop Puskill Killblade Ddr4 16gb 2666mhz Cl19 - R$ 674,93",
-   "loja": "",
-   "preco": 674.93,
-   "precoDe": 980.0,
-   "precoComCupom": 599.0,
-   "desconto": 31,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qeY4yJ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
-   "emoji": "💾",
-   "visto": "2026-10-29 16:48:27"
   }
  ]
 }
