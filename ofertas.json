@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-29 22:05:45",
+ "atualizado": "2026-10-29 22:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21184",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Gamer Tgt Barrier, 160cm, Preto Preto - R$ 557,28",
+   "loja": "",
+   "preco": 557.28,
+   "precoDe": 1496.0,
+   "precoComCupom": null,
+   "desconto": 63,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Td3Hyv",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_991518-MLB116952179246_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-29 22:24:45"
+  },
+  {
+   "id": "p19904",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Ire Pro Preto - H848 Wireless - R$ 149,60",
+   "loja": "",
+   "preco": 149.6,
+   "precoDe": 176.0,
+   "precoComCupom": null,
+   "desconto": 15,
+   "cupom": "ESPECIALML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2Rtw8nk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_980513-MLA96122413563_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-29 22:12:40"
+  },
   {
    "id": "p6569",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_776275-MLA106925855971_022026-P.webp",
    "emoji": "⌨️",
    "visto": "2026-10-29 12:21:18"
-  },
-  {
-   "id": "p19381",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB - R$ 705,12",
-   "loja": "",
-   "preco": 705.12,
-   "precoDe": 1099.0,
-   "precoComCupom": 705.0,
-   "desconto": 36,
-   "cupom": "OFERTAPRATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1CGnL35",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_920822-MLA99469912962_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-29 12:08:19"
-  },
-  {
-   "id": "p21274",
-   "plataforma": "mercadolivre",
-   "produto": "Gabinete Gamer Mid Tower Preto Aigo Darkflash C285-BK Vidro USB - R$ 323,80",
-   "loja": "",
-   "preco": 323.8,
-   "precoDe": 822.35,
-   "precoComCupom": null,
-   "desconto": 61,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/31ZiTkn",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_912986-MLA99943255981_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-29 12:01:11"
   }
  ]
 }
