@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-10-29 21:35:46",
+ "atualizado": "2026-10-29 22:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6569",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gigabyte Gs24f14 23.8 Pol Full Hd Ips 144hz 1ms - R$ 558,89",
+   "loja": "",
+   "preco": 558.89,
+   "precoDe": 799.0,
+   "precoComCupom": 488.0,
+   "desconto": 30,
+   "cupom": "MELIMAISTODOSITE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2rxtSPy",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_872401-MLA113528429319_062026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-29 22:02:39"
+  },
+  {
+   "id": "p15470",
+   "plataforma": "mercadolivre",
+   "produto": "Fones de ouvido para jogos sem fio Redragon H510-PRO H510-PRO pretos com luz LED - R$ 309",
+   "loja": "",
+   "preco": 309.0,
+   "precoDe": null,
+   "precoComCupom": 308.0,
+   "desconto": null,
+   "cupom": "COMPRANOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CyAnr2",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685800-MLA95634757877_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-29 21:48:33"
+  },
+  {
+   "id": "p21147",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Para Escritorio Zinnia Aurea A160 Tampo De Madeira160cm - R$ 543,81",
+   "loja": "",
+   "preco": 543.81,
+   "precoDe": 776.46,
+   "precoComCupom": null,
+   "desconto": 30,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1seJ6vQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_731534-MLU76682000542_062024-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-29 21:36:39"
+  },
   {
    "id": "p20455",
    "plataforma": "mercadolivre",
@@ -1123,22 +1171,6 @@
    "visto": "2026-10-29 13:11:24"
   },
   {
-   "id": "p21147",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Para Escritorio Zinnia Aurea A160 Tampo De Madeira160cm - R$ 543,81",
-   "loja": "",
-   "preco": 543.81,
-   "precoDe": 776.46,
-   "precoComCupom": null,
-   "desconto": 30,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1seJ6vQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_731534-MLU76682000542_062024-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-29 13:00:25"
-  },
-  {
    "id": "p15610",
    "plataforma": "mercadolivre",
    "produto": "Cadeira de Escritório Giratória HomeNow Columbus Presidente NR17 120kg Preta com Tela Mesh - R$ 286,98",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_912986-MLA99943255981_112025-P.webp",
    "emoji": "📦",
    "visto": "2026-10-29 12:01:11"
-  },
-  {
-   "id": "p15308",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 579,90",
-   "loja": "",
-   "preco": 579.9,
-   "precoDe": 906.53,
-   "precoComCupom": 529.0,
-   "desconto": 36,
-   "cupom": "TODOSITE2410",
-   "cupomTexto": "",
-   "url": "https://meli.la/1ZDMAXC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_764756-MLA96570589252_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-10-29 11:59:15"
-  },
-  {
-   "id": "p21184",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Gamer Tgt Barrier, 160cm, Preto Preto - R$ 557,28",
-   "loja": "",
-   "preco": 557.28,
-   "precoDe": 1496.0,
-   "precoComCupom": null,
-   "desconto": 63,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Td3Hyv",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_991518-MLB116952179246_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-29 11:55:56"
   }
  ]
 }
