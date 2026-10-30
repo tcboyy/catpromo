@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-29 23:05:45",
+ "atualizado": "2026-10-29 23:36:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21084",
+   "plataforma": "mercadolivre",
+   "produto": "Webcam 1080p 2mp Full Hd Alta Resolução Com Microfone Usb Preto - R$ 54,99",
+   "loja": "",
+   "preco": 54.99,
+   "precoDe": 75.9,
+   "precoComCupom": 52.0,
+   "desconto": 28,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/2My7XVh",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_757583-MLB110428100171_042026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-29 23:21:30"
+  },
+  {
+   "id": "p15479",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Essential S3, 24\" FHD, 120 Hz, HDMI, Preto - R$ 529,07",
+   "loja": "",
+   "preco": 529.07,
+   "precoDe": 699.0,
+   "precoComCupom": 406.0,
+   "desconto": 24,
+   "cupom": "OFFSOHJ",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Kn5fyp",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_652104-MLA96195278152_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-29 23:11:35"
+  },
   {
    "id": "p15887",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_954019-MLB43250391927_082020-P.webp",
    "emoji": "📦",
    "visto": "2026-10-29 13:33:59"
-  },
-  {
-   "id": "p15284",
-   "plataforma": "mercadolivre",
-   "produto": "Teclado Mecânico Gamer 60% Switch Huano Brow Red Pc Computador Switch Vermelho Português Brasil - Titorion - R$ 137,56",
-   "loja": "",
-   "preco": 137.56,
-   "precoDe": 249.9,
-   "precoComCupom": 123.0,
-   "desconto": 45,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/1wZccnb",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_738186-MLA99518020132_112025-P.webp",
-   "emoji": "⌨️",
-   "visto": "2026-10-29 13:22:31"
-  },
-  {
-   "id": "p19584",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mãe Gigabyte B550m Ds3h Ac R2 Preto - R$ 628",
-   "loja": "",
-   "preco": 628.0,
-   "precoDe": null,
-   "precoComCupom": null,
-   "desconto": null,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2xLEbfN",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_972902-MLA105342679932_012026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-29 13:15:17"
   }
  ]
 }
