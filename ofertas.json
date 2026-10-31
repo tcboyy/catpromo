@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-10-31 11:05:46",
+ "atualizado": "2026-10-31 11:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19781",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido Headset Gamer Sem Fio Titorion Mintak Pro Tri - mode (Wireless 2.4GHz , Bluetooth, Cabo) Ultraleve Preto - R$ 213",
+   "loja": "",
+   "preco": 213.0,
+   "precoDe": 299.9,
+   "precoComCupom": 191.0,
+   "desconto": 29,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2EthgBB",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_654888-MLA105359507121_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-31 11:31:45"
+  },
+  {
+   "id": "p15610",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira de Escritório Presidente NR17 120kg Ergonômica Giratória com Tela Mesh Columbus HomeNow Cor Preto - R$ 286,98",
+   "loja": "",
+   "preco": 286.98,
+   "precoDe": 659.0,
+   "precoComCupom": 243.0,
+   "desconto": 56,
+   "cupom": "MOVEIS2810",
+   "cupomTexto": "",
+   "url": "https://meli.la/1z4t2oC",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-10-31 11:20:33"
+  },
+  {
+   "id": "p19471",
+   "plataforma": "mercadolivre",
+   "produto": "Fonte Cooler Master Mwe 750 V3 750w Atx 3.1 Preto - R$ 427",
+   "loja": "",
+   "preco": 427.0,
+   "precoDe": 673.0,
+   "precoComCupom": 359.0,
+   "desconto": 37,
+   "cupom": "MELITECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2on3EX1",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_663942-MLA116503586141_082026-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-10-31 11:14:32"
+  },
   {
    "id": "p20670",
    "plataforma": "mercadolivre",
@@ -947,22 +995,6 @@
    "visto": "2026-10-30 19:48:34"
   },
   {
-   "id": "p15610",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira de Escritório Presidente NR17 120kg Ergonômica Giratória com Tela Mesh Columbus HomeNow Cor Preto - R$ 286,98",
-   "loja": "",
-   "preco": 286.98,
-   "precoDe": 659.0,
-   "precoComCupom": 243.0,
-   "desconto": 56,
-   "cupom": "MOVEIS2810",
-   "cupomTexto": "",
-   "url": "https://meli.la/1z4t2oC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-10-30 19:44:44"
-  },
-  {
    "id": "p19780",
    "plataforma": "mercadolivre",
    "produto": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B - R$ 7",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_748494-MLA99946664997_112025-P.webp",
    "emoji": "📦",
    "visto": "2026-10-30 18:20:48"
-  },
-  {
-   "id": "p20330",
-   "plataforma": "mercadolivre",
-   "produto": "Alto-falante Jbl Partybox Encore Essential 2 Party preto - R$ 1.357",
-   "loja": "",
-   "preco": 1357.0,
-   "precoDe": 1699.0,
-   "precoComCupom": 1003.0,
-   "desconto": 20,
-   "cupom": "SITEMELIMAIS15",
-   "cupomTexto": "",
-   "url": "https://meli.la/26t6ixq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_822320-MLA117015533966_102026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-30 18:20:41"
-  },
-  {
-   "id": "p20725",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Pad Gamer Apex Control Profissional 49x42 Mousepad - Onda Degradê - R$ 69,90",
-   "loja": "",
-   "preco": 69.9,
-   "precoDe": 99.9,
-   "precoComCupom": null,
-   "desconto": 30,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qTwkAm",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_816699-MLA97463289171_112025-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-10-30 18:18:05"
   }
  ]
 }
