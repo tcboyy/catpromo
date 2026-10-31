@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-30 22:05:46",
+ "atualizado": "2026-10-30 22:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20934",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Desktop Puskill Killblade Ddr4 16gb 2666mhz Cl19 - R$ 674,93",
+   "loja": "",
+   "preco": 674.93,
+   "precoDe": 980.0,
+   "precoComCupom": 607.0,
+   "desconto": 31,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2qeY4yJ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
+   "emoji": "💾",
+   "visto": "2026-10-30 22:24:41"
+  },
+  {
+   "id": "p21321",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Gamer X-ray Ergonomica Estofado De Couro Sintético Cor Azul - R$ 569,90",
+   "loja": "",
+   "preco": 569.9,
+   "precoDe": 1309.0,
+   "precoComCupom": 489.0,
+   "desconto": 56,
+   "cupom": "MELICASA",
+   "cupomTexto": "",
+   "url": "https://meli.la/2rUV295",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_746213-MLA112456525723_052026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-10-30 22:12:39"
+  },
   {
    "id": "p20187",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_872401-MLA113528429319_062026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-30 15:32:53"
-  },
-  {
-   "id": "p21303",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Microsoft Xbox Sem Fio Carbon Black Preto - R$ 338,43",
-   "loja": "",
-   "preco": 338.43,
-   "precoDe": 389.0,
-   "precoComCupom": 287.0,
-   "desconto": 13,
-   "cupom": "SITEMELIMAIS15",
-   "cupomTexto": "",
-   "url": "https://meli.la/1X6Qvdp",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_913150-MLB118427110258_102026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-10-30 15:32:47"
-  },
-  {
-   "id": "p6415",
-   "plataforma": "mercadolivre",
-   "produto": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto - R$ 86,16",
-   "loja": "",
-   "preco": 86.16,
-   "precoDe": 199.0,
-   "precoComCupom": null,
-   "desconto": 57,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1vHjK3c",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_696266-MLA97205822349_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-30 15:30:30"
   }
  ]
 }
