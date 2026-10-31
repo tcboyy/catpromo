@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-10-30 21:05:46",
+ "atualizado": "2026-10-30 21:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21261",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Curvo Gawfolk 34 Uwqhd 165hz Alto-falante Dp Preto - R$ 1.308",
+   "loja": "",
+   "preco": 1308.0,
+   "precoDe": 2544.0,
+   "precoComCupom": 1163.0,
+   "desconto": 49,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/2VGzMGe",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_958408-MLA111719820868_062026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-30 21:25:41"
+  },
+  {
+   "id": "p21214",
+   "plataforma": "shopee",
+   "produto": "Smart TV 43\" Semp 4K UHD LED 43S62 Google TV 2025",
+   "loja": "Magalu",
+   "preco": 1449.0,
+   "precoDe": null,
+   "precoComCupom": 1254.0,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/60Smtib5yh",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825a8-mtr0zo059a0ya2",
+   "emoji": "🖥️",
+   "visto": "2026-10-30 21:21:06"
+  },
+  {
+   "id": "p6566",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 711,20",
+   "loja": "",
+   "preco": 711.2,
+   "precoDe": 1045.0,
+   "precoComCupom": 604.0,
+   "desconto": 32,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/2UDUtEP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-30 21:13:37"
+  },
   {
    "id": "p15227",
    "plataforma": "mercadolivre",
@@ -1139,22 +1187,6 @@
    "visto": "2026-10-30 15:44:15"
   },
   {
-   "id": "p6566",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 711,20",
-   "loja": "",
-   "preco": 711.2,
-   "precoDe": 1045.0,
-   "precoComCupom": 640.0,
-   "desconto": 32,
-   "cupom": "AQUITEMTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2UDUtEP",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-30 15:40:32"
-  },
-  {
    "id": "p6569",
    "plataforma": "mercadolivre",
    "produto": "Monitor Gigabyte Gs24f14 23.8 Pol Full Hd Ips 144hz 1ms - R$ 558,89",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_963375-MLB115348451383_072026-P.webp",
    "emoji": "📦",
    "visto": "2026-10-30 15:16:50"
-  },
-  {
-   "id": "p20455",
-   "plataforma": "mercadolivre",
-   "produto": "Câmera Lâmpada Segurança Inteligente Visão Noturna Hd Wifi Cor Branco - R$ 47,49",
-   "loja": "",
-   "preco": 47.49,
-   "precoDe": 49.99,
-   "precoComCupom": null,
-   "desconto": 5,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2o3vqHJ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_791881-MLA96833156891_102025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-10-30 15:13:53"
-  },
-  {
-   "id": "p15308",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 579,90",
-   "loja": "",
-   "preco": 579.9,
-   "precoDe": 906.53,
-   "precoComCupom": 529.0,
-   "desconto": 36,
-   "cupom": "MELICASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/1ZDMAXC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_764756-MLA96570589252_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-10-30 15:11:56"
   }
  ]
 }
