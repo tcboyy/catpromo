@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-31 17:35:46",
+ "atualizado": "2026-10-31 18:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15306",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F - R$ 736,28",
+   "loja": "",
+   "preco": 736.28,
+   "precoDe": 899.0,
+   "precoComCupom": 647.0,
+   "desconto": 18,
+   "cupom": "VALETECH",
+   "cupomTexto": "",
+   "url": "https://www.mercadolivre.com.br/social/duartedarosacadorinmaiteni?matt_word=g03tech&matt_tool=35843039&forceInApp=true&ref=BCIG3RWI%2BK5BZaGviKWkRHjbTif1t7tCKrQv53VGKCK71CbPqkEWprKsc0CNXDgIOLEsCgBqC69E2Z2gotgl3YSDGaaTgN%2Fqi6fzC45IBt7%2B2Ua6ZLOU25gpJhPDbZcouCJukl8vRPIalI%2B833BA4Xa9q1UiVOFt9ElDqfI6DFeTt7HOZKPyZuCty1vbDKHnD%2BCoxM0%3D",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_922246-MLA99988034526_122025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-31 18:00:48"
+  },
+  {
+   "id": "p20004",
+   "plataforma": "mercadolivre",
+   "produto": "Creatina Integralmédica Hardcore em cápsula Sem sabor x 105g de 120 un - R$ 29,09",
+   "loja": "",
+   "preco": 29.09,
+   "precoDe": 58.0,
+   "precoComCupom": null,
+   "desconto": 50,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/31JNaas",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_833789-MLA100590939374_122025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 17:46:45"
+  },
   {
    "id": "p15253",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_800527-MLA114603389639_072026-P.webp",
    "emoji": "📱",
    "visto": "2026-10-31 09:25:55"
-  },
-  {
-   "id": "p6706",
-   "plataforma": "mercadolivre",
-   "produto": "Gabinete Gamer Obsid Frame Preto Vidro Mid Tower S/ Fan Preto - R$ 339,86",
-   "loja": "",
-   "preco": 339.86,
-   "precoDe": 399.0,
-   "precoComCupom": 305.0,
-   "desconto": 15,
-   "cupom": "OFFNOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1w5mwfY",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_811749-MLB114971963855_072026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 09:24:07"
-  },
-  {
-   "id": "p15908",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG UltraFine - Tela IPS UHD 4K 27\", HDR10, DCI-P3 90% , Dynamic Action Sync, Branco– 27US500 - R$ 1.179",
-   "loja": "",
-   "preco": 1179.0,
-   "precoDe": 1645.0,
-   "precoComCupom": 1061.0,
-   "desconto": 28,
-   "cupom": "OFFNOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1csV64e",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_912843-MLA99938852799_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 09:22:40"
   }
  ]
 }
