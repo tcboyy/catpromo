@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-31 18:05:46",
+ "atualizado": "2026-10-31 18:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15257",
+   "plataforma": "mercadolivre",
+   "produto": "Controle Sem Fio Joystick REDFIN Bluetooth Compatível Para Ps4 Videogame Tv Samsung Pc P4 Ps 4 Manete Pc Gamer Tv Smart Controle Bluetooth C",
+   "loja": "",
+   "preco": 48.54,
+   "precoDe": 114.9,
+   "precoComCupom": null,
+   "desconto": 58,
+   "cupom": "TODOSITE2709",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Xjhhwa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762912-MLA105696431793_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-31 18:31:08"
+  },
+  {
+   "id": "p15457",
+   "plataforma": "mercadolivre",
+   "produto": "Webcam Camera Full Hd Zoom 1080p 360 Graus Videoconferencia Streamcam Web Cam Entrada Usb 2.0 Com Microfone- GoodVision - R$ 36,98",
+   "loja": "",
+   "preco": 36.98,
+   "precoDe": 78.0,
+   "precoComCupom": null,
+   "desconto": 53,
+   "cupom": "COMPRANOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2QiU6iV",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_807092-MLA100966388363_122025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-10-31 18:16:33"
+  },
   {
    "id": "p15306",
    "plataforma": "mercadolivre",
@@ -289,22 +321,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
    "emoji": "🪑",
    "visto": "2026-10-31 16:00:37"
-  },
-  {
-   "id": "p15257",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Sem Fio Joystick REDFIN Bluetooth Compatível Para Ps4 Videogame Tv Samsung Pc P4 Ps 4 Manete Pc Gamer Tv Smart Controle Bluetooth C",
-   "loja": "",
-   "preco": 48.54,
-   "precoDe": 114.9,
-   "precoComCupom": null,
-   "desconto": 58,
-   "cupom": "TODOSITE2709",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Xjhhwa",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762912-MLA105696431793_012026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-10-31 15:50:27"
   },
   {
    "id": "p21335",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_930759-MLB120319755147_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-10-31 09:28:15"
-  },
-  {
-   "id": "p21324",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy A57 5G 256GB, 8GB RAM, Recursos AI - Cinza - R$ 2.159",
-   "loja": "",
-   "preco": 2159.0,
-   "precoDe": 4299.0,
-   "precoComCupom": 1979.0,
-   "desconto": 50,
-   "cupom": "OFFNOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1BP9YHv",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_800527-MLA114603389639_072026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-10-31 09:25:55"
   }
  ]
 }
