@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-10-31 20:05:46",
+ "atualizado": "2026-10-31 20:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19461",
+   "plataforma": "mercadolivre",
+   "produto": "SSD Kingston NV3 500GB M.2 2280 NVMe PCIe 4.0 - R$ 634",
+   "loja": "",
+   "preco": 634.0,
+   "precoDe": 691.0,
+   "precoComCupom": null,
+   "desconto": 8,
+   "cupom": "MELIMAIS2610",
+   "cupomTexto": "",
+   "url": "https://meli.la/2dNKJLQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_759501-MLA118512663012_102026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-10-31 20:32:50"
+  },
+  {
+   "id": "p15343",
+   "plataforma": "mercadolivre",
+   "produto": "Watercooler Deepcool Le360 V2 Argb Preto 360mm Preto - R$ 417",
+   "loja": "",
+   "preco": 417.0,
+   "precoDe": 526.0,
+   "precoComCupom": 360.0,
+   "desconto": 21,
+   "cupom": "FULL1510",
+   "cupomTexto": "",
+   "url": "https://meli.la/2bEdCEz",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_962661-MLA88260755503_072025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 20:14:43"
+  },
+  {
+   "id": "p6414",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor gamer Aoc Série B30 21.5'' Full Hd Gaming 120hz 1ms 22b30hm23 cor preto - R$ 382,50",
+   "loja": "",
+   "preco": 382.5,
+   "precoDe": 849.9,
+   "precoComCupom": 310.0,
+   "desconto": 55,
+   "cupom": "MELIPROMO3111",
+   "cupomTexto": "",
+   "url": "https://meli.la/2G8USia",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_621055-MLA91966913733_092025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-31 20:14:37"
+  },
   {
    "id": "p15225",
    "plataforma": "mercadolivre",
@@ -465,22 +513,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_988492-MLA95660063276_102025-P.webp",
    "emoji": "🪑",
    "visto": "2026-10-31 16:03:48"
-  },
-  {
-   "id": "p6414",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor gamer Aoc Série B30 21.5'' Full Hd Gaming 120hz 1ms 22b30hm23 cor preto - R$ 382,50",
-   "loja": "",
-   "preco": 382.5,
-   "precoDe": 849.9,
-   "precoComCupom": 310.0,
-   "desconto": 55,
-   "cupom": "MELIPROMO3111",
-   "cupomTexto": "",
-   "url": "https://meli.la/2G8USia",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_621055-MLA91966913733_092025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 16:01:36"
   },
   {
    "id": "p15610",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_640647-MLB115149044730_082026-P.webp",
    "emoji": "🎧",
    "visto": "2026-10-31 10:06:18"
-  },
-  {
-   "id": "p19248",
-   "plataforma": "mercadolivre",
-   "produto": "Smart Tv Tcl 43 Polegadas 43s5k Fhd Qled Hdr10 Google Tv - R$ 1.669",
-   "loja": "",
-   "preco": 1669.0,
-   "precoDe": 2253.0,
-   "precoComCupom": 1502.0,
-   "desconto": 26,
-   "cupom": "OFFNOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1h3u8uz",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_766531-MLA104262809393_012026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 10:04:34"
-  },
-  {
-   "id": "p15354",
-   "plataforma": "mercadolivre",
-   "produto": "Fone Bluetooth Samsung Galaxy Buds Core Preto - R$ 216",
-   "loja": "",
-   "preco": 216.0,
-   "precoDe": 349.0,
-   "precoComCupom": 184.0,
-   "desconto": 38,
-   "cupom": "OFFNOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1geiXMR",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_733029-MLA96883295535_102025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-10-31 10:02:45"
   }
  ]
 }
