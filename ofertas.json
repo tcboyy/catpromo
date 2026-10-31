@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-30 23:36:45",
+ "atualizado": "2026-10-31 00:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6569",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gigabyte Gs24f14 23.8 Pol Full Hd Ips 144hz 1ms - R$ 558,89",
+   "loja": "",
+   "preco": 558.89,
+   "precoDe": 799.0,
+   "precoComCupom": 503.0,
+   "desconto": 30,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2rxtSPy",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_872401-MLA113528429319_062026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-30 23:49:38"
+  },
+  {
+   "id": "p21322",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Attack Shark X3 Paw3395 Ultra Leve 49g Sem Fio P Cor Preto - R$ 160,72",
+   "loja": "",
+   "preco": 160.72,
+   "precoDe": 199.99,
+   "precoComCupom": null,
+   "desconto": 20,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1ZGm5sE",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_964337-MLA96400432709_102025-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-10-30 23:37:38"
+  },
   {
    "id": "p21147",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_744601-MLA99934274785_112025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-30 16:24:33"
-  },
-  {
-   "id": "p21074",
-   "plataforma": "mercadolivre",
-   "produto": "Extensão Elétrica 5 Tomadas 6 Usb 2500w Régua Bivolt Cabo 2m Preto-5tomadas/4usb-a/2usb-c 127/220v - R$ 36,63",
-   "loja": "",
-   "preco": 36.63,
-   "precoDe": 99.0,
-   "precoComCupom": null,
-   "desconto": 63,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/21W7UwW",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_895605-MLB115676626750_092026-P.webp",
-   "emoji": "🔌",
-   "visto": "2026-10-30 16:22:20"
-  },
-  {
-   "id": "p21305",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Aoc 23.8 24g42he Full Hd 200hz 0.3ms Ips - R$ 790,48",
-   "loja": "",
-   "preco": 790.48,
-   "precoDe": 832.09,
-   "precoComCupom": null,
-   "desconto": 5,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2T6pkLt",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_831227-MLB117647430398_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-30 16:12:42"
   }
  ]
 }
