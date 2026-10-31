@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-10-31 13:05:46",
+ "atualizado": "2026-10-31 13:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21018",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Escritório Industrial Reforçado Ferro Homeoffice 150x60 Mel - R$ 207",
+   "loja": "",
+   "preco": 207.0,
+   "precoDe": 346.4,
+   "precoComCupom": 175.0,
+   "desconto": 40,
+   "cupom": "MELICASA",
+   "cupomTexto": "",
+   "url": "https://meli.la/2DEHNk3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762999-MLB110276049903_042026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 13:31:43"
+  },
+  {
+   "id": "p6566",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 735,08",
+   "loja": "",
+   "preco": 735.08,
+   "precoDe": 939.0,
+   "precoComCupom": 604.0,
+   "desconto": 22,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/2UDUtEP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 13:17:36"
+  },
+  {
+   "id": "p6479",
+   "plataforma": "mercadolivre",
+   "produto": "Suporte De Mesa Para Tv/monitor De 17 Até 30 Preto Nb F80 - R$ 98,78",
+   "loja": "",
+   "preco": 98.78,
+   "precoDe": 250.9,
+   "precoComCupom": 92.0,
+   "desconto": 61,
+   "cupom": "APROVEITA",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Ubuyvt",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_967508-MLA115291492479_072026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-31 13:15:31"
+  },
   {
    "id": "p18274",
    "plataforma": "mercadolivre",
@@ -1027,22 +1075,6 @@
    "visto": "2026-10-30 21:21:06"
   },
   {
-   "id": "p6566",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 711,20",
-   "loja": "",
-   "preco": 711.2,
-   "precoDe": 1045.0,
-   "precoComCupom": 604.0,
-   "desconto": 32,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/2UDUtEP",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-30 21:13:37"
-  },
-  {
    "id": "p15227",
    "plataforma": "mercadolivre",
    "produto": "Cadeira Escritório Ergonômica Genebra G500 NR-17 Luvinco Cor Cinza Com Suporte Lombar Estofado Mesh - R$ 458,07",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_737016-MLA116256824398_092026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-30 19:24:43"
-  },
-  {
-   "id": "p21314",
-   "plataforma": "mercadolivre",
-   "produto": "Câmera De Segurança Intelbras Full Hd 1080p Vhl 1220 B G9 Branco - R$ 131,10",
-   "loja": "",
-   "preco": 131.1,
-   "precoDe": 138.0,
-   "precoComCupom": null,
-   "desconto": 5,
-   "cupom": "ESPECIAL",
-   "cupomTexto": "",
-   "url": "https://meli.la/1H4eXMP",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_640423-MLA110797618199_042026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-10-30 19:24:37"
-  },
-  {
-   "id": "p21313",
-   "plataforma": "mercadolivre",
-   "produto": "DualSense Wireless Control Limited Edition Lisa - R$ 557,07",
-   "loja": "",
-   "preco": 557.07,
-   "precoDe": 599.9,
-   "precoComCupom": null,
-   "desconto": 7,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1hwPCj2",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_968501-MLA118076928593_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-30 19:23:01"
   }
  ]
 }
