@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-10-31 19:36:46",
+ "atualizado": "2026-10-31 20:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15225",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Gamer Wells Preta Healer - R$ 429,65",
+   "loja": "",
+   "preco": 429.65,
+   "precoDe": 888.07,
+   "precoComCupom": 358.0,
+   "desconto": 52,
+   "cupom": "OFFNOMELIHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2Axs1BU",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_859282-MLA105409191484_012026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-10-31 20:01:49"
+  },
+  {
+   "id": "p6539",
+   "plataforma": "shopee",
+   "produto": "Mouse X11 Sem Fio Bluetooth Gamer Sem Fio Com Adesivo Bluetooth Usb Preto e Branco 3 em 1",
+   "loja": "Giomi store",
+   "preco": 99.99,
+   "precoDe": 158.71,
+   "precoComCupom": 86.0,
+   "desconto": 37,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/2qVmcqHe9m",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259u-mqtj6tb9z37z08",
+   "emoji": "🖱️",
+   "visto": "2026-10-31 19:54:30"
+  },
+  {
+   "id": "p21018",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Escritório Industrial Reforçado Ferro Homeoffice 150x60 Mel - R$ 207",
+   "loja": "",
+   "preco": 207.0,
+   "precoDe": 346.4,
+   "precoComCupom": 175.0,
+   "desconto": 40,
+   "cupom": "MELICASA",
+   "cupomTexto": "",
+   "url": "https://meli.la/2DEHNk3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762999-MLB110276049903_042026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 19:45:58"
+  },
   {
    "id": "p19629",
    "plataforma": "mercadolivre",
@@ -771,22 +819,6 @@
    "visto": "2026-10-31 13:35:57"
   },
   {
-   "id": "p21018",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Escritório Industrial Reforçado Ferro Homeoffice 150x60 Mel - R$ 207",
-   "loja": "",
-   "preco": 207.0,
-   "precoDe": 346.4,
-   "precoComCupom": 175.0,
-   "desconto": 40,
-   "cupom": "MELICASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/2DEHNk3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762999-MLB110276049903_042026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 13:31:43"
-  },
-  {
    "id": "p6566",
    "plataforma": "mercadolivre",
    "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 735,08",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_733029-MLA96883295535_102025-P.webp",
    "emoji": "🎧",
    "visto": "2026-10-31 10:02:45"
-  },
-  {
-   "id": "p21326",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Ram DDR4 8GB 3200MHz - UP Gamer - R$ 359",
-   "loja": "",
-   "preco": 359.0,
-   "precoDe": null,
-   "precoComCupom": null,
-   "desconto": null,
-   "cupom": "OFFNOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/26Vr3St",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_791436-MLA111346192959_052026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-10-31 09:55:17"
-  },
-  {
-   "id": "p20346",
-   "plataforma": "mercadolivre",
-   "produto": "Smart TV Hisense HI-QLED 4K 43\" Polegadas com Dolby Atmos, Dolby Gaming e Alexa - 43Q6QVV - R$ 1.641",
-   "loja": "",
-   "preco": 1641.0,
-   "precoDe": 2199.0,
-   "precoComCupom": 1477.0,
-   "desconto": 25,
-   "cupom": "OFFNOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/17kEznD",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_607020-MLA119937862637_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 09:52:55"
   }
  ]
 }
