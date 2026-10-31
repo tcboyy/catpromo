@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-31 08:35:45",
+ "atualizado": "2026-10-31 09:06:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21323",
+   "plataforma": "shopee",
+   "produto": "Suporte Para Notebook Dobrável Ajustável Ergonômico Resistente Base Antiderrapante Portátil",
+   "loja": "Ming.store",
+   "preco": 14.99,
+   "precoDe": 49.97,
+   "precoComCupom": null,
+   "desconto": 70,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/3g4stV7jcm",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rbmm-lljh5cf0wvbvd9",
+   "emoji": "💻",
+   "visto": "2026-10-31 09:01:05"
+  },
+  {
+   "id": "p19461",
+   "plataforma": "mercadolivre",
+   "produto": "SSD Kingston NV3 500GB M.2 2280 NVMe PCIe 4.0 - R$ 641,52",
+   "loja": "",
+   "preco": 641.52,
+   "precoDe": 729.0,
+   "precoComCupom": null,
+   "desconto": 12,
+   "cupom": "MELIMAIS2610",
+   "cupomTexto": "",
+   "url": "https://meli.la/2dNKJLQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_759501-MLA118512663012_102026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-10-31 08:58:59"
+  },
   {
    "id": "p19709",
    "plataforma": "shopee",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_763692-MLA99940510369_112025-P.webp",
    "emoji": "🪑",
    "visto": "2026-10-30 16:36:29"
-  },
-  {
-   "id": "p15485",
-   "plataforma": "mercadolivre",
-   "produto": "Teclado Mecânico Aula F75 Preto Sem Fio Tri Mode 75% Hotswap Rgb Idioma Inglês Us - R$ 346",
-   "loja": "",
-   "preco": 346.0,
-   "precoDe": 799.0,
-   "precoComCupom": 295.0,
-   "desconto": 57,
-   "cupom": "SITEMELIMAIS15",
-   "cupomTexto": "",
-   "url": "https://meli.la/2mWTKy1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_741406-MLA99992150477_112025-P.webp",
-   "emoji": "⌨️",
-   "visto": "2026-10-30 16:33:44"
-  },
-  {
-   "id": "p19610",
-   "plataforma": "mercadolivre",
-   "produto": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg - R$ 69,90",
-   "loja": "",
-   "preco": 69.9,
-   "precoDe": 239.9,
-   "precoComCupom": null,
-   "desconto": 71,
-   "cupom": "COMPRANOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1U67ZCU",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_605306-MLA119872143535_102026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-30 16:26:26"
   }
  ]
 }
