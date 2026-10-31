@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-10-31 00:05:45",
+ "atualizado": "2026-10-31 08:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19709",
+   "plataforma": "shopee",
+   "produto": "Kit Ventoinhas TGT Striker, Rainbow, 5x120mm, TGT-STK5-BLRBW",
+   "loja": "Pichau",
+   "preco": 55.9,
+   "precoDe": 82.21,
+   "precoComCupom": 45.0,
+   "desconto": 32,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/7puRoLeI8F",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwl-mbyawjmwdiz2c0",
+   "emoji": "📦",
+   "visto": "2026-10-31 08:20:11"
+  },
   {
    "id": "p6569",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_605306-MLA119872143535_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-10-30 16:26:26"
-  },
-  {
-   "id": "p6650",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor AOC 22\" 120Hz 1ms Gaming HDMI 22B35HM23 Preto - R$ 432,79",
-   "loja": "",
-   "preco": 432.79,
-   "precoDe": 499.0,
-   "precoComCupom": 355.0,
-   "desconto": 13,
-   "cupom": "SITEMELIMAIS15",
-   "cupomTexto": "",
-   "url": "https://meli.la/2Pc6SKd",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_744601-MLA99934274785_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-30 16:24:33"
   }
  ]
 }
