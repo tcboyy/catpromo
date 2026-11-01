@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-01 19:05:45",
+ "atualizado": "2026-11-01 19:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20934",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Desktop Puskill Killblade Ddr4 16gb 2666mhz Cl19 - R$ 674,93",
+   "loja": "",
+   "preco": 674.93,
+   "precoDe": 980.0,
+   "precoComCupom": 607.0,
+   "desconto": 31,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2qeY4yJ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-01 19:31:36"
+  },
+  {
+   "id": "p15508",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido TWS Havit TW982 ENC, Bluetooth 5.4, Até 33h de Reprodução, IPX4, In-Ear, 13mm bio diafragma, Cor Preto - R$ 72,65",
+   "loja": "",
+   "preco": 72.65,
+   "precoDe": 119.0,
+   "precoComCupom": null,
+   "desconto": 39,
+   "cupom": "COMPRANOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1KgyLx6",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_687944-MLA96073444085_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-01 19:17:20"
+  },
   {
    "id": "p19517",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_662776-MLA96607684177_102025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-31 23:28:31"
-  },
-  {
-   "id": "p21274",
-   "plataforma": "mercadolivre",
-   "produto": "Gabinete Gamer Mid Tower Preto Aigo Darkflash C285-BK Vidro USB - R$ 342,63",
-   "loja": "",
-   "preco": 342.63,
-   "precoDe": 822.35,
-   "precoComCupom": null,
-   "desconto": 58,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/31ZiTkn",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_912986-MLA99943255981_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 23:16:33"
-  },
-  {
-   "id": "p20934",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Desktop Puskill Killblade Ddr4 16gb 2666mhz Cl19 - R$ 674,93",
-   "loja": "",
-   "preco": 674.93,
-   "precoDe": 980.0,
-   "precoComCupom": 607.0,
-   "desconto": 31,
-   "cupom": "AQUITEMTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qeY4yJ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
-   "emoji": "💾",
-   "visto": "2026-10-31 22:59:36"
   }
  ]
 }
