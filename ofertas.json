@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-10-31 21:35:46",
+ "atualizado": "2026-10-31 22:06:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15240",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Phillips 24 Evnia Ips 144hz 0.5ms Wide Fullhd Preto 127/220v - R$ 574,75",
+   "loja": "",
+   "preco": 574.75,
+   "precoDe": 1299.0,
+   "precoComCupom": 544.0,
+   "desconto": 56,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/1wwMr5V",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-31 22:00:42"
+  },
+  {
+   "id": "p15615",
+   "plataforma": "mercadolivre",
+   "produto": "Placa-mãe Am4 Msi B550m A Pro Msi - R$ 510,69",
+   "loja": "",
+   "preco": 510.69,
+   "precoDe": 587.0,
+   "precoComCupom": null,
+   "desconto": 13,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2sRVr6V",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_752599-MLA100010456343_122025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 21:49:34"
+  },
+  {
+   "id": "p20218",
+   "plataforma": "mercadolivre",
+   "produto": "Placa de Video AMD Radeon rx 550 4gb - R$ 521,99",
+   "loja": "",
+   "preco": 521.99,
+   "precoDe": 999.0,
+   "precoComCupom": null,
+   "desconto": 48,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2HPiAww",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_862295-MLA99418754940_112025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-10-31 21:46:52"
+  },
   {
    "id": "p19904",
    "plataforma": "mercadolivre",
@@ -739,22 +787,6 @@
    "visto": "2026-10-31 15:11:20"
   },
   {
-   "id": "p15240",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Phillips 24 Evnia Ips 144hz 0.5ms Wide Fullhd Preto 127/220v - R$ 574,75",
-   "loja": "",
-   "preco": 574.75,
-   "precoDe": 1299.0,
-   "precoComCupom": 544.0,
-   "desconto": 56,
-   "cupom": "AQUITEMTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1wwMr5V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 15:00:30"
-  },
-  {
    "id": "p6643",
    "plataforma": "mercadolivre",
    "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 150,34",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_663942-MLA116503586141_082026-P.webp",
    "emoji": "🔌",
    "visto": "2026-10-31 11:14:32"
-  },
-  {
-   "id": "p20670",
-   "plataforma": "mercadolivre",
-   "produto": "Tênis Vans Ultrarange Vr3 Neo Preto Azul Branco 34 Ao 43 - R$ 109,49",
-   "loja": "",
-   "preco": 109.49,
-   "precoDe": 349.0,
-   "precoComCupom": null,
-   "desconto": 69,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1MPtVHJ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_709215-MLB113318768262_072026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 11:02:55"
-  },
-  {
-   "id": "p15769",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Haiz 25'' Ips Fhd 144hz 0.5ms Hdmi Dp Vesa Preto - R$ 577,99",
-   "loja": "",
-   "preco": 577.99,
-   "precoDe": 879.0,
-   "precoComCupom": 494.0,
-   "desconto": 34,
-   "cupom": "GARIMPEI",
-   "cupomTexto": "",
-   "url": "https://meli.la/1xArdR5",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_795878-MLA118124227295_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 10:45:39"
   }
  ]
 }
