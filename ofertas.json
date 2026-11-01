@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-31 23:35:46",
+ "atualizado": "2026-11-01 00:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19551",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G5 34 Uwqhd Preto 127/220v - R$ 1.549",
+   "loja": "",
+   "preco": 1549.0,
+   "precoDe": null,
+   "precoComCupom": 1399.0,
+   "desconto": null,
+   "cupom": "OFFNOTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2aK1d1X",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_902685-MLB94087280447_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-31 23:56:17"
+  },
+  {
+   "id": "p15661",
+   "plataforma": "mercadolivre",
+   "produto": "Processador Amd Ryzen 7 5700x Oem Sem Cooler - R$ 1.035",
+   "loja": "",
+   "preco": 1035.0,
+   "precoDe": 1090.0,
+   "precoComCupom": 993.0,
+   "desconto": 5,
+   "cupom": "SITEMELIMAIS15",
+   "cupomTexto": "",
+   "url": "https://meli.la/2vo87Wp",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_860376-MLA114197427868_082026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 23:47:29"
+  },
   {
    "id": "p19578",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_687589-MLA99536545292_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-31 12:20:42"
-  },
-  {
-   "id": "p15639",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG Ultragear - 27g523 - Ips De 27, 200hz, 1ms Preto 127/220v - R$ 948,99",
-   "loja": "",
-   "preco": 948.99,
-   "precoDe": null,
-   "precoComCupom": 848.0,
-   "desconto": null,
-   "cupom": "TECH100",
-   "cupomTexto": "",
-   "url": "https://meli.la/2SHyYU1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_999410-MLB117416204357_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 12:18:25"
-  },
-  {
-   "id": "p17342",
-   "plataforma": "mercadolivre",
-   "produto": "Console Nintendo Switch Lite 32gb Azul Turquesa Standard Tela 5,5'' Cor Azul-turquesa - R$ 1.349",
-   "loja": "",
-   "preco": 1349.0,
-   "precoDe": 1499.0,
-   "precoComCupom": 1259.0,
-   "desconto": 10,
-   "cupom": "TECH100",
-   "cupomTexto": "",
-   "url": "https://meli.la/1fqMqUC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_750146-MLA99972052003_112025-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-10-31 12:13:07"
   }
  ]
 }
