@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-01 07:35:45",
+ "atualizado": "2026-11-01 09:06:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21161",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Gamer Industrial Com Pés Aço 150cm Para Setup Preto - R$ 236,42",
+   "loja": "",
+   "preco": 236.42,
+   "precoDe": 299.99,
+   "precoComCupom": 200.0,
+   "desconto": 21,
+   "cupom": "MELICASA",
+   "cupomTexto": "",
+   "url": "https://meli.la/12o2eFN",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_622488-MLB113352993519_062026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-01 08:58:57"
+  },
   {
    "id": "p19709",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-maih1jk92ynt4f",
    "emoji": "💾",
    "visto": "2026-10-31 12:40:44"
-  },
-  {
-   "id": "p6581",
-   "plataforma": "mercadolivre",
-   "produto": "Caixa De Som Boombox Aiwa AWS-BBS-01-B 200w IP66 30hs De Bateria - R$ 1.169",
-   "loja": "",
-   "preco": 1169.0,
-   "precoDe": 2360.0,
-   "precoComCupom": 1079.0,
-   "desconto": 50,
-   "cupom": "TECH100",
-   "cupomTexto": "",
-   "url": "https://meli.la/2ThvXcA",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_864411-MLA99591392870_122025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-10-31 12:38:38"
   }
  ]
 }
