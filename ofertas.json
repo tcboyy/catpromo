@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-01 00:05:46",
+ "atualizado": "2026-11-01 00:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20976",
+   "plataforma": "shopee",
+   "produto": "Notebook ASUS TUF Gaming F16 RL105 Intel Core 5 210H, NVIDIA RTX™ 3050, 8GB, 512GB SSD, KeepOS, 16\" LCD LED FHD 144 Hz",
+   "loja": "Loja ASUS",
+   "preco": 4704.87,
+   "precoDe": 5286.37,
+   "precoComCupom": null,
+   "desconto": 11,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/BV1k59tOf",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8257z-mui9rphvk35t51",
+   "emoji": "💻",
+   "visto": "2026-11-01 00:18:39"
+  },
+  {
+   "id": "p19252",
+   "plataforma": "shopee",
+   "produto": "Notebook VAIO FE16 AMD Ryzen 7 5825U, Linux, 8GB RAM 256GB M.2 NVMe 16\" IPS - Cinza Grafite fe 16",
+   "loja": "Positivo Tecnologia",
+   "preco": 3259.78,
+   "precoDe": 5015.05,
+   "precoComCupom": 2961.0,
+   "desconto": 35,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/5fpyHQXmQp",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81zup-mkv2xqtnpf5ue9",
+   "emoji": "💻",
+   "visto": "2026-11-01 00:07:33"
+  },
   {
    "id": "p19551",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_929864-MLB113633207372_072026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-31 12:35:26"
-  },
-  {
-   "id": "p21106",
-   "plataforma": "mercadolivre",
-   "produto": "Fone De Ouvido Gamer Headset Havit H2015d Pc Consoles Branco - R$ 123",
-   "loja": "",
-   "preco": 123.0,
-   "precoDe": 189.0,
-   "precoComCupom": null,
-   "desconto": 35,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1So4TqB",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_977270-MLA108023072033_032026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-10-31 12:32:47"
-  },
-  {
-   "id": "p6699",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G4S 25\" 310Hz 0.3ms HDR400 IPS Base Ajustável 25G4S/P Preto - R$ 1.157",
-   "loja": "",
-   "preco": 1157.0,
-   "precoDe": 1499.0,
-   "precoComCupom": 1049.0,
-   "desconto": 23,
-   "cupom": "TECH100",
-   "cupomTexto": "",
-   "url": "https://meli.la/2KhvwBN",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_687589-MLA99536545292_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 12:20:42"
   }
  ]
 }
