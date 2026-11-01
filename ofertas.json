@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-01 13:35:46",
+ "atualizado": "2026-11-01 14:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21346",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Magnético Gamer Havit KB922L Pro-SP 65% 69 Teclas Rapid Trigger 0,01mm 8000Hz RGB Hall Effect Com Fio USB-C Cor Preto Inglês US - R$",
+   "loja": "",
+   "preco": 279.0,
+   "precoDe": 350.0,
+   "precoComCupom": null,
+   "desconto": 20,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2t1yVqu",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_620229-MLA115311916832_082026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-01 14:02:37"
+  },
+  {
+   "id": "p20207",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Sem Fio Logitech G703 LIGHTSPEED RGB LIGHTSYNC, 6 Botões Programáveis, Sensor HERO 25K, Recarregável, Compatível POWERPLAY - R$ ",
+   "loja": "",
+   "preco": 359.99,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "OFFNOMELIHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2GEDK5s",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_976729-MLA115970512909_082026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-01 13:45:38"
+  },
   {
    "id": "p21345",
    "plataforma": "mercadolivre",
@@ -899,22 +931,6 @@
    "visto": "2026-10-31 21:30:39"
   },
   {
-   "id": "p20207",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Gamer Sem Fio Logitech G703 LIGHTSPEED RGB LIGHTSYNC, 6 Botões Programáveis, Sensor HERO 25K, Recarregável, Compatível POWERPLAY - R$ ",
-   "loja": "",
-   "preco": 359.99,
-   "precoDe": null,
-   "precoComCupom": null,
-   "desconto": null,
-   "cupom": "OFFNOMELIHOJE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2GEDK5s",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_976729-MLA115970512909_082026-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-10-31 21:17:59"
-  },
-  {
    "id": "p19381",
    "plataforma": "mercadolivre",
    "produto": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB - R$ 695,30",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_624412-MLB113978286411_062026-P.webp",
    "emoji": "📦",
    "visto": "2026-10-31 17:03:32"
-  },
-  {
-   "id": "p15435",
-   "plataforma": "mercadolivre",
-   "produto": "Placa mãe Gigabyte Ultra Durable A520M K V2 - R$ 404",
-   "loja": "",
-   "preco": 404.0,
-   "precoDe": 501.5,
-   "precoComCupom": 345.0,
-   "desconto": 19,
-   "cupom": "OFERTAPRATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2uaN6GN",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_642824-MLA99375931234_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 16:47:25"
   }
  ]
 }
