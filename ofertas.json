@@ -1,7 +1,71 @@
 {
- "atualizado": "2026-11-01 17:05:46",
+ "atualizado": "2026-11-01 17:36:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6566",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 675,64",
+   "loja": "",
+   "preco": 675.64,
+   "precoDe": 1045.0,
+   "precoComCupom": 604.0,
+   "desconto": 35,
+   "cupom": "CHEGUEI",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UDUtEP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-01 17:30:35"
+  },
+  {
+   "id": "p19923",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Mecânico Gamer 60% Switch Huano Brow Red Pc Computador Switch Marron Português Brasil - Titorion - R$ 144,80",
+   "loja": "",
+   "preco": 144.8,
+   "precoDe": 249.9,
+   "precoComCupom": null,
+   "desconto": 42,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1yeLt5f",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_600122-MLA99994206687_112025-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-01 17:26:37"
+  },
+  {
+   "id": "p6415",
+   "plataforma": "mercadolivre",
+   "produto": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto - R$ 88,07",
+   "loja": "",
+   "preco": 88.07,
+   "precoDe": 199.0,
+   "precoComCupom": 87.0,
+   "desconto": 56,
+   "cupom": "OFFHOJENOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1vHjK3c",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_696266-MLA97205822349_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-01 17:15:45"
+  },
+  {
+   "id": "p15470",
+   "plataforma": "mercadolivre",
+   "produto": "Fones de ouvido para jogos sem fio Redragon H510-PRO H510-PRO pretos com luz LED - R$ 309",
+   "loja": "",
+   "preco": 309.0,
+   "precoDe": null,
+   "precoComCupom": 255.0,
+   "desconto": null,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CyAnr2",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685800-MLA95634757877_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-01 17:08:31"
+  },
   {
    "id": "p21147",
    "plataforma": "mercadolivre",
@@ -323,22 +387,6 @@
    "visto": "2026-11-01 14:31:37"
   },
   {
-   "id": "p6566",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 711,20",
-   "loja": "",
-   "preco": 711.2,
-   "precoDe": 1045.0,
-   "precoComCupom": 604.0,
-   "desconto": 32,
-   "cupom": "CHEGUEI",
-   "cupomTexto": "",
-   "url": "https://meli.la/2UDUtEP",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-01 14:18:56"
-  },
-  {
    "id": "p15308",
    "plataforma": "mercadolivre",
    "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 549,90",
@@ -401,22 +449,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_752120-MLA102240272493_122025-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-01 13:30:47"
-  },
-  {
-   "id": "p6415",
-   "plataforma": "mercadolivre",
-   "produto": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto - R$ 88,07",
-   "loja": "",
-   "preco": 88.07,
-   "precoDe": 199.0,
-   "precoComCupom": 87.0,
-   "desconto": 56,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1vHjK3c",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_696266-MLA97205822349_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-01 13:17:31"
   },
   {
    "id": "p20169",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztc-mjqcb3lrvt3a66",
    "emoji": "🖱️",
    "visto": "2026-10-31 21:30:39"
-  },
-  {
-   "id": "p19381",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB - R$ 695,30",
-   "loja": "",
-   "preco": 695.3,
-   "precoDe": 1529.0,
-   "precoComCupom": 599.0,
-   "desconto": 55,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/1CGnL35",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_920822-MLA99469912962_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 20:47:08"
-  },
-  {
-   "id": "p19461",
-   "plataforma": "mercadolivre",
-   "produto": "SSD Kingston NV3 500GB M.2 2280 NVMe PCIe 4.0 - R$ 634",
-   "loja": "",
-   "preco": 634.0,
-   "precoDe": 691.0,
-   "precoComCupom": null,
-   "desconto": 8,
-   "cupom": "MELIMAIS2610",
-   "cupomTexto": "",
-   "url": "https://meli.la/2dNKJLQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_759501-MLA118512663012_102026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-10-31 20:32:50"
   }
  ]
 }
