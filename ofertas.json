@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-31 20:35:45",
+ "atualizado": "2026-10-31 21:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6690",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G5, 32 ,qhd, 165hz,1ms,hdmi,dp Preto - R$ 1.112",
+   "loja": "",
+   "preco": 1112.0,
+   "precoDe": 1699.0,
+   "precoComCupom": 1001.0,
+   "desconto": 35,
+   "cupom": "OFFNOTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2t9uft3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_987462-MLA99509630578_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-31 21:00:33"
+  },
+  {
+   "id": "p19381",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB - R$ 695,30",
+   "loja": "",
+   "preco": 695.3,
+   "precoDe": 1529.0,
+   "precoComCupom": 599.0,
+   "desconto": 55,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/1CGnL35",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_920822-MLA99469912962_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 20:47:08"
+  },
   {
    "id": "p19461",
    "plataforma": "mercadolivre",
@@ -1027,22 +1059,6 @@
    "visto": "2026-10-31 12:32:47"
   },
   {
-   "id": "p19381",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB - R$ 695,30",
-   "loja": "",
-   "preco": 695.3,
-   "precoDe": 1529.0,
-   "precoComCupom": 599.0,
-   "desconto": 55,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/1CGnL35",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_920822-MLA99469912962_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 12:22:50"
-  },
-  {
    "id": "p6699",
    "plataforma": "mercadolivre",
    "produto": "Monitor Gamer AOC AGON G4S 25\" 310Hz 0.3ms HDR400 IPS Base Ajustável 25G4S/P Preto - R$ 1.157",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_991518-MLB116952179246_092026-P.webp",
    "emoji": "📦",
    "visto": "2026-10-31 10:16:17"
-  },
-  {
-   "id": "p21067",
-   "plataforma": "mercadolivre",
-   "produto": "Samsung Smart Tv 50 Mini Led 4k M75h + Soundbar Hw-b400f - R$ 2.589",
-   "loja": "",
-   "preco": 2589.0,
-   "precoDe": null,
-   "precoComCupom": 2389.0,
-   "desconto": null,
-   "cupom": "OFFNOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2TcCh7X",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_640647-MLB115149044730_082026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-10-31 10:06:18"
   }
  ]
 }
