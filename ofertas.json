@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-01 09:35:46",
+ "atualizado": "2026-11-01 10:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21018",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Escritório Industrial Reforçado Ferro Homeoffice 150x60 Mel - R$ 207",
+   "loja": "",
+   "preco": 207.0,
+   "precoDe": 346.4,
+   "precoComCupom": 175.0,
+   "desconto": 40,
+   "cupom": "MELICASA",
+   "cupomTexto": "",
+   "url": "https://meli.la/2DEHNk3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762999-MLB110276049903_042026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-01 09:58:29"
+  },
+  {
+   "id": "p15610",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira de Escritório Presidente NR17 120kg Ergonômica Giratória com Tela Mesh Columbus HomeNow Cor Preto - R$ 286,98",
+   "loja": "",
+   "preco": 286.98,
+   "precoDe": 659.0,
+   "precoComCupom": 229.0,
+   "desconto": 56,
+   "cupom": "CASAML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1z4t2oC",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-01 09:51:26"
+  },
+  {
+   "id": "p6692",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 531,90",
+   "loja": "",
+   "preco": 531.9,
+   "precoDe": 799.0,
+   "precoComCupom": 432.0,
+   "desconto": 33,
+   "cupom": "MELIPROMO3111",
+   "cupomTexto": "",
+   "url": "https://meli.la/15Wgjyk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-01 09:45:34"
+  },
   {
    "id": "p6583",
    "plataforma": "mercadolivre",
@@ -483,22 +531,6 @@
    "visto": "2026-10-31 19:54:30"
   },
   {
-   "id": "p21018",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Escritório Industrial Reforçado Ferro Homeoffice 150x60 Mel - R$ 207",
-   "loja": "",
-   "preco": 207.0,
-   "precoDe": 346.4,
-   "precoComCupom": 175.0,
-   "desconto": 40,
-   "cupom": "MELICASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/2DEHNk3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762999-MLB110276049903_042026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 19:45:58"
-  },
-  {
    "id": "p19629",
    "plataforma": "mercadolivre",
    "produto": "Fonte De Alimentacao 600w Gs600 80 Plus White Gamemax Cor Preto - R$ 238,90",
@@ -899,22 +931,6 @@
    "visto": "2026-10-31 16:03:48"
   },
   {
-   "id": "p15610",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira de Escritório Presidente NR17 120kg Ergonômica Giratória com Tela Mesh Columbus HomeNow Cor Preto - R$ 286,98",
-   "loja": "",
-   "preco": 286.98,
-   "precoDe": 659.0,
-   "precoComCupom": 229.0,
-   "desconto": 56,
-   "cupom": "MELIPROMO3111",
-   "cupomTexto": "",
-   "url": "https://meli.la/1z4t2oC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-10-31 16:00:37"
-  },
-  {
    "id": "p21335",
    "plataforma": "mercadolivre",
    "produto": "Monitor Gamer 27 Acer Nitro Kg270 P0bi Va Fhd 144hz 1ms Hdmi Preto 127/220v - R$ 749,98",
@@ -929,22 +945,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_619237-MLA107909923767_032026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-31 15:44:45"
-  },
-  {
-   "id": "p6692",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 577",
-   "loja": "",
-   "preco": 577.0,
-   "precoDe": null,
-   "precoComCupom": 432.0,
-   "desconto": null,
-   "cupom": "MELIPROMO3111",
-   "cupomTexto": "",
-   "url": "https://meli.la/15Wgjyk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 15:38:38"
   },
   {
    "id": "p20397",
