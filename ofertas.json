@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-31 23:05:46",
+ "atualizado": "2026-10-31 23:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19578",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE - R$ 863,97",
+   "loja": "",
+   "preco": 863.97,
+   "precoDe": 1049.0,
+   "precoComCupom": 785.0,
+   "desconto": 18,
+   "cupom": "MELHORPROMOHJ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2wsxDwL",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662776-MLA96607684177_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-10-31 23:28:31"
+  },
+  {
+   "id": "p21274",
+   "plataforma": "mercadolivre",
+   "produto": "Gabinete Gamer Mid Tower Preto Aigo Darkflash C285-BK Vidro USB - R$ 342,63",
+   "loja": "",
+   "preco": 342.63,
+   "precoDe": 822.35,
+   "precoComCupom": null,
+   "desconto": 58,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/31ZiTkn",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_912986-MLA99943255981_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 23:16:33"
+  },
   {
    "id": "p20934",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_750146-MLA99972052003_112025-P.webp",
    "emoji": "🎮",
    "visto": "2026-10-31 12:13:07"
-  },
-  {
-   "id": "p21161",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Gamer Industrial Com Pés Aço 150cm Para Setup Preto - R$ 236,42",
-   "loja": "",
-   "preco": 236.42,
-   "precoDe": 299.99,
-   "precoComCupom": 200.0,
-   "desconto": 21,
-   "cupom": "MELICASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/12o2eFN",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_622488-MLB113352993519_062026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 12:01:45"
-  },
-  {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.299",
-   "loja": "",
-   "preco": 1299.0,
-   "precoDe": 1499.0,
-   "precoComCupom": 1206.0,
-   "desconto": 13,
-   "cupom": "HOJETECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 11:59:34"
   }
  ]
 }
