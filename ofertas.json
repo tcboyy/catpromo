@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-01 18:35:46",
+ "atualizado": "2026-11-01 19:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19517",
+   "plataforma": "mercadolivre",
+   "produto": "Fonte Cooler Master Mwe Gold 650 V3, 650w, Atx 3.1, 80 Plus Preto - R$ 389,90",
+   "loja": "",
+   "preco": 389.9,
+   "precoDe": null,
+   "precoComCupom": 318.0,
+   "desconto": null,
+   "cupom": "APROVEITA",
+   "cupomTexto": "",
+   "url": "https://meli.la/1ENTkof",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_870522-MLA100008316699_122025-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-11-01 19:03:30"
+  },
+  {
+   "id": "p21018",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Escritório Industrial Reforçado Ferro Homeoffice 150x60 Mel - R$ 207",
+   "loja": "",
+   "preco": 207.0,
+   "precoDe": 346.4,
+   "precoComCupom": 175.0,
+   "desconto": 40,
+   "cupom": "MELICASA",
+   "cupomTexto": "",
+   "url": "https://meli.la/2DEHNk3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762999-MLB110276049903_042026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-01 18:58:34"
+  },
+  {
+   "id": "p6553",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido Preto Havit Gamenote Fuxi-h6 - Black - R$ 180",
+   "loja": "",
+   "preco": 180.0,
+   "precoDe": 249.0,
+   "precoComCupom": 153.0,
+   "desconto": 28,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Lw9Dxh",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_947213-MLA99416728000_112025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-01 18:45:32"
+  },
   {
    "id": "p21349",
    "plataforma": "mercadolivre",
@@ -1011,22 +1059,6 @@
    "visto": "2026-11-01 10:11:19"
   },
   {
-   "id": "p21018",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Escritório Industrial Reforçado Ferro Homeoffice 150x60 Mel - R$ 207",
-   "loja": "",
-   "preco": 207.0,
-   "precoDe": 346.4,
-   "precoComCupom": 175.0,
-   "desconto": 40,
-   "cupom": "MELICASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/2DEHNk3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762999-MLB110276049903_042026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-01 09:58:29"
-  },
-  {
    "id": "p15610",
    "plataforma": "mercadolivre",
    "produto": "Cadeira de Escritório Presidente NR17 120kg Ergonômica Giratória com Tela Mesh Columbus HomeNow Cor Preto - R$ 286,98",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
    "emoji": "💾",
    "visto": "2026-10-31 22:59:36"
-  },
-  {
-   "id": "p21340",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Curvo Aoc Agon Quad 32'' 180hz Hdr10 Cq32g4e Preto 127/220v - R$ 1.139",
-   "loja": "",
-   "preco": 1139.0,
-   "precoDe": 1998.0,
-   "precoComCupom": null,
-   "desconto": 43,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2nHc59B",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_954955-MLB96873037537_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 22:29:06"
-  },
-  {
-   "id": "p21339",
-   "plataforma": "shopee",
-   "produto": "Fonte Gamer Rise Mode Elektra, 650W, Bronze, Full Modular, PFC Ativo, Branco - RM-PSU-ELKM-650-W",
-   "loja": "Kabum",
-   "preco": 340.9,
-   "precoDe": null,
-   "precoComCupom": 295.0,
-   "desconto": null,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/AAINWdHaXZ",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825as-muc48ypjp79ec5",
-   "emoji": "🔌",
-   "visto": "2026-10-31 22:24:41"
   }
  ]
 }
