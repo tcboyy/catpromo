@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-10-31 22:35:46",
+ "atualizado": "2026-10-31 23:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20934",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Desktop Puskill Killblade Ddr4 16gb 2666mhz Cl19 - R$ 674,93",
+   "loja": "",
+   "preco": 674.93,
+   "precoDe": 980.0,
+   "precoComCupom": 607.0,
+   "desconto": 31,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2qeY4yJ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
+   "emoji": "💾",
+   "visto": "2026-10-31 22:59:36"
+  },
+  {
+   "id": "p15615",
+   "plataforma": "mercadolivre",
+   "produto": "Placa-mãe Am4 Msi B550m A Pro Msi - R$ 510,69",
+   "loja": "",
+   "preco": 510.69,
+   "precoDe": 587.0,
+   "precoComCupom": null,
+   "desconto": 13,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2sRVr6V",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_752599-MLA100010456343_122025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-10-31 22:45:54"
+  },
   {
    "id": "p21340",
    "plataforma": "mercadolivre",
@@ -81,22 +113,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-10-31 22:00:42"
-  },
-  {
-   "id": "p15615",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Am4 Msi B550m A Pro Msi - R$ 510,69",
-   "loja": "",
-   "preco": 510.69,
-   "precoDe": 587.0,
-   "precoComCupom": null,
-   "desconto": 13,
-   "cupom": "AQUITEMTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2sRVr6V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_752599-MLA100010456343_122025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-10-31 21:49:34"
   },
   {
    "id": "p20218",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
    "emoji": "📦",
    "visto": "2026-10-31 11:59:34"
-  },
-  {
-   "id": "p21328",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira De Escritorio Sweet Studio Presidente Ajustável Preta Couro Sintético - R$ 499,90",
-   "loja": "",
-   "preco": 499.9,
-   "precoDe": 1425.0,
-   "precoComCupom": 449.0,
-   "desconto": 65,
-   "cupom": "50TODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2i3es1S",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_641344-MLA114760089308_082026-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-10-31 11:47:34"
   }
  ]
 }
