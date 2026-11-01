@@ -1,7 +1,71 @@
 {
- "atualizado": "2026-11-01 09:06:46",
+ "atualizado": "2026-11-01 09:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6583",
+   "plataforma": "mercadolivre",
+   "produto": "Fonte De Alimentacao 750w Gp750 80 Plus Bronze Gamemax Cor Preto - R$ 307",
+   "loja": "",
+   "preco": 307.0,
+   "precoDe": null,
+   "precoComCupom": 271.0,
+   "desconto": null,
+   "cupom": "MELIMAIS0111",
+   "cupomTexto": "",
+   "url": "https://meli.la/1PoXA3P",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_745807-MLA99452288324_112025-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-11-01 09:32:47"
+  },
+  {
+   "id": "p21190",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Pc Ddr4 16gb 2666 4bit Infinity Memory - R$ 537,64",
+   "loja": "",
+   "preco": 537.64,
+   "precoDe": 899.0,
+   "precoComCupom": null,
+   "desconto": 40,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/27VQ2MR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_786573-MLA81649546848_012025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-01 09:30:31"
+  },
+  {
+   "id": "p15306",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F - R$ 707,13",
+   "loja": "",
+   "preco": 707.13,
+   "precoDe": 899.0,
+   "precoComCupom": 647.0,
+   "desconto": 21,
+   "cupom": "VALETECH",
+   "cupomTexto": "",
+   "url": "https://www.mercadolivre.com.br/social/duartedarosacadorinmaiteni?matt_word=g03tech&matt_tool=35843039&forceInApp=true&ref=BCIG3RWI%2BK5BZaGviKWkRHjbTif1t7tCKrQv53VGKCK71CbPqkEWprKsc0CNXDgIOLEsCgBqC69E2Z2gotgl3YSDGaaTgN%2Fqi6fzC45IBt7%2B2Ua6ZLOU25gpJhPDbZcouCJukl8vRPIalI%2B833BA4Xa9q1UiVOFt9ElDqfI6DFeTt7HOZKPyZuCty1vbDKHnD%2BCoxM0%3D",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_922246-MLA99988034526_122025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-01 09:16:10"
+  },
+  {
+   "id": "p6644",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 - R$ 649",
+   "loja": "",
+   "preco": 649.0,
+   "precoDe": null,
+   "precoComCupom": 585.0,
+   "desconto": null,
+   "cupom": "CHEGUEI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CAGPWa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-01 09:09:32"
+  },
   {
    "id": "p21161",
    "plataforma": "mercadolivre",
@@ -595,22 +659,6 @@
    "visto": "2026-10-31 18:16:33"
   },
   {
-   "id": "p15306",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F - R$ 736,28",
-   "loja": "",
-   "preco": 736.28,
-   "precoDe": 899.0,
-   "precoComCupom": 647.0,
-   "desconto": 18,
-   "cupom": "VALETECH",
-   "cupomTexto": "",
-   "url": "https://www.mercadolivre.com.br/social/duartedarosacadorinmaiteni?matt_word=g03tech&matt_tool=35843039&forceInApp=true&ref=BCIG3RWI%2BK5BZaGviKWkRHjbTif1t7tCKrQv53VGKCK71CbPqkEWprKsc0CNXDgIOLEsCgBqC69E2Z2gotgl3YSDGaaTgN%2Fqi6fzC45IBt7%2B2Ua6ZLOU25gpJhPDbZcouCJukl8vRPIalI%2B833BA4Xa9q1UiVOFt9ElDqfI6DFeTt7HOZKPyZuCty1vbDKHnD%2BCoxM0%3D",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_922246-MLA99988034526_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 18:00:48"
-  },
-  {
    "id": "p20004",
    "plataforma": "mercadolivre",
    "produto": "Creatina Integralmédica Hardcore em cápsula Sem sabor x 105g de 120 un - R$ 29,09",
@@ -1091,22 +1139,6 @@
    "visto": "2026-10-31 14:15:47"
   },
   {
-   "id": "p6644",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 - R$ 649",
-   "loja": "",
-   "preco": 649.0,
-   "precoDe": null,
-   "precoComCupom": 585.0,
-   "desconto": null,
-   "cupom": "AQUITEMTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1CAGPWa",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 14:13:32"
-  },
-  {
    "id": "p20991",
    "plataforma": "mercadolivre",
    "produto": "Cadeira Presidente Ergonômica Sweet Studio Preta com Apoio para Pés Retrátil e Suporte Lombar - R$ 762,88",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_908667-MLA112780553692_062026-P.webp",
    "emoji": "🖱️",
    "visto": "2026-10-31 12:45:56"
-  },
-  {
-   "id": "p21052",
-   "plataforma": "mercadolivre",
-   "produto": "Smartphone Motorola Moto G Max 5g - 256gb 8gb Ram + 16gb Ram Boost, Câmera 200mp, Ois, Tela 1.5k Extreme Amoled 120hz, Ip68 E Ip69 - Azul Cl",
-   "loja": "",
-   "preco": 1654.0,
-   "precoDe": 2355.0,
-   "precoComCupom": 1564.0,
-   "desconto": 30,
-   "cupom": "TECH100",
-   "cupomTexto": "",
-   "url": "https://meli.la/2hWi7Wh",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_698621-MLA110748614648_052026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-10-31 12:43:55"
-  },
-  {
-   "id": "p21094",
-   "plataforma": "shopee",
-   "produto": "MEMÓRIA RAM DDR4 16GB HYPERX 3200MHZ KF432C16BB/16 BEST DESKTOP",
-   "loja": "goku variedades",
-   "preco": 699.0,
-   "precoDe": null,
-   "precoComCupom": 633.0,
-   "desconto": null,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/6VP3QkVLgb",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-maih1jk92ynt4f",
-   "emoji": "💾",
-   "visto": "2026-10-31 12:40:44"
   }
  ]
 }
