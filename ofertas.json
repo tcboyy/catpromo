@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-01 18:05:46",
+ "atualizado": "2026-11-01 18:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21349",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Sem Fio Havit Fuxi H3 Bluetooth E Usb Wireless Cinza - R$ 168,63",
+   "loja": "",
+   "preco": 168.63,
+   "precoDe": 294.0,
+   "precoComCupom": null,
+   "desconto": 43,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Xv4yuF",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_638168-MLB75619873675_042024-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-01 18:29:48"
+  },
+  {
+   "id": "p15435",
+   "plataforma": "mercadolivre",
+   "produto": "Placa mãe Gigabyte Ultra Durable A520M K V2 - R$ 375,72",
+   "loja": "",
+   "preco": 375.72,
+   "precoDe": 501.5,
+   "precoComCupom": 345.0,
+   "desconto": 25,
+   "cupom": "OFERTAPRATECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2uaN6GN",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_642824-MLA99375931234_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-01 18:16:44"
+  },
   {
    "id": "p21348",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-825as-muc48ypjp79ec5",
    "emoji": "🔌",
    "visto": "2026-10-31 22:24:41"
-  },
-  {
-   "id": "p21258",
-   "plataforma": "shopee",
-   "produto": "Memória Ram Synex DDR5 8GB 5600MHZ UDIMM Black",
-   "loja": "Alligator Shop",
-   "preco": 978.16,
-   "precoDe": 1397.37,
-   "precoComCupom": 876.0,
-   "desconto": 30,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/20wfmhWJPS",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8257t-muatbcg9q5mr50",
-   "emoji": "💾",
-   "visto": "2026-10-31 22:11:14"
-  },
-  {
-   "id": "p15240",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Phillips 24 Evnia Ips 144hz 0.5ms Wide Fullhd Preto 127/220v - R$ 574,75",
-   "loja": "",
-   "preco": 574.75,
-   "precoDe": 1299.0,
-   "precoComCupom": 544.0,
-   "desconto": 56,
-   "cupom": "AQUITEMTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1wwMr5V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-10-31 22:00:42"
   }
  ]
 }
