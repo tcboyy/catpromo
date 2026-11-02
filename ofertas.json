@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-02 07:35:45",
+ "atualizado": "2026-11-02 08:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21170",
+   "plataforma": "shopee",
+   "produto": "NOVO XIAOMI 2027 POCO X8 5G COM NFC 256GB 8340mAh AMOLED ALTO DESEMPENHO CARREGADOR SUPER RAPIDO LANÇAMENTO XIAOMI",
+   "loja": "CBO COMERCIAL",
+   "preco": 2099.0,
+   "precoDe": 3132.84,
+   "precoComCupom": 1793.0,
+   "desconto": 33,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/8fTbzFdqSP",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ly-mszlioxc1v5zb3",
+   "emoji": "📱",
+   "visto": "2026-11-02 08:14:13"
+  },
   {
    "id": "p20343",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_733029-MLA96883295535_102025-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-01 12:45:36"
-  },
-  {
-   "id": "p6824",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Samsung Odyssey G5, 27 , Qhd, 165hz Cor Preto - R$ 1.078",
-   "loja": "",
-   "preco": 1078.0,
-   "precoDe": 1999.0,
-   "precoComCupom": 929.0,
-   "desconto": 46,
-   "cupom": "MELI150TODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1KTAXUM",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_929601-MLA99994006017_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-01 12:40:29"
   }
  ]
 }
