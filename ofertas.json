@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-02 14:05:45",
+ "atualizado": "2026-11-02 14:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6692",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 509,51",
+   "loja": "",
+   "preco": 509.51,
+   "precoDe": 799.0,
+   "precoComCupom": 436.0,
+   "desconto": 36,
+   "cupom": "BNPLD02",
+   "cupomTexto": "",
+   "url": "https://meli.la/15Wgjyk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-02 14:24:36"
+  },
+  {
+   "id": "p19381",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB - R$ 706,50",
+   "loja": "",
+   "preco": 706.5,
+   "precoDe": 1349.0,
+   "precoComCupom": 599.0,
+   "desconto": 48,
+   "cupom": "BNPLD02",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CGnL35",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_920822-MLA99469912962_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-02 14:12:16"
+  },
   {
    "id": "p21368",
    "plataforma": "mercadolivre",
@@ -1059,22 +1091,6 @@
    "visto": "2026-11-02 09:07:21"
   },
   {
-   "id": "p6692",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 509,51",
-   "loja": "",
-   "preco": 509.51,
-   "precoDe": 799.0,
-   "precoComCupom": 436.0,
-   "desconto": 36,
-   "cupom": "0211MELIMAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/15Wgjyk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-02 09:05:10"
-  },
-  {
    "id": "p20670",
    "plataforma": "mercadolivre",
    "produto": "Tênis Vans Ultrarange Vr3 Neo Preto Azul Branco 34 Ao 43 - R$ 109,49",
@@ -1265,22 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8258l-mu2fokjaty4k10",
    "emoji": "🎮",
    "visto": "2026-11-02 00:12:24"
-  },
-  {
-   "id": "p19571",
-   "plataforma": "shopee",
-   "produto": "Monitor Gamer AOC AGON QUAD 27\" QHD 180Hz 0,5ms IPS HDR10 Base Ajustável Q27G4F",
-   "loja": "123 Comprou!",
-   "preco": 1299.0,
-   "precoDe": 1855.71,
-   "precoComCupom": 1103.0,
-   "desconto": 30,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/8Kql3PgBHR",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-821em-mgmdx7bqdyxbb9",
-   "emoji": "🖥️",
-   "visto": "2026-11-02 00:10:23"
   }
  ]
 }
