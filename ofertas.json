@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-01 21:35:46",
+ "atualizado": "2026-11-01 22:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19448",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer M711 Cobra Chroma Redragon Com fio Para Jogos 12.400 DPI Com Led RGB Preto - R$ 88,86",
+   "loja": "",
+   "preco": 88.86,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2VsWN3P",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_898286-MLA95664298408_102025-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-01 22:02:42"
+  },
+  {
+   "id": "p20283",
+   "plataforma": "mercadolivre",
+   "produto": "Fonte MACH1 Steady 750W 80 Plus Bronze PFC Ativo - 750Steady - R$ 255,54",
+   "loja": "",
+   "preco": 255.54,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "OFFSEMPREMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/284pgxp",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_650518-MLA109478654420_042026-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-11-01 21:46:13"
+  },
   {
    "id": "p21222",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_752599-MLA100010456343_122025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-01 10:29:23"
-  },
-  {
-   "id": "p19222",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira De Escritório Presidente NR17 HomeNow Ergonômica Premium Toledo Cor Preto - R$ 657,90",
-   "loja": "",
-   "preco": 657.9,
-   "precoDe": 1064.0,
-   "precoComCupom": 589.0,
-   "desconto": 38,
-   "cupom": "PROMOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1fACHuQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_763692-MLA99940510369_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-01 10:15:33"
-  },
-  {
-   "id": "p15428",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Samsung Odyssey G40 27\", 240 Hz, 1ms, ajuste de altura, Gsync, Freesync,HDMI, DP, FHD, Preto - R$ 1.190",
-   "loja": "",
-   "preco": 1190.0,
-   "precoDe": 1819.0,
-   "precoComCupom": 1094.0,
-   "desconto": 35,
-   "cupom": "CHEGUEI",
-   "cupomTexto": "",
-   "url": "https://meli.la/2nUGfEU",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_960196-MLA90885249892_082025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-01 10:11:19"
   }
  ]
 }
