@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-01 23:35:45",
+ "atualizado": "2026-11-02 00:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19239",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Escritório Ergonômica Nr17 Giratoria Regulagem Altura Suporte Lombar Reclinavel 130 Graus Suporta Cor Preto Corsair - R$ 427,40",
+   "loja": "",
+   "preco": 427.4,
+   "precoDe": 899.9,
+   "precoComCupom": 401.0,
+   "desconto": 53,
+   "cupom": "COMPRAFACIL",
+   "cupomTexto": "",
+   "url": "https://meli.la/1vYBWts",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_886378-MLA109935241918_042026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-01 23:47:42"
+  },
   {
    "id": "p19780",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_813511-MLA116420309198_092026-P.webp",
    "emoji": "📷",
    "visto": "2026-11-01 11:11:37"
-  },
-  {
-   "id": "p20915",
-   "plataforma": "mercadolivre",
-   "produto": "Ssd M.2 Nvme 1tb Sandisk Plus Sdssda3n-1t00-g26 3200mbps Azul-marinho - R$ 896,08",
-   "loja": "",
-   "preco": 896.08,
-   "precoDe": 974.0,
-   "precoComCupom": 804.0,
-   "desconto": 8,
-   "cupom": "QUEROAGORA",
-   "cupomTexto": "",
-   "url": "https://meli.la/2hAwXEz",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_822468-MLB117410176896_102026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-01 11:08:19"
   }
  ]
 }
