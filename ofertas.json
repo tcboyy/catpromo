@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-01 22:05:46",
+ "atualizado": "2026-11-01 22:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15913",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Portátil Gamer Bettdow 15.6'' Full HD 60Hz IPS Compatível 4K Preto - R$ 373,92",
+   "loja": "",
+   "preco": 373.92,
+   "precoDe": 899.0,
+   "precoComCupom": 358.0,
+   "desconto": 58,
+   "cupom": "OFFHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1XtHsKS",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_660084-MLA99977469865_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-01 22:32:36"
+  },
+  {
+   "id": "p20342",
+   "plataforma": "mercadolivre",
+   "produto": "Processador Amd Ryzen 7 5700x Am4 8 Núcleos 4.6ghz - R$ 1.268",
+   "loja": "",
+   "preco": 1268.0,
+   "precoDe": 1799.0,
+   "precoComCupom": 1215.0,
+   "desconto": 30,
+   "cupom": "OFERTADEHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1LtfYbg",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_714283-MLB118384280895_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-01 22:16:40"
+  },
   {
    "id": "p19448",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_987462-MLA99509630578_112025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-01 10:47:40"
-  },
-  {
-   "id": "p20817",
-   "plataforma": "mercadolivre",
-   "produto": "Ssd Kingston 1tb M2 Nv3 Pcie 4.0 Nvme 6000mb/s Azul-escuro Azul-escuro - R$ 999,79",
-   "loja": "",
-   "preco": 999.79,
-   "precoDe": null,
-   "precoComCupom": 899.0,
-   "desconto": null,
-   "cupom": "AQUITEMTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1wudz1t",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_795231-MLA110113051682_042026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-01 10:32:46"
-  },
-  {
-   "id": "p15615",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Am4 Msi B550m A Pro Msi - R$ 614",
-   "loja": "",
-   "preco": 614.0,
-   "precoDe": null,
-   "precoComCupom": 550.0,
-   "desconto": null,
-   "cupom": "MELIMAIS0111",
-   "cupomTexto": "",
-   "url": "https://meli.la/2sRVr6V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_752599-MLA100010456343_122025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-01 10:29:23"
   }
  ]
 }
