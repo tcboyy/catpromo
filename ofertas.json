@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-02 18:35:45",
+ "atualizado": "2026-11-02 19:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19780",
+   "plataforma": "mercadolivre",
+   "produto": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B - R$ 7",
+   "loja": "",
+   "preco": 701.1,
+   "precoDe": 1039.0,
+   "precoComCupom": 645.0,
+   "desconto": 33,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/1nNMa1M",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_737016-MLA116256824398_092026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-02 19:00:19"
+  },
+  {
+   "id": "p20459",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Havit H2230D com Microfone Destacável para PC, Playstation e Xbox - R$ 95,97",
+   "loja": "",
+   "preco": 95.97,
+   "precoDe": 189.0,
+   "precoComCupom": 84.0,
+   "desconto": 49,
+   "cupom": "MELI2LOW",
+   "cupomTexto": "",
+   "url": "https://meli.la/26CRZRq",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_638002-MLA99508042592_112025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-02 18:48:12"
+  },
+  {
+   "id": "p6566",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 654,30",
+   "loja": "",
+   "preco": 654.3,
+   "precoDe": 1045.0,
+   "precoComCupom": 604.0,
+   "desconto": 37,
+   "cupom": "EXCLUSIVO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UDUtEP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-02 18:36:16"
+  },
   {
    "id": "p21376",
    "plataforma": "mercadolivre",
@@ -1203,22 +1251,6 @@
    "visto": "2026-11-02 10:29:13"
   },
   {
-   "id": "p6566",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 675,64",
-   "loja": "",
-   "preco": 675.64,
-   "precoDe": 1045.0,
-   "precoComCupom": 604.0,
-   "desconto": 35,
-   "cupom": "EXCLUSIVO",
-   "cupomTexto": "",
-   "url": "https://meli.la/2UDUtEP",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-02 10:28:42"
-  },
-  {
    "id": "p21324",
    "plataforma": "mercadolivre",
    "produto": "Celular Samsung Galaxy A57 5G 256GB, 8GB RAM, Recursos AI - Cinza - R$ 2.375",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_757583-MLB110428100171_042026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-02 10:11:49"
-  },
-  {
-   "id": "p15308",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 549,90",
-   "loja": "",
-   "preco": 549.9,
-   "precoDe": 906.53,
-   "precoComCupom": 500.0,
-   "desconto": 39,
-   "cupom": "SEMPRECASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/1ZDMAXC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_764756-MLA96570589252_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-02 10:09:26"
-  },
-  {
-   "id": "p19703",
-   "plataforma": "shopee",
-   "produto": "Notebook VAIO FE16 AMD Ryzen 7-5825U Linux 16GB RAM 256GB M.2 NVMe 16\" IPS Antirreflexo - fe 16",
-   "loja": "Positivo Tecnologia",
-   "preco": 3803.26,
-   "precoDe": 7923.46,
-   "precoComCupom": 3361.0,
-   "desconto": 52,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/1BNbAv4d6K",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m6-mmam1pqeavi864",
-   "emoji": "💻",
-   "visto": "2026-11-02 10:02:42"
   }
  ]
 }
