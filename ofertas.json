@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-02 12:05:46",
+ "atualizado": "2026-11-02 12:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21368",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Magnético Aula Win68 He 8000hz, 0.02mm Rapid Trigger Preto Inglês Us - R$ 243,89",
+   "loja": "",
+   "preco": 243.89,
+   "precoDe": 399.0,
+   "precoComCupom": null,
+   "desconto": 39,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2box116",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_895608-MLA106498214311_022026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-02 12:12:17"
+  },
   {
    "id": "p6458",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259u-mqtj6tb9z37z08",
    "emoji": "🖱️",
    "visto": "2026-11-01 21:29:25"
-  },
-  {
-   "id": "p21208",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Hiksemi Armor, 16gb (1x16gb), Ddr4, 3200mhz, Preto - R$ 953",
-   "loja": "",
-   "preco": 953.0,
-   "precoDe": 993.72,
-   "precoComCupom": 625.0,
-   "desconto": 4,
-   "cupom": "VALETECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/1JG3sib",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_680928-MLA113216446484_072026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-01 21:15:38"
   }
  ]
 }
