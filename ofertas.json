@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-02 01:06:46",
+ "atualizado": "2026-11-02 07:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20343",
+   "plataforma": "shopee",
+   "produto": "Monitor TCL 25\" Gamer FHD QD MINI LED 300HZ HDR10 F-SYNC AJ ALTURA D-PORT 25G64",
+   "loja": "TNTinfoLoja",
+   "preco": 1369.0,
+   "precoDe": 1984.06,
+   "precoComCupom": 1167.0,
+   "desconto": 31,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/1gJr6qUH7g",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mszmyhmlphxjdd",
+   "emoji": "🖥️",
+   "visto": "2026-11-02 07:20:45"
+  },
   {
    "id": "p21359",
    "plataforma": "aliexpress",
@@ -161,22 +177,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mlnaqjs0lm9y70",
    "emoji": "💻",
    "visto": "2026-11-02 00:08:24"
-  },
-  {
-   "id": "p20343",
-   "plataforma": "shopee",
-   "produto": "Monitor TCL 25\" Gamer FHD QD MINI LED 300HZ HDR10 F-SYNC AJ ALTURA D-PORT 25G64",
-   "loja": "TNTinfoLoja",
-   "preco": 1369.0,
-   "precoDe": 1984.06,
-   "precoComCupom": 1167.0,
-   "desconto": 31,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/1gJr6qUH7g",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mszmyhmlphxjdd",
-   "emoji": "🖥️",
-   "visto": "2026-11-02 00:05:47"
   },
   {
    "id": "p19239",
