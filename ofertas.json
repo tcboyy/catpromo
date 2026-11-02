@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-01 23:05:46",
+ "atualizado": "2026-11-01 23:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19780",
+   "plataforma": "mercadolivre",
+   "produto": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B - R$ 7",
+   "loja": "",
+   "preco": 740.05,
+   "precoDe": 1039.0,
+   "precoComCupom": 645.0,
+   "desconto": 29,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/1nNMa1M",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_737016-MLA116256824398_092026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-01 23:30:04"
+  },
+  {
+   "id": "p21190",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Pc Ddr4 16gb 2666 4bit Infinity Memory - R$ 537,64",
+   "loja": "",
+   "preco": 537.64,
+   "precoDe": 899.0,
+   "precoComCupom": null,
+   "desconto": 40,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/27VQ2MR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_786573-MLA81649546848_012025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-01 23:15:37"
+  },
   {
    "id": "p21108",
    "plataforma": "mercadolivre",
@@ -1203,22 +1235,6 @@
    "visto": "2026-11-01 11:44:57"
   },
   {
-   "id": "p19780",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B - R$ 7",
-   "loja": "",
-   "preco": 778.05,
-   "precoDe": 1039.0,
-   "precoComCupom": 645.0,
-   "desconto": 25,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/1nNMa1M",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_737016-MLA116256824398_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-01 11:30:50"
-  },
-  {
    "id": "p21209",
    "plataforma": "mercadolivre",
    "produto": "Mousepad Gamer Quadrado 49x42 Dracktar Dragão Japonês Azul Azul - R$ 78,99",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_822468-MLB117410176896_102026-P.webp",
    "emoji": "💾",
    "visto": "2026-11-01 11:08:19"
-  },
-  {
-   "id": "p6698",
-   "plataforma": "mercadolivre",
-   "produto": "Smart Tv Tcl 55 Polegadas Qled 4k T6c Wifi Bluetooth Google Tv Tela Hva E Hdr10+ 55t6c - R$ 2.499",
-   "loja": "",
-   "preco": 2499.0,
-   "precoDe": 4599.0,
-   "precoComCupom": 2278.0,
-   "desconto": 46,
-   "cupom": "QUEROAGORA",
-   "cupomTexto": "",
-   "url": "https://meli.la/15uPpAJ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_657072-MLA114584519748_082026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-01 11:07:19"
   }
  ]
 }
