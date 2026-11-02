@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-02 19:05:46",
+ "atualizado": "2026-11-02 19:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15258",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido Gamer Headset Havit H2015d - R$ 128,15",
+   "loja": "",
+   "preco": 128.15,
+   "precoDe": 141.0,
+   "precoComCupom": null,
+   "desconto": 9,
+   "cupom": "OFERTADEHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2GL5hgq",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_925886-MLA112213424652_062026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-02 19:24:22"
+  },
+  {
+   "id": "p15271",
+   "plataforma": "mercadolivre",
+   "produto": "Gabinete Gamer Hayom Aquário Com 4 Cooler Fan Led Rgb - R$ 285",
+   "loja": "",
+   "preco": 285.0,
+   "precoDe": null,
+   "precoComCupom": 245.0,
+   "desconto": null,
+   "cupom": "OFFSEMPREMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1EGWV6o",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_986619-MLA110163968730_042026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-02 19:18:37"
+  },
+  {
+   "id": "p21377",
+   "plataforma": "mercadolivre",
+   "produto": "Microfone Gamer Condensador Usb Havit Gk50 Rgb Branco - R$ 132,99",
+   "loja": "",
+   "preco": 132.99,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/16tb21w",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914711-MLA96150313233_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-02 19:12:17"
+  },
   {
    "id": "p19780",
    "plataforma": "mercadolivre",
@@ -931,22 +979,6 @@
    "visto": "2026-11-02 12:39:16"
   },
   {
-   "id": "p15258",
-   "plataforma": "mercadolivre",
-   "produto": "Fone De Ouvido Gamer Headset Havit H2015d - R$ 128,15",
-   "loja": "",
-   "preco": 128.15,
-   "precoDe": 141.0,
-   "precoComCupom": null,
-   "desconto": 9,
-   "cupom": "OFERTADEHOJE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2GL5hgq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_925886-MLA112213424652_062026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-02 12:36:14"
-  },
-  {
    "id": "p6458",
    "plataforma": "mercadolivre",
    "produto": "Monitor Gamer Curvo Samsung Odyssey 34\" G5 165 Hz 1ms Ultrawide Preto - R$ 1.629",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_914528-MLA101918551125_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-02 10:29:13"
-  },
-  {
-   "id": "p21324",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy A57 5G 256GB, 8GB RAM, Recursos AI - Cinza - R$ 2.375",
-   "loja": "",
-   "preco": 2375.0,
-   "precoDe": null,
-   "precoComCupom": 1979.0,
-   "desconto": null,
-   "cupom": "EXCLUSIVO",
-   "cupomTexto": "",
-   "url": "https://meli.la/1BP9YHv",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_800527-MLA114603389639_072026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-02 10:19:21"
-  },
-  {
-   "id": "p21084",
-   "plataforma": "mercadolivre",
-   "produto": "Webcam 1080p 2mp Full Hd Alta Resolução Com Microfone Usb Preto - R$ 54,99",
-   "loja": "",
-   "preco": 54.99,
-   "precoDe": 75.9,
-   "precoComCupom": 52.0,
-   "desconto": 28,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/2My7XVh",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_757583-MLB110428100171_042026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-02 10:11:49"
   }
  ]
 }
