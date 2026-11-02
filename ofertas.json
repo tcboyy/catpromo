@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-01 20:35:45",
+ "atualizado": "2026-11-01 21:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20534",
+   "plataforma": "mercadolivre",
+   "produto": "Placa De Vídeo Nvidia Geforce Palit Rtx5060 8gb Infinity2 Oc - R$ 2.976",
+   "loja": "",
+   "preco": 2976.0,
+   "precoDe": 4815.0,
+   "precoComCupom": 2477.0,
+   "desconto": 38,
+   "cupom": "SEMPREOFF",
+   "cupomTexto": "",
+   "url": "https://meli.la/2XFkPtR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_840054-MLA106181591008_022026-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-01 21:02:53"
+  },
+  {
+   "id": "p15652",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G42 24\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 24G42HE - R$ 674,10",
+   "loja": "",
+   "preco": 674.1,
+   "precoDe": 899.0,
+   "precoComCupom": null,
+   "desconto": 25,
+   "cupom": "OFERTADEHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/28PpTRe",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_823080-MLA96841800247_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-01 20:44:30"
+  },
   {
    "id": "p6692",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_922246-MLA99988034526_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-01 09:16:10"
-  },
-  {
-   "id": "p6644",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 - R$ 649",
-   "loja": "",
-   "preco": 649.0,
-   "precoDe": null,
-   "precoComCupom": 585.0,
-   "desconto": null,
-   "cupom": "CHEGUEI",
-   "cupomTexto": "",
-   "url": "https://meli.la/1CAGPWa",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-01 09:09:32"
-  },
-  {
-   "id": "p21161",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Gamer Industrial Com Pés Aço 150cm Para Setup Preto - R$ 236,42",
-   "loja": "",
-   "preco": 236.42,
-   "precoDe": 299.99,
-   "precoComCupom": 200.0,
-   "desconto": 21,
-   "cupom": "MELICASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/12o2eFN",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_622488-MLB113352993519_062026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-01 08:58:57"
   }
  ]
 }
