@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-03 08:35:46",
+ "atualizado": "2026-11-03 09:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21383",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido Para Capacete Moto Bluetooth Motoboy Headset Rgb Sem Fio Kateluo - R$ 36,91",
+   "loja": "",
+   "preco": 36.91,
+   "precoDe": 79.3,
+   "precoComCupom": null,
+   "desconto": 53,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/32VCBLR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_705128-MLA116671814177_082026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-03 09:00:28"
+  },
+  {
+   "id": "p6643",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 138,51",
+   "loja": "",
+   "preco": 138.51,
+   "precoDe": 209.0,
+   "precoComCupom": null,
+   "desconto": 34,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Dqv1ef",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-03 08:57:09"
+  },
+  {
+   "id": "p21351",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Attack Shark X11 22000dpi Sem Fio Usb Bluetooth Preto - R$ 173",
+   "loja": "",
+   "preco": 173.0,
+   "precoDe": 319.0,
+   "precoComCupom": null,
+   "desconto": 46,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1h6g7RN",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_861161-MLB117615974528_102026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-03 08:48:27"
+  },
   {
    "id": "p21170",
    "plataforma": "shopee",
@@ -851,22 +899,6 @@
    "visto": "2026-11-02 18:13:13"
   },
   {
-   "id": "p6643",
-   "plataforma": "mercadolivre",
-   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 138,51",
-   "loja": "",
-   "preco": 138.51,
-   "precoDe": 209.0,
-   "precoComCupom": null,
-   "desconto": 34,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Dqv1ef",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-02 18:02:33"
-  },
-  {
    "id": "p21374",
    "plataforma": "mercadolivre",
    "produto": "Smartphone Motorola Moto G56 5G 12 Gb RAM 256 Gb ROM 6,72\" 5200 mAh Black Oyster - R$ 1.690",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_945833-MLB116007912924_092026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-02 15:36:17"
-  },
-  {
-   "id": "p20837",
-   "plataforma": "mercadolivre",
-   "produto": "Parafusadeira Furadeira 48v Profissional 2 Baterias Sem Fio Amarelo 127/220v 60 Hz - R$ 105,26",
-   "loja": "",
-   "preco": 105.26,
-   "precoDe": 299.9,
-   "precoComCupom": 92.0,
-   "desconto": 65,
-   "cupom": "SEMPRECONSTRU",
-   "cupomTexto": "",
-   "url": "https://meli.la/2sm2UJT",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_951617-MLB110943565198_052026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-02 15:30:29"
-  },
-  {
-   "id": "p21184",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Gamer Tgt Barrier, 160cm, Preto Preto - R$ 557,28",
-   "loja": "",
-   "preco": 557.28,
-   "precoDe": 1496.0,
-   "precoComCupom": 497.0,
-   "desconto": 63,
-   "cupom": "SEMPRECASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Td3Hyv",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_991518-MLB116952179246_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-02 15:24:16"
   }
  ]
 }
