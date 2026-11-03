@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-03 00:36:46",
+ "atualizado": "2026-11-03 07:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19394",
+   "plataforma": "shopee",
+   "produto": "Tv Smart 43 Polegadas Aoc Roku Hd Wi-fi 43s5155/78g",
+   "loja": "Rep Store",
+   "preco": 1390.35,
+   "precoDe": 3391.1,
+   "precoComCupom": 1184.0,
+   "desconto": 59,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/5AtlN0F3tR",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ll-moilok50zwna36",
+   "emoji": "🖥️",
+   "visto": "2026-11-03 07:34:47"
+  },
+  {
+   "id": "p15666",
+   "plataforma": "mercadolivre",
+   "produto": "Régua Extensão Elétrica 6 Tomadas Filtro Linha 10a Cabo 2 Metros - R$ 28,89",
+   "loja": "",
+   "preco": 28.89,
+   "precoDe": 44.89,
+   "precoComCupom": null,
+   "desconto": 36,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2HwsRWL",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_859190-MLA100084628639_122025-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-11-03 07:19:51"
+  },
   {
    "id": "p21382",
    "plataforma": "shopee",
@@ -1139,22 +1171,6 @@
    "visto": "2026-11-02 15:54:24"
   },
   {
-   "id": "p15666",
-   "plataforma": "mercadolivre",
-   "produto": "Régua Extensão Elétrica 6 Tomadas Filtro Linha 10a Cabo 2 Metros - R$ 28,89",
-   "loja": "",
-   "preco": 28.89,
-   "precoDe": 44.89,
-   "precoComCupom": null,
-   "desconto": 36,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2HwsRWL",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_859190-MLA100084628639_122025-P.webp",
-   "emoji": "🔌",
-   "visto": "2026-11-02 15:52:06"
-  },
-  {
    "id": "p19309",
    "plataforma": "mercadolivre",
    "produto": "Cadeira Presidente Ergonômica Certificada Nr17 Toledo Preto Mesh - R$ 696,15",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_925195-MLA113398115378_072026-P.webp",
    "emoji": "💾",
    "visto": "2026-11-02 15:13:03"
-  },
-  {
-   "id": "p21278",
-   "plataforma": "shopee",
-   "produto": "Fonte Cooler Master ATX 3.1 750W MWE Gold 750 V3 PFC Ativo 80 Plus Gold Sem/Cabo",
-   "loja": "TNTinfoLoja",
-   "preco": 369.9,
-   "precoDe": 1087.94,
-   "precoComCupom": 318.0,
-   "desconto": 66,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/9zz02IVKC2",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-824i5-mputbkgbcg759a",
-   "emoji": "🔌",
-   "visto": "2026-11-02 15:10:36"
   }
  ]
 }
