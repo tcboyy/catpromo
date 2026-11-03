@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-03 07:36:46",
+ "atualizado": "2026-11-03 08:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21170",
+   "plataforma": "shopee",
+   "produto": "NOVO XIAOMI 2027 POCO X8 5G COM NFC 256GB 8340mAh AMOLED ALTO DESEMPENHO CARREGADOR SUPER RAPIDO LANÇAMENTO XIAOMI",
+   "loja": "CBO COMERCIAL",
+   "preco": 2099.0,
+   "precoDe": 3132.84,
+   "precoComCupom": 1655.0,
+   "desconto": 33,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/8fTbzFdqSP",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ly-mszlioxc1v5zb3",
+   "emoji": "📱",
+   "visto": "2026-11-03 08:17:57"
+  },
   {
    "id": "p19394",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_991518-MLB116952179246_092026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-02 15:24:16"
-  },
-  {
-   "id": "p20275",
-   "plataforma": "mercadolivre",
-   "produto": "Memória RAM Desktop 8GB DDR4 2666MHz para PC, Módulo Interno com Dissipador de Calor - Linha Anubis UP Gamer - R$ 310",
-   "loja": "",
-   "preco": 310.0,
-   "precoDe": 599.99,
-   "precoComCupom": 263.0,
-   "desconto": 48,
-   "cupom": "MELIMAIS2610",
-   "cupomTexto": "",
-   "url": "https://meli.la/1kJyPrk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_925195-MLA113398115378_072026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-02 15:13:03"
   }
  ]
 }
