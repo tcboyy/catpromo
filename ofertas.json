@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-02 23:06:45",
+ "atualizado": "2026-11-02 23:36:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19479",
+   "plataforma": "mercadolivre",
+   "produto": "SSD M.2 2280 2TB Sandisk Plus NVMe Pcie Gen3 SDSSDA3N-2T00-G26 Velocidade até 3200MB/s - R$ 1.559",
+   "loja": "",
+   "preco": 1559.0,
+   "precoDe": 1642.0,
+   "precoComCupom": 1401.0,
+   "desconto": 5,
+   "cupom": "OFFHOJENOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2Ygeo1e",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_610363-MLA99548948296_122025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-02 23:26:15"
+  },
+  {
+   "id": "p20011",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Gigabyte Gs24f14a Preto 23.8 1080p Fhd 144hz - R$ 594",
+   "loja": "",
+   "preco": 594.0,
+   "precoDe": 642.0,
+   "precoComCupom": 534.0,
+   "desconto": 7,
+   "cupom": "VALETECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/1oj3fPw",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_757784-MLA110786467862_052026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-02 23:14:26"
+  },
   {
    "id": "p20242",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_729633-MLA99465062840_112025-P.webp",
    "emoji": "💾",
    "visto": "2026-11-02 13:39:01"
-  },
-  {
-   "id": "p19618",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700G 100-100000263BOX de 8 núcleos e 4.6GHz de frequência com gráfica integrada - R$ 1.252",
-   "loja": "",
-   "preco": 1252.0,
-   "precoDe": 1999.0,
-   "precoComCupom": 1170.0,
-   "desconto": 37,
-   "cupom": "BNPLD02",
-   "cupomTexto": "",
-   "url": "https://meli.la/1nKZyB4",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_941100-MLA99523579842_122025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-02 13:37:05"
-  },
-  {
-   "id": "p20906",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy S26 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla, Tela Grande de 6.9\" Branco - R$ 6.531",
-   "loja": "",
-   "preco": 6531.0,
-   "precoDe": 11999.0,
-   "precoComCupom": null,
-   "desconto": 46,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2Ku3cqi",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_933028-MLA109131950946_042026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-02 13:34:58"
   }
  ]
 }
