@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-04 12:35:46",
+ "atualizado": "2026-11-04 13:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19618",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 7 5700G 100-100000263BOX de 8 núcleos e 4.6GHz de frequência com gráfica integrada - R$ 1.439",
+   "loja": "",
+   "preco": 1439.0,
+   "precoDe": 1999.0,
+   "precoComCupom": 1295.0,
+   "desconto": 28,
+   "cupom": "DESCONTOSEMPRE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1nKZyB4",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_941100-MLA99523579842_122025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-04 13:00:18"
+  },
+  {
+   "id": "p21427",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Phillips De 23.8 Full Hd Ips Com 200hz Preto 127/220v - R$ 729,99",
+   "loja": "",
+   "preco": 729.99,
+   "precoDe": 899.0,
+   "precoComCupom": 624.0,
+   "desconto": 19,
+   "cupom": "DESCONTOS",
+   "cupomTexto": "",
+   "url": "https://meli.la/2h7aFNF",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_689652-MLB118832355827_102026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-04 12:53:19"
+  },
   {
    "id": "p15301",
    "plataforma": "mercadolivre",
@@ -9,14 +41,30 @@
    "loja": "",
    "preco": 629.89,
    "precoDe": null,
-   "precoComCupom": 511.0,
+   "precoComCupom": 567.0,
    "desconto": null,
    "cupom": "DESCONTOS",
    "cupomTexto": "",
    "url": "https://meli.la/119W87e",
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_812511-MLA97274188132_112025-P.webp",
    "emoji": "💾",
-   "visto": "2026-11-04 12:33:35"
+   "visto": "2026-11-04 12:45:21"
+  },
+  {
+   "id": "p6566",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi M-atx Cor Preto - R$ 821,53",
+   "loja": "",
+   "preco": 821.53,
+   "precoDe": 939.0,
+   "precoComCupom": 621.0,
+   "desconto": 13,
+   "cupom": "DESCONTOS",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UDUtEP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_846714-MLA99464080574_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-04 12:37:29"
   },
   {
    "id": "p19786",
@@ -1233,54 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8257t-mta1w0v8be2u4c",
    "emoji": "🖥️",
    "visto": "2026-11-04 00:17:45"
-  },
-  {
-   "id": "p20338",
-   "plataforma": "shopee",
-   "produto": "Controle para Xbox Sem Fio Carbon Black",
-   "loja": "EasyTech",
-   "preco": 349.99,
-   "precoDe": 603.43,
-   "precoComCupom": 299.0,
-   "desconto": 42,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/AUvIpdn0ps",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8227k-mhbyfm4j0jygfb",
-   "emoji": "🎮",
-   "visto": "2026-11-04 00:17:09"
-  },
-  {
-   "id": "p21416",
-   "plataforma": "shopee",
-   "produto": "Nintendo Switch 2, 256gb - Novo, Versao Europeia, acompanha Adaptador de Tomada",
-   "loja": "Life Home Shop",
-   "preco": 4089.0,
-   "precoDe": null,
-   "precoComCupom": 3669.0,
-   "desconto": null,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/4qGw53Z603",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mujezoixu680ae",
-   "emoji": "📦",
-   "visto": "2026-11-04 00:14:40"
-  },
-  {
-   "id": "p20343",
-   "plataforma": "shopee",
-   "produto": "Monitor TCL 25\" Gamer FHD QD MINI LED 300HZ HDR10 F-SYNC AJ ALTURA D-PORT 25G64",
-   "loja": "TNTinfoLoja",
-   "preco": 1369.0,
-   "precoDe": 1984.06,
-   "precoComCupom": 1167.0,
-   "desconto": 31,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/9fMAEUHCCG",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mszmyhmlphxjdd",
-   "emoji": "🖥️",
-   "visto": "2026-11-04 00:12:01"
   }
  ]
 }
