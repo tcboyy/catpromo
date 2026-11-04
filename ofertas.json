@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-04 08:35:45",
+ "atualizado": "2026-11-04 09:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6690",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G5, 32 ,qhd, 165hz,1ms,hdmi,dp Preto - R$ 1.103",
+   "loja": "",
+   "preco": 1103.0,
+   "precoDe": 1699.0,
+   "precoComCupom": 993.0,
+   "desconto": 35,
+   "cupom": "DESCONTOSEMPRE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2t9uft3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_987462-MLA99509630578_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-04 09:04:43"
+  },
+  {
+   "id": "p20934",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Desktop Puskill Killblade Ddr4 16gb 2666mhz Cl19 - R$ 674,93",
+   "loja": "",
+   "preco": 674.93,
+   "precoDe": 980.0,
+   "precoComCupom": 607.0,
+   "desconto": 31,
+   "cupom": "SEMPREPROMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2qeY4yJ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-04 08:59:54"
+  },
   {
    "id": "p21417",
    "plataforma": "shopee",
@@ -497,22 +529,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_720733-MLB116834680090_092026-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-03 21:07:24"
-  },
-  {
-   "id": "p6690",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Samsung Odyssey G5, 32 ,qhd, 165hz,1ms,hdmi,dp Preto - R$ 1.103",
-   "loja": "",
-   "preco": 1103.0,
-   "precoDe": 1699.0,
-   "precoComCupom": 993.0,
-   "desconto": 35,
-   "cupom": "VOLTESEMPRE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2t9uft3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_987462-MLA99509630578_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-03 21:01:27"
   },
   {
    "id": "p21409",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_860376-MLA114197427868_082026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-03 17:04:14"
-  },
-  {
-   "id": "p20872",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Philips Evnia 23,8'' 144hz 0,5ms Ips Full Hd Preto - R$ 576,65",
-   "loja": "",
-   "preco": 576.65,
-   "precoDe": 1045.0,
-   "precoComCupom": 500.0,
-   "desconto": 45,
-   "cupom": "MELIMAISTODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1hq2tpw",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_786589-MLB116454864490_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-03 17:00:51"
   }
  ]
 }
