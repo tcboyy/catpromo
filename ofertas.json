@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-03 23:06:46",
+ "atualizado": "2026-11-03 23:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p16190",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Curvo AOC AGON QUAD 32\" 180Hz 0,5ms HDR10 CQ32G4E Preto - R$ 1.105",
+   "loja": "",
+   "preco": 1105.0,
+   "precoDe": 1399.0,
+   "precoComCupom": null,
+   "desconto": 21,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2atGdYf",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_847859-MLA94128239876_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-03 23:24:51"
+  },
+  {
+   "id": "p19792",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Mecânico Redragon Lakshmi Rainbow Brown K606 Abnt2 Cor de teclado Preto Idioma Português Brasil - R$ 134,36",
+   "loja": "",
+   "preco": 134.36,
+   "precoDe": 199.9,
+   "precoComCupom": null,
+   "desconto": 33,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/17yH9bk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_987217-MLA99928502679_112025-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-03 23:13:24"
+  },
   {
    "id": "p15258",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-821er-mgw8usxh43kced",
    "emoji": "🎧",
    "visto": "2026-11-03 15:59:35"
-  },
-  {
-   "id": "p20718",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Razer Wolverine V2 Para Xbox Series X/s White Branco - R$ 506",
-   "loja": "",
-   "preco": 506.0,
-   "precoDe": null,
-   "precoComCupom": 399.0,
-   "desconto": null,
-   "cupom": "VOLTESEMPRE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1a7ND1s",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_839888-MLA52027288668_102022-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-03 15:55:31"
-  },
-  {
-   "id": "p19840",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Gamer Sem Fio Redragon St4r Pro M917gb-pro Preto - R$ 173",
-   "loja": "",
-   "preco": 173.0,
-   "precoDe": null,
-   "precoComCupom": 158.0,
-   "desconto": null,
-   "cupom": "VOLTESEMPRE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Mf2bj3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_802721-MLA100053872947_122025-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-03 15:52:11"
   }
  ]
 }
