@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-04 19:05:46",
+ "atualizado": "2026-11-04 19:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15240",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Phillips 24 Evnia Ips 144hz 0.5ms Wide Fullhd Preto 127/220v - R$ 570,58",
+   "loja": "",
+   "preco": 570.58,
+   "precoDe": 1045.0,
+   "precoComCupom": 513.0,
+   "desconto": 45,
+   "cupom": "DESCONTOSEMPRE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1wwMr5V",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-04 19:25:07"
+  },
+  {
+   "id": "p19781",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido Headset Gamer Sem Fio Titorion Mintak Pro Tri - mode (Wireless 2.4GHz , Bluetooth, Cabo) Ultraleve Preto - R$ 218,40",
+   "loja": "",
+   "preco": 218.4,
+   "precoDe": 299.9,
+   "precoComCupom": 196.0,
+   "desconto": 27,
+   "cupom": "DESCONTOSEMPRE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2EthgBB",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_654888-MLA105359507121_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-04 19:15:03"
+  },
   {
    "id": "p15243",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_958246-MLA105361306359_012026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-04 12:30:32"
-  },
-  {
-   "id": "p20137",
-   "plataforma": "mercadolivre",
-   "produto": "Fonte Gamer Rise Mode Elektra 650w Bronze Full Modular Pfc - R$ 311,10",
-   "loja": "",
-   "preco": 311.1,
-   "precoDe": null,
-   "precoComCupom": 279.0,
-   "desconto": null,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1i7KuCW",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_924658-MLB120680532377_112026-P.webp",
-   "emoji": "🔌",
-   "visto": "2026-11-04 12:23:26"
-  },
-  {
-   "id": "p6414",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor gamer Aoc Série B30 21.5'' Full Hd Gaming 120hz 1ms 22b30hm23 cor preto - R$ 382,50",
-   "loja": "",
-   "preco": 382.5,
-   "precoDe": 849.9,
-   "precoComCupom": 300.0,
-   "desconto": 55,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2G8USia",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_621055-MLA91966913733_092025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-04 12:15:42"
   }
  ]
 }
