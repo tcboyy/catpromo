@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-04 20:06:46",
+ "atualizado": "2026-11-04 20:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21225",
+   "plataforma": "mercadolivre",
+   "produto": "Ryzen 7 5700x (4.6ghz Max) - Novo (sem Caixa Box Ou Cooler) - R$ 999,63",
+   "loja": "",
+   "preco": 999.63,
+   "precoDe": 1149.0,
+   "precoComCupom": 899.0,
+   "desconto": 13,
+   "cupom": "DESCONTOS",
+   "cupomTexto": "",
+   "url": "https://meli.la/1wt2Hge",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_613774-MLB119159431545_102026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-04 20:23:04"
+  },
+  {
+   "id": "p19875",
+   "plataforma": "mercadolivre",
+   "produto": "Creatina Growth Supplements Monohidratada em pó Sem sabor x 250g - R$ 37,99",
+   "loja": "",
+   "preco": 37.99,
+   "precoDe": 64.9,
+   "precoComCupom": null,
+   "desconto": 41,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1PN6jF6",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662415-MLA97812910758_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-04 20:13:06"
+  },
   {
    "id": "p15470",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_652104-MLA96195278152_102025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-04 13:26:11"
-  },
-  {
-   "id": "p21018",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Escritório Industrial Reforçado Ferro Homeoffice 150x60 Mel - R$ 221,69",
-   "loja": "",
-   "preco": 221.69,
-   "precoDe": 346.4,
-   "precoComCupom": 199.0,
-   "desconto": 36,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2DEHNk3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762999-MLB110276049903_042026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-04 13:23:21"
-  },
-  {
-   "id": "p19219",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Gamer Fury Beast 16gb Ddr4 Cl16 Kingston - R$ 729",
-   "loja": "",
-   "preco": 729.0,
-   "precoDe": null,
-   "precoComCupom": 656.0,
-   "desconto": null,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2MgjxQ4",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_676684-MLA99937677583_112025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-04 13:08:46"
   }
  ]
 }
