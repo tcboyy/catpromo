@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-04 22:06:46",
+ "atualizado": "2026-11-04 22:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15427",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Gamer Lancer Preta e Branca Healer - R$ 408,78",
+   "loja": "",
+   "preco": 408.78,
+   "precoDe": 899.9,
+   "precoComCupom": null,
+   "desconto": 55,
+   "cupom": "SEMPREPROMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2ZsE481",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_951583-MLA105697862101_012026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-04 22:24:10"
+  },
+  {
+   "id": "p15428",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G40 27\", 240 Hz, 1ms, ajuste de altura, Gsync, Freesync,HDMI, DP, FHD, Preto - R$ 1.012",
+   "loja": "",
+   "preco": 1012.0,
+   "precoDe": 1819.0,
+   "precoComCupom": 912.0,
+   "desconto": 44,
+   "cupom": "DESCONTOS",
+   "cupomTexto": "",
+   "url": "https://meli.la/2nUGfEU",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_960196-MLA90885249892_082025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-04 22:12:06"
+  },
   {
    "id": "p21304",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_928856-MLA99938836845_112025-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-04 14:30:37"
-  },
-  {
-   "id": "p19521",
-   "plataforma": "shopee",
-   "produto": "Mesa Gamer Escrivaninha Mesa Para Computador Home Office E Estudos Com Suporte Para CPU E Prateleira Lateral",
-   "loja": "NT Store",
-   "preco": 149.99,
-   "precoDe": 405.38,
-   "precoComCupom": null,
-   "desconto": 63,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://s.shopee.com.br/8AXOzkBuWc",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l8-moitvfd9ab5v04",
-   "emoji": "📦",
-   "visto": "2026-11-04 14:27:25"
-  },
-  {
-   "id": "p15639",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG Ultragear - 27g523 - Ips De 27, 200hz, 1ms Preto 127/220v - R$ 799",
-   "loja": "",
-   "preco": 799.0,
-   "precoDe": 949.0,
-   "precoComCupom": 719.0,
-   "desconto": 16,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2SHyYU1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_999410-MLB117416204357_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-04 14:23:51"
   }
  ]
 }
