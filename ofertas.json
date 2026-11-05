@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-04 23:05:46",
+ "atualizado": "2026-11-04 23:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20011",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Gigabyte Gs24f14a Preto 23.8 1080p Fhd 144hz - R$ 594",
+   "loja": "",
+   "preco": 594.0,
+   "precoDe": 642.0,
+   "precoComCupom": 534.0,
+   "desconto": 7,
+   "cupom": "VALETECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/1oj3fPw",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_757784-MLA110786467862_052026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-04 23:24:09"
+  },
+  {
+   "id": "p21445",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Mecânico Magnético Gamer Akko Fun60 Pro Argb 8k Preto Inglês - R$ 198,09",
+   "loja": "",
+   "preco": 198.09,
+   "precoDe": 219.0,
+   "precoComCupom": null,
+   "desconto": 10,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1NtudZA",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_738142-MLA99491189820_112025-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-04 23:12:08"
+  },
   {
    "id": "p21184",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-mrcdblv6aa6c43",
    "emoji": "💾",
    "visto": "2026-11-04 14:49:00"
-  },
-  {
-   "id": "p19780",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B - R$ 7",
-   "loja": "",
-   "preco": 779.0,
-   "precoDe": 1039.0,
-   "precoComCupom": 701.0,
-   "desconto": 25,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1nNMa1M",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_896633-MLA120723721883_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-04 14:42:24"
-  },
-  {
-   "id": "p19924",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira De Escritório Ergonômica Mônaco Bt07 Laudo NR-17 Luvinco Malha Respirável Com Suporte Lombar Adaptável Apoio Para Pés Retrátil Encos",
-   "loja": "",
-   "preco": 1099.0,
-   "precoDe": 1624.0,
-   "precoComCupom": 999.0,
-   "desconto": 32,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2NbHVr2",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_746934-MLA96570636272_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-04 14:35:08"
   }
  ]
 }
