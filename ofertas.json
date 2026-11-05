@@ -1,7 +1,71 @@
 {
- "atualizado": "2026-11-05 19:35:46",
+ "atualizado": "2026-11-05 20:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19791",
+   "plataforma": "mercadolivre",
+   "produto": "Console Playstation 5 Slim Edição Digital 825 Gb - R$ 3.989",
+   "loja": "",
+   "preco": 3989.0,
+   "precoDe": 4599.0,
+   "precoComCupom": 3704.0,
+   "desconto": 13,
+   "cupom": "HOJECOMCUPOM",
+   "cupomTexto": "",
+   "url": "https://meli.la/1xZMct1",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_971864-MLA91925160023_092025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-05 19:59:06"
+  },
+  {
+   "id": "p15730",
+   "plataforma": "mercadolivre",
+   "produto": "Nintendo Switch Console OLED 64gb - R$ 2.290",
+   "loja": "",
+   "preco": 2290.0,
+   "precoDe": 2999.0,
+   "precoComCupom": 1899.0,
+   "desconto": 24,
+   "cupom": "HOJECOMCUPOM",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UrQfLr",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_928841-MLA93525033946_102025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-05 19:49:11"
+  },
+  {
+   "id": "p21471",
+   "plataforma": "shopee",
+   "produto": "iPhone 18 Pro Max Apple 256GB, Câmera Tripla Fusion de 48MP, Chip A20 Pro, Tela 6.9\" Super Retina XDR, Prateado",
+   "loja": "Kabum",
+   "preco": 10635.6,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/9zz57vWpzT",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-82594-muay5ih2st1f35",
+   "emoji": "📱",
+   "visto": "2026-11-05 19:46:39"
+  },
+  {
+   "id": "p20431",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Gamer Weishi Atlas, 120cm, Tampo Em Mdf, Preto - R$ 334,78",
+   "loja": "",
+   "preco": 334.78,
+   "precoDe": 517.64,
+   "precoComCupom": 259.0,
+   "desconto": 35,
+   "cupom": "CASAAQUI",
+   "cupomTexto": "",
+   "url": "https://meli.la/2y9Q2Tb",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_786855-MLB116510578452_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-05 19:36:05"
+  },
   {
    "id": "p19302",
    "plataforma": "mercadolivre",
@@ -355,22 +419,6 @@
    "visto": "2026-11-05 17:49:41"
   },
   {
-   "id": "p15730",
-   "plataforma": "mercadolivre",
-   "produto": "Nintendo Switch Console OLED 64gb - R$ 2.339",
-   "loja": "",
-   "preco": 2339.0,
-   "precoDe": 2999.0,
-   "precoComCupom": 1899.0,
-   "desconto": 22,
-   "cupom": "HOJECOMCUPOM",
-   "cupomTexto": "",
-   "url": "https://meli.la/2UrQfLr",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_928841-MLA93525033946_102025-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-05 17:48:41"
-  },
-  {
    "id": "p21464",
    "plataforma": "mercadolivre",
    "produto": "Placa De Vídeo Pcyes Geforce Rtx 5060 8gb Gddr7 128 Bits - R$ 2.897",
@@ -561,22 +609,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_946902-MLA113626514437_062026-P.webp",
    "emoji": "⌨️",
    "visto": "2026-11-05 16:45:51"
-  },
-  {
-   "id": "p19791",
-   "plataforma": "mercadolivre",
-   "produto": "Console Playstation 5 Slim Edição Digital 825 Gb - R$ 3.989",
-   "loja": "",
-   "preco": 3989.0,
-   "precoDe": 4599.0,
-   "precoComCupom": 3704.0,
-   "desconto": 13,
-   "cupom": "HOJECOMCUPOM",
-   "cupomTexto": "",
-   "url": "https://meli.la/1xZMct1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_971864-MLA91925160023_092025-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-05 16:45:44"
   },
   {
    "id": "p19893",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_600122-MLA99994206687_112025-P.webp",
    "emoji": "⌨️",
    "visto": "2026-11-05 14:14:04"
-  },
-  {
-   "id": "p15504",
-   "plataforma": "mercadolivre",
-   "produto": "Suporte Articulado com Pistão a Gás Para Dois Monitores Zinnia Nimbo 210 Preto 13 a 32 Pol com Braços Articulados e Design Discreto - R$ 187",
-   "loja": "",
-   "preco": 187.02,
-   "precoDe": 304.38,
-   "precoComCupom": 168.0,
-   "desconto": 39,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/2uuiNqW",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_850490-MLA108023617167_032026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-05 14:11:32"
-  },
-  {
-   "id": "p19958",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Rise Mode Prime 27 Full Hd 240hz 1ms Ips - R$ 777,77",
-   "loja": "",
-   "preco": 777.77,
-   "precoDe": null,
-   "precoComCupom": 699.0,
-   "desconto": null,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/2DoB8eE",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_945833-MLB116007912924_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-05 14:01:06"
   }
  ]
 }
