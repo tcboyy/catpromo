@@ -1,7 +1,71 @@
 {
- "atualizado": "2026-11-05 11:35:46",
+ "atualizado": "2026-11-05 12:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6673",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer LG UltraGear Curvo 34\"- QuadHD 2K, UltraWide 1800R, 160Hz, 1ms (MBR), AMD FreeSync Premium, HDR10, MaxxAudio, Preto -34G600A -",
+   "loja": "",
+   "preco": 1839.0,
+   "precoDe": 2515.0,
+   "precoComCupom": 1655.0,
+   "desconto": 27,
+   "cupom": "CLIENTESTOP",
+   "cupomTexto": "",
+   "url": "https://meli.la/2DaUYdS",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_714205-MLA120725726433_112026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-05 12:00:33"
+  },
+  {
+   "id": "p21190",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Pc Ddr4 16gb 2666 4bit Infinity Memory - R$ 521,51",
+   "loja": "",
+   "preco": 521.51,
+   "precoDe": 899.0,
+   "precoComCupom": 469.0,
+   "desconto": 42,
+   "cupom": "DESCONTOSESPECIAIS",
+   "cupomTexto": "",
+   "url": "https://meli.la/27VQ2MR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_786573-MLA81649546848_012025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-05 11:53:09"
+  },
+  {
+   "id": "p15243",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Tcl 25 Polegadas Qd-Mini Led Full Hd G64 300hz 1ms (Gtg) Freesync Hdr 600 Nits 25g64 - R$ 1.159",
+   "loja": "",
+   "preco": 1159.0,
+   "precoDe": 1599.0,
+   "precoComCupom": 1059.0,
+   "desconto": 28,
+   "cupom": "DESCONTOSESPECIAIS",
+   "cupomTexto": "",
+   "url": "https://meli.la/14dBmbe",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_994730-MLA115998386538_092026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-05 11:45:09"
+  },
+  {
+   "id": "p21453",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Curvo 34 Ultra Wqhd 165hz Odyssey G5 Samsung Preto 127/220v - R$ 1.531",
+   "loja": "",
+   "preco": 1531.0,
+   "precoDe": 3500.0,
+   "precoComCupom": 1378.0,
+   "desconto": 56,
+   "cupom": "CLIENTESTOP",
+   "cupomTexto": "",
+   "url": "https://meli.la/1vcGZmu",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_964620-MLB116374783976_092026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-05 11:40:43"
+  },
   {
    "id": "p19471",
    "plataforma": "mercadolivre",
@@ -275,22 +339,6 @@
    "visto": "2026-11-05 10:20:38"
   },
   {
-   "id": "p21190",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Pc Ddr4 16gb 2666 4bit Infinity Memory - R$ 521,51",
-   "loja": "",
-   "preco": 521.51,
-   "precoDe": 899.0,
-   "precoComCupom": null,
-   "desconto": 42,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/27VQ2MR",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_786573-MLA81649546848_012025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-05 10:10:16"
-  },
-  {
    "id": "p6415",
    "plataforma": "mercadolivre",
    "produto": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto - R$ 86,16",
@@ -369,22 +417,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_777139-MLA99536116310_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-05 09:54:06"
-  },
-  {
-   "id": "p15243",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Tcl 25 Polegadas Qd-Mini Led Full Hd G64 300hz 1ms (Gtg) Freesync Hdr 600 Nits 25g64 - R$ 1.159",
-   "loja": "",
-   "preco": 1159.0,
-   "precoDe": 1599.0,
-   "precoComCupom": 1059.0,
-   "desconto": 28,
-   "cupom": "DESCONTOSESPECIAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/14dBmbe",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_994730-MLA115998386538_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-05 09:51:48"
   },
   {
    "id": "p21304",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_654888-MLA105359507121_012026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-04 19:15:03"
-  },
-  {
-   "id": "p21234",
-   "plataforma": "mercadolivre",
-   "produto": "Memória RAM Desktop 8GB DDR4 2666MHz para PC, Módulo Interno com Dissipador de Calor - Linha Anubis UP Gamer - R$ 358,67",
-   "loja": "",
-   "preco": 358.67,
-   "precoDe": null,
-   "precoComCupom": 290.0,
-   "desconto": null,
-   "cupom": "DESCONTOSEMPRE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qNGVjk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_724669-MLA114499298551_072026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-04 18:49:25"
-  },
-  {
-   "id": "p19785",
-   "plataforma": "mercadolivre",
-   "produto": "Ssd 1tb Western Digital Green Sn350 Nvme, Gen3, M.2 2280 Azul - R$ 956,57",
-   "loja": "",
-   "preco": 956.57,
-   "precoDe": 1399.0,
-   "precoComCupom": 848.0,
-   "desconto": 32,
-   "cupom": "DESCONTOSEMPRE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1KPvuaL",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_932631-MLA96073227449_102025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-04 18:36:22"
   }
  ]
 }
