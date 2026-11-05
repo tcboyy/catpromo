@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-05 08:05:45",
+ "atualizado": "2026-11-05 08:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19540",
+   "plataforma": "shopee",
+   "produto": "Cadeira de Escritório Ergonômica Giratória Presidente com Apoio Lombar, Braços Ajustáveis e Tecido Mesh- LARUNO",
+   "loja": "LARUNO",
+   "preco": 344.01,
+   "precoDe": 1186.24,
+   "precoComCupom": 295.0,
+   "desconto": 71,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/1qdMe1o8q3",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lf-mtdzril7oa2r94",
+   "emoji": "🪑",
+   "visto": "2026-11-05 08:23:51"
+  },
   {
    "id": "p21447",
    "plataforma": "shopee",
@@ -849,22 +865,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_901179-MLA99453111658_112025-P.webp",
    "emoji": "🖱️",
    "visto": "2026-11-04 17:26:39"
-  },
-  {
-   "id": "p19540",
-   "plataforma": "shopee",
-   "produto": "Cadeira de Escritório Ergonômica Giratória Presidente com Apoio Lombar, Braços Ajustáveis e Tecido Mesh- LARUNO",
-   "loja": "LARUNO",
-   "preco": 344.01,
-   "precoDe": 1186.24,
-   "precoComCupom": 323.0,
-   "desconto": 71,
-   "cupom": "3C0N0M1Z370",
-   "cupomTexto": "",
-   "url": "https://s.shopee.com.br/5fq4DPVCwq",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lf-mtdzril7oa2r94",
-   "emoji": "🪑",
-   "visto": "2026-11-04 17:25:57"
   },
   {
    "id": "p21438",
