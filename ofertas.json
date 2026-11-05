@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-05 07:35:45",
+ "atualizado": "2026-11-05 08:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21447",
+   "plataforma": "shopee",
+   "produto": "Smart TV Philips 65\" 4K UHD Ambilight 65PUG8100/78 Wi-Fi Bluetooth IA HDMI USB 60Hz",
+   "loja": "NegociuN",
+   "preco": 3107.9,
+   "precoDe": 4638.66,
+   "precoComCupom": null,
+   "desconto": 33,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/7KyJ9qGEoE",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lj-mt45al9gacxz5e",
+   "emoji": "🖥️",
+   "visto": "2026-11-05 07:50:28"
+  },
   {
    "id": "p21446",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_914077-MLA109770835437_032026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-04 15:36:30"
-  },
-  {
-   "id": "p15645",
-   "plataforma": "mercadolivre",
-   "produto": "Teclado Magnético Akko Monsgeek 8000hz Fun60 Pro Branco Layout US rgb - R$ 186",
-   "loja": "",
-   "preco": 186.0,
-   "precoDe": 348.0,
-   "precoComCupom": null,
-   "desconto": 47,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1NcL3jW",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_844139-MLA96418198732_102025-P.webp",
-   "emoji": "⌨️",
-   "visto": "2026-11-04 15:31:03"
   }
  ]
 }
