@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-05 22:06:46",
+ "atualizado": "2026-11-05 22:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6824",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G5, 27 , Qhd, 165hz Cor Preto - R$ 971,03",
+   "loja": "",
+   "preco": 971.03,
+   "precoDe": 1999.0,
+   "precoComCupom": 881.0,
+   "desconto": 51,
+   "cupom": "DESCONTOSESPECIAIS",
+   "cupomTexto": "",
+   "url": "https://meli.la/1KTAXUM",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_929601-MLA99994006017_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-05 22:24:08"
+  },
+  {
+   "id": "p15658",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Mecânico Aula F75 Layout 75 RGB Hot Swappable Switch Ash Wood V3 Formato US - R$ 333,45",
+   "loja": "",
+   "preco": 333.45,
+   "precoDe": 799.0,
+   "precoComCupom": 315.0,
+   "desconto": 58,
+   "cupom": "DESCONTOS",
+   "cupomTexto": "",
+   "url": "https://meli.la/1RW83Lk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_703337-MLA99974409173_112025-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-05 22:12:09"
+  },
   {
    "id": "p20004",
    "plataforma": "mercadolivre",
@@ -1219,22 +1251,6 @@
    "visto": "2026-11-05 15:00:22"
   },
   {
-   "id": "p6824",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Samsung Odyssey G5, 27 , Qhd, 165hz Cor Preto - R$ 971,03",
-   "loja": "",
-   "preco": 971.03,
-   "precoDe": 1999.0,
-   "precoComCupom": 881.0,
-   "desconto": 51,
-   "cupom": "DESCONTOSESPECIAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1KTAXUM",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_929601-MLA99994006017_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-05 14:51:56"
-  },
-  {
    "id": "p19766",
    "plataforma": "shopee",
    "produto": "Galaxy A57 5G (256GB) - Cinza + Galaxy Buds Core - Preto",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_831227-MLB117647430398_102026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-05 14:42:15"
-  },
-  {
-   "id": "p6593",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy A57 5G 128GB, 8GB RAM, Câmera 50MP, IP68, Super AMOLED 6.7 - R$ 1.810",
-   "loja": "",
-   "preco": 1810.0,
-   "precoDe": 3799.0,
-   "precoComCupom": 1630.0,
-   "desconto": 52,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/1oVMTC1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_800527-MLA114603389639_072026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-05 14:39:04"
   }
  ]
 }
