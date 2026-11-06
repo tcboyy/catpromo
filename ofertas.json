@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-06 00:05:46",
+ "atualizado": "2026-11-06 00:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p17117",
+   "plataforma": "mercadolivre",
+   "produto": "Fone de Ouvido Esportivo Basike TWS Com Bluetooth 6.0 e Bateria de 60h - R$ 176,31",
+   "loja": "",
+   "preco": 176.31,
+   "precoDe": 284.0,
+   "precoComCupom": 129.0,
+   "desconto": 38,
+   "cupom": "ESQUENTA",
+   "cupomTexto": "",
+   "url": "https://meli.la/1mefAmP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_997784-MLA100022311359_122025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-06 00:08:16"
+  },
+  {
+   "id": "p20976",
+   "plataforma": "shopee",
+   "produto": "Notebook ASUS TUF Gaming F16 RL105 Intel Core 5 210H, NVIDIA RTX™ 3050, 8GB, 512GB SSD, KeepOS, 16\" LCD LED FHD 144 Hz",
+   "loja": "Loja ASUS",
+   "preco": 4649.07,
+   "precoDe": 5283.03,
+   "precoComCupom": 4236.0,
+   "desconto": 12,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/3LSBTTCUpB",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8257z-mui9rphvk35t51",
+   "emoji": "💻",
+   "visto": "2026-11-06 00:05:46"
+  },
   {
    "id": "p20754",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_956435-MLA112330695079_052026-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-05 15:51:08"
-  },
-  {
-   "id": "p21460",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Philips Gamer Evnia 27 Ips Full Hd 200hz 0.3ms Preto 127/220v - R$ 787",
-   "loja": "",
-   "preco": 787.0,
-   "precoDe": 1584.0,
-   "precoComCupom": 708.0,
-   "desconto": 50,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/2TywR8G",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_798510-MLB112757005643_062026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-05 15:39:47"
-  },
-  {
-   "id": "p19474",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 365,99",
-   "loja": "",
-   "preco": 365.99,
-   "precoDe": 406.66,
-   "precoComCupom": 329.0,
-   "desconto": 10,
-   "cupom": "DESCONTOSESPECIAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1qS2vs3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_956238-MLB120820143243_112026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-05 15:29:59"
   }
  ]
 }
