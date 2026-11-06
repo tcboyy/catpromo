@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-06 00:35:46",
+ "atualizado": "2026-11-06 01:06:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21475",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido TWS Havit TW982 ENC, Bluetooth 5.4, Até 33h de Reprodução, IPX4, In-Ear, 13mm bio diafragma, Cor Rosa - R$ 70,03",
+   "loja": "",
+   "preco": 70.03,
+   "precoDe": 119.0,
+   "precoComCupom": null,
+   "desconto": 41,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2guZjCL",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_864941-MLA95958569148_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-06 00:45:52"
+  },
   {
    "id": "p17117",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_775930-MLA119567581817_102026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-05 16:07:11"
-  },
-  {
-   "id": "p20462",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Genebra Luvinco Cor Cinza Escuro Com Suporte Lombar Estofado Mesh - R$ 434,91",
-   "loja": "",
-   "preco": 434.91,
-   "precoDe": 705.77,
-   "precoComCupom": 354.0,
-   "desconto": 38,
-   "cupom": "CASAAQUI",
-   "cupomTexto": "",
-   "url": "https://meli.la/237Hm7p",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_956435-MLA112330695079_052026-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-05 15:51:08"
   }
  ]
 }
