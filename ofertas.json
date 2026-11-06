@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-05 23:35:46",
+ "atualizado": "2026-11-06 00:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20754",
+   "plataforma": "mercadolivre",
+   "produto": "Samsung Galaxy S25 5G, 256GB, 12GB, Câmera Tripla - Azul claro - R$ 3.668",
+   "loja": "",
+   "preco": 3668.0,
+   "precoDe": 5999.0,
+   "precoComCupom": 3193.0,
+   "desconto": 39,
+   "cupom": "SAMSUNG10OFF",
+   "cupomTexto": "",
+   "url": "https://meli.la/2Go4NZj",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_715921-MLA109035229828_032026-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-05 23:55:37"
+  },
+  {
+   "id": "p19802",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Ram 16gb Ddr4 | Rise Mode | 3200mhz | Z Series Preto - R$ 837,11",
+   "loja": "",
+   "preco": 837.11,
+   "precoDe": 863.0,
+   "precoComCupom": 753.0,
+   "desconto": 3,
+   "cupom": "CLIENTESTOP",
+   "cupomTexto": "",
+   "url": "https://meli.la/17GUb3t",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_823741-MLA112697975250_062026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-05 23:48:38"
+  },
+  {
+   "id": "p20725",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Pad Gamer Apex Control Profissional 49x42 Mousepad - Onda Degradê - R$ 67,80",
+   "loja": "",
+   "preco": 67.8,
+   "precoDe": 99.9,
+   "precoComCupom": null,
+   "desconto": 32,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2qTwkAm",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_816699-MLA97463289171_112025-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-05 23:37:37"
+  },
   {
    "id": "p19381",
    "plataforma": "mercadolivre",
@@ -1187,22 +1235,6 @@
    "visto": "2026-11-05 16:07:11"
   },
   {
-   "id": "p19802",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Ram 16gb Ddr4 | Rise Mode | 3200mhz | Z Series Preto - R$ 837,11",
-   "loja": "",
-   "preco": 837.11,
-   "precoDe": 863.0,
-   "precoComCupom": 753.0,
-   "desconto": 3,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/17GUb3t",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_823741-MLA112697975250_062026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-05 16:01:08"
-  },
-  {
    "id": "p20462",
    "plataforma": "mercadolivre",
    "produto": "Cadeira Escritório Ergonômica Genebra Luvinco Cor Cinza Escuro Com Suporte Lombar Estofado Mesh - R$ 434,91",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_956238-MLB120820143243_112026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-05 15:29:59"
-  },
-  {
-   "id": "p15250",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mãe Msi B840m Gaming Wifi6e Am5 2xddr5 Amd B840 Matx Cor Branco - R$ 722,10",
-   "loja": "",
-   "preco": 722.1,
-   "precoDe": 830.0,
-   "precoComCupom": 649.0,
-   "desconto": 13,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/2nitVCz",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662912-MLA99945608233_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-05 15:21:20"
-  },
-  {
-   "id": "p15427",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Gamer Lancer Preta e Branca Healer - R$ 455,52",
-   "loja": "",
-   "preco": 455.52,
-   "precoDe": 899.9,
-   "precoComCupom": 413.0,
-   "desconto": 49,
-   "cupom": "DESCONTOSESPECIAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2ZsE481",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_951583-MLA105697862101_012026-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-05 15:11:54"
   }
  ]
 }
