@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-06 08:05:46",
+ "atualizado": "2026-11-06 08:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20513",
+   "plataforma": "mercadolivre",
+   "produto": "Samsung Galaxy S25+ 5g, 256gb, 12gb, Câmera Tripla - Azul marinho - R$ 4.299",
+   "loja": "",
+   "preco": 4299.0,
+   "precoDe": 6999.0,
+   "precoComCupom": 3659.0,
+   "desconto": 39,
+   "cupom": "FAVORITO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1zFkFzn",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_606581-MLA99463575630_112025-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-06 08:35:33"
+  },
+  {
+   "id": "p20666",
+   "plataforma": "mercadolivre",
+   "produto": "Controle sem fio DualSense - Rhythm Blue - R$ 449,10",
+   "loja": "",
+   "preco": 449.1,
+   "precoDe": 599.9,
+   "precoComCupom": null,
+   "desconto": 25,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/27r8isP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_715987-MLA109165109882_042026-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-06 08:32:49"
+  },
   {
    "id": "p15666",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_610363-MLA99548948296_122025-P.webp",
    "emoji": "💾",
    "visto": "2026-11-05 16:29:45"
-  },
-  {
-   "id": "p21030",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Ram Gamer 16gb Ddr4 3200mhz Udimm Para Pc - R$ 755",
-   "loja": "",
-   "preco": 755.0,
-   "precoDe": null,
-   "precoComCupom": 679.0,
-   "desconto": null,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/29nxiKF",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_893919-MLB118706316033_102026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-05 16:23:14"
-  },
-  {
-   "id": "p19369",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Acer Nitro KG243Y P1bip 23,8″ | Full HD • 144Hz • 1ms VRB • IPS • HDMI • DisplayPort • ZeroFrame - R$ 673,45",
-   "loja": "",
-   "preco": 673.45,
-   "precoDe": 989.18,
-   "precoComCupom": 474.0,
-   "desconto": 32,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/2y9dG4j",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_777139-MLA99536116310_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-05 16:12:08"
   }
  ]
 }
