@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-06 07:35:46",
+ "atualizado": "2026-11-06 08:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15666",
+   "plataforma": "mercadolivre",
+   "produto": "Régua Extensão Elétrica 6 Tomadas Filtro Linha 10a Cabo 2 Metros - R$ 27,99",
+   "loja": "",
+   "preco": 27.99,
+   "precoDe": 44.89,
+   "precoComCupom": null,
+   "desconto": 38,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2HwsRWL",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_859190-MLA100084628639_122025-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-11-06 07:49:26"
+  },
+  {
+   "id": "p21476",
+   "plataforma": "shopee",
+   "produto": "Smart TV AOC 50\" DLED 4K UHD Roku TV - 50U7066/78G",
+   "loja": "NegociuN",
+   "preco": 1936.9,
+   "precoDe": 3026.41,
+   "precoComCupom": null,
+   "desconto": 36,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/5LDGMUGQl5",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m5-msqfvsc4vbidf1",
+   "emoji": "🖥️",
+   "visto": "2026-11-06 07:42:09"
+  },
   {
    "id": "p21045",
    "plataforma": "shopee",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_777139-MLA99536116310_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-05 16:12:08"
-  },
-  {
-   "id": "p19312",
-   "plataforma": "mercadolivre",
-   "produto": "Water Cooler Gamdias Aura Gl360 Lite Preto Argb Am5 Lga 1851 - R$ 295,28",
-   "loja": "",
-   "preco": 295.28,
-   "precoDe": 399.9,
-   "precoComCupom": 265.0,
-   "desconto": 26,
-   "cupom": "DESCONTOSESPECIAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/15q1oAX",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_600224-MLA111310080200_052026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-05 16:09:53"
-  },
-  {
-   "id": "p21461",
-   "plataforma": "mercadolivre",
-   "produto": "Smartphone Motorola Moto G06 - 64GB 4GB RAM + 8GB Ram Boost, Camera 50MP com AI, Bateria de 5200 mAh e Tela 6.9\" - Bege - R$ 629,10",
-   "loja": "",
-   "preco": 629.1,
-   "precoDe": 1299.0,
-   "precoComCupom": 566.0,
-   "desconto": 52,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Br1QzR",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_605303-MLA116320601976_092026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-05 16:09:46"
   }
  ]
 }
