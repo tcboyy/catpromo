@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-05 21:05:46",
+ "atualizado": "2026-11-05 21:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21473",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi Cor Preto Preto - R$ 679,15",
+   "loja": "",
+   "preco": 679.15,
+   "precoDe": 799.0,
+   "precoComCupom": null,
+   "desconto": 15,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UJ3ugY",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_873170-MLB92329968421_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-05 21:24:08"
+  },
+  {
+   "id": "p6692",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 503,91",
+   "loja": "",
+   "preco": 503.91,
+   "precoDe": 799.0,
+   "precoComCupom": 453.0,
+   "desconto": 37,
+   "cupom": "CLIENTESTOP",
+   "cupomTexto": "",
+   "url": "https://meli.la/15Wgjyk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-05 21:13:07"
+  },
   {
    "id": "p15351",
    "plataforma": "mercadolivre",
@@ -465,22 +497,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_713228-MLA113635732236_072026-P.webp",
    "emoji": "📱",
    "visto": "2026-11-05 18:06:57"
-  },
-  {
-   "id": "p6692",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 503,91",
-   "loja": "",
-   "preco": 503.91,
-   "precoDe": 799.0,
-   "precoComCupom": 453.0,
-   "desconto": 37,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/15Wgjyk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-05 18:00:09"
   },
   {
    "id": "p21284",
@@ -1265,22 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-820l6-ms1jke3b4m4m1d",
    "emoji": "🎧",
    "visto": "2026-11-05 14:30:13"
-  },
-  {
-   "id": "p19276",
-   "plataforma": "shopee",
-   "produto": "Kit Upgrade Gamer, Processador AMD Ryzen 5 5500, A520M, 16GB DDR4",
-   "loja": "Pichau",
-   "preco": 1869.9,
-   "precoDe": 2308.52,
-   "precoComCupom": 1628.0,
-   "desconto": 19,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/5VWfPnpGtp",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m7qtrb4a10zmfa",
-   "emoji": "📦",
-   "visto": "2026-11-05 14:28:25"
   }
  ]
 }
