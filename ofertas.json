@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-06 01:06:45",
+ "atualizado": "2026-11-06 07:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21045",
+   "plataforma": "shopee",
+   "produto": "Celular Apple iPhone 17e 256GB 512GB eSim Tela 6,1\" 48MP iOS 5G NFC Original Garantia Apple",
+   "loja": "ArizonaShop",
+   "preco": 4276.81,
+   "precoDe": 5483.09,
+   "precoComCupom": null,
+   "desconto": 22,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/qkqySfytj",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m8-moysqcc9lnnpf3",
+   "emoji": "📱",
+   "visto": "2026-11-06 07:16:35"
+  },
   {
    "id": "p21475",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_605303-MLA116320601976_092026-P.webp",
    "emoji": "📱",
    "visto": "2026-11-05 16:09:46"
-  },
-  {
-   "id": "p19231",
-   "plataforma": "mercadolivre",
-   "produto": "Smart TV Hisense HI-QLED 4K 50\" polegadas com Processador AI, Dolby Atmos e Compatibilidade Alexa - 50Q6QVV - R$ 2.081",
-   "loja": "",
-   "preco": 2081.0,
-   "precoDe": 2649.0,
-   "precoComCupom": 1881.0,
-   "desconto": 21,
-   "cupom": "PROMOSML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1sRGBYA",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_775930-MLA119567581817_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-05 16:07:11"
   }
  ]
 }
