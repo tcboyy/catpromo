@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-05 23:06:46",
+ "atualizado": "2026-11-05 23:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19381",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB - R$ 696,15",
+   "loja": "",
+   "preco": 696.15,
+   "precoDe": 909.0,
+   "precoComCupom": 640.0,
+   "desconto": 23,
+   "cupom": "SEMPREPROMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CGnL35",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_920822-MLA99469912962_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-05 23:24:19"
+  },
+  {
+   "id": "p19496",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer HyperX Cloud Stinger 2, Drivers 40mm, P3, Áudio espacial DTS, Design Leve, Preto - (683L9AA) - R$ 159,84",
+   "loja": "",
+   "preco": 159.84,
+   "precoDe": 299.0,
+   "precoComCupom": null,
+   "desconto": 47,
+   "cupom": "BOLSOCHEIO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2MYRgHj",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_622352-MLU77375274783_072024-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-05 23:14:51"
+  },
   {
    "id": "p21474",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_951583-MLA105697862101_012026-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-05 15:11:54"
-  },
-  {
-   "id": "p20011",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Gigabyte Gs24f14a Preto 23.8 1080p Fhd 144hz - R$ 599",
-   "loja": "",
-   "preco": 599.0,
-   "precoDe": 653.05,
-   "precoComCupom": 539.0,
-   "desconto": 8,
-   "cupom": "DESCONTOSESPECIAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1oj3fPw",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_757784-MLA110786467862_052026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-05 15:09:12"
-  },
-  {
-   "id": "p6568",
-   "plataforma": "mercadolivre",
-   "produto": "Smart Tv Tcl 65 Polegadas Qled 4k T6c Wifi Bluetooth Google Tv Tela Hva E Hdr10+ 65t6c - R$ 3.179",
-   "loja": "",
-   "preco": 3179.0,
-   "precoDe": 4099.0,
-   "precoComCupom": 2993.0,
-   "desconto": 22,
-   "cupom": "PROMOSML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1jmA3FZ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_810221-MLA115949427379_082026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-05 15:04:39"
   }
  ]
 }
