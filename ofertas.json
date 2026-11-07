@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-07 19:05:46",
+ "atualizado": "2026-11-07 19:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21541",
+   "plataforma": "mercadolivre",
+   "produto": "Nintendo Switch Oled Bundle Mario Bros. Wonder + Nso 3 Meses Branco - R$ 2.023",
+   "loja": "",
+   "preco": 2023.0,
+   "precoDe": 2999.0,
+   "precoComCupom": null,
+   "desconto": 33,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2MuH4Ky",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_928841-MLA93525033946_102025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-07 19:24:08"
+  },
+  {
+   "id": "p19759",
+   "plataforma": "mercadolivre",
+   "produto": "Console Playstation®5 Slim Digital - Pacote Astro Bot E Gran Turismo 7 - Branco - R$ 4.369",
+   "loja": "",
+   "preco": 4369.0,
+   "precoDe": 4599.0,
+   "precoComCupom": null,
+   "desconto": 5,
+   "cupom": "VIPNOMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/2FmASV8",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_667226-MLA96871260244_112025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-07 19:13:09"
+  },
   {
    "id": "p6704",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_687589-MLA99536545292_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-07 11:54:31"
-  },
-  {
-   "id": "p21284",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG UltraGear - Tela VA FHD 32”, 144Hz nativo, 1ms (MBR), AMD FreeSync, HDR10, sRGB 99%, Preto - 32G403B - R$ 999",
-   "loja": "",
-   "preco": 999.0,
-   "precoDe": 1448.0,
-   "precoComCupom": 899.0,
-   "desconto": 31,
-   "cupom": "AMIGOVIP",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qYYqfy",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_992594-MLA118348137126_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-07 11:47:33"
-  },
-  {
-   "id": "p21523",
-   "plataforma": "mercadolivre",
-   "produto": "Smart TV TCL 50 Polegadas QLED 4K P7K WiFi Bluetooth Google TV HDR10+ Dolby Atmos Dolby Vision 50P7K - R$ 2.039",
-   "loja": "",
-   "preco": 2039.0,
-   "precoDe": 2899.0,
-   "precoComCupom": 1839.0,
-   "desconto": 30,
-   "cupom": "AMIGOVIP",
-   "cupomTexto": "",
-   "url": "https://meli.la/1YY48Lg",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_647538-MLA114600858616_082026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-07 11:45:14"
   }
  ]
 }
