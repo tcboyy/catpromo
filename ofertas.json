@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-06 22:05:46",
+ "atualizado": "2026-11-06 22:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19791",
+   "plataforma": "mercadolivre",
+   "produto": "Console Playstation 5 Slim Edição Digital 825 Gb - R$ 4.084",
+   "loja": "",
+   "preco": 4084.0,
+   "precoDe": 6274.0,
+   "precoComCupom": 3704.0,
+   "desconto": 35,
+   "cupom": "FAVORITO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1xZMct1",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_971864-MLA91925160023_092025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-06 22:23:24"
+  },
+  {
+   "id": "p21512",
+   "plataforma": "mercadolivre",
+   "produto": "Carregador Portátil Power Bank 10.000 Mah Rápido Usb Turbo Universal Cor Sortida Diggicom - R$ 58,10",
+   "loja": "",
+   "preco": 58.1,
+   "precoDe": 65.44,
+   "precoComCupom": null,
+   "desconto": 11,
+   "cupom": "QUEROOFF",
+   "cupomTexto": "",
+   "url": "https://meli.la/2CAmQpH",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_963738-MLA100064024353_122025-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-11-06 22:17:10"
+  },
+  {
+   "id": "p6643",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 134,91",
+   "loja": "",
+   "preco": 134.91,
+   "precoDe": 209.0,
+   "precoComCupom": null,
+   "desconto": 35,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Dqv1ef",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-06 22:11:42"
+  },
   {
    "id": "p15393",
    "plataforma": "mercadolivre",
@@ -1123,22 +1171,6 @@
    "visto": "2026-11-06 15:11:53"
   },
   {
-   "id": "p19791",
-   "plataforma": "mercadolivre",
-   "produto": "Console Playstation 5 Slim Edição Digital 825 Gb - R$ 3.989",
-   "loja": "",
-   "preco": 3989.0,
-   "precoDe": 4599.0,
-   "precoComCupom": 3704.0,
-   "desconto": 13,
-   "cupom": "FAVORITO",
-   "cupomTexto": "",
-   "url": "https://meli.la/1xZMct1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_971864-MLA91925160023_092025-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-06 15:10:17"
-  },
-  {
    "id": "p15308",
    "plataforma": "mercadolivre",
    "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 549,90",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259b-mtsduzjbr02261",
    "emoji": "📦",
    "visto": "2026-11-06 14:19:38"
-  },
-  {
-   "id": "p6643",
-   "plataforma": "mercadolivre",
-   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 134,91",
-   "loja": "",
-   "preco": 134.91,
-   "precoDe": 209.0,
-   "precoComCupom": null,
-   "desconto": 35,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Dqv1ef",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-06 14:12:24"
-  },
-  {
-   "id": "p6675",
-   "plataforma": "mercadolivre",
-   "produto": "Smart Tv Aoc Dled 32 Wi-fi Roku Tv Quad Core 32s5155/78g - R$ 962,10",
-   "loja": "",
-   "preco": 962.1,
-   "precoDe": 1299.0,
-   "precoComCupom": 764.0,
-   "desconto": 26,
-   "cupom": "OFFNOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1sXhpts",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_802027-MLA120306983603_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-06 14:08:34"
   }
  ]
 }
