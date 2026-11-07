@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-06 23:06:46",
+ "atualizado": "2026-11-06 23:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19222",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira De Escritório Presidente NR17 HomeNow Ergonômica Premium Toledo Cor Preto - R$ 712,08",
+   "loja": "",
+   "preco": 712.08,
+   "precoDe": 1064.0,
+   "precoComCupom": 632.0,
+   "desconto": 33,
+   "cupom": "OFFPRACASA",
+   "cupomTexto": "",
+   "url": "https://meli.la/1fACHuQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_763692-MLA99940510369_112025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-06 23:25:00"
+  },
+  {
+   "id": "p15306",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F - R$ 692,55",
+   "loja": "",
+   "preco": 692.55,
+   "precoDe": 899.0,
+   "precoComCupom": 647.0,
+   "desconto": 23,
+   "cupom": "VALETECH",
+   "cupomTexto": "",
+   "url": "https://www.mercadolivre.com.br/social/duartedarosacadorinmaiteni?matt_word=g03tech&matt_tool=35843039&forceInApp=true&ref=BCIG3RWI%2BK5BZaGviKWkRHjbTif1t7tCKrQv53VGKCK71CbPqkEWprKsc0CNXDgIOLEsCgBqC69E2Z2gotgl3YSDGaaTgN%2Fqi6fzC45IBt7%2B2Ua6ZLOU25gpJhPDbZcouCJukl8vRPIalI%2B833BA4Xa9q1UiVOFt9ElDqfI6DFeTt7HOZKPyZuCty1vbDKHnD%2BCoxM0%3D",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_922246-MLA99988034526_122025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-06 23:13:25"
+  },
   {
    "id": "p20991",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_828936-MLB88748640584_082025-P.webp",
    "emoji": "💾",
    "visto": "2026-11-06 14:37:49"
-  },
-  {
-   "id": "p15615",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Am4 Msi B550m A Pro Msi - R$ 510,69",
-   "loja": "",
-   "preco": 510.69,
-   "precoDe": 587.0,
-   "precoComCupom": 450.0,
-   "desconto": 13,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2sRVr6V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_752599-MLA100010456343_122025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-06 14:31:06"
-  },
-  {
-   "id": "p15240",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Phillips 24 Evnia Ips 144hz 0.5ms Wide Fullhd Preto 127/220v - R$ 543,92",
-   "loja": "",
-   "preco": 543.92,
-   "precoDe": 1099.0,
-   "precoComCupom": 464.0,
-   "desconto": 51,
-   "cupom": "FAVORITO",
-   "cupomTexto": "",
-   "url": "https://meli.la/1wwMr5V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-06 14:24:20"
   }
  ]
 }
