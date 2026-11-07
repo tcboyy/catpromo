@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-07 18:05:46",
+ "atualizado": "2026-11-07 18:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21008",
+   "plataforma": "mercadolivre",
+   "produto": "Gabinete Gamer Mancer CV100 Purple Edition Preto com Vidro e 3 Fans LED Rainbow - R$ 239,99",
+   "loja": "",
+   "preco": 239.99,
+   "precoDe": 541.16,
+   "precoComCupom": null,
+   "desconto": 56,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2rVHyc6",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_853865-MLA112546170168_062026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-07 18:25:12"
+  },
+  {
+   "id": "p6597",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.329",
+   "loja": "",
+   "preco": 1329.0,
+   "precoDe": 1499.0,
+   "precoComCupom": 1050.0,
+   "desconto": 11,
+   "cupom": "SITETODO0711",
+   "cupomTexto": "",
+   "url": "https://meli.la/13dS6US",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-07 18:11:12"
+  },
   {
    "id": "p15423",
    "plataforma": "mercadolivre",
@@ -385,22 +417,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_935163-MLA118173145629_092026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-07 15:40:00"
-  },
-  {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.329",
-   "loja": "",
-   "preco": 1329.0,
-   "precoDe": 1499.0,
-   "precoComCupom": 1050.0,
-   "desconto": 11,
-   "cupom": "SITETODO0711",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-07 15:37:13"
   },
   {
    "id": "p21532",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_670262-MLA99932916913_112025-P.webp",
    "emoji": "⌨️",
    "visto": "2026-11-07 11:30:18"
-  },
-  {
-   "id": "p19557",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 27\" IPS 240Hz 1ms (GtG) Full HD (1920x1080) sRGB 99% HDMI 2.0 NVIDIA G-SYNC AMD FreeSync Premium, Preto - 27G440A",
-   "loja": "",
-   "preco": 1147.0,
-   "precoDe": null,
-   "precoComCupom": 1032.0,
-   "desconto": null,
-   "cupom": "AMIGOVIP",
-   "cupomTexto": "",
-   "url": "https://meli.la/2CHQCc6",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_889599-MLA110402983168_052026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-07 11:26:57"
   }
  ]
 }
