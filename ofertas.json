@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-06 22:36:46",
+ "atualizado": "2026-11-06 23:06:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20991",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Presidente Ergonômica Sweet Studio Preta com Apoio para Pés Retrátil e Suporte Lombar - R$ 775,90",
+   "loja": "",
+   "preco": 775.9,
+   "precoDe": 1425.0,
+   "precoComCupom": 695.0,
+   "desconto": 46,
+   "cupom": "OFFPRACASA",
+   "cupomTexto": "",
+   "url": "https://meli.la/1fokHmq",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_710005-MLA119463891993_102026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-06 23:00:43"
+  },
+  {
+   "id": "p6414",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor gamer Aoc Série B30 21.5'' Full Hd Gaming 120hz 1ms 22b30hm23 cor preto - R$ 382,50",
+   "loja": "",
+   "preco": 382.5,
+   "precoDe": 849.9,
+   "precoComCupom": 325.0,
+   "desconto": 55,
+   "cupom": "CORREAGORA",
+   "cupomTexto": "",
+   "url": "https://meli.la/2G8USia",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_621055-MLA91966913733_092025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-06 22:36:44"
+  },
   {
    "id": "p19791",
    "plataforma": "mercadolivre",
@@ -643,22 +675,6 @@
    "visto": "2026-11-06 17:57:07"
   },
   {
-   "id": "p6414",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor gamer Aoc Série B30 21.5'' Full Hd Gaming 120hz 1ms 22b30hm23 cor preto - R$ 384,68",
-   "loja": "",
-   "preco": 384.68,
-   "precoDe": 569.9,
-   "precoComCupom": 325.0,
-   "desconto": 33,
-   "cupom": "CORREAGORA",
-   "cupomTexto": "",
-   "url": "https://meli.la/2G8USia",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_621055-MLA91966913733_092025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-06 17:54:43"
-  },
-  {
    "id": "p20647",
    "plataforma": "mercadolivre",
    "produto": "Controlador com fio Advantage - Interruptor de controle com fio 2 cores preto - R$ 185,81",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-06 14:24:20"
-  },
-  {
-   "id": "p21501",
-   "plataforma": "shopee",
-   "produto": "Caixa Amplificada Jbl Party Box Club 120 160w Bluetooth Conexão Usb Bivolt",
-   "loja": "Rep Store",
-   "preco": 1504.0,
-   "precoDe": 4064.86,
-   "precoComCupom": 1311.0,
-   "desconto": 63,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/9V2plRPVnM",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259b-mtsduzjbr02261",
-   "emoji": "📦",
-   "visto": "2026-11-06 14:19:38"
   }
  ]
 }
