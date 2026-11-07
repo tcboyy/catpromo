@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-06 23:35:46",
+ "atualizado": "2026-11-07 00:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19448",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer M711 Cobra Chroma Redragon Com fio Para Jogos 12.400 DPI Com Led RGB Preto - R$ 71,91",
+   "loja": "",
+   "preco": 71.91,
+   "precoDe": 143.43,
+   "precoComCupom": null,
+   "desconto": 50,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2VsWN3P",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_898286-MLA95664298408_102025-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-06 23:49:47"
+  },
+  {
+   "id": "p16056",
+   "plataforma": "mercadolivre",
+   "produto": "Controle Gamesir G7 Se Com Fio Para Xbox One Series S X Pc Hall Effect Botões Mecânicos Cor Azul - R$ 227,05",
+   "loja": "",
+   "preco": 227.05,
+   "precoDe": 459.9,
+   "precoComCupom": 204.0,
+   "desconto": 51,
+   "cupom": "ESQUENTA11DO11",
+   "cupomTexto": "",
+   "url": "https://meli.la/2Afcc5d",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_928331-MLA99599229698_122025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-06 23:36:17"
+  },
   {
    "id": "p19222",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_680928-MLA113216446484_072026-P.webp",
    "emoji": "💾",
    "visto": "2026-11-06 15:02:18"
-  },
-  {
-   "id": "p19230",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Gamer 150cm Industrial Estrutura Aço Para Computador Preto - R$ 255,99",
-   "loja": "",
-   "preco": 255.99,
-   "precoDe": 299.99,
-   "precoComCupom": 191.0,
-   "desconto": 15,
-   "cupom": "OFFPRACASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/1y4GbHF",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_751604-MLB113359291371_062026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-06 14:47:19"
-  },
-  {
-   "id": "p15563",
-   "plataforma": "mercadolivre",
-   "produto": "Projetor Portátil 4k Hd Android 11.0 Smart Wifi 5g Bluetooth Branco 127/220v - R$ 165,51",
-   "loja": "",
-   "preco": 165.51,
-   "precoDe": 349.9,
-   "precoComCupom": 140.0,
-   "desconto": 53,
-   "cupom": "OFFNOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1qKJoKH",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_828936-MLB88748640584_082025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-06 14:37:49"
   }
  ]
 }
