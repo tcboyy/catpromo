@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-06 20:36:46",
+ "atualizado": "2026-11-06 21:06:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19900",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira de Escritório Gamer Giant Innovation Ergonômica com Apoio de Braços Ajustável - R$ 424,76",
+   "loja": "",
+   "preco": 424.76,
+   "precoDe": 519.0,
+   "precoComCupom": 382.0,
+   "desconto": 18,
+   "cupom": "ESQUENTA11DO11",
+   "cupomTexto": "",
+   "url": "https://meli.la/2xSNeLC",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_624315-MLA105442288509_012026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-06 21:00:42"
+  },
+  {
+   "id": "p19300",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Curvo AOC AGON G4Z 27\" 300Hz 0,3ms HDR10 Base Ajustável C27G4Z/P Preto - R$ 1.025",
+   "loja": "",
+   "preco": 1025.0,
+   "precoDe": 1599.0,
+   "precoComCupom": 930.0,
+   "desconto": 36,
+   "cupom": "150TODOSITE2310",
+   "cupomTexto": "",
+   "url": "https://meli.la/1ZYQgXK",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_796898-MLA94128503742_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-06 20:48:25"
+  },
   {
    "id": "p15661",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_812377-MLU75149352915_032024-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-06 13:31:11"
-  },
-  {
-   "id": "p20335",
-   "plataforma": "mercadolivre",
-   "produto": "Teclado Magnético Gamer 60% 8000hz Rt0,01 | Switch Huano Preto Português Brasil - R$ 310",
-   "loja": "",
-   "preco": 310.0,
-   "precoDe": 399.9,
-   "precoComCupom": 280.0,
-   "desconto": 22,
-   "cupom": "CUPOM10",
-   "cupomTexto": "",
-   "url": "https://meli.la/1LkD5Es",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_756229-MLA108699529971_032026-P.webp",
-   "emoji": "⌨️",
-   "visto": "2026-11-06 13:22:18"
-  },
-  {
-   "id": "p21352",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG FHD Gamer & Office com telaIPS 24”, 1ms (MBR), 144Hz nativo, FreeSync, HDR10, sRGB, Modo leitura, Flicker Safe, HDMI, Black Stabi",
-   "loja": "",
-   "preco": 605.52,
-   "precoDe": 1399.0,
-   "precoComCupom": 575.0,
-   "desconto": 57,
-   "cupom": "CUPOM10",
-   "cupomTexto": "",
-   "url": "https://meli.la/1RTGtcT",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_875920-MLA120721604751_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-06 13:15:21"
   }
  ]
 }
