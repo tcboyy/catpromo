@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-07 00:05:46",
+ "atualizado": "2026-11-07 08:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21446",
+   "plataforma": "mercadolivre",
+   "produto": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14",
+   "loja": "",
+   "preco": 23.99,
+   "precoDe": 69.99,
+   "precoComCupom": null,
+   "desconto": 66,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2hyy5gH",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_767887-MLA120087704221_102026-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-07 07:48:21"
+  },
+  {
+   "id": "p20906",
+   "plataforma": "mercadolivre",
+   "produto": "Celular Samsung Galaxy S26 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla, Tela Grande de 6.9\" Branco - R$ 6.531",
+   "loja": "",
+   "preco": 6531.0,
+   "precoDe": 11999.0,
+   "precoComCupom": null,
+   "desconto": 46,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2Ku3cqi",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_933028-MLA109131950946_042026-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-07 07:41:49"
+  },
   {
    "id": "p19448",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_848788-MLA118747656417_102026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-06 15:11:53"
-  },
-  {
-   "id": "p15308",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 549,90",
-   "loja": "",
-   "preco": 549.9,
-   "precoDe": 906.53,
-   "precoComCupom": 500.0,
-   "desconto": 39,
-   "cupom": "OFFPRACASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/1ZDMAXC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_764756-MLA96570589252_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-06 15:07:20"
-  },
-  {
-   "id": "p21208",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Hiksemi Armor, 16gb (1x16gb), Ddr4, 3200mhz, Preto - R$ 695,52",
-   "loja": "",
-   "preco": 695.52,
-   "precoDe": null,
-   "precoComCupom": 611.0,
-   "desconto": null,
-   "cupom": "FAVORITO",
-   "cupomTexto": "",
-   "url": "https://meli.la/1JG3sib",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_680928-MLA113216446484_072026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-06 15:02:18"
   }
  ]
 }
