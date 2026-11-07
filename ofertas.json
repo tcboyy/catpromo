@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-07 17:35:46",
+ "atualizado": "2026-11-07 18:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15423",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Philips Evnia 27'' 200hz 0,3ms Ips Full Hd Preto - R$ 755",
+   "loja": "",
+   "preco": 755.0,
+   "precoDe": 1427.0,
+   "precoComCupom": 715.0,
+   "desconto": 47,
+   "cupom": "TODOSITE0711",
+   "cupomTexto": "",
+   "url": "https://meli.la/2q38W1z",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_778419-MLA104458943229_012026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-07 18:00:13"
+  },
+  {
+   "id": "p21024",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira De Escritório Gamer Nitro Ergonômica Estofado Couro Sintético Reclinável Altura Ajustável Apoio Para Pés Cor Azul Luvinco - R$ 533,3",
+   "loja": "",
+   "preco": 533.31,
+   "precoDe": 899.9,
+   "precoComCupom": 463.0,
+   "desconto": 41,
+   "cupom": "CUPOMPRACASA",
+   "cupomTexto": "",
+   "url": "https://meli.la/1PJPkdY",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_736649-MLA101422612491_122025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-07 17:48:11"
+  },
   {
    "id": "p15243",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_889599-MLA110402983168_052026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-07 11:26:57"
-  },
-  {
-   "id": "p21018",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Escritório Industrial Reforçado Ferro Homeoffice 150x60 Mel - R$ 214,76",
-   "loja": "",
-   "preco": 214.76,
-   "precoDe": 346.4,
-   "precoComCupom": 199.0,
-   "desconto": 38,
-   "cupom": "DESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2DEHNk3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762999-MLB110276049903_042026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-07 11:23:12"
-  },
-  {
-   "id": "p15585",
-   "plataforma": "mercadolivre",
-   "produto": "Caixa de Som Bluetooth Portátil - JBL Boombox 4 - JBL Pro Sound, AI Sound Boost, 210W RMS, até 34h de Bateria, Bass Boost, IP68, Auracast e ",
-   "loja": "",
-   "preco": 2184.0,
-   "precoDe": 3199.0,
-   "precoComCupom": 1858.0,
-   "desconto": 32,
-   "cupom": "AMIGOVIP",
-   "cupomTexto": "",
-   "url": "https://meli.la/2QfHi1T",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_863194-MLA118534430667_092026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-07 11:19:21"
   }
  ]
 }
