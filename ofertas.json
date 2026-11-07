@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-07 08:05:46",
+ "atualizado": "2026-11-07 08:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21452",
+   "plataforma": "mercadolivre",
+   "produto": "Tag Ultrapasse - Pagamento De Pedágios E Estacionamentos - R$ 19,90",
+   "loja": "",
+   "preco": 19.9,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2bXUT7M",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_707402-MLB106304299416_022026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-07 08:26:55"
+  },
   {
    "id": "p21446",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_605306-MLA119872143535_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-06 15:13:29"
-  },
-  {
-   "id": "p21502",
-   "plataforma": "mercadolivre",
-   "produto": "Caixa de Som JBL PartyBox Club 120 Bluetooth Show de Luzes À Prova de Respingos Som JBL Pro Sound 160W RMS - Preta - R$ 1.621",
-   "loja": "",
-   "preco": 1621.0,
-   "precoDe": 2630.0,
-   "precoComCupom": 1419.0,
-   "desconto": 38,
-   "cupom": "TECH0611",
-   "cupomTexto": "",
-   "url": "https://meli.la/199z3P8",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_848788-MLA118747656417_102026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-06 15:11:53"
   }
  ]
 }
