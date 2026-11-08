@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-08 01:06:46",
+ "atualizado": "2026-11-08 09:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15470",
+   "plataforma": "mercadolivre",
+   "produto": "Fones de ouvido para jogos sem fio Redragon H510-PRO H510-PRO pretos com luz LED - R$ 309",
+   "loja": "",
+   "preco": 309.0,
+   "precoDe": null,
+   "precoComCupom": 279.0,
+   "desconto": null,
+   "cupom": "TODOSITE0811",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CyAnr2",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685800-MLA95634757877_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-08 09:04:51"
+  },
+  {
+   "id": "p15651",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Pad Gamer Apex Control Profissional 49x42 Red Girl - R$ 67,80",
+   "loja": "",
+   "preco": 67.8,
+   "precoDe": 99.9,
+   "precoComCupom": 62.0,
+   "desconto": 32,
+   "cupom": "10D010TODOSITE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1pTRHxF",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_908667-MLA112780553692_062026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-08 09:01:08"
+  },
   {
    "id": "p20696",
    "plataforma": "shopee",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_802068-MLA99549028862_122025-P.webp",
    "emoji": "💾",
    "visto": "2026-11-07 14:01:37"
-  },
-  {
-   "id": "p21026",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG UltraGear de 25\" IPS Full HD com 200Hz e 1ms - R$ 749",
-   "loja": "",
-   "preco": 749.0,
-   "precoDe": 1249.0,
-   "precoComCupom": null,
-   "desconto": 40,
-   "cupom": "MELITECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/29wSaL3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_755874-MLA119779974189_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-07 13:53:09"
-  },
-  {
-   "id": "p21510",
-   "plataforma": "mercadolivre",
-   "produto": "iPhone 17 512 GB - Sálvia - Distribuidor Autorizado - R$ 6.282",
-   "loja": "",
-   "preco": 6282.0,
-   "precoDe": 8499.0,
-   "precoComCupom": null,
-   "desconto": 26,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/319bxXn",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_888668-MLA92147428361_092025-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-07 13:50:35"
   }
  ]
 }
