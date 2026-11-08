@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-08 12:06:46",
+ "atualizado": "2026-11-08 12:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21552",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Magnético Gamer Attack Shark 75% 8000 Hz 0,01mm Rapid Trigger Barra Led RGB Hall Effect Com Fio USB-C R85 Black Contour Line - R$ 37",
+   "loja": "",
+   "preco": 379.99,
+   "precoDe": 436.99,
+   "precoComCupom": null,
+   "desconto": 13,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1g8BwzZ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_899606-MLA117421633192_102026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-08 12:30:08"
+  },
+  {
+   "id": "p6597",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.127",
+   "loja": "",
+   "preco": 1127.0,
+   "precoDe": null,
+   "precoComCupom": 1050.0,
+   "desconto": null,
+   "cupom": "SITETODO0711",
+   "cupomTexto": "",
+   "url": "https://meli.la/13dS6US",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-08 12:14:06"
+  },
   {
    "id": "p21551",
    "plataforma": "mercadolivre",
@@ -1027,22 +1059,6 @@
    "visto": "2026-11-07 20:04:18"
   },
   {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.329",
-   "loja": "",
-   "preco": 1329.0,
-   "precoDe": 1499.0,
-   "precoComCupom": 1050.0,
-   "desconto": 11,
-   "cupom": "SITETODO0711",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-07 20:01:10"
-  },
-  {
    "id": "p21542",
    "plataforma": "mercadolivre",
    "produto": "Filamento Pla Plus 1kg Impressão 3d Nacional - Várias Cores - R$ 92,81",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_784866-MLB117626844052_102026-P.webp",
    "emoji": "⌨️",
    "visto": "2026-11-07 17:24:11"
-  },
-  {
-   "id": "p20015",
-   "plataforma": "shopee",
-   "produto": "Memória Kingston RAM Fury 16GB 1 HyperX HX432C16FB3/16 3200mhz KINGSTON",
-   "loja": "goku variedades",
-   "preco": 699.0,
-   "precoDe": null,
-   "precoComCupom": 619.0,
-   "desconto": null,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/2gCXPxjlHY",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-maih1jk95rsp55",
-   "emoji": "💾",
-   "visto": "2026-11-07 17:17:07"
   }
  ]
 }
