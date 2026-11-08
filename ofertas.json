@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-08 20:05:46",
+ "atualizado": "2026-11-08 20:35:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21473",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi Cor Preto Preto - R$ 679,15",
+   "loja": "",
+   "preco": 679.15,
+   "precoDe": 799.0,
+   "precoComCupom": null,
+   "desconto": 15,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UJ3ugY",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_873170-MLB92329968421_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-08 20:32:05"
+  },
+  {
+   "id": "p15523",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Magnético Redragon Ucal 8000k Polling Rate 0.01mm Rapid Trigger/socd Rgb Switch Ultramag Padrão Abnt2 Com Knob De Volume Preto Portu",
+   "loja": "",
+   "preco": 215.91,
+   "precoDe": 319.85,
+   "precoComCupom": null,
+   "desconto": 32,
+   "cupom": "CUPOM10",
+   "cupomTexto": "",
+   "url": "https://meli.la/26cjora",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_946902-MLA113626514437_062026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-08 20:15:06"
+  },
+  {
+   "id": "p6569",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gigabyte Gs24f14 23.8 Pol Full Hd Ips 144hz 1ms - R$ 521,13",
+   "loja": "",
+   "preco": 521.13,
+   "precoDe": 599.0,
+   "precoComCupom": 485.0,
+   "desconto": 13,
+   "cupom": "BORTODEZ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2rxtSPy",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_872401-MLA113528429319_062026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-08 20:06:11"
+  },
   {
    "id": "p21568",
    "plataforma": "aliexpress",
@@ -643,22 +691,6 @@
    "visto": "2026-11-08 16:54:44"
   },
   {
-   "id": "p21473",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi Cor Preto Preto - R$ 679,15",
-   "loja": "",
-   "preco": 679.15,
-   "precoDe": 799.0,
-   "precoComCupom": null,
-   "desconto": 15,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2UJ3ugY",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_873170-MLB92329968421_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-08 16:46:07"
-  },
-  {
    "id": "p6690",
    "plataforma": "mercadolivre",
    "produto": "Monitor Gamer Samsung Odyssey G5, 32 ,qhd, 165hz,1ms,hdmi,dp Preto - R$ 1.170",
@@ -995,22 +1027,6 @@
    "visto": "2026-11-08 14:16:05"
   },
   {
-   "id": "p6569",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gigabyte Gs24f14 23.8 Pol Full Hd Ips 144hz 1ms - R$ 521,13",
-   "loja": "",
-   "preco": 521.13,
-   "precoDe": 599.0,
-   "precoComCupom": 485.0,
-   "desconto": 13,
-   "cupom": "BORTODEZ",
-   "cupomTexto": "",
-   "url": "https://meli.la/2rxtSPy",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_872401-MLA113528429319_062026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-08 14:00:06"
-  },
-  {
    "id": "p19219",
    "plataforma": "mercadolivre",
    "produto": "Memória Gamer Fury Beast 16gb Ddr4 Cl16 Kingston - R$ 750",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_833789-MLA100590939374_122025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-08 11:16:06"
-  },
-  {
-   "id": "p15351",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Hdmi Dvi M.2 - R$ 430",
-   "loja": "",
-   "preco": 430.0,
-   "precoDe": null,
-   "precoComCupom": 387.0,
-   "desconto": null,
-   "cupom": "TAMOSJUNTO",
-   "cupomTexto": "",
-   "url": "https://meli.la/1LLMqjV",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_644232-MLA99455670876_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-08 11:03:20"
   }
  ]
 }
