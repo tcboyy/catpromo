@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-07 22:05:45",
+ "atualizado": "2026-11-07 22:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15284",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Mecânico Gamer Titorion TM-002 60% com Switch Vermelho para PC - R$ 133,22",
+   "loja": "",
+   "preco": 133.22,
+   "precoDe": 249.9,
+   "precoComCupom": 119.0,
+   "desconto": 47,
+   "cupom": "PROMODEZ",
+   "cupomTexto": "",
+   "url": "https://meli.la/1wZccnb",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_738186-MLA99518020132_112025-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-07 22:31:06"
+  },
+  {
+   "id": "p20414",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Sem Fio Gamer Base Carregamento 12000dpi Titorion Velar Paw3311 Tri-Mode (Dongle 2,4GHz, Bluetooth e cabo) Preto - R$ 155,10",
+   "loja": "",
+   "preco": 155.1,
+   "precoDe": 299.9,
+   "precoComCupom": 139.0,
+   "desconto": 48,
+   "cupom": "PROMODEZ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2NmJwSM",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_677021-MLA105361369435_012026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-07 22:17:06"
+  },
   {
    "id": "p19557",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_813299-MLA106811012910_022026-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-07 13:21:46"
-  },
-  {
-   "id": "p21521",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Sem Fio CFI-ZCT1W Playstation 5 - Gray Camufado - R$ 364,53",
-   "loja": "",
-   "preco": 364.53,
-   "precoDe": 561.44,
-   "precoComCupom": 312.0,
-   "desconto": 35,
-   "cupom": "MELIOFERTAS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Z4YSNU",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_959328-MLA107807117517_022026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-07 13:19:31"
-  },
-  {
-   "id": "p21410",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Suporte Lombar E Apoio De Cabe Preto Malha - R$ 338,32",
-   "loja": "",
-   "preco": 338.32,
-   "precoDe": 649.0,
-   "precoComCupom": null,
-   "desconto": 48,
-   "cupom": "CUPOMPRACASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/1obu6Qj",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_720733-MLB116834680090_092026-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-07 13:17:06"
   }
  ]
 }
