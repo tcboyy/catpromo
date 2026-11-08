@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-08 18:05:46",
+ "atualizado": "2026-11-08 18:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19578",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE - R$ 825,55",
+   "loja": "",
+   "preco": 825.55,
+   "precoDe": 1049.0,
+   "precoComCupom": 785.0,
+   "desconto": 21,
+   "cupom": "MELHORPROMOHJ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2wsxDwL",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662776-MLA96607684177_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-08 18:31:06"
+  },
+  {
+   "id": "p15354",
+   "plataforma": "mercadolivre",
+   "produto": "Fone Bluetooth Samsung Galaxy Buds Core Preto - R$ 214,63",
+   "loja": "",
+   "preco": 214.63,
+   "precoDe": 349.0,
+   "precoComCupom": 184.0,
+   "desconto": 39,
+   "cupom": "OFFNOTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/1geiXMR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_733029-MLA96883295535_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-08 18:15:07"
+  },
   {
    "id": "p20691",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_610249-MLA118922357551_102026-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-08 09:07:21"
-  },
-  {
-   "id": "p15470",
-   "plataforma": "mercadolivre",
-   "produto": "Fones de ouvido para jogos sem fio Redragon H510-PRO H510-PRO pretos com luz LED - R$ 309",
-   "loja": "",
-   "preco": 309.0,
-   "precoDe": null,
-   "precoComCupom": 279.0,
-   "desconto": null,
-   "cupom": "TODOSITE0811",
-   "cupomTexto": "",
-   "url": "https://meli.la/1CyAnr2",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685800-MLA95634757877_102025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-08 09:04:51"
-  },
-  {
-   "id": "p15651",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Pad Gamer Apex Control Profissional 49x42 Red Girl - R$ 67,80",
-   "loja": "",
-   "preco": 67.8,
-   "precoDe": 99.9,
-   "precoComCupom": 62.0,
-   "desconto": 32,
-   "cupom": "10D010TODOSITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1pTRHxF",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_908667-MLA112780553692_062026-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-08 09:01:08"
   }
  ]
 }
