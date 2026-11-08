@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-08 15:36:46",
+ "atualizado": "2026-11-08 16:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21043",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Delux M800 Mini Sem Fio Paw3311 48g Vermelho - R$ 159,84",
+   "loja": "",
+   "preco": 159.84,
+   "precoDe": 299.0,
+   "precoComCupom": 143.0,
+   "desconto": 47,
+   "cupom": "BORTODEZ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2Ersjwh",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_671883-MLA116752440799_082026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-08 16:02:06"
+  },
+  {
+   "id": "p20424",
+   "plataforma": "mercadolivre",
+   "produto": "Escrivaninha Gamer TGT Barrier de 140 cm Preta - R$ 505,87",
+   "loja": "",
+   "preco": 505.87,
+   "precoDe": 1203.0,
+   "precoComCupom": 425.0,
+   "desconto": 58,
+   "cupom": "COMPRAHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1jwoDdp",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_701258-MLA114212599785_072026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-08 15:45:06"
+  },
+  {
+   "id": "p19513",
+   "plataforma": "shopee",
+   "produto": "Gabinete Gamer Aquário Mancer CV700L, Mid Tower, Lateral De Vidro, Preto, MCR-CV700L-BK",
+   "loja": "Pichau",
+   "preco": 269.99,
+   "precoDe": 658.51,
+   "precoComCupom": 236.0,
+   "desconto": 59,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/6L5rGlR3Ra",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwp-m0xbq3ndlnay0f",
+   "emoji": "📦",
+   "visto": "2026-11-08 15:37:42"
+  },
   {
    "id": "p19764",
    "plataforma": "mercadolivre",
@@ -1203,22 +1251,6 @@
    "visto": "2026-11-07 22:01:10"
   },
   {
-   "id": "p19513",
-   "plataforma": "shopee",
-   "produto": "Gabinete Gamer Aquário Mancer CV700L, Mid Tower, Lateral De Vidro, Preto, MCR-CV700L-BK",
-   "loja": "Pichau",
-   "preco": 269.99,
-   "precoDe": 658.51,
-   "precoComCupom": 236.0,
-   "desconto": 59,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/5LDItgU5la",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwp-m0xbq3ndlnay0f",
-   "emoji": "📦",
-   "visto": "2026-11-07 21:51:11"
-  },
-  {
    "id": "p6449",
    "plataforma": "mercadolivre",
    "produto": "Mesa Escritório Mb Industrial 150x60cm Madeira E Metal - R$ 226,11",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbo84s3makbdfc",
    "emoji": "💾",
    "visto": "2026-11-07 21:34:47"
-  },
-  {
-   "id": "p21427",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Phillips De 23.8 Full Hd Ips Com 200hz Preto 127/220v - R$ 693,49",
-   "loja": "",
-   "preco": 693.49,
-   "precoDe": 899.0,
-   "precoComCupom": 624.0,
-   "desconto": 23,
-   "cupom": "PROMODEZ",
-   "cupomTexto": "",
-   "url": "https://meli.la/2h7aFNF",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_689652-MLB118832355827_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-07 21:32:05"
-  },
-  {
-   "id": "p21030",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Ram Gamer 16gb Ddr4 3200mhz Udimm Para Pc - R$ 755",
-   "loja": "",
-   "preco": 755.0,
-   "precoDe": null,
-   "precoComCupom": 679.0,
-   "desconto": null,
-   "cupom": "PROMODEZ",
-   "cupomTexto": "",
-   "url": "https://meli.la/29nxiKF",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_893919-MLB118706316033_102026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-07 21:15:06"
   }
  ]
 }
