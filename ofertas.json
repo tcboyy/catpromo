@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-08 16:35:46",
+ "atualizado": "2026-11-08 17:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19551",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G5 34 Uwqhd Preto 127/220v - R$ 1.549",
+   "loja": "",
+   "preco": 1549.0,
+   "precoDe": null,
+   "precoComCupom": 1329.0,
+   "desconto": null,
+   "cupom": "SITE0711TODO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2aK1d1X",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_902685-MLB94087280447_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-08 17:00:06"
+  },
+  {
+   "id": "p6415",
+   "plataforma": "mercadolivre",
+   "produto": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto - R$ 89,89",
+   "loja": "",
+   "preco": 89.89,
+   "precoDe": 199.0,
+   "precoComCupom": 77.0,
+   "desconto": 55,
+   "cupom": "DESCONTOSESPECIAIS",
+   "cupomTexto": "",
+   "url": "https://meli.la/1vHjK3c",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_696266-MLA97205822349_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-08 16:54:44"
+  },
+  {
+   "id": "p21473",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mae Gigabyte B550m Aorus Elite Am4 Ddr4 Hdmi Cor Preto Preto - R$ 679,15",
+   "loja": "",
+   "preco": 679.15,
+   "precoDe": 799.0,
+   "precoComCupom": null,
+   "desconto": 15,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UJ3ugY",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_873170-MLB92329968421_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-08 16:46:07"
+  },
   {
    "id": "p6690",
    "plataforma": "mercadolivre",
@@ -401,22 +449,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_723394-MLB118769678118_102026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-08 13:29:06"
-  },
-  {
-   "id": "p6415",
-   "plataforma": "mercadolivre",
-   "produto": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto - R$ 89,89",
-   "loja": "",
-   "preco": 89.89,
-   "precoDe": 199.0,
-   "precoComCupom": 77.0,
-   "desconto": 55,
-   "cupom": "DESCONTOSESPECIAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1vHjK3c",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_696266-MLA97205822349_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-08 13:16:05"
   },
   {
    "id": "p19448",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_833320-MLB75214002585_032024-P.webp",
    "emoji": "📦",
    "visto": "2026-11-07 23:00:06"
-  },
-  {
-   "id": "p20934",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Desktop Puskill Killblade Ddr4 16gb 2666mhz Cl19 - R$ 674,93",
-   "loja": "",
-   "preco": 674.93,
-   "precoDe": 980.0,
-   "precoComCupom": 607.0,
-   "desconto": 31,
-   "cupom": "PROMODEZ",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qeY4yJ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-07 22:45:06"
-  },
-  {
-   "id": "p15284",
-   "plataforma": "mercadolivre",
-   "produto": "Teclado Mecânico Gamer Titorion TM-002 60% com Switch Vermelho para PC - R$ 133,22",
-   "loja": "",
-   "preco": 133.22,
-   "precoDe": 249.9,
-   "precoComCupom": 119.0,
-   "desconto": 47,
-   "cupom": "PROMODEZ",
-   "cupomTexto": "",
-   "url": "https://meli.la/1wZccnb",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_738186-MLA99518020132_112025-P.webp",
-   "emoji": "⌨️",
-   "visto": "2026-11-07 22:31:06"
   }
  ]
 }
