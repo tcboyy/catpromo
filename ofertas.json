@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-08 13:05:46",
+ "atualizado": "2026-11-08 13:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20848",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Asus Tuf Gaming Series 5vg279qm5f,27 , Full Hd - R$ 854,99",
+   "loja": "",
+   "preco": 854.99,
+   "precoDe": 949.99,
+   "precoComCupom": 667.0,
+   "desconto": 10,
+   "cupom": "FAVORITO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1HoYvWX",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_723394-MLB118769678118_102026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-08 13:29:06"
+  },
+  {
+   "id": "p6415",
+   "plataforma": "mercadolivre",
+   "produto": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto - R$ 89,89",
+   "loja": "",
+   "preco": 89.89,
+   "precoDe": 199.0,
+   "precoComCupom": 77.0,
+   "desconto": 55,
+   "cupom": "DESCONTOSESPECIAIS",
+   "cupomTexto": "",
+   "url": "https://meli.la/1vHjK3c",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_696266-MLA97205822349_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-08 13:16:05"
+  },
   {
    "id": "p19448",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_753810-MLA99991088207_112025-P.webp",
    "emoji": "📱",
    "visto": "2026-11-07 18:36:11"
-  },
-  {
-   "id": "p21008",
-   "plataforma": "mercadolivre",
-   "produto": "Gabinete Gamer Mancer CV100 Purple Edition Preto com Vidro e 3 Fans LED Rainbow - R$ 239,99",
-   "loja": "",
-   "preco": 239.99,
-   "precoDe": 541.16,
-   "precoComCupom": null,
-   "desconto": 56,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2rVHyc6",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_853865-MLA112546170168_062026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-07 18:25:12"
-  },
-  {
-   "id": "p15423",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Philips Evnia 27'' 200hz 0,3ms Ips Full Hd Preto - R$ 755",
-   "loja": "",
-   "preco": 755.0,
-   "precoDe": 1427.0,
-   "precoComCupom": 715.0,
-   "desconto": 47,
-   "cupom": "TODOSITE0711",
-   "cupomTexto": "",
-   "url": "https://meli.la/2q38W1z",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_778419-MLA104458943229_012026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-07 18:00:13"
   }
  ]
 }
