@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-07 22:36:46",
+ "atualizado": "2026-11-07 23:05:45",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21534",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mãe Asus Tuf Gaming B550m Plus Amd Am4 Matx Ddr4 - R$ 721,23",
+   "loja": "",
+   "preco": 721.23,
+   "precoDe": 909.0,
+   "precoComCupom": null,
+   "desconto": 21,
+   "cupom": "PROMODEZ",
+   "cupomTexto": "",
+   "url": "https://meli.la/1McFSJw",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_833320-MLB75214002585_032024-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-07 23:00:06"
+  },
+  {
+   "id": "p20934",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Desktop Puskill Killblade Ddr4 16gb 2666mhz Cl19 - R$ 674,93",
+   "loja": "",
+   "preco": 674.93,
+   "precoDe": 980.0,
+   "precoComCupom": 607.0,
+   "desconto": 31,
+   "cupom": "PROMODEZ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2qeY4yJ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-07 22:45:06"
+  },
   {
    "id": "p15284",
    "plataforma": "mercadolivre",
@@ -723,22 +755,6 @@
    "visto": "2026-11-07 16:21:01"
   },
   {
-   "id": "p21534",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mãe Asus Tuf Gaming B550m Plus Amd Am4 Matx Ddr4 - R$ 721,23",
-   "loja": "",
-   "preco": 721.23,
-   "precoDe": 909.0,
-   "precoComCupom": null,
-   "desconto": 21,
-   "cupom": "TODOSITE0711",
-   "cupomTexto": "",
-   "url": "https://meli.la/1McFSJw",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_833320-MLB75214002585_032024-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-07 16:12:14"
-  },
-  {
    "id": "p21533",
    "plataforma": "mercadolivre",
    "produto": "Smart TV TCL 85 Polegadas QLED 4K P8L WiFi Bluetooth Google TV HDR10+ 144 Hz VRR 85P8L - R$ 6.700",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_908785-MLA118983121535_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-07 13:29:52"
-  },
-  {
-   "id": "p21527",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Com Suporte Lombar Python Fly Cor Preto - R$ 999",
-   "loja": "",
-   "preco": 999.0,
-   "precoDe": 1199.0,
-   "precoComCupom": 929.0,
-   "desconto": 17,
-   "cupom": "CUPOMPRACASA",
-   "cupomTexto": "",
-   "url": "https://meli.la/2Nhr6sq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_813299-MLA106811012910_022026-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-07 13:21:46"
   }
  ]
 }
