@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-07 23:35:46",
+ "atualizado": "2026-11-08 00:06:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21349",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Sem Fio Havit Fuxi H3 Bluetooth E Usb Wireless Cinza - R$ 168,63",
+   "loja": "",
+   "preco": 168.63,
+   "precoDe": 294.0,
+   "precoComCupom": 151.0,
+   "desconto": 43,
+   "cupom": "SEMPREPROMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Xv4yuF",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_638168-MLB75619873675_042024-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-07 23:58:06"
+  },
+  {
+   "id": "p20651",
+   "plataforma": "mercadolivre",
+   "produto": "Ssd M.2 500gb Wd Green Sn350 2280 Nvme Pcie Gen 3.0 Wds500g2g0c Velocidade De Leitura 2400mb/s Para Pc E Notebook Cor Verde - R$ 574,18",
+   "loja": "",
+   "preco": 574.18,
+   "precoDe": 659.98,
+   "precoComCupom": 544.0,
+   "desconto": 13,
+   "cupom": "PROMODEZ",
+   "cupomTexto": "",
+   "url": "https://meli.la/16Qskj2",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662404-MLA99993222787_112025-P.webp",
+   "emoji": "💻",
+   "visto": "2026-11-07 23:44:06"
+  },
   {
    "id": "p21284",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_669501-MLA100009166331_122025-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-07 13:38:27"
-  },
-  {
-   "id": "p21528",
-   "plataforma": "mercadolivre",
-   "produto": "Teclado Mecânico Fire Phoenix BK-X68 Magnético Branco, com 65% e Layout QWERTY - R$ 251,09",
-   "loja": "",
-   "preco": 251.09,
-   "precoDe": 269.99,
-   "precoComCupom": null,
-   "desconto": 7,
-   "cupom": "MELIOFERTAS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1dEPgY2",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_964554-MLA110115788426_042026-P.webp",
-   "emoji": "⌨️",
-   "visto": "2026-11-07 13:37:09"
-  },
-  {
-   "id": "p19669",
-   "plataforma": "mercadolivre",
-   "produto": "Heaphone Havit H630bt Bluetooth 5.3 On-ear 3d 55h Cor Bege - R$ 105,05",
-   "loja": "",
-   "preco": 105.05,
-   "precoDe": 199.0,
-   "precoComCupom": 84.0,
-   "desconto": 47,
-   "cupom": "MELIOFERTAS",
-   "cupomTexto": "",
-   "url": "https://meli.la/31BAf1K",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_906266-MLA99523577464_122025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-07 13:34:49"
   }
  ]
 }
