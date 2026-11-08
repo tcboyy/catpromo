@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-08 00:35:46",
+ "atualizado": "2026-11-08 01:06:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20696",
+   "plataforma": "shopee",
+   "produto": "Cadeira Gamer Fox Racer Nordic Preta",
+   "loja": "Belmicro Oficial",
+   "preco": 323.79,
+   "precoDe": 1116.52,
+   "precoComCupom": 293.0,
+   "desconto": 71,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/3g556w5U4b",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-81zu9-mmrnindmz0nad0",
+   "emoji": "🪑",
+   "visto": "2026-11-08 00:50:30"
+  },
+  {
+   "id": "p6644",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 - R$ 564,63",
+   "loja": "",
+   "preco": 564.63,
+   "precoDe": 649.0,
+   "precoComCupom": 524.0,
+   "desconto": 13,
+   "cupom": "TODOSITE0711",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CAGPWa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-08 00:43:13"
+  },
   {
    "id": "p21547",
    "plataforma": "shopee",
@@ -369,22 +401,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_731982-MLB91478603320_092025-P.webp",
    "emoji": "💻",
    "visto": "2026-11-07 20:26:24"
-  },
-  {
-   "id": "p6644",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 - R$ 564,63",
-   "loja": "",
-   "preco": 564.63,
-   "precoDe": 649.0,
-   "precoComCupom": 524.0,
-   "desconto": 13,
-   "cupom": "TODOSITE0711",
-   "cupomTexto": "",
-   "url": "https://meli.la/1CAGPWa",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-07 20:15:06"
   },
   {
    "id": "p21543",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_888668-MLA92147428361_092025-P.webp",
    "emoji": "📱",
    "visto": "2026-11-07 13:50:35"
-  },
-  {
-   "id": "p16136",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy S25 Ultra 5g, 256gb, 12gb, Câm. Quád. Cor Prata - R$ 4.912",
-   "loja": "",
-   "preco": 4912.0,
-   "precoDe": 10499.0,
-   "precoComCupom": null,
-   "desconto": 53,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/26anKb9",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_985216-MLA107519405429_022026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-07 13:40:25"
   }
  ]
 }
