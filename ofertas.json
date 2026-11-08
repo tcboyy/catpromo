@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-07 23:05:45",
+ "atualizado": "2026-11-07 23:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21284",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG UltraGear - Tela VA FHD 32”, 144Hz nativo, 1ms (MBR), AMD FreeSync, HDR10, sRGB 99%, Preto - 32G403B - R$ 999",
+   "loja": "",
+   "preco": 999.0,
+   "precoDe": 1448.0,
+   "precoComCupom": 899.0,
+   "desconto": 31,
+   "cupom": "PROMODEZ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2qYYqfy",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_992594-MLA118348137126_102026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-07 23:29:06"
+  },
+  {
+   "id": "p20207",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Sem Fio Logitech G703 LIGHTSPEED RGB LIGHTSYNC, 6 Botões Programáveis, Sensor HERO 25K, Recarregável, Compatível POWERPLAY - R$ ",
+   "loja": "",
+   "preco": 359.99,
+   "precoDe": null,
+   "precoComCupom": 329.0,
+   "desconto": null,
+   "cupom": "PROMODEZ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2GEDK5s",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_976729-MLA115970512909_082026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-07 23:16:05"
+  },
   {
    "id": "p21534",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_906266-MLA99523577464_122025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-07 13:34:49"
-  },
-  {
-   "id": "p15240",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Phillips 24 Evnia Ips 144hz 0.5ms Wide Fullhd Preto 127/220v - R$ 569",
-   "loja": "",
-   "preco": 569.0,
-   "precoDe": 999.0,
-   "precoComCupom": 509.0,
-   "desconto": 43,
-   "cupom": "MELIOFERTAS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1wwMr5V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-07 13:32:19"
-  },
-  {
-   "id": "p20691",
-   "plataforma": "mercadolivre",
-   "produto": "Power Bank Pro 20000mAH ELG PB200BK, Bateria Portátil Universal, Carga Rápida, Display Indicador, Entradas Micro USB e USB-C, 2 Portas USB-A",
-   "loja": "",
-   "preco": 123.99,
-   "precoDe": 345.0,
-   "precoComCupom": 99.0,
-   "desconto": 64,
-   "cupom": "MELIOFERTAS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2je1xwK",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_908785-MLA118983121535_102026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-07 13:29:52"
   }
  ]
 }
