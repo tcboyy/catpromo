@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-09 08:05:46",
+ "atualizado": "2026-11-09 08:35:47",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15345",
+   "plataforma": "mercadolivre",
+   "produto": "Smartwatch Aurafit G12, Gps, Resistência À Água 3atm, Preto Preto Mesh Verde-militar/preto - R$ 271,51",
+   "loja": "",
+   "preco": 271.51,
+   "precoDe": 419.0,
+   "precoComCupom": null,
+   "desconto": 35,
+   "cupom": "APROVEITAMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/2vbKnt4",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_634437-MLB114100775731_072026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-09 08:35:30"
+  },
   {
    "id": "p19772",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_806280-MLA120536165903_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-08 16:30:24"
-  },
-  {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.127",
-   "loja": "",
-   "preco": 1127.0,
-   "precoDe": null,
-   "precoComCupom": 1050.0,
-   "desconto": null,
-   "cupom": "SITETODO0711",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-08 16:30:07"
   }
  ]
 }
