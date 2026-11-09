@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-09 01:05:46",
+ "atualizado": "2026-11-09 08:05:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19772",
+   "plataforma": "mercadolivre",
+   "produto": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14",
+   "loja": "",
+   "preco": 32.9,
+   "precoDe": 78.9,
+   "precoComCupom": null,
+   "desconto": 58,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1X1BE3o",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_923598-MLA113044313715_062026-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-09 08:04:42"
+  },
+  {
+   "id": "p21573",
+   "plataforma": "shopee",
+   "produto": "Jbl Partybox Stage 320 240w Bluetooth Preta - Bivolt",
+   "loja": "Rep Store",
+   "preco": 2361.27,
+   "precoDe": 4919.31,
+   "precoComCupom": 2077.0,
+   "desconto": 52,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/4VeE9w8RP5",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8262e-mje8je5hajus64",
+   "emoji": "📦",
+   "visto": "2026-11-09 07:46:39"
+  },
+  {
+   "id": "p21572",
+   "plataforma": "shopee",
+   "produto": "Apple Mac Mini M6 256GB e 515gb 16GB Novo Lacrado na caixa 12x sem juros",
+   "loja": "MZ Store__",
+   "preco": 7399.0,
+   "precoDe": null,
+   "precoComCupom": 6799.0,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/7AezK7TFlS",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgcei9rzgcu860",
+   "emoji": "📦",
+   "visto": "2026-11-09 07:36:12"
+  },
   {
    "id": "p21571",
    "plataforma": "shopee",
@@ -369,22 +417,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_608506-MLA115583983684_092026-P.webp",
    "emoji": "📱",
    "visto": "2026-11-08 22:15:39"
-  },
-  {
-   "id": "p19772",
-   "plataforma": "mercadolivre",
-   "produto": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14",
-   "loja": "",
-   "preco": 32.9,
-   "precoDe": 78.9,
-   "precoComCupom": null,
-   "desconto": 58,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1X1BE3o",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_923598-MLA113044313715_062026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-08 22:10:14"
   },
   {
    "id": "p20474",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-08 16:30:07"
-  },
-  {
-   "id": "p20366",
-   "plataforma": "shopee",
-   "produto": "MEMÓRIA RAM HYPERX DDR4 8G 3200MHz HYPERX KINGSTON HX432C16FB3/8 DESKTOP",
-   "loja": "KEYNES IMPORT",
-   "preco": 399.0,
-   "precoDe": 498.75,
-   "precoComCupom": 364.0,
-   "desconto": 20,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/7pudr9VjXQ",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbo84s3makbdfc",
-   "emoji": "💾",
-   "visto": "2026-11-08 16:16:42"
-  },
-  {
-   "id": "p21043",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Gamer Delux M800 Mini Sem Fio Paw3311 48g Vermelho - R$ 159,84",
-   "loja": "",
-   "preco": 159.84,
-   "precoDe": 299.0,
-   "precoComCupom": 143.0,
-   "desconto": 47,
-   "cupom": "BORTODEZ",
-   "cupomTexto": "",
-   "url": "https://meli.la/2Ersjwh",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_671883-MLA116752440799_082026-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-08 16:02:06"
   }
  ]
 }
