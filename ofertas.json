@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-08 23:06:46",
+ "atualizado": "2026-11-08 23:36:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19496",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer HyperX Cloud Stinger 2, Drivers 40mm, P3, Áudio espacial DTS, Design Leve, Preto - (683L9AA) - R$ 159,84",
+   "loja": "",
+   "preco": 159.84,
+   "precoDe": 299.0,
+   "precoComCupom": null,
+   "desconto": 47,
+   "cupom": "BOLSOCHEIO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2MYRgHj",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_622352-MLU77375274783_072024-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-08 23:31:06"
+  },
+  {
+   "id": "p15227",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Escritório Ergonômica Genebra G500 NR-17 Luvinco Cor Cinza Com Suporte Lombar Estofado Mesh - R$ 458,07",
+   "loja": "",
+   "preco": 458.07,
+   "precoDe": 705.77,
+   "precoComCupom": 378.0,
+   "desconto": 35,
+   "cupom": "COMPRAHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1nFUmcu",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_980291-MLA97021306639_112025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-08 23:15:05"
+  },
   {
    "id": "p15228",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_662415-MLA97812910758_112025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-08 14:32:06"
-  },
-  {
-   "id": "p16136",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy S25 Ultra 5g, 256gb, 12gb, Câm. Quád. Cor Prata - R$ 4.884",
-   "loja": "",
-   "preco": 4884.0,
-   "precoDe": 10499.0,
-   "precoComCupom": null,
-   "desconto": 53,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/26anKb9",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_985216-MLA107519405429_022026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-08 14:23:34"
-  },
-  {
-   "id": "p21117",
-   "plataforma": "mercadolivre",
-   "produto": "Teclado Magnético Gamer Havit KB921L Pro-SP 65% 69 Teclas Rapid Trigger 0,01mm 8000Hz RGB Hall Effect Com Fio USB-C Cor Preto - R$ 244,92",
-   "loja": "",
-   "preco": 244.92,
-   "precoDe": 350.0,
-   "precoComCupom": 220.0,
-   "desconto": 30,
-   "cupom": "CLIENTESTOP",
-   "cupomTexto": "",
-   "url": "https://meli.la/1BJ3ZAq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_653001-MLA109735874972_042026-P.webp",
-   "emoji": "⌨️",
-   "visto": "2026-11-08 14:16:05"
   }
  ]
 }
