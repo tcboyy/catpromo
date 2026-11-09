@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-08 23:36:46",
+ "atualizado": "2026-11-09 00:06:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21381",
+   "plataforma": "mercadolivre",
+   "produto": "Fone de Ouvido Inova Esportivo TWS Sem Fio com Bluetooth 5.4 e Gancho, para Academia - R$ 59,66",
+   "loja": "",
+   "preco": 59.66,
+   "precoDe": 91.79,
+   "precoComCupom": null,
+   "desconto": 35,
+   "cupom": "ESQUENTA",
+   "cupomTexto": "",
+   "url": "https://meli.la/2uz7Czj",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_995906-MLA120515932939_102026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-08 23:53:29"
+  },
+  {
+   "id": "p21026",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG UltraGear de 25\" IPS Full HD com 200Hz e 1ms - R$ 749",
+   "loja": "",
+   "preco": 749.0,
+   "precoDe": 1249.0,
+   "precoComCupom": null,
+   "desconto": 40,
+   "cupom": "MELITECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/29wSaL3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_755874-MLA119779974189_102026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-08 23:46:06"
+  },
   {
    "id": "p19496",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_864034-MLA118572346722_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-08 14:46:08"
-  },
-  {
-   "id": "p19241",
-   "plataforma": "mercadolivre",
-   "produto": "Delux M900pro Mouse Gamer Sem Fio 8000hz Paw3395 Com Dock Preto - R$ 269,87",
-   "loja": "",
-   "preco": 269.87,
-   "precoDe": 319.0,
-   "precoComCupom": 243.0,
-   "desconto": 15,
-   "cupom": "BORTODEZ",
-   "cupomTexto": "",
-   "url": "https://meli.la/1HVXcEz",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_758487-MLA102960410564_012026-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-08 14:33:58"
-  },
-  {
-   "id": "p19875",
-   "plataforma": "mercadolivre",
-   "produto": "Creatina Growth Supplements Monohidratada em pó Sem sabor x 250g - R$ 39,90",
-   "loja": "",
-   "preco": 39.9,
-   "precoDe": 64.9,
-   "precoComCupom": null,
-   "desconto": 39,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1PN6jF6",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662415-MLA97812910758_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-08 14:32:06"
   }
  ]
 }
