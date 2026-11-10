@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-10 07:36:16",
+ "atualizado": "2026-11-10 08:05:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20518",
+   "plataforma": "shopee",
+   "produto": "Console Nintendo Switch 2 + Mario Kart World",
+   "loja": "NegociuN",
+   "preco": 4299.0,
+   "precoDe": 6416.42,
+   "precoComCupom": 3863.0,
+   "desconto": 33,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/BVGbbJa7p",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-mu0tz9vz2kn4fe",
+   "emoji": "🎮",
+   "visto": "2026-11-10 07:57:23"
+  },
+  {
+   "id": "p21447",
+   "plataforma": "shopee",
+   "produto": "Smart TV Philips 65\" 4K UHD Ambilight 65PUG8100/78 Wi-Fi Bluetooth IA HDMI USB 60Hz",
+   "loja": "NegociuN",
+   "preco": 3107.9,
+   "precoDe": 4638.66,
+   "precoComCupom": 2767.0,
+   "desconto": 33,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/6AmReuKhHn",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lj-mt45al9gacxz5e",
+   "emoji": "🖥️",
+   "visto": "2026-11-10 07:54:23"
+  },
   {
    "id": "p19780",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_762395-MLA99815790929_112025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-09 16:42:07"
-  },
-  {
-   "id": "p19585",
-   "plataforma": "mercadolivre",
-   "produto": "Placa de Vídeo MSI Nvidia GeForce RTX 5050 Ventus 2X OC 8GB GDDR6 128-bit - R$ 2.364",
-   "loja": "",
-   "preco": 2364.0,
-   "precoDe": 4499.0,
-   "precoComCupom": 2255.18,
-   "desconto": 47,
-   "cupom": "TECH0911",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Mb4Vdq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_765112-MLA99509489730_112025-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-09 16:31:06"
-  },
-  {
-   "id": "p20654",
-   "plataforma": "mercadolivre",
-   "produto": "Luminária Barra Led Computador Monitor Rgb Tons Regulável Preto 12v - R$ 69,39",
-   "loja": "",
-   "preco": 69.39,
-   "precoDe": 112.84,
-   "precoComCupom": null,
-   "desconto": 39,
-   "cupom": "FULL2410",
-   "cupomTexto": "",
-   "url": "https://meli.la/1qGoaK5",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_840321-MLB106236049219_012026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-09 16:26:28"
   }
  ]
 }
