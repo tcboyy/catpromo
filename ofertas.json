@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-10 01:05:15",
+ "atualizado": "2026-11-10 07:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19780",
+   "plataforma": "mercadolivre",
+   "produto": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B - R$ 6",
+   "loja": "",
+   "preco": 670.68,
+   "precoDe": 1039.0,
+   "precoComCupom": 641.0,
+   "desconto": 35,
+   "cupom": "PRESENTE",
+   "cupomTexto": "",
+   "url": "https://www.mercadolivre.com.br/social/duartedarosacadorinmaiteni?matt_word=g03tech&matt_tool=35843039&forceInApp=true&ref=BK%2FfwNYvZ7tZDbtdhefxjg02sGk4CjmjugxPm4M2Ga8EVk83gY0RvN6rzqXI%2BczOu5K0usSU%2B6l1qSaEjoufMWr9TdPMuuoZpmq7weduOD6nLcuFLp9OZsNZ%2F4%2BrZjLAJzfI7QyY9JyWEqasUj0tbHt0MFG4P%2F7Z4ch9vlTxCbNIb6a7WxCBOBGMiBNZjN3FoZhOZTmZtKAD5GH4W3vTq26WF8Y645YoJF9ew%2BT%2BdHlO2OMteWGM7NB%2BRMVs4MnlCu22gNIZaGa7nvOAoGyFbBjXrj5MAyQ9dEe0",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_896633-MLA120723721883_112026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-10 07:30:22"
+  },
+  {
+   "id": "p6516",
+   "plataforma": "shopee",
+   "produto": "Notebook ASUS Vivobook Go 15 E1504FA AMD Ryzen 5 7520U 8Gb Ram 256Gb Ssd Linux 15,6\" FHD - NJ731",
+   "loja": "Loja ASUS",
+   "preco": 2999.0,
+   "precoDe": null,
+   "precoComCupom": 2515.0,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/BVGYuUG0r",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825a4-mfu4pvd7o1e4a4",
+   "emoji": "💻",
+   "visto": "2026-11-10 07:18:12"
+  },
   {
    "id": "p21607",
    "plataforma": "shopee",
@@ -643,22 +675,6 @@
    "visto": "2026-11-09 21:36:15"
   },
   {
-   "id": "p19780",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B - R$ 7",
-   "loja": "",
-   "preco": 729.0,
-   "precoDe": 1039.0,
-   "precoComCupom": 641.0,
-   "desconto": 30,
-   "cupom": "PRESENTE",
-   "cupomTexto": "",
-   "url": "https://www.mercadolivre.com.br/social/duartedarosacadorinmaiteni?matt_word=g03tech&matt_tool=35843039&forceInApp=true&ref=BK%2FfwNYvZ7tZDbtdhefxjg02sGk4CjmjugxPm4M2Ga8EVk83gY0RvN6rzqXI%2BczOu5K0usSU%2B6l1qSaEjoufMWr9TdPMuuoZpmq7weduOD6nLcuFLp9OZsNZ%2F4%2BrZjLAJzfI7QyY9JyWEqasUj0tbHt0MFG4P%2F7Z4ch9vlTxCbNIb6a7WxCBOBGMiBNZjN3FoZhOZTmZtKAD5GH4W3vTq26WF8Y645YoJF9ew%2BT%2BdHlO2OMteWGM7NB%2BRMVs4MnlCu22gNIZaGa7nvOAoGyFbBjXrj5MAyQ9dEe0",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_896633-MLA120723721883_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-09 21:24:20"
-  },
-  {
    "id": "p16007",
    "plataforma": "mercadolivre",
    "produto": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display - R$ 136,88",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_840321-MLB106236049219_012026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-09 16:26:28"
-  },
-  {
-   "id": "p19533",
-   "plataforma": "mercadolivre",
-   "produto": "Processador Amd Ryzen 5 5500 Am4 3.6ghz 6c 12t Cache 19mb - R$ 572,15",
-   "loja": "",
-   "preco": 572.15,
-   "precoDe": 916.9,
-   "precoComCupom": 514.0,
-   "desconto": 38,
-   "cupom": "HOJEMESMO",
-   "cupomTexto": "",
-   "url": "https://meli.la/1RjQk1L",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_657681-MLB92378976218_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-09 16:21:06"
   }
  ]
 }
