@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-09 23:06:15",
+ "atualizado": "2026-11-09 23:35:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15244",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F Preto - R$ 599",
+   "loja": "",
+   "preco": 599.0,
+   "precoDe": 749.0,
+   "precoComCupom": 597.0,
+   "desconto": 20,
+   "cupom": "FULL2410",
+   "cupomTexto": "",
+   "url": "https://meli.la/2jbPC3u",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_748152-MLA96322082514_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-09 23:29:58"
+  },
+  {
+   "id": "p20112",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Ram 16gb 3200mhz Pro Gamer Para Pc Desktop - R$ 700,20",
+   "loja": "",
+   "preco": 700.2,
+   "precoDe": null,
+   "precoComCupom": 630.0,
+   "desconto": null,
+   "cupom": "HOJEMESMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2iQZBVz",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939348-MLB113402798903_062026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-09 23:25:02"
+  },
+  {
+   "id": "p20991",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Presidente Ergonômica Sweet Studio Preta com Apoio para Pés Retrátil e Suporte Lombar - R$ 775,90",
+   "loja": "",
+   "preco": 775.9,
+   "precoDe": 1425.0,
+   "precoComCupom": 695.0,
+   "desconto": 46,
+   "cupom": "CORREAQUI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1fokHmq",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_710005-MLA119463891993_102026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-09 23:12:23"
+  },
   {
    "id": "p21350",
    "plataforma": "mercadolivre",
@@ -979,22 +1027,6 @@
    "visto": "2026-11-09 15:45:01"
   },
   {
-   "id": "p20112",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Ram 16gb 3200mhz Pro Gamer Para Pc Desktop - R$ 700,20",
-   "loja": "",
-   "preco": 700.2,
-   "precoDe": null,
-   "precoComCupom": 630.0,
-   "desconto": null,
-   "cupom": "HOJEMESMO",
-   "cupomTexto": "",
-   "url": "https://meli.la/2iQZBVz",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939348-MLB113402798903_062026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-09 15:42:23"
-  },
-  {
    "id": "p21367",
    "plataforma": "mercadolivre",
    "produto": "Monitor Gamer Curvo Aoc 34'' Ultrawide Wqhd 180hz U34g4c Preto 127/220v - R$ 1.799",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_711222-MLB78588164830_082024-P.webp",
    "emoji": "📦",
    "visto": "2026-11-09 15:09:31"
-  },
-  {
-   "id": "p15366",
-   "plataforma": "mercadolivre",
-   "produto": "Notebook Lenovo Ideapad Slim 3 Ryzen 5 8gb 512gb Linux Cinza - R$ 2.917",
-   "loja": "",
-   "preco": 2917.0,
-   "precoDe": 3241.0,
-   "precoComCupom": 2719.0,
-   "desconto": 10,
-   "cupom": "TECH0911",
-   "cupomTexto": "",
-   "url": "https://meli.la/1VQ3LbX",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_617918-MLB117044233971_092026-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-09 15:06:29"
-  },
-  {
-   "id": "p21507",
-   "plataforma": "mercadolivre",
-   "produto": "Samsung Galaxy Tab A11+ 5g 6gb, 128gb Cinza - R$ 1.487",
-   "loja": "",
-   "preco": 1487.0,
-   "precoDe": 2549.0,
-   "precoComCupom": 1387.0,
-   "desconto": 42,
-   "cupom": "HOJEMESMO",
-   "cupomTexto": "",
-   "url": "https://meli.la/2D7eEkP",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_809435-MLA100961072612_122025-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-09 15:01:19"
   }
  ]
 }
