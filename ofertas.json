@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-10 23:36:15",
+ "atualizado": "2026-11-11 00:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21564",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG OLED UltraGear 27GX704A-B 27\", 240Hz, QuadHD 2K, 0.03ms (GtG), NVIDIA G-SYNC, AMD FreeSync Premium Pro, Vesa AdaptiveSync, HDR Tr",
+   "loja": "",
+   "preco": 3372.0,
+   "precoDe": 5109.0,
+   "precoComCupom": null,
+   "desconto": 34,
+   "cupom": "NOMELITEM",
+   "cupomTexto": "",
+   "url": "https://meli.la/14nUtP6",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_912218-MLA108662731317_032026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-11 00:05:50"
+  },
   {
    "id": "p6643",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_642524-MLA107696344688_032026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-10 17:42:15"
-  },
-  {
-   "id": "p20754",
-   "plataforma": "mercadolivre",
-   "produto": "Samsung Galaxy S25 5G, 256GB, 12GB, Câmera Tripla - Azul claro - R$ 3.499",
-   "loja": "",
-   "preco": 3499.0,
-   "precoDe": 5999.0,
-   "precoComCupom": 3319.0,
-   "desconto": 42,
-   "cupom": "SAMSUNG10OFF",
-   "cupomTexto": "",
-   "url": "https://meli.la/2Go4NZj",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_715921-MLA109035229828_032026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-10 17:39:07"
   }
  ]
 }
