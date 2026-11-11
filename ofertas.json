@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-11 02:36:16",
+ "atualizado": "2026-11-11 03:06:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19802",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Ram 16gb Ddr4 | Rise Mode | 3200mhz | Z Series Preto - R$ 837,11",
+   "loja": "",
+   "preco": 837.11,
+   "precoDe": 863.0,
+   "precoComCupom": 777.0,
+   "desconto": 3,
+   "cupom": "TODOSITE1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/17GUb3t",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_823741-MLA112697975250_062026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-11 02:51:15"
+  },
+  {
+   "id": "p21665",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Philips Gamer Evnia 27 Ips 144hz 0,5ms Fhd Preto Preto 127/220v - R$ 699",
+   "loja": "",
+   "preco": 699.0,
+   "precoDe": 1299.0,
+   "precoComCupom": 639.0,
+   "desconto": 46,
+   "cupom": "TODOSITE1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/2AAPawz",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_897221-MLA112462541123_052026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-11 02:42:22"
+  },
   {
    "id": "p15351",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-10 22:01:22"
-  },
-  {
-   "id": "p21430",
-   "plataforma": "mercadolivre",
-   "produto": "Caixa De Som Edifier Soundbar Gamer, Bluetooth 5.3 e USB, Potência de 5W RMS MG250 - R$ 236,55",
-   "loja": "",
-   "preco": 236.55,
-   "precoDe": 249.0,
-   "precoComCupom": 201.0,
-   "desconto": 5,
-   "cupom": "MELIHOJE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2uvt64T",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_720712-MLA83227345127_032025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-10 21:56:20"
-  },
-  {
-   "id": "p19578",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE - R$ 799,90",
-   "loja": "",
-   "preco": 799.9,
-   "precoDe": 1049.0,
-   "precoComCupom": 785.0,
-   "desconto": 24,
-   "cupom": "MELHORPROMOHJ",
-   "cupomTexto": "",
-   "url": "https://meli.la/2wsxDwL",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662776-MLA96607684177_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-10 21:50:27"
   }
  ]
 }
