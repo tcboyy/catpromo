@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-10 23:05:16",
+ "atualizado": "2026-11-10 23:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6643",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 145,40",
+   "loja": "",
+   "preco": 145.4,
+   "precoDe": 209.0,
+   "precoComCupom": null,
+   "desconto": 30,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Dqv1ef",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-10 23:21:14"
+  },
+  {
+   "id": "p15765",
+   "plataforma": "mercadolivre",
+   "produto": "Smart Tv Tcl 50 Polegadas Qled 4k P7l Wifi Bluetooth Google Tv Hdr10+ 60 Hz Aipq 50p7l - R$ 2.109",
+   "loja": "",
+   "preco": 2109.0,
+   "precoDe": 2999.0,
+   "precoComCupom": 1844.0,
+   "desconto": 30,
+   "cupom": "OFERTAS",
+   "cupomTexto": "",
+   "url": "https://meli.la/151CiKR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_978669-MLA114751005026_082026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-10 23:13:23"
+  },
   {
    "id": "p21649",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_715921-MLA109035229828_032026-P.webp",
    "emoji": "📱",
    "visto": "2026-11-10 17:39:07"
-  },
-  {
-   "id": "p21432",
-   "plataforma": "mercadolivre",
-   "produto": "Smart TV 4K 65\" LG QNED Mini LED AI QNED70 2026 Processador α7 Ger9 HDR10 Xbox Bluetooth Wi-Fi AI Search Google Gemini webOS 26 - 65QNED70BS",
-   "loja": "",
-   "preco": 3414.0,
-   "precoDe": 4649.0,
-   "precoComCupom": 3181.0,
-   "desconto": 27,
-   "cupom": "250MELIMAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/23GNK8v",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_822266-MLA115300471131_072026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-10 17:26:28"
-  },
-  {
-   "id": "p21052",
-   "plataforma": "mercadolivre",
-   "produto": "Smartphone Motorola Moto G Max 5g - 256gb 8gb Ram + 16gb Ram Boost, Câmera 200mp, Ois, Tela 1.5k Extreme Amoled 120hz, Ip68 E Ip69 - Azul Cl",
-   "loja": "",
-   "preco": 1639.0,
-   "precoDe": 2355.0,
-   "precoComCupom": 1414.0,
-   "desconto": 30,
-   "cupom": "250MELIMAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/2hWi7Wh",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_698621-MLA110748614648_052026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-10 17:15:39"
   }
  ]
 }
