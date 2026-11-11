@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-11 07:36:16",
+ "atualizado": "2026-11-11 08:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21667",
+   "plataforma": "shopee",
+   "produto": "3 EM 1 Auxiliador Partida PowerBank Portátil Multifuncional Indução 12000mAh 12V Moto Carro Celular",
+   "loja": "CARPEI ACESSORIO LTDA",
+   "preco": 157.99,
+   "precoDe": 451.4,
+   "precoComCupom": 150.0,
+   "desconto": 65,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/40i0kwbyNJ",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m7-ml7s3hnns3k489",
+   "emoji": "📱",
+   "visto": "2026-11-11 07:48:46"
+  },
+  {
+   "id": "p6581",
+   "plataforma": "mercadolivre",
+   "produto": "Caixa De Som Boombox Aiwa AWS-BBS-01-B 200w IP66 30hs De Bateria - R$ 1.182",
+   "loja": "",
+   "preco": 1182.0,
+   "precoDe": 2699.0,
+   "precoComCupom": 1060.0,
+   "desconto": 56,
+   "cupom": "AMIGOVIP",
+   "cupomTexto": "",
+   "url": "https://meli.la/2ThvXcA",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_864411-MLA99591392870_122025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-11 07:42:14"
+  },
   {
    "id": "p21666",
    "plataforma": "shopee",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_658956-MLB115365953250_082026-P.webp",
    "emoji": "⌨️",
    "visto": "2026-11-10 22:24:21"
-  },
-  {
-   "id": "p21019",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy A07 128gb 4gb Tela Grande - R$ 718,20",
-   "loja": "",
-   "preco": 718.2,
-   "precoDe": 798.0,
-   "precoComCupom": 628.0,
-   "desconto": 10,
-   "cupom": "MELIHOJE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1fYBQzj",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_615491-MLA115287430183_072026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-10 22:15:49"
-  },
-  {
-   "id": "p6625",
-   "plataforma": "mercadolivre",
-   "produto": "Placa De Vídeo Msi Geforce Rtx 3050 Ventus 2x 6GB Oc - R$ 1.389",
-   "loja": "",
-   "preco": 1389.0,
-   "precoDe": 2299.0,
-   "precoComCupom": 1289.0,
-   "desconto": 40,
-   "cupom": "OFERTAMELIMAIS1011",
-   "cupomTexto": "",
-   "url": "https://meli.la/16D955T",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_984252-MLA99367775990_112025-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-10 22:13:03"
   }
  ]
 }
