@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-12 15:06:15",
+ "atualizado": "2026-11-12 15:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15789",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Magnético Aula Win68 He 8000hz, 0.02mm Rapid Trigger, Hall Efect, Socd, Snaptap, 65% - R$ 283",
+   "loja": "",
+   "preco": 283.0,
+   "precoDe": 699.0,
+   "precoComCupom": 228.0,
+   "desconto": 60,
+   "cupom": "DESCONTOSMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/11gzZCD",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_905150-MLA99503544564_112025-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-12 15:27:27"
+  },
+  {
+   "id": "p6539",
+   "plataforma": "shopee",
+   "produto": "Mouse X11 Sem Fio Bluetooth Gamer Sem Fio Com Adesivo Bluetooth Usb Preto e Branco 3 em 1",
+   "loja": "Giomi store",
+   "preco": 99.99,
+   "precoDe": 158.71,
+   "precoComCupom": 86.0,
+   "desconto": 37,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/5LDQRWpdej",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259u-mqtj6tb9z37z08",
+   "emoji": "🖱️",
+   "visto": "2026-11-12 15:23:43"
+  },
+  {
+   "id": "p15308",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 549,90",
+   "loja": "",
+   "preco": 549.9,
+   "precoDe": 906.53,
+   "precoComCupom": 500.0,
+   "desconto": 39,
+   "cupom": "MELHORDOMELIHJ",
+   "cupomTexto": "",
+   "url": "https://meli.la/1ZDMAXC",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_764756-MLA96570589252_112025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-12 15:11:32"
+  },
   {
    "id": "p20366",
    "plataforma": "shopee",
@@ -771,22 +819,6 @@
    "visto": "2026-11-12 12:11:25"
   },
   {
-   "id": "p15308",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 549,90",
-   "loja": "",
-   "preco": 549.9,
-   "precoDe": 906.53,
-   "precoComCupom": 500.0,
-   "desconto": 39,
-   "cupom": "MELHORDOMELIHJ",
-   "cupomTexto": "",
-   "url": "https://meli.la/1ZDMAXC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_764756-MLA96570589252_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-12 12:03:10"
-  },
-  {
    "id": "p15427",
    "plataforma": "mercadolivre",
    "produto": "Cadeira Gamer Lancer Preta e Branca Healer - R$ 384,47",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_665279-MLA91956933715_092025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-12 09:40:08"
-  },
-  {
-   "id": "p6699",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G4S 25\" 310Hz 0.3ms HDR400 IPS Base Ajustável 25G4S/P Preto - R$ 1.044",
-   "loja": "",
-   "preco": 1044.0,
-   "precoDe": 1499.0,
-   "precoComCupom": 939.0,
-   "desconto": 30,
-   "cupom": "OFERTASTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2KhvwBN",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_687589-MLA99536545292_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-12 09:37:12"
-  },
-  {
-   "id": "p17321",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG UltraWide - Tela IPS de 29\", 21:9, HDR10, sRGB 99%, 100Hz, Preto- 29WQ500B - R$ 979",
-   "loja": "",
-   "preco": 979.0,
-   "precoDe": 1549.0,
-   "precoComCupom": 881.0,
-   "desconto": 37,
-   "cupom": "OFERTASTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2PZfi5r",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_863773-MLA96861169915_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-12 09:36:04"
   }
  ]
 }
