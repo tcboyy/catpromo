@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-12 14:06:16",
+ "atualizado": "2026-11-12 14:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15227",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Escritório Ergonômica Genebra G500 NR-17 Luvinco Cor Cinza Com Suporte Lombar Estofado Mesh - R$ 549,90",
+   "loja": "",
+   "preco": 549.9,
+   "precoDe": 705.77,
+   "precoComCupom": 500.0,
+   "desconto": 22,
+   "cupom": "MELHORDOMELIHJ",
+   "cupomTexto": "",
+   "url": "https://meli.la/1nFUmcu",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_980291-MLA97021306639_112025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-12 14:27:34"
+  },
+  {
+   "id": "p15428",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G40 27\", 240 Hz, 1ms, ajuste de altura, Gsync, Freesync,HDMI, DP, FHD, Preto - R$ 1.230",
+   "loja": "",
+   "preco": 1230.0,
+   "precoDe": 2750.0,
+   "precoComCupom": 878.0,
+   "desconto": 55,
+   "cupom": "OFERTASTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2nUGfEU",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_960196-MLA90885249892_082025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-12 14:23:25"
+  },
+  {
+   "id": "p15301",
+   "plataforma": "mercadolivre",
+   "produto": "SSD WD Green SN3000, 500GB, M.2 2280, PCIe NVMe, Leitura 5000MB/s, Gravacao 4100MB/s, WDS500G4G0E - R$ 658",
+   "loja": "",
+   "preco": 658.0,
+   "precoDe": 999.99,
+   "precoComCupom": 529.0,
+   "desconto": 34,
+   "cupom": "MP1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/119W87e",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_812511-MLA97274188132_112025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-12 14:15:58"
+  },
   {
    "id": "p21209",
    "plataforma": "mercadolivre",
@@ -1203,22 +1251,6 @@
    "visto": "2026-11-12 09:15:50"
   },
   {
-   "id": "p15428",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Samsung Odyssey G40 27\", 240 Hz, 1ms, ajuste de altura, Gsync, Freesync,HDMI, DP, FHD, Preto - R$ 975,57",
-   "loja": "",
-   "preco": 975.57,
-   "precoDe": 1819.0,
-   "precoComCupom": 878.0,
-   "desconto": 46,
-   "cupom": "OFERTASTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2nUGfEU",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_960196-MLA90885249892_082025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-12 09:15:46"
-  },
-  {
    "id": "p19802",
    "plataforma": "mercadolivre",
    "produto": "Memória Ram 16gb Ddr4 | Rise Mode | 3200mhz | Z Series Preto - R$ 837,11",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_653002-MLB120358527113_102026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-12 09:14:03"
-  },
-  {
-   "id": "p16007",
-   "plataforma": "mercadolivre",
-   "produto": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display - R$ 136,88",
-   "loja": "",
-   "preco": 136.88,
-   "precoDe": 213.88,
-   "precoComCupom": 102.0,
-   "desconto": 36,
-   "cupom": "ESPECIALDESCONTOS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1zmjJgk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_719636-MLA99381510294_112025-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-12 09:10:58"
-  },
-  {
-   "id": "p6611",
-   "plataforma": "mercadolivre",
-   "produto": "SSD Kingston NV3 1TB M.2 2280 PCIe 4.0 NVMe 6000 MB/s - R$ 1.049",
-   "loja": "",
-   "preco": 1049.0,
-   "precoDe": null,
-   "precoComCupom": 945.0,
-   "desconto": null,
-   "cupom": "OFERTASTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2x5KqEW",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_930129-MLU78451929490_082024-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-12 09:08:27"
   }
  ]
 }
