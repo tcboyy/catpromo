@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-13 15:06:16",
+ "atualizado": "2026-11-13 15:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21208",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Hiksemi Armor, 16gb (1x16gb), Ddr4, 3200mhz, Preto - R$ 695,52",
+   "loja": "",
+   "preco": 695.52,
+   "precoDe": null,
+   "precoComCupom": 625.0,
+   "desconto": null,
+   "cupom": "MELIMAISPREDD",
+   "cupomTexto": "",
+   "url": "https://meli.la/1JG3sib",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_680928-MLA113216446484_072026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-13 15:24:21"
+  },
+  {
+   "id": "p15257",
+   "plataforma": "mercadolivre",
+   "produto": "Controle Sem Fio Joystick REDFIN Bluetooth Compatível Para Ps4 Videogame Tv Samsung Pc P4 Ps 4 Manete Pc Gamer Tv Smart Controle Bluetooth C",
+   "loja": "",
+   "preco": 54.9,
+   "precoDe": 114.9,
+   "precoComCupom": null,
+   "desconto": 52,
+   "cupom": "TODOSITE2709",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Xjhhwa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_762912-MLA105696431793_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-13 15:13:21"
+  },
   {
    "id": "p20967",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_967344-MLA98386191356_112025-P.webp",
    "emoji": "💻",
    "visto": "2026-11-13 10:28:33"
-  },
-  {
-   "id": "p21788",
-   "plataforma": "mercadolivre",
-   "produto": "Ar Condicionado High Wall Eco Inverter Iii Wifi 9000 Btus Frio Elgin - R$ 1.699",
-   "loja": "",
-   "preco": 1699.0,
-   "precoDe": 2099.0,
-   "precoComCupom": 1406.0,
-   "desconto": 19,
-   "cupom": "PROMOSTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2W7tYv3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_953350-MLA108032205437_032026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-13 10:27:07"
-  },
-  {
-   "id": "p19471",
-   "plataforma": "mercadolivre",
-   "produto": "Fonte Cooler Master Mwe 750 V3 750w Atx 3.1 Preto - R$ 383,15",
-   "loja": "",
-   "preco": 383.15,
-   "precoDe": 395.0,
-   "precoComCupom": 344.0,
-   "desconto": 3,
-   "cupom": "PROMOSTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2on3EX1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_663942-MLA116503586141_082026-P.webp",
-   "emoji": "🔌",
-   "visto": "2026-11-13 10:24:36"
   }
  ]
 }
