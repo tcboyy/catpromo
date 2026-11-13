@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-12 21:06:16",
+ "atualizado": "2026-11-12 21:35:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15371",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mãe Gigabyte B550m Aorus Elite Am4 Micro Atx Ddr4 Preto - R$ 698,99",
+   "loja": "",
+   "preco": 698.99,
+   "precoDe": 776.66,
+   "precoComCupom": null,
+   "desconto": 10,
+   "cupom": "CUPOMEXCLUSIVO",
+   "cupomTexto": "",
+   "url": "https://meli.la/32irJRG",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_801113-MLB119234797478_112026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-12 21:21:19"
+  },
+  {
+   "id": "p19474",
+   "plataforma": "mercadolivre",
+   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
+   "loja": "",
+   "preco": 357.99,
+   "precoDe": 397.77,
+   "precoComCupom": 266.0,
+   "desconto": 10,
+   "cupom": "CUPOMEXCLUSIVO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1qS2vs3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939075-MLB121322691115_112026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-12 21:12:25"
+  },
   {
    "id": "p21775",
    "plataforma": "mercadolivre",
@@ -1155,22 +1187,6 @@
    "visto": "2026-11-12 13:22:53"
   },
   {
-   "id": "p19474",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
-   "loja": "",
-   "preco": 357.99,
-   "precoDe": 397.77,
-   "precoComCupom": 266.0,
-   "desconto": 10,
-   "cupom": "CUPOMEXCLUSIVO",
-   "cupomTexto": "",
-   "url": "https://meli.la/1qS2vs3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939075-MLB121322691115_112026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-12 13:20:23"
-  },
-  {
    "id": "p16003",
    "plataforma": "mercadolivre",
    "produto": "Xiaomi Poco X7 Pro Dual SIM 5g 512gb Preto 12ram 50mpx - R$ 2.699",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_961013-MLA108328142667_032026-P.webp",
    "emoji": "💻",
    "visto": "2026-11-12 13:13:50"
-  },
-  {
-   "id": "p21701",
-   "plataforma": "mercadolivre",
-   "produto": "Apple iPhone 15 (128 GB) - Preto - R$ 3.999",
-   "loja": "",
-   "preco": 3999.0,
-   "precoDe": 4443.0,
-   "precoComCupom": 3639.0,
-   "desconto": 10,
-   "cupom": "TECHSEMPRE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2FraQ7V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_680991-MLA95497804976_102025-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-12 13:13:18"
   }
  ]
 }
