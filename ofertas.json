@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-13 01:36:15",
+ "atualizado": "2026-11-13 07:35:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20359",
+   "plataforma": "shopee",
+   "produto": "Console Nintendo Switch Oled Nintendo Bundle Super Mario Bros Wonder - 3 Meses Nintendo Switch Online 64gb Branco",
+   "loja": "NegociuN",
+   "preco": 1929.0,
+   "precoDe": 3507.27,
+   "precoComCupom": 1682.0,
+   "desconto": 45,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/3qOdEyHEN6",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgwea1jp97nrcf",
+   "emoji": "🎮",
+   "visto": "2026-11-13 07:25:37"
+  },
   {
    "id": "p20343",
    "plataforma": "shopee",
@@ -273,22 +289,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-mu0tz9vz2kn4fe",
    "emoji": "🎮",
    "visto": "2026-11-13 00:13:52"
-  },
-  {
-   "id": "p20359",
-   "plataforma": "shopee",
-   "produto": "Console Nintendo Switch Oled Nintendo Bundle Super Mario Bros Wonder - 3 Meses Nintendo Switch Online 64gb Branco",
-   "loja": "NegociuN",
-   "preco": 1929.0,
-   "precoDe": 3507.27,
-   "precoComCupom": 1705.0,
-   "desconto": 45,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/3qOdEyHEN6",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgwea1jp97nrcf",
-   "emoji": "🎮",
-   "visto": "2026-11-13 00:10:50"
   },
   {
    "id": "p19108",
