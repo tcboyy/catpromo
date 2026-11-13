@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-13 07:35:15",
+ "atualizado": "2026-11-13 08:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21784",
+   "plataforma": "shopee",
+   "produto": "Placa Mãe Gigabyte B650M Gaming WIFI, Chipset B650, AM5, M-ATX, DDR5, B650M GAMING WIFI (rev. 1.0)",
+   "loja": "Terabyte Oficial",
+   "preco": 1034.99,
+   "precoDe": 2406.95,
+   "precoComCupom": 851.0,
+   "desconto": 57,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/gRbyP3BgQ",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdx0-mdnm7i7va3gcac",
+   "emoji": "📦",
+   "visto": "2026-11-13 07:45:54"
+  },
   {
    "id": "p20359",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_881227-MLB113669267435_062026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-12 16:16:38"
-  },
-  {
-   "id": "p19780",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B - R$ 7",
-   "loja": "",
-   "preco": 725.88,
-   "precoDe": 1039.0,
-   "precoComCupom": 653.0,
-   "desconto": 30,
-   "cupom": "OFERTASTECH",
-   "cupomTexto": "",
-   "url": "https://www.mercadolivre.com.br/social/duartedarosacadorinmaiteni?matt_word=g03tech&matt_tool=35843039&forceInApp=true&ref=BK%2FfwNYvZ7tZDbtdhefxjg02sGk4CjmjugxPm4M2Ga8EVk83gY0RvN6rzqXI%2BczOu5K0usSU%2B6l1qSaEjoufMWr9TdPMuuoZpmq7weduOD6nLcuFLp9OZsNZ%2F4%2BrZjLAJzfI7QyY9JyWEqasUj0tbHt0MFG4P%2F7Z4ch9vlTxCbNIb6a7WxCBOBGMiBNZjN3FoZhOZTmZtKAD5GH4W3vTq26WF8Y645YoJF9ew%2BT%2BdHlO2OMteWGM7NB%2BRMVs4MnlCu22gNIZaGa7nvOAoGyFbBjXrj5MAyQ9dEe0",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_896633-MLA120723721883_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-12 16:06:19"
   }
  ]
 }
