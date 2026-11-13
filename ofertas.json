@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-13 01:06:16",
+ "atualizado": "2026-11-13 01:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20343",
+   "plataforma": "shopee",
+   "produto": "Monitor TCL 25\" Gamer FHD QD MINI LED 300HZ HDR10 F-SYNC AJ ALTURA D-PORT 25G64",
+   "loja": "TNTinfoLoja",
+   "preco": 1318.99,
+   "precoDe": 1998.47,
+   "precoComCupom": 1121.0,
+   "desconto": 34,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/4LKttjY3uf",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mszmyhmlphxjdd",
+   "emoji": "🖥️",
+   "visto": "2026-11-13 01:06:48"
+  },
   {
    "id": "p20735",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_896633-MLA120723721883_112026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-12 16:06:19"
-  },
-  {
-   "id": "p20937",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Gamer Attack Shark X11 Sem Fio Óptico 22000 Dpi com Bluetooth - R$ 189,90",
-   "loja": "",
-   "preco": 189.9,
-   "precoDe": null,
-   "precoComCupom": 173.0,
-   "desconto": null,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2SJg9sP",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_915458-MLA112205312055_052026-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-12 16:00:09"
   }
  ]
 }
