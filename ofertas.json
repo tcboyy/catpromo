@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-13 18:06:16",
+ "atualizado": "2026-11-13 18:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19240",
+   "plataforma": "mercadolivre",
+   "produto": "Ssd M.2 Nvme 512gb 2280 Keepdata Kdnv512g-j12 - R$ 602",
+   "loja": "",
+   "preco": 602.0,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "DESCONTOSMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1k5jAVa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_985064-MLA108920329312_032026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-13 18:24:23"
+  },
+  {
+   "id": "p15244",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F Preto - R$ 599",
+   "loja": "",
+   "preco": 599.0,
+   "precoDe": 749.0,
+   "precoComCupom": 569.0,
+   "desconto": 20,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/2jbPC3u",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_748152-MLA96322082514_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-13 18:15:29"
+  },
+  {
+   "id": "p15651",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Pad Gamer Apex Control Profissional 49x42 Red Girl - R$ 65,96",
+   "loja": "",
+   "preco": 65.96,
+   "precoDe": 99.9,
+   "precoComCupom": 59.0,
+   "desconto": 34,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/1pTRHxF",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_908667-MLA112780553692_062026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-13 18:12:24"
+  },
   {
    "id": "p20411",
    "plataforma": "mercadolivre",
@@ -545,22 +593,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_831425-MLA99902953237_112025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-13 14:43:38"
-  },
-  {
-   "id": "p15244",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F Preto - R$ 599",
-   "loja": "",
-   "preco": 599.0,
-   "precoDe": 749.0,
-   "precoComCupom": 569.0,
-   "desconto": 20,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/2jbPC3u",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_748152-MLA96322082514_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-13 14:39:33"
   },
   {
    "id": "p15308",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-8262f-ml7z22r8ny0w05",
    "emoji": "🪑",
    "visto": "2026-11-13 12:17:06"
-  },
-  {
-   "id": "p20532",
-   "plataforma": "shopee",
-   "produto": "LANÇAMENTO • IPhone 18 Pro / 18 Pro Max 256GB • Novo Original com NF e Lacrado",
-   "loja": "DiskPhoneStore",
-   "preco": 9120.0,
-   "precoDe": 14030.77,
-   "precoComCupom": 8500.0,
-   "desconto": 35,
-   "cupom": "11DO11TECH",
-   "cupomTexto": "",
-   "url": "https://s.shopee.com.br/5q9iQAJ1CC",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m9-mu11py2z39xe96",
-   "emoji": "📱",
-   "visto": "2026-11-13 12:11:54"
-  },
-  {
-   "id": "p15426",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Phillips de 23.8\" Full HD IPS com 200Hz - R$ 609",
-   "loja": "",
-   "preco": 609.0,
-   "precoDe": 1049.0,
-   "precoComCupom": 578.0,
-   "desconto": 42,
-   "cupom": "PROMOSTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/342GGVu",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_642739-MLA109096803510_042026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-13 12:03:34"
   }
  ]
 }
