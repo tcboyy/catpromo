@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-12 23:06:15",
+ "atualizado": "2026-11-12 23:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15359",
+   "plataforma": "mercadolivre",
+   "produto": "LG UltraGear Monitor Gamer 27\" - IPS, 144Hz (O/C), 1ms, (MBR), Full HD (1920x1080), HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 27G411A - R$ 7",
+   "loja": "",
+   "preco": 759.0,
+   "precoDe": 1098.0,
+   "precoComCupom": null,
+   "desconto": 31,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2G9Bkmz",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_629075-MLA104879398469_012026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-12 23:24:20"
+  },
+  {
+   "id": "p19904",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Ire Pro Preto - H848 Wireless - R$ 169,99",
+   "loja": "",
+   "preco": 169.99,
+   "precoDe": 219.0,
+   "precoComCupom": 168.0,
+   "desconto": 22,
+   "cupom": "AQUITEMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2Rtw8nk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_980513-MLA96122413563_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-12 23:13:58"
+  },
   {
    "id": "p20401",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_693240-MLA107255759089_022026-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-12 13:53:27"
-  },
-  {
-   "id": "p19904",
-   "plataforma": "mercadolivre",
-   "produto": "Headset Gamer Redragon Ire Pro Preto - H848 Wireless - R$ 169,99",
-   "loja": "",
-   "preco": 169.99,
-   "precoDe": 219.0,
-   "precoComCupom": 168.0,
-   "desconto": 22,
-   "cupom": "AQUITEMTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2Rtw8nk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_980513-MLA96122413563_102025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-12 13:49:21"
-  },
-  {
-   "id": "p15476",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Gamer Logitech G403 HERO Sensor Hero 25K - R$ 206,88",
-   "loja": "",
-   "preco": 206.88,
-   "precoDe": 299.9,
-   "precoComCupom": 206.0,
-   "desconto": 31,
-   "cupom": "OFERTADEHOJE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qk1Axj",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_868248-MLA99454511918_112025-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-12 13:40:28"
   }
  ]
 }
