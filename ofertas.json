@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-13 21:36:16",
+ "atualizado": "2026-11-13 22:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21225",
+   "plataforma": "mercadolivre",
+   "produto": "Ryzen 7 5700x (4.6ghz Max) - Novo (sem Caixa Box Ou Cooler) - R$ 1.061",
+   "loja": "",
+   "preco": 1061.0,
+   "precoDe": 1179.0,
+   "precoComCupom": 901.0,
+   "desconto": 10,
+   "cupom": "FAVORITO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1wt2Hge",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_613774-MLB119159431545_102026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-13 21:59:38"
+  },
+  {
+   "id": "p15610",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira de Escritório Presidente NR17 120kg Ergonômica Giratória com Tela Mesh Columbus HomeNow Cor Preto - R$ 379,05",
+   "loja": "",
+   "preco": 379.05,
+   "precoDe": 659.0,
+   "precoComCupom": 303.0,
+   "desconto": 42,
+   "cupom": "VEMHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1z4t2oC",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-13 21:48:20"
+  },
+  {
+   "id": "p19612",
+   "plataforma": "mercadolivre",
+   "produto": "Creatina Monohidratada 1kg 100% Pura - Dark Lab - R$ 69,99",
+   "loja": "",
+   "preco": 69.99,
+   "precoDe": 159.9,
+   "precoComCupom": null,
+   "desconto": 56,
+   "cupom": "DEMORA26",
+   "cupomTexto": "",
+   "url": "https://meli.la/1hPTWtd",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_603981-MLA115262802698_082026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-13 21:36:18"
+  },
   {
    "id": "p19786",
    "plataforma": "mercadolivre",
@@ -1011,22 +1059,6 @@
    "visto": "2026-11-13 14:26:30"
   },
   {
-   "id": "p15610",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira de Escritório Presidente NR17 120kg Ergonômica Giratória com Tela Mesh Columbus HomeNow Cor Preto - R$ 399",
-   "loja": "",
-   "preco": 399.0,
-   "precoDe": 659.0,
-   "precoComCupom": 319.0,
-   "desconto": 39,
-   "cupom": "VEMHOJE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1z4t2oC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-13 14:24:27"
-  },
-  {
    "id": "p21801",
    "plataforma": "shopee",
    "produto": "Placa Mãe MSI A520M A Pro AMD AM4 DDR4 mATX HDMI DVI Ryzen 3000 4000 5000",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_755448-MLB120370283365_102026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-13 13:44:17"
-  },
-  {
-   "id": "p16192",
-   "plataforma": "mercadolivre",
-   "produto": "Notebook Vaio Fe16 Amd Ryzen 7-5825u Linux 16gb RAM 512gb Ssd Wi-Fi 6 Tela 16\" Ips Wuxga Antirreflexo Cinza Grafite Vjfe69f11xb0121h - Permi",
-   "loja": "",
-   "preco": 3799.0,
-   "precoDe": 5699.0,
-   "precoComCupom": 3514.0,
-   "desconto": 33,
-   "cupom": "OFERTAPRATEC",
-   "cupomTexto": "",
-   "url": "https://meli.la/2k8MB4B",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_954850-MLA99514927694_112025-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-13 13:41:07"
-  },
-  {
-   "id": "p21711",
-   "plataforma": "mercadolivre",
-   "produto": "Notebook Gamer Acer Nitro V16 ANV16-I31-58MM Intel Core 5 210H 8GB RAM 512GB SSD RTX 5060 Linux 16\" WUXGA - R$ 6.999",
-   "loja": "",
-   "preco": 6999.0,
-   "precoDe": 9999.0,
-   "precoComCupom": 6599.0,
-   "desconto": 30,
-   "cupom": "OFERTAPRATEC",
-   "cupomTexto": "",
-   "url": "https://meli.la/2K1FK8w",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_955397-MLA120803271773_112026-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-13 13:34:31"
   }
  ]
 }
