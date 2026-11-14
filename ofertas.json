@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-14 07:36:16",
+ "atualizado": "2026-11-14 08:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21446",
+   "plataforma": "mercadolivre",
+   "produto": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14",
+   "loja": "",
+   "preco": 24.99,
+   "precoDe": 69.99,
+   "precoComCupom": null,
+   "desconto": 64,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2hyy5gH",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_767887-MLA120087704221_102026-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-14 08:06:21"
+  },
   {
    "id": "p21811",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_695922-MLB118248463483_092026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-13 14:50:23"
-  },
-  {
-   "id": "p19923",
-   "plataforma": "mercadolivre",
-   "produto": "Teclado Mecânico Titorion Gamer 60% com Switch Marrom e Layout ABNT2 - R$ 133,22",
-   "loja": "",
-   "preco": 133.22,
-   "precoDe": 249.9,
-   "precoComCupom": null,
-   "desconto": 47,
-   "cupom": "DESCONTOSESPECIAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1yeLt5f",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_600122-MLA99994206687_112025-P.webp",
-   "emoji": "⌨️",
-   "visto": "2026-11-13 14:47:02"
   }
  ]
 }
