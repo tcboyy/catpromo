@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-14 14:36:16",
+ "atualizado": "2026-11-14 15:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21580",
+   "plataforma": "mercadolivre",
+   "produto": "Redragon Rage Gm708 Ram Ddr4 16gb 3200mhz Gamer Dissipador - R$ 779",
+   "loja": "",
+   "preco": 779.0,
+   "precoDe": 922.65,
+   "precoComCupom": 701.0,
+   "desconto": 16,
+   "cupom": "PROMOSTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2vtxTMR",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_847732-MLB113105683078_072026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-14 15:01:21"
+  },
+  {
+   "id": "p20335",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Magnético Gamer 60% 8000hz Rt0,01 | Switch Huano Preto Português Brasil - R$ 310",
+   "loja": "",
+   "preco": 310.0,
+   "precoDe": 399.9,
+   "precoComCupom": 279.0,
+   "desconto": 22,
+   "cupom": "PROMOSTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/1LkD5Es",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_756229-MLA108699529971_032026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-14 14:45:44"
+  },
   {
    "id": "p15688",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-14 09:12:10"
-  },
-  {
-   "id": "p21302",
-   "plataforma": "mercadolivre",
-   "produto": "Gta Vi - Playstation 5 Versão Standard Nacional Br - R$ 418,40",
-   "loja": "",
-   "preco": 418.4,
-   "precoDe": 999.9,
-   "precoComCupom": 338.0,
-   "desconto": 58,
-   "cupom": "MELIMAIS1411",
-   "cupomTexto": "",
-   "url": "https://meli.la/1KEDSxe",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_795445-MLB120087071969_102026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-14 09:09:17"
-  },
-  {
-   "id": "p16190",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Curvo AOC AGON QUAD 32\" 180Hz 0,5ms HDR10 CQ32G4E Preto - R$ 1.082",
-   "loja": "",
-   "preco": 1082.0,
-   "precoDe": 1399.0,
-   "precoComCupom": 901.0,
-   "desconto": 23,
-   "cupom": "32GIGANTE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2atGdYf",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_847859-MLA94128239876_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-14 09:06:09"
   }
  ]
 }
