@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-13 23:05:16",
+ "atualizado": "2026-11-13 23:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21810",
+   "plataforma": "mercadolivre",
+   "produto": "Celular Samsung Galaxy S25 Fe 5g, 128gb, 8gb Ram, Câmera Tripla De 50+12+8, Tela Grande De 6.7 Jetblack - R$ 2.699",
+   "loja": "",
+   "preco": 2699.0,
+   "precoDe": 4499.0,
+   "precoComCupom": null,
+   "desconto": 40,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1yV2gyg",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_840870-MLA96785958150_112025-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-13 23:24:26"
+  },
+  {
+   "id": "p21351",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Attack Shark X11 22000dpi Sem Fio Usb Bluetooth Preto - R$ 157",
+   "loja": "",
+   "preco": 157.0,
+   "precoDe": 319.0,
+   "precoComCupom": null,
+   "desconto": 51,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1h6g7RN",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_861161-MLB117615974528_102026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-13 23:12:59"
+  },
   {
    "id": "p20153",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_905338-MLA117219615491_092026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-13 14:04:01"
-  },
-  {
-   "id": "p19875",
-   "plataforma": "mercadolivre",
-   "produto": "Creatina Growth Supplements Monohidratada em pó Sem sabor x 250g - R$ 39,90",
-   "loja": "",
-   "preco": 39.9,
-   "precoDe": 64.9,
-   "precoComCupom": null,
-   "desconto": 39,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1PN6jF6",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662415-MLA97812910758_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-13 14:02:26"
-  },
-  {
-   "id": "p21755",
-   "plataforma": "mercadolivre",
-   "produto": "Notebook Acer 15.3\" IPS - Processador Intel Core 5 120U (Substituto do Core i5), Memória 8GB DDR5, SSD 256GB NVMe PCIe 4.0, 2 USB-C, Wifi 6,",
-   "loja": "",
-   "preco": 3099.0,
-   "precoDe": 5299.0,
-   "precoComCupom": 2835.0,
-   "desconto": 42,
-   "cupom": "OFERTAPRATEC",
-   "cupomTexto": "",
-   "url": "https://meli.la/17KG4GT",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_839322-MLA118565755382_102026-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-13 14:00:41"
   }
  ]
 }
