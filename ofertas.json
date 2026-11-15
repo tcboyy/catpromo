@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-15 07:36:16",
+ "atualizado": "2026-11-15 09:05:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21835",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Mecânico Aula F75 Sem Fio 75% ABNT2, com RGB e Hot-swap – Ártico - R$ 319,21",
+   "loja": "",
+   "preco": 319.21,
+   "precoDe": 569.0,
+   "precoComCupom": null,
+   "desconto": 44,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1oqojvY",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_855144-MLA116210285494_092026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-15 08:58:51"
+  },
   {
    "id": "p21834",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-820ll-mspm4cqsxpmvd8",
    "emoji": "💾",
    "visto": "2026-11-14 14:15:11"
-  },
-  {
-   "id": "p21823",
-   "plataforma": "mercadolivre",
-   "produto": "Balança Digital Pholex Bioimpedância Com Aplicativo Bluetooth Android iOS Treino Academia Personal Homologada Anatel - R$ 32,50",
-   "loja": "",
-   "preco": 32.5,
-   "precoDe": 42.9,
-   "precoComCupom": null,
-   "desconto": 24,
-   "cupom": "BATEUDESCONTO",
-   "cupomTexto": "",
-   "url": "https://meli.la/1xrdaHA",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_748851-MLA114016338498_072026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-14 14:03:11"
   }
  ]
 }
