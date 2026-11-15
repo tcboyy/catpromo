@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-15 17:05:16",
+ "atualizado": "2026-11-15 17:35:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20411",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Curvo Aoc Agon G4z 27' Base Ajustável C27g4z/p Preto 127/220v - R$ 1.031",
+   "loja": "",
+   "preco": 1031.0,
+   "precoDe": 2055.0,
+   "precoComCupom": null,
+   "desconto": 50,
+   "cupom": "OFERTAMELIMAIS1011",
+   "cupomTexto": "",
+   "url": "https://meli.la/1GZxbHT",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_861340-MLB116272908126_092026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-15 17:32:34"
+  },
+  {
+   "id": "p6643",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 130,41",
+   "loja": "",
+   "preco": 130.41,
+   "precoDe": 209.0,
+   "precoComCupom": null,
+   "desconto": 38,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Dqv1ef",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-15 17:22:44"
+  },
+  {
+   "id": "p19474",
+   "plataforma": "mercadolivre",
+   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
+   "loja": "",
+   "preco": 357.99,
+   "precoDe": 397.77,
+   "precoComCupom": 269.0,
+   "desconto": 10,
+   "cupom": "MELIMAIS1411",
+   "cupomTexto": "",
+   "url": "https://meli.la/1qS2vs3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939075-MLB121322691115_112026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-15 17:17:42"
+  },
   {
    "id": "p15306",
    "plataforma": "mercadolivre",
@@ -1107,22 +1155,6 @@
    "visto": "2026-11-15 10:20:59"
   },
   {
-   "id": "p6643",
-   "plataforma": "mercadolivre",
-   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 130,41",
-   "loja": "",
-   "preco": 130.41,
-   "precoDe": 209.0,
-   "precoComCupom": null,
-   "desconto": 38,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Dqv1ef",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-15 10:18:31"
-  },
-  {
    "id": "p16207",
    "plataforma": "mercadolivre",
    "produto": "Smart TV 4K 65\" LG NANO UHD AI NU850 2026 Processador α7 Ger9 HDR10 Xbox Bluetooth Wi-Fi AI Search Google Gemini webOS 26 - 65NU850BPSA - R$",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_958246-MLA105361306359_012026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-15 09:45:38"
-  },
-  {
-   "id": "p19226",
-   "plataforma": "mercadolivre",
-   "produto": "Tênis Vans Ultrarange Vr3 Neo Preto Azul Branco 34 Ao 43 - R$ 97,65",
-   "loja": "",
-   "preco": 97.65,
-   "precoDe": 279.0,
-   "precoComCupom": 92.0,
-   "desconto": 65,
-   "cupom": "COMPRANOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1yqDkTn",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651685-MLB115351540288_082026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-15 09:31:44"
-  },
-  {
-   "id": "p21818",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer LG Ultragear 27g411b, 144hz Nativo, 1ms (mbr) Preto 127/220v - R$ 692",
-   "loja": "",
-   "preco": 692.0,
-   "precoDe": 898.81,
-   "precoComCupom": 612.0,
-   "desconto": 23,
-   "cupom": "VIPNOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/3484VZU",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_803171-MLB118129569363_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-15 09:27:49"
   }
  ]
 }
