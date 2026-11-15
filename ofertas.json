@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-14 23:06:16",
+ "atualizado": "2026-11-14 23:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15427",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Gamer Lancer Preta e Branca Healer - R$ 384,47",
+   "loja": "",
+   "preco": 384.47,
+   "precoDe": 899.9,
+   "precoComCupom": 317.0,
+   "desconto": 57,
+   "cupom": "MP1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/2ZsE481",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_951583-MLA105697862101_012026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-14 23:30:49"
+  },
+  {
+   "id": "p20474",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Sem Fio Fire Phoenix 24000dpi Paw3311 Bk-r3x Cor Preto - R$ 100,10",
+   "loja": "",
+   "preco": 100.1,
+   "precoDe": 140.99,
+   "precoComCupom": null,
+   "desconto": 29,
+   "cupom": "DESCONTOS",
+   "cupomTexto": "",
+   "url": "https://meli.la/14x5ZMa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_659398-MLA94934523402_102025-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-14 23:16:50"
+  },
   {
    "id": "p20353",
    "plataforma": "mercadolivre",
@@ -145,22 +177,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_896633-MLA120723721883_112026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-14 21:31:41"
-  },
-  {
-   "id": "p15427",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Gamer Lancer Preta e Branca Healer - R$ 413,25",
-   "loja": "",
-   "preco": 413.25,
-   "precoDe": 899.9,
-   "precoComCupom": 317.0,
-   "desconto": 54,
-   "cupom": "MP1111",
-   "cupomTexto": "",
-   "url": "https://meli.la/2ZsE481",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_951583-MLA105697862101_012026-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-14 21:26:58"
   },
   {
    "id": "p19471",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_755448-MLB120370283365_102026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-14 13:27:43"
-  },
-  {
-   "id": "p21711",
-   "plataforma": "mercadolivre",
-   "produto": "Notebook Gamer Acer Nitro V16 ANV16-I31-58MM Intel Core 5 210H 8GB RAM 512GB SSD RTX 5060 Linux 16\" WUXGA - R$ 6.999",
-   "loja": "",
-   "preco": 6999.0,
-   "precoDe": 9999.0,
-   "precoComCupom": 6599.0,
-   "desconto": 30,
-   "cupom": "PROMOTEC",
-   "cupomTexto": "",
-   "url": "https://meli.la/2K1FK8w",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_955397-MLA120803271773_112026-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-14 13:24:47"
   }
  ]
 }
