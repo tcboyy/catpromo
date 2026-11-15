@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-14 22:05:15",
+ "atualizado": "2026-11-14 22:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6616",
+   "plataforma": "mercadolivre",
+   "produto": "LG UltraGear Monitor Gamer 32\"- VA 165Hz 1ms (MBR) QHD 2K (2560x1440) HDR10 AMD FreeSync, Preto - 32GN600 - R$ 1.099",
+   "loja": "",
+   "preco": 1099.0,
+   "precoDe": 2180.0,
+   "precoComCupom": 967.0,
+   "desconto": 50,
+   "cupom": "TODOOSITE1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/33m7bnh",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_638172-MLA119028250988_112026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-14 22:29:21"
+  },
+  {
+   "id": "p21184",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Gamer Tgt Barrier, 160cm, Preto Preto - R$ 557,28",
+   "loja": "",
+   "preco": 557.28,
+   "precoDe": 1496.0,
+   "precoComCupom": 497.0,
+   "desconto": 63,
+   "cupom": "SEMPREOFERTAS",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Td3Hyv",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_991518-MLB116952179246_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-14 22:15:53"
+  },
   {
    "id": "p15308",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_890719-MLA119028291406_112026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-14 13:18:05"
-  },
-  {
-   "id": "p21466",
-   "plataforma": "mercadolivre",
-   "produto": "Notebook ASUS Vivobook Go 15 E1504 AMD RYZEN 5 7520U 8GB Ram 256GB SSD Linux KeepOS 15,6” FHD Black E1504FA-NJ731 - R$ 2.749",
-   "loja": "",
-   "preco": 2749.0,
-   "precoDe": 4199.0,
-   "precoComCupom": 2449.0,
-   "desconto": 35,
-   "cupom": "PROMOTEC",
-   "cupomTexto": "",
-   "url": "https://meli.la/1x855V1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_830301-MLA99949667885_112025-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-14 13:15:21"
-  },
-  {
-   "id": "p21494",
-   "plataforma": "mercadolivre",
-   "produto": "Notebook Asus Vivobook Bq451 Core 5 Série 3 16gb 512gb Linux Cool Silver - R$ 3.633",
-   "loja": "",
-   "preco": 3633.0,
-   "precoDe": 4299.0,
-   "precoComCupom": 3357.0,
-   "desconto": 15,
-   "cupom": "PROMOTEC",
-   "cupomTexto": "",
-   "url": "https://meli.la/2WUKRHV",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_931052-MLB116893971696_092026-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-14 13:12:08"
   }
  ]
 }
