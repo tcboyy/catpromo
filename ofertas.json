@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-15 14:06:15",
+ "atualizado": "2026-11-15 14:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19232",
+   "plataforma": "shopee",
+   "produto": "Aula Win 68HE - Rapid Trigger Switch Hall Effect Gamer Pro",
+   "loja": "3zcymk1ua1",
+   "preco": 205.0,
+   "precoDe": 310.61,
+   "precoComCupom": 172.0,
+   "desconto": 34,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/6q2IxbY4Js",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820mh-mr1ds283xipy77",
+   "emoji": "📦",
+   "visto": "2026-11-15 14:34:54"
+  },
+  {
+   "id": "p21378",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira De Escritório Ergonômica Giratória B100 Boston Cinza Laudo NR-17 Com Estofado Mesh Com Ajuste Lombar Luvinco - R$ 439,90",
+   "loja": "",
+   "preco": 439.9,
+   "precoDe": 746.12,
+   "precoComCupom": 379.0,
+   "desconto": 41,
+   "cupom": "OFERTASNOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2cuD7rP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_709765-MLA105292090682_012026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-15 14:14:18"
+  },
   {
    "id": "p21848",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_659398-MLA94934523402_102025-P.webp",
    "emoji": "🖱️",
    "visto": "2026-11-14 23:16:50"
-  },
-  {
-   "id": "p20353",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Acer Nitro Kg243y 23,8 Ips Full Hd 144hz 1ms Preto 127/220v - R$ 520,20",
-   "loja": "",
-   "preco": 520.2,
-   "precoDe": 1261.0,
-   "precoComCupom": null,
-   "desconto": 59,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/12Q7SFD",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_777139-MLA99536116310_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-14 23:01:03"
-  },
-  {
-   "id": "p19474",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
-   "loja": "",
-   "preco": 357.99,
-   "precoDe": 397.77,
-   "precoComCupom": 269.0,
-   "desconto": 10,
-   "cupom": "MELIMAIS1411",
-   "cupomTexto": "",
-   "url": "https://meli.la/1qS2vs3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939075-MLB121322691115_112026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-14 22:45:30"
   }
  ]
 }
