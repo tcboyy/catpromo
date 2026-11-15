@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-14 20:36:16",
+ "atualizado": "2026-11-14 21:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20337",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Magnético Gamer 60% 8000hz Rt0,01 Barra Rgb Titorion Preto Português Brasil - R$ 342,38",
+   "loja": "",
+   "preco": 342.38,
+   "precoDe": 499.9,
+   "precoComCupom": 308.0,
+   "desconto": 32,
+   "cupom": "HOJEMESMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1sniZR5",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_916115-MLA117434189764_102026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-14 21:00:46"
+  },
   {
    "id": "p19241",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_829406-MLA116062248430_092026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-14 12:23:50"
-  },
-  {
-   "id": "p15244",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F Preto - R$ 599",
-   "loja": "",
-   "preco": 599.0,
-   "precoDe": 749.0,
-   "precoComCupom": 569.0,
-   "desconto": 20,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/2jbPC3u",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_748152-MLA96322082514_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-14 12:20:49"
   }
  ]
 }
