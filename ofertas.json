@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-15 11:06:16",
+ "atualizado": "2026-11-15 11:35:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6673",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer LG UltraGear Curvo 34\"- QuadHD 2K, UltraWide 1800R, 160Hz, 1ms (MBR), AMD FreeSync Premium, HDR10, MaxxAudio, Preto -34G600A -",
+   "loja": "",
+   "preco": 1799.0,
+   "precoDe": 2515.0,
+   "precoComCupom": 1581.0,
+   "desconto": 28,
+   "cupom": "OFERTASTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2DaUYdS",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_714205-MLA120725726433_112026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-15 11:29:26"
+  },
   {
    "id": "p6415",
    "plataforma": "mercadolivre",
@@ -16,7 +32,39 @@
    "url": "https://meli.la/1vHjK3c",
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_696266-MLA97205822349_112025-P.webp",
    "emoji": "🖥️",
-   "visto": "2026-11-15 11:01:45"
+   "visto": "2026-11-15 11:27:00"
+  },
+  {
+   "id": "p21588",
+   "plataforma": "mercadolivre",
+   "produto": "Celular Samsung Galaxy A08 128GB, 4GB RAM, 6.000mAh, 6,7\" - Verde - R$ 989,10",
+   "loja": "",
+   "preco": 989.1,
+   "precoDe": 1099.0,
+   "precoComCupom": 870.0,
+   "desconto": 10,
+   "cupom": "OFFTEC",
+   "cupomTexto": "",
+   "url": "https://meli.la/2ZT59cG",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_905283-MLA115961491438_092026-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-15 11:24:08"
+  },
+  {
+   "id": "p15730",
+   "plataforma": "mercadolivre",
+   "produto": "Nintendo Switch Console Oled 64gb + Super Mario Bros Wonder - R$ 1.899",
+   "loja": "",
+   "preco": 1899.0,
+   "precoDe": 2699.0,
+   "precoComCupom": 1779.0,
+   "desconto": 30,
+   "cupom": "TECH1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UrQfLr",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_928841-MLA93525033946_102025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-15 11:15:27"
   },
   {
    "id": "p20924",
@@ -1233,54 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134253-8259c-mr1uo10cit52f9",
    "emoji": "🖱️",
    "visto": "2026-11-14 17:44:58"
-  },
-  {
-   "id": "p21825",
-   "plataforma": "shopee",
-   "produto": "Suporte GTA VI Para Controle PS5 Xbox Series S X Gamer Decorativo",
-   "loja": "Balu3D",
-   "preco": 25.9,
-   "precoDe": 49.81,
-   "precoComCupom": null,
-   "desconto": 48,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://s.shopee.com.br/7VHyLmlSHr",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820le-mrtfq6pm0dtx27",
-   "emoji": "🎮",
-   "visto": "2026-11-14 17:27:24"
-  },
-  {
-   "id": "p21824",
-   "plataforma": "shopee",
-   "produto": "Suporte Base Controle PS5 GTA 6 GTA VI DualSense Gamer e PlayStation 5 Premium",
-   "loja": "3DPRIMELAB@",
-   "preco": 17.49,
-   "precoDe": 58.3,
-   "precoComCupom": null,
-   "desconto": 70,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://s.shopee.com.br/7puokOauCb",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-mruf4xc9lx5327",
-   "emoji": "🎮",
-   "visto": "2026-11-14 17:27:22"
-  },
-  {
-   "id": "p15397",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Gamer Attack Shark X11 22.000 DPI Ultraleve 63g Bluetooth 2.4GHz USB-C Branco - R$ 179",
-   "loja": "",
-   "preco": 179.0,
-   "precoDe": null,
-   "precoComCupom": 157.0,
-   "desconto": null,
-   "cupom": "AGORAOUNUNCA",
-   "cupomTexto": "",
-   "url": "https://meli.la/2hfDdzx",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_900850-MLA111715244974_062026-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-14 17:15:49"
   }
  ]
 }
