@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-14 23:36:15",
+ "atualizado": "2026-11-15 00:05:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20393",
+   "plataforma": "shopee",
+   "produto": "Console PlayStation 5 Slim Edição Digital 825GB - PS5",
+   "loja": "Webfones",
+   "preco": 9999.0,
+   "precoDe": null,
+   "precoComCupom": 3956.0,
+   "desconto": null,
+   "cupom": "11DO11H0J3",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/4fxnPkNrpH",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820li-mpw95s96db7n42",
+   "emoji": "🎮",
+   "visto": "2026-11-15 00:03:01"
+  },
+  {
+   "id": "p19781",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido Headset Gamer Sem Fio Titorion Mintak Pro Tri - mode (Wireless 2.4GHz , Bluetooth, Cabo) Ultraleve Preto - R$ 219,90",
+   "loja": "",
+   "preco": 219.9,
+   "precoDe": 299.9,
+   "precoComCupom": 186.0,
+   "desconto": 27,
+   "cupom": "OFERTASAQUI",
+   "cupomTexto": "",
+   "url": "https://meli.la/2EthgBB",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_654888-MLA105359507121_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-14 23:46:18"
+  },
   {
    "id": "p15427",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_714951-MLB115095056418_082026-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-14 13:30:38"
-  },
-  {
-   "id": "p20408",
-   "plataforma": "mercadolivre",
-   "produto": "Headset Gamer Sem Fio Fallen Pantera Eco Light Wireless Azul Azul - R$ 285",
-   "loja": "",
-   "preco": 285.0,
-   "precoDe": 479.99,
-   "precoComCupom": 270.0,
-   "desconto": 41,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/2aJXDoc",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_830193-MLB119085108853_102026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-14 13:29:35"
-  },
-  {
-   "id": "p21762",
-   "plataforma": "mercadolivre",
-   "produto": "Kit Smartphone Motorola Edge 70 Pro 5g 256gb Azul Escuro + Fone Moto Buds 2 Preto - R$ 3.239",
-   "loja": "",
-   "preco": 3239.0,
-   "precoDe": 3598.0,
-   "precoComCupom": 2939.0,
-   "desconto": 10,
-   "cupom": "PROMOTEC",
-   "cupomTexto": "",
-   "url": "https://meli.la/2VAu39U",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_755448-MLB120370283365_102026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-14 13:27:43"
   }
  ]
 }
