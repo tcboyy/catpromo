@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-15 17:35:15",
+ "atualizado": "2026-11-15 18:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6597",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.071",
+   "loja": "",
+   "preco": 1071.0,
+   "precoDe": 1799.0,
+   "precoComCupom": null,
+   "desconto": 40,
+   "cupom": "PROMOSTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/13dS6US",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-15 18:00:25"
+  },
+  {
+   "id": "p15371",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mãe Gigabyte B550m Aorus Elite Am4 Micro Atx Ddr4 Preto - R$ 698,99",
+   "loja": "",
+   "preco": 698.99,
+   "precoDe": 776.66,
+   "precoComCupom": 658.0,
+   "desconto": 10,
+   "cupom": "TODOSITE1311",
+   "cupomTexto": "",
+   "url": "https://meli.la/32irJRG",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_801113-MLB119234797478_112026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-15 17:46:22"
+  },
+  {
+   "id": "p21711",
+   "plataforma": "mercadolivre",
+   "produto": "Notebook Gamer Acer Nitro V16 ANV16-I31-58MM Intel Core 5 210H 8GB RAM 512GB SSD RTX 5060 Linux 16\" WUXGA - R$ 6.999",
+   "loja": "",
+   "preco": 6999.0,
+   "precoDe": 9999.0,
+   "precoComCupom": 6599.0,
+   "desconto": 30,
+   "cupom": "PROMOTEC",
+   "cupomTexto": "",
+   "url": "https://meli.la/2K1FK8w",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_955397-MLA120803271773_112026-P.webp",
+   "emoji": "💻",
+   "visto": "2026-11-15 17:36:52"
+  },
   {
    "id": "p20411",
    "plataforma": "mercadolivre",
@@ -321,22 +369,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_688086-MLA112201393584_062026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-15 15:08:24"
-  },
-  {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.071",
-   "loja": "",
-   "preco": 1071.0,
-   "precoDe": 1799.0,
-   "precoComCupom": null,
-   "desconto": 40,
-   "cupom": "PROMOSTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-15 14:59:23"
   },
   {
    "id": "p20174",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_963489-MLB120014252913_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-15 09:49:24"
-  },
-  {
-   "id": "p17609",
-   "plataforma": "mercadolivre",
-   "produto": "Samsung Smart Tv 43 Qled Full Hd Q5f 2025, Xbox Cloud Gaming, Canais Gratuitos, Hdr, Som Em Movimento Virtual - R$ 1.797",
-   "loja": "",
-   "preco": 1797.0,
-   "precoDe": 2297.0,
-   "precoComCupom": 1471.0,
-   "desconto": 22,
-   "cupom": "VIPNOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1XCcF2P",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_612999-MLA102412809695_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-15 09:48:21"
-  },
-  {
-   "id": "p19786",
-   "plataforma": "mercadolivre",
-   "produto": "Fone De Ouvido Headset Gamer Sem Fio Titorion Mintak Pro Tri - mode (Wireless 2.4GHz , Bluetooth, Cabo) Ultraleve Branco - R$ 219,90",
-   "loja": "",
-   "preco": 219.9,
-   "precoDe": 299.9,
-   "precoComCupom": 186.0,
-   "desconto": 27,
-   "cupom": "OFERTASAQUI",
-   "cupomTexto": "",
-   "url": "https://meli.la/1R2F8FS",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_958246-MLA105361306359_012026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-15 09:45:38"
   }
  ]
 }
