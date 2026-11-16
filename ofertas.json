@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-16 01:06:15",
+ "atualizado": "2026-11-16 07:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21599",
+   "plataforma": "shopee",
+   "produto": "CONSOLE PLAYSTATION 5 SLIM DISK 1TB",
+   "loja": "NegociuN",
+   "preco": 4769.9,
+   "precoDe": 5420.34,
+   "precoComCupom": 4296.0,
+   "desconto": 12,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/4LKyczEXRA",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfmltidfjhtxed",
+   "emoji": "🎮",
+   "visto": "2026-11-16 07:01:56"
+  },
   {
    "id": "p20690",
    "plataforma": "shopee",
@@ -193,22 +209,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-820mg-mv4kjoqz04xt10",
    "emoji": "🖥️",
    "visto": "2026-11-16 00:17:06"
-  },
-  {
-   "id": "p21599",
-   "plataforma": "shopee",
-   "produto": "CONSOLE PLAYSTATION 5 SLIM DISK 1TB",
-   "loja": "NegociuN",
-   "preco": 4769.9,
-   "precoDe": 5420.34,
-   "precoComCupom": 4296.0,
-   "desconto": 12,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/4LKyczEXRA",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfmltidfjhtxed",
-   "emoji": "🎮",
-   "visto": "2026-11-16 00:17:01"
   },
   {
    "id": "p21731",
