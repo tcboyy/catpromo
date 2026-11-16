@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-16 07:06:16",
+ "atualizado": "2026-11-16 07:35:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p16007",
+   "plataforma": "mercadolivre",
+   "produto": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display - R$ 139,96",
+   "loja": "",
+   "preco": 139.96,
+   "precoDe": 213.88,
+   "precoComCupom": 104.0,
+   "desconto": 35,
+   "cupom": "ESPECIALDESCONTOS",
+   "cupomTexto": "",
+   "url": "https://meli.la/1zmjJgk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_719636-MLA99381510294_112025-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-16 07:26:50"
+  },
   {
    "id": "p21599",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_676464-MLA99989458879_112025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-15 19:20:36"
-  },
-  {
-   "id": "p19450",
-   "plataforma": "mercadolivre",
-   "produto": "Samsung Smart Tv 55 Crystal Uhd 4k U8600f 2025, Xbox Cloud Gaming Canais Gratuitos Alexa - R$ 2.348",
-   "loja": "",
-   "preco": 2348.0,
-   "precoDe": null,
-   "precoComCupom": 2128.0,
-   "desconto": null,
-   "cupom": "TODO1511SITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/1z3FUGq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_889084-MLA96651935695_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-15 19:20:31"
   }
  ]
 }
