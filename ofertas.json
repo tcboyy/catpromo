@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-15 23:06:16",
+ "atualizado": "2026-11-15 23:35:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6597",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.097",
+   "loja": "",
+   "preco": 1097.0,
+   "precoDe": 1799.0,
+   "precoComCupom": null,
+   "desconto": 39,
+   "cupom": "PROMOSTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/13dS6US",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-15 23:31:46"
+  },
+  {
+   "id": "p20928",
+   "plataforma": "mercadolivre",
+   "produto": "Memória RAM DDR4 16GB 3200MHz Hiksemi Future DIMM Preto Gamer - R$ 863,91",
+   "loja": "",
+   "preco": 863.91,
+   "precoDe": 1144.0,
+   "precoComCupom": 777.0,
+   "desconto": 24,
+   "cupom": "PROMOSTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2xoUSWm",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_855718-MLU78264055354_082024-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-15 23:15:18"
+  },
   {
    "id": "p19999",
    "plataforma": "mercadolivre",
@@ -1091,22 +1123,6 @@
    "visto": "2026-11-15 18:16:26"
   },
   {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.071",
-   "loja": "",
-   "preco": 1071.0,
-   "precoDe": 1799.0,
-   "precoComCupom": null,
-   "desconto": 40,
-   "cupom": "PROMOSTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-15 18:00:25"
-  },
-  {
    "id": "p15371",
    "plataforma": "mercadolivre",
    "produto": "Placa Mãe Gigabyte B550m Aorus Elite Am4 Micro Atx Ddr4 Preto - R$ 698,99",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_768277-MLB113264057964_072026-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-15 16:30:28"
-  },
-  {
-   "id": "p21852",
-   "plataforma": "mercadolivre",
-   "produto": "Whey Core 70% Proteína Concentrada Chocolate 900g - 30 Doses - R$ 78,90",
-   "loja": "",
-   "preco": 78.9,
-   "precoDe": 99.99,
-   "precoComCupom": null,
-   "desconto": 21,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1vJv5Vi",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_972299-MLA114716702965_072026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-15 16:16:35"
   }
  ]
 }
