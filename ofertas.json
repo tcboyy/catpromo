@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-16 07:35:15",
+ "atualizado": "2026-11-16 08:06:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19772",
+   "plataforma": "mercadolivre",
+   "produto": "Carregador Dtimp Super Rápido 25w Fast Cabo Blindado Tipo Usb C - R$ 32,90",
+   "loja": "",
+   "preco": 32.9,
+   "precoDe": 78.9,
+   "precoComCupom": null,
+   "desconto": 58,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1X1BE3o",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_923598-MLA113044313715_062026-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-11-16 07:39:21"
+  },
   {
    "id": "p16007",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_921805-MLB116712451331_082026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-15 19:20:40"
-  },
-  {
-   "id": "p21705",
-   "plataforma": "mercadolivre",
-   "produto": "Ar-condicionado Split 9000 Btu/h Prime Air 9qc Quente E Frio Branco - R$ 1.466",
-   "loja": "",
-   "preco": 1466.0,
-   "precoDe": 2299.0,
-   "precoComCupom": 1433.0,
-   "desconto": 36,
-   "cupom": "TODO1511SITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/328SzEg",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_676464-MLA99989458879_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-15 19:20:36"
   }
  ]
 }
