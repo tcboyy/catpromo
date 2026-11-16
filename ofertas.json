@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-15 22:36:15",
+ "atualizado": "2026-11-15 23:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19999",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG FHD Gamer & Office tela IPS 27”, 1ms (MBR), 144Hz Nativo, FreeSync, HDR10, sRGB, Modo leitura, Flicker Safe, HDMI, Black Stabiliz",
+   "loja": "",
+   "preco": 689.0,
+   "precoDe": 799.0,
+   "precoComCupom": 589.0,
+   "desconto": 14,
+   "cupom": "OFERTASTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2YkgE3H",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_608077-MLA119592722277_102026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-15 22:59:19"
+  },
+  {
+   "id": "p21578",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Gamer Streamer Ergonomica Confortável Reclinável Top - R$ 556,61",
+   "loja": "",
+   "preco": 556.61,
+   "precoDe": 1309.0,
+   "precoComCupom": 489.0,
+   "desconto": 57,
+   "cupom": "PRESENTE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1dAZ4sK",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_918408-MLB84648865315_052025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-15 22:46:32"
+  },
   {
    "id": "p6415",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_972299-MLA114716702965_072026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-15 16:16:35"
-  },
-  {
-   "id": "p19290",
-   "plataforma": "mercadolivre",
-   "produto": "Mousepad Gamer Antiderrapante 80x30cm Jogos Dragão Chinês - R$ 23,90",
-   "loja": "",
-   "preco": 23.9,
-   "precoDe": 59.9,
-   "precoComCupom": 22.0,
-   "desconto": 60,
-   "cupom": "POUPAMAIS",
-   "cupomTexto": "",
-   "url": "https://meli.la/1EbgR3o",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_820496-MLB94542866797_102025-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-15 16:13:51"
-  },
-  {
-   "id": "p21206",
-   "plataforma": "mercadolivre",
-   "produto": "Escrivaninha Mesa Para Computador Office 9409 Madesa Preto XB94098N - R$ 305,98",
-   "loja": "",
-   "preco": 305.98,
-   "precoDe": 399.98,
-   "precoComCupom": null,
-   "desconto": 24,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2ZjKvQq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_818276-MLA96100970593_102025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-15 16:00:36"
   }
  ]
 }
