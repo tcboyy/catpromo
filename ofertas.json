@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-16 23:06:16",
+ "atualizado": "2026-11-16 23:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p17929",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Portátil 15.6'' Tela Externa Hdr Ips 1080p Ultrafino Preto 127/220v - R$ 333,45",
+   "loja": "",
+   "preco": 333.45,
+   "precoDe": 650.0,
+   "precoComCupom": 300.0,
+   "desconto": 49,
+   "cupom": "HOJEPRATEC",
+   "cupomTexto": "",
+   "url": "https://meli.la/2zuAWWH",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_679072-MLB113431542820_072026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-16 23:24:46"
+  },
+  {
+   "id": "p19802",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Ram 16gb Ddr4 | Rise Mode | 3200mhz | Z Series Preto - R$ 837,11",
+   "loja": "",
+   "preco": 837.11,
+   "precoDe": 863.0,
+   "precoComCupom": 753.0,
+   "desconto": 3,
+   "cupom": "HOJETEM",
+   "cupomTexto": "",
+   "url": "https://meli.la/17GUb3t",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_823741-MLA112697975250_062026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-16 23:13:16"
+  },
   {
    "id": "p19875",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-82581-ms609bc6aoe95f",
    "emoji": "📦",
    "visto": "2026-11-16 14:39:47"
-  },
-  {
-   "id": "p21899",
-   "plataforma": "aliexpress",
-   "produto": "KOOTION SSD M2 NVME 256GB 512GB 1TB 2TB Disco Rígido M.2 2280 Gen3 PCIe 3.0X4 Unidade de Estado Sólido Interna para Laptop Desktop MSI X99",
-   "loja": "KOOTION Flagship Official Store",
-   "preco": 430.25,
-   "precoDe": 796.75,
-   "precoComCupom": null,
-   "desconto": 46,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://s.click.aliexpress.com/e/_c3wITE3J",
-   "imagem": "https://ae-pic-a1.aliexpress-media.com/kf/S5c4de4dec66f4b4eb23f3faf9edfaa7eC.jpg",
-   "emoji": "💻",
-   "visto": "2026-11-16 14:39:32"
-  },
-  {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.195",
-   "loja": "",
-   "preco": 1195.0,
-   "precoDe": 1499.0,
-   "precoComCupom": 1075.0,
-   "desconto": 20,
-   "cupom": "MELHORDOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-16 14:39:03"
   }
  ]
 }
