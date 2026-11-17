@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-16 21:05:16",
+ "atualizado": "2026-11-16 21:35:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15442",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor 27 Aoc Gamer 27b30h3/57, Full Hd, Ips, 120hz, 1ms Cor Preto - R$ 584,99",
+   "loja": "",
+   "preco": 584.99,
+   "precoDe": 999.98,
+   "precoComCupom": 554.0,
+   "desconto": 41,
+   "cupom": "TODOSITE1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/1qngL9h",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_828968-MLA100001080083_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-16 21:23:39"
+  },
+  {
+   "id": "p20967",
+   "plataforma": "mercadolivre",
+   "produto": "Teclado Mecânico 75% Pcyes Arkeum Sunset Edition Switch Blue Preto Português Brasil - R$ 173,82",
+   "loja": "",
+   "preco": 173.82,
+   "precoDe": 186.9,
+   "precoComCupom": null,
+   "desconto": 7,
+   "cupom": "TECHPROMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/2NZqrQs",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_835159-MLA110079603217_042026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-16 21:12:21"
+  },
   {
    "id": "p19284",
    "plataforma": "shopee",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_850277-MLB117531675199_092026-P.webp",
    "emoji": "💻",
    "visto": "2026-11-16 14:01:50"
-  },
-  {
-   "id": "p21897",
-   "plataforma": "mercadolivre",
-   "produto": "Drone Dji Neo Fly More Combo Dji051 Homologado Anatel Cinza - R$ 2.755",
-   "loja": "",
-   "preco": 2755.0,
-   "precoDe": 2901.0,
-   "precoComCupom": 2470.0,
-   "desconto": 5,
-   "cupom": "MELHORDOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2EUWvQn",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_788518-MLB86543597978_062025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-16 13:58:41"
-  },
-  {
-   "id": "p15688",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Gamer Industrial 150cm Com Estrutura Em Aço Para Pc Preto - R$ 269,99",
-   "loja": "",
-   "preco": 269.99,
-   "precoDe": 299.99,
-   "precoComCupom": 221.0,
-   "desconto": 10,
-   "cupom": "CUPOMPRAVC",
-   "cupomTexto": "",
-   "url": "https://meli.la/2YcjgLH",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_963489-MLB120014252913_102026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-16 13:55:35"
   }
  ]
 }
