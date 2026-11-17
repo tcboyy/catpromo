@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-17 07:35:16",
+ "atualizado": "2026-11-17 08:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21915",
+   "plataforma": "shopee",
+   "produto": "Cadeira De Escritório Ergonômica Mesh Cinza Presidente NR17 Com Apoio Lombar Braço Retrátil",
+   "loja": "MAAT BRAND.",
+   "preco": 238.0,
+   "precoDe": 340.0,
+   "precoComCupom": 223.0,
+   "desconto": 30,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/4qHHKMsRGL",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m5-mv6qx4hhxm9ud0",
+   "emoji": "🪑",
+   "visto": "2026-11-17 07:56:46"
+  },
   {
    "id": "p21339",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-16 16:04:33"
-  },
-  {
-   "id": "p21807",
-   "plataforma": "mercadolivre",
-   "produto": "Samsung Galaxy Watch8 Smartwatch 44mm LTE, Galaxy AI - Prata - R$ 1.265",
-   "loja": "",
-   "preco": 1265.0,
-   "precoDe": 3099.0,
-   "precoComCupom": 1138.0,
-   "desconto": 59,
-   "cupom": "SAMSUNG10OFF",
-   "cupomTexto": "",
-   "url": "https://meli.la/1FFB1gp",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_782982-MLA96124290551_102025-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-16 15:43:44"
   }
  ]
 }
