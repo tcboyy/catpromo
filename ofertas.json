@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-16 22:06:16",
+ "atualizado": "2026-11-16 22:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19578",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE - R$ 768,15",
+   "loja": "",
+   "preco": 768.15,
+   "precoDe": 1049.0,
+   "precoComCupom": null,
+   "desconto": 27,
+   "cupom": "MELHORPROMOHJ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2wsxDwL",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662776-MLA96607684177_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-16 22:24:18"
+  },
+  {
+   "id": "p6692",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 540,55",
+   "loja": "",
+   "preco": 540.55,
+   "precoDe": 740.0,
+   "precoComCupom": 512.0,
+   "desconto": 27,
+   "cupom": "HOJEPRATEC",
+   "cupomTexto": "",
+   "url": "https://meli.la/15Wgjyk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-16 22:13:53"
+  },
   {
    "id": "p21538",
    "plataforma": "mercadolivre",
@@ -691,22 +723,6 @@
    "visto": "2026-11-16 17:20:21"
   },
   {
-   "id": "p6692",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 569,05",
-   "loja": "",
-   "preco": 569.05,
-   "precoDe": 679.0,
-   "precoComCupom": 512.0,
-   "desconto": 16,
-   "cupom": "HOJEPRATEC",
-   "cupomTexto": "",
-   "url": "https://meli.la/15Wgjyk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-16 17:14:28"
-  },
-  {
    "id": "p15485",
    "plataforma": "mercadolivre",
    "produto": "Teclado Mecânico Aula F75 Preto Sem Fio Tri Mode 75% Hotswap Rgb Idioma Inglês Us - R$ 362",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_838951-MLA113756681553_062026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-16 14:23:44"
-  },
-  {
-   "id": "p15299",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Python Fly Escritório Confort Ergonômico Apoio De Lombar Cor Preto - R$ 469",
-   "loja": "",
-   "preco": 469.0,
-   "precoDe": 699.0,
-   "precoComCupom": 399.0,
-   "desconto": 33,
-   "cupom": "CUPOMPRAVC",
-   "cupomTexto": "",
-   "url": "https://meli.la/2WHXNpJ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_767880-MLA99418713376_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-16 14:20:36"
   }
  ]
 }
