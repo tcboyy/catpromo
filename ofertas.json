@@ -1,7 +1,71 @@
 {
- "atualizado": "2026-11-17 12:35:16",
+ "atualizado": "2026-11-17 13:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20647",
+   "plataforma": "mercadolivre",
+   "produto": "Controlador com fio Advantage - Interruptor de controle com fio 2 cores preto - R$ 159",
+   "loja": "",
+   "preco": 159.0,
+   "precoDe": 249.0,
+   "precoComCupom": 135.0,
+   "desconto": 36,
+   "cupom": "OFICIAIS1711",
+   "cupomTexto": "",
+   "url": "https://meli.la/2b5V4j6",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_803119-MLA96322355465_102025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-17 13:01:09"
+  },
+  {
+   "id": "p6597",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.139",
+   "loja": "",
+   "preco": 1139.0,
+   "precoDe": 1519.0,
+   "precoComCupom": 992.0,
+   "desconto": 25,
+   "cupom": "OFFHOJENOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/13dS6US",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-17 12:57:58"
+  },
+  {
+   "id": "p19474",
+   "plataforma": "mercadolivre",
+   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
+   "loja": "",
+   "preco": 357.99,
+   "precoDe": 397.77,
+   "precoComCupom": 322.0,
+   "desconto": 10,
+   "cupom": "OFFHOJENOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1qS2vs3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939075-MLB121322691115_112026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-17 12:50:22"
+  },
+  {
+   "id": "p19897",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Sem Fio Razer Viper V3 Hyperspeed 30000 Dpi - R$ 366,66",
+   "loja": "",
+   "preco": 366.66,
+   "precoDe": null,
+   "precoComCupom": 329.0,
+   "desconto": null,
+   "cupom": "OFFHOJENOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2iHfDEy",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_827900-MLB121701162671_112026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-17 12:41:16"
+  },
   {
    "id": "p19809",
    "plataforma": "mercadolivre",
@@ -723,22 +787,6 @@
    "visto": "2026-11-17 10:45:15"
   },
   {
-   "id": "p20647",
-   "plataforma": "mercadolivre",
-   "produto": "Controlador com fio Advantage - Interruptor de controle com fio 2 cores preto - R$ 159",
-   "loja": "",
-   "preco": 159.0,
-   "precoDe": 249.0,
-   "precoComCupom": 143.0,
-   "desconto": 36,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2b5V4j6",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_803119-MLA96322355465_102025-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-17 10:41:25"
-  },
-  {
    "id": "p21924",
    "plataforma": "mercadolivre",
    "produto": "Monitor Gamer Curvo Samsung Odyssey 34 G5 165 Hz 1ms Ultraw Preto 127/220v - R$ 1.926",
@@ -1219,22 +1267,6 @@
    "visto": "2026-11-17 09:26:31"
   },
   {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.103",
-   "loja": "",
-   "preco": 1103.0,
-   "precoDe": 1519.0,
-   "precoComCupom": 992.0,
-   "desconto": 27,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-17 09:24:21"
-  },
-  {
    "id": "p21630",
    "plataforma": "mercadolivre",
    "produto": "Playstation 5 Edição Digital 825gb 1 Controle Branco Sony Branco - R$ 4.262",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_714951-MLB115095056418_082026-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-17 09:22:15"
-  },
-  {
-   "id": "p6617",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Philips Evnia 27'' Ips 144Hz 0.5ms Fhd27m2n3200nf Preto - R$ 587,88",
-   "loja": "",
-   "preco": 587.88,
-   "precoDe": 1120.0,
-   "precoComCupom": 529.0,
-   "desconto": 48,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/27VkGvq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_997395-MLA114299889989_072026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-17 09:20:32"
-  },
-  {
-   "id": "p21034",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Asus Tuf Gaming 27 Full Hd 260hz Ips 0,3ms Preto 127/220v - R$ 1.047",
-   "loja": "",
-   "preco": 1047.0,
-   "precoDe": 1244.0,
-   "precoComCupom": 942.0,
-   "desconto": 16,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/25mFMy8",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_637995-MLB118569934163_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-17 09:18:37"
   }
  ]
 }
