@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-17 20:06:16",
+ "atualizado": "2026-11-17 20:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6617",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Philips Evnia 27'' Ips 144Hz 0.5ms Fhd27m2n3200nf Preto - R$ 558,90",
+   "loja": "",
+   "preco": 558.9,
+   "precoDe": 1149.0,
+   "precoComCupom": 529.0,
+   "desconto": 51,
+   "cupom": "OFFHOJENOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/27VkGvq",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_997395-MLA114299889989_072026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-17 20:20:32"
+  },
+  {
+   "id": "p6611",
+   "plataforma": "mercadolivre",
+   "produto": "SSD Kingston NV3 1TB M.2 2280 PCIe 4.0 NVMe 6000 MB/s - R$ 1.134",
+   "loja": "",
+   "preco": 1134.0,
+   "precoDe": null,
+   "precoComCupom": 970.0,
+   "desconto": null,
+   "cupom": "OFFHOJENOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2x5KqEW",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_930129-MLU78451929490_082024-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-17 20:11:37"
+  },
   {
    "id": "p20452",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_684905-MLA106055190360_022026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-17 12:11:11"
-  },
-  {
-   "id": "p19277",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700 4.6GHz 8 Núcleos 16 Threads AM4 - R$ 959",
-   "loja": "",
-   "preco": 959.0,
-   "precoDe": 1199.0,
-   "precoComCupom": 837.0,
-   "desconto": 20,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/11ppCR2",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_632453-MLU74333182627_012024-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-17 12:05:59"
-  },
-  {
-   "id": "p19999",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG FHD Gamer & Office tela IPS 27”, 1ms (MBR), 144Hz Nativo, FreeSync, HDR10, sRGB, Modo leitura, Flicker Safe, HDMI, Black Stabiliz",
-   "loja": "",
-   "preco": 668.33,
-   "precoDe": 799.0,
-   "precoComCupom": 601.0,
-   "desconto": 16,
-   "cupom": "OFFHOJEMELI",
-   "cupomTexto": "",
-   "url": "https://meli.la/2YkgE3H",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_608077-MLA119592722277_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-17 12:02:18"
   }
  ]
 }
