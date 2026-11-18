@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-18 07:36:16",
+ "atualizado": "2026-11-18 08:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19539",
+   "plataforma": "mercadolivre",
+   "produto": "Regua Rack 19 Filtro Linha 10a 12 Tomadas Extensão Elétrica - Preto - Com Chave De Proteção Eletrônica Max Amper - R$ 58,89",
+   "loja": "",
+   "preco": 58.89,
+   "precoDe": 69.99,
+   "precoComCupom": null,
+   "desconto": 16,
+   "cupom": "CPAMD19",
+   "cupomTexto": "",
+   "url": "https://meli.la/2xBj8FY",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_975508-MLA99583731628_122025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-18 08:31:59"
+  },
   {
    "id": "p21727",
    "plataforma": "shopee",
@@ -1025,22 +1041,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_979248-MLA113556229593_062026-P.webp",
    "emoji": "💻",
    "visto": "2026-11-17 14:41:22"
-  },
-  {
-   "id": "p19539",
-   "plataforma": "mercadolivre",
-   "produto": "Regua Rack 19 Filtro Linha 10a 12 Tomadas Extensão Elétrica - Preto - Com Chave De Proteção Eletrônica Max Amper - R$ 58,89",
-   "loja": "",
-   "preco": 58.89,
-   "precoDe": 69.99,
-   "precoComCupom": null,
-   "desconto": 16,
-   "cupom": "CPAMD19",
-   "cupomTexto": "",
-   "url": "https://meli.la/2xBj8FY",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_975508-MLA99583731628_122025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-17 14:34:18"
   },
   {
    "id": "p19781",
