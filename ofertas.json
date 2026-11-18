@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-18 12:06:16",
+ "atualizado": "2026-11-18 12:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15652",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G42 24\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 24G42HE - R$ 699",
+   "loja": "",
+   "preco": 699.0,
+   "precoDe": 899.0,
+   "precoComCupom": null,
+   "desconto": 22,
+   "cupom": "OFERTADEHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/28PpTRe",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_823080-MLA96841800247_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-18 12:22:16"
+  },
+  {
+   "id": "p20854",
+   "plataforma": "shopee",
+   "produto": "Celular Apple iPhone 18 Pro e 18 Pro Max 256GB 512GB 5G NFC com Nota Fiscal Lançamento Envio Imediato",
+   "loja": "DiskPhoneStore",
+   "preco": 9800.0,
+   "precoDe": 14000.0,
+   "precoComCupom": 8420.0,
+   "desconto": 30,
+   "cupom": "11DO11H0J3",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/2BGY1gvhDk",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m1-muat3wnailmrde",
+   "emoji": "📱",
+   "visto": "2026-11-18 12:09:09"
+  },
+  {
+   "id": "p6805",
+   "plataforma": "mercadolivre",
+   "produto": "Grand Theft Auto VI - PlayStation 5 - R$ 499",
+   "loja": "",
+   "preco": 499.0,
+   "precoDe": null,
+   "precoComCupom": 371.0,
+   "desconto": null,
+   "cupom": "CORREHOJEPROML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1LwkLgE",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_639067-MLA114816196520_082026-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-18 12:08:25"
+  },
   {
    "id": "p6597",
    "plataforma": "mercadolivre",
@@ -161,22 +209,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-81z1k-mh6ptdn29s04bf",
    "emoji": "🎮",
    "visto": "2026-11-18 11:27:29"
-  },
-  {
-   "id": "p6805",
-   "plataforma": "mercadolivre",
-   "produto": "Grand Theft Auto VI - PlayStation 5 - R$ 599,90",
-   "loja": "",
-   "preco": 599.9,
-   "precoDe": null,
-   "precoComCupom": 371.0,
-   "desconto": null,
-   "cupom": "CORREHOJEPROML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1LwkLgE",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_639067-MLA114816196520_082026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-18 11:22:26"
   },
   {
    "id": "p21599",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/br-11134207-820lx-mvddcyuthgqrdc",
    "emoji": "📱",
    "visto": "2026-11-18 08:42:23"
-  },
-  {
-   "id": "p15533",
-   "plataforma": "shopee",
-   "produto": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
-   "loja": "123 Comprou!",
-   "preco": 548.9,
-   "precoDe": 1076.27,
-   "precoComCupom": 473.96,
-   "desconto": 49,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/30pbqsi5mM",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-821fj-mgmb5t82svf026",
-   "emoji": "🖥️",
-   "visto": "2026-11-18 08:39:30"
-  },
-  {
-   "id": "p19959",
-   "plataforma": "shopee",
-   "produto": "Processador AMD Ryzen 5 7600X, 4.7GHz (5.3GHz Max Turbo), Cache 38MB, 6 Núcleos, 12 Threads, AM5, Com Vídeo Integrado",
-   "loja": "Distribuidor Ryzen AMD",
-   "preco": 1071.9,
-   "precoDe": 1082.73,
-   "precoComCupom": 875.0,
-   "desconto": 1,
-   "cupom": "11DO11TECH",
-   "cupomTexto": "",
-   "url": "https://s.shopee.com.br/1C3D6dwSE",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lj-msypyhgm7jet16",
-   "emoji": "📦",
-   "visto": "2026-11-18 08:36:30"
   }
  ]
 }
