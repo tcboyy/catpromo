@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-19 00:35:47",
+ "atualizado": "2026-11-19 01:05:49",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21711",
+   "plataforma": "mercadolivre",
+   "produto": "Notebook Gamer Acer Nitro V16 ANV16-I31-58MM Intel Core 5 210H 8GB RAM 512GB SSD RTX 5060 Linux 16\" WUXGA - R$ 6.999",
+   "loja": "",
+   "preco": 6999.0,
+   "precoDe": 9999.0,
+   "precoComCupom": 6599.0,
+   "desconto": 30,
+   "cupom": "MELHORDOTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2K1FK8w",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_955397-MLA120803271773_112026-P.webp",
+   "emoji": "💻",
+   "visto": "2026-11-19 00:39:46"
+  },
   {
    "id": "p20518",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_907176-MLA107808596662_032026-P.webp",
    "emoji": "📱",
    "visto": "2026-11-18 15:55:07"
-  },
-  {
-   "id": "p15506",
-   "plataforma": "mercadolivre",
-   "produto": "Akko Tac75 He Teclado Magnético Rapid Trigger 75% Rgb Preto - R$ 329",
-   "loja": "",
-   "preco": 329.0,
-   "precoDe": 379.0,
-   "precoComCupom": 242.0,
-   "desconto": 13,
-   "cupom": "CUPOMTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2fRbkeP",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_779595-MLA116996889213_082026-P.webp",
-   "emoji": "⌨️",
-   "visto": "2026-11-18 15:50:20"
   }
  ]
 }
