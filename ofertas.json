@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-18 23:05:16",
+ "atualizado": "2026-11-18 23:36:14",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6569",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gigabyte Gs24f14 23.8 Pol Full Hd Ips 144hz 1ms - R$ 524,39",
+   "loja": "",
+   "preco": 524.39,
+   "precoDe": 799.0,
+   "precoComCupom": 484.0,
+   "desconto": 34,
+   "cupom": "SITETODO1811",
+   "cupomTexto": "",
+   "url": "https://meli.la/2rxtSPy",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_872401-MLA113528429319_062026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-18 23:24:16"
+  },
+  {
+   "id": "p20462",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Escritório Ergonômica Genebra Luvinco Cor Cinza Escuro Com Suporte Lombar Estofado Mesh - R$ 528,47",
+   "loja": "",
+   "preco": 528.47,
+   "precoDe": 705.77,
+   "precoComCupom": 500.0,
+   "desconto": 25,
+   "cupom": "VEMHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/237Hm7p",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_956435-MLA112330695079_052026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-18 23:12:21"
+  },
   {
    "id": "p20725",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_822468-MLB117410176896_102026-P.webp",
    "emoji": "💾",
    "visto": "2026-11-18 15:01:40"
-  },
-  {
-   "id": "p19785",
-   "plataforma": "mercadolivre",
-   "produto": "Ssd 1tb Western Digital Green Sn350 Nvme, Gen3, M.2 2280 Azul - R$ 972,90",
-   "loja": "",
-   "preco": 972.9,
-   "precoDe": null,
-   "precoComCupom": 824.0,
-   "desconto": null,
-   "cupom": "OFFHOJEMELI",
-   "cupomTexto": "",
-   "url": "https://meli.la/1KPvuaL",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_932631-MLA96073227449_102025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-18 14:57:57"
-  },
-  {
-   "id": "p21250",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Aoc 23,8 Full Hd 144hz Agon G50 0,5ms Preto Bivolt - R$ 517,44",
-   "loja": "",
-   "preco": 517.44,
-   "precoDe": 539.0,
-   "precoComCupom": 465.0,
-   "desconto": 4,
-   "cupom": "DIADATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2L6F1Dj",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_739846-MLB121689431179_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-18 14:50:16"
   }
  ]
 }
