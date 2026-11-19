@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-19 01:05:49",
+ "atualizado": "2026-11-19 08:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21967",
+   "plataforma": "mercadolivre",
+   "produto": "Power Bank 10000 mah Turbo 22.5w Carregador Portátil Display Digital Usb C Universal iPhone Samsung Xiaomi Motorola Audiophile - R$ 64,89",
+   "loja": "",
+   "preco": 64.89,
+   "precoDe": 139.0,
+   "precoComCupom": null,
+   "desconto": 53,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1juzAxe",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_851625-MLA111650159287_052026-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-19 07:55:15"
+  },
   {
    "id": "p21711",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_655310-MLA99524005620_122025-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-18 16:01:22"
-  },
-  {
-   "id": "p21958",
-   "plataforma": "mercadolivre",
-   "produto": "Smartphone OPPO A6t 128gb, 12gb Ram (4gb + 8gb Virtual Ram), Bateria Gigante de 6500mAh, Processador Snapdragon, Tela 120Hz, AI Câmera, IP64",
-   "loja": "",
-   "preco": 833.52,
-   "precoDe": 1299.0,
-   "precoComCupom": null,
-   "desconto": 36,
-   "cupom": "FULL1811ENTREGAS",
-   "cupomTexto": "",
-   "url": "https://meli.la/11b2fJD",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_907176-MLA107808596662_032026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-18 15:55:07"
   }
  ]
 }
