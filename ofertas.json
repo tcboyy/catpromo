@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-19 08:06:16",
+ "atualizado": "2026-11-19 09:06:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6692",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 483,65",
+   "loja": "",
+   "preco": 483.65,
+   "precoDe": 740.0,
+   "precoComCupom": 433.0,
+   "desconto": 35,
+   "cupom": "ELETROTECHML",
+   "cupomTexto": "",
+   "url": "https://meli.la/15Wgjyk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-19 09:05:09"
+  },
+  {
+   "id": "p20928",
+   "plataforma": "mercadolivre",
+   "produto": "Memória RAM DDR4 16GB 3200MHz Hiksemi Future DIMM Preto Gamer - R$ 863,91",
+   "loja": "",
+   "preco": 863.91,
+   "precoDe": 1144.0,
+   "precoComCupom": 777.0,
+   "desconto": 24,
+   "cupom": "CORREHOJEPROML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2xoUSWm",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_855718-MLU78264055354_082024-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-19 08:57:42"
+  },
   {
    "id": "p21967",
    "plataforma": "mercadolivre",
@@ -321,22 +353,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_953794-MLA121685511273_112026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-18 22:01:16"
-  },
-  {
-   "id": "p6692",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 525,60",
-   "loja": "",
-   "preco": 525.6,
-   "precoDe": 763.89,
-   "precoComCupom": 435.0,
-   "desconto": 31,
-   "cupom": "DIADATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/15Wgjyk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-18 21:50:16"
   },
   {
    "id": "p6805",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_929601-MLA99994006017_112025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-18 16:04:19"
-  },
-  {
-   "id": "p19770",
-   "plataforma": "mercadolivre",
-   "produto": "Headset Gamer Havit H2015se Drivers 53mm Microfone Removivel Preto - R$ 124",
-   "loja": "",
-   "preco": 124.0,
-   "precoDe": 169.0,
-   "precoComCupom": 101.0,
-   "desconto": 27,
-   "cupom": "SEMPREPROMO",
-   "cupomTexto": "",
-   "url": "https://meli.la/2DAozSn",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_655310-MLA99524005620_122025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-18 16:01:22"
   }
  ]
 }
