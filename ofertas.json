@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-18 21:35:16",
+ "atualizado": "2026-11-18 22:05:40",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15428",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G40 27\", 240 Hz, 1ms, ajuste de altura, Gsync, Freesync,HDMI, DP, FHD, Preto - R$ 1.403",
+   "loja": "",
+   "preco": 1403.0,
+   "precoDe": 2750.0,
+   "precoComCupom": 936.0,
+   "desconto": 49,
+   "cupom": "CORREHOJEPROML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2nUGfEU",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_953794-MLA121685511273_112026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-18 22:01:16"
+  },
+  {
+   "id": "p6692",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 525,60",
+   "loja": "",
+   "preco": 525.6,
+   "precoDe": 763.89,
+   "precoComCupom": 435.0,
+   "desconto": 31,
+   "cupom": "DIADATECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/15Wgjyk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-18 21:50:16"
+  },
+  {
+   "id": "p6805",
+   "plataforma": "mercadolivre",
+   "produto": "Grand Theft Auto VI - PlayStation 5 - R$ 417,57",
+   "loja": "",
+   "preco": 417.57,
+   "precoDe": 499.0,
+   "precoComCupom": 371.0,
+   "desconto": 16,
+   "cupom": "CORREHOJEPROML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1LwkLgE",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_639067-MLA114816196520_082026-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-18 21:41:16"
+  },
   {
    "id": "p21855",
    "plataforma": "mercadolivre",
@@ -771,22 +819,6 @@
    "visto": "2026-11-18 16:37:38"
   },
   {
-   "id": "p6692",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 483,65",
-   "loja": "",
-   "preco": 483.65,
-   "precoDe": 740.0,
-   "precoComCupom": 435.0,
-   "desconto": 35,
-   "cupom": "DIADATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/15Wgjyk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-18 16:36:15"
-  },
-  {
    "id": "p15393",
    "plataforma": "mercadolivre",
    "produto": "Water Cooler Kalkan Aura Digital 360mm Argb Tela Lcd Preto - R$ 247,38",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_927689-MLB116613744105_082026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-18 13:56:40"
-  },
-  {
-   "id": "p21147",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Para Escritorio Zinnia Aurea A160 Tampo De Madeira160cm - R$ 540",
-   "loja": "",
-   "preco": 540.0,
-   "precoDe": 776.46,
-   "precoComCupom": 460.0,
-   "desconto": 30,
-   "cupom": "OFFHOJEML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1seJ6vQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_731534-MLU76682000542_062024-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-18 13:52:16"
-  },
-  {
-   "id": "p21955",
-   "plataforma": "mercadolivre",
-   "produto": "Smartphone Motorola Edge 70 Fusion 5g Fifa World Cup Collection - 256gb 8gb Ram + 16gb Ram Boost, Camera 50mp Sony Lytia 710, Tela 1.5k Extr",
-   "loja": "",
-   "preco": 1889.0,
-   "precoDe": 3799.0,
-   "precoComCupom": null,
-   "desconto": 50,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1HbLmku",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_675745-MLA111332756891_052026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-18 13:51:33"
   }
  ]
 }
