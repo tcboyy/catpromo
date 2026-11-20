@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-20 18:36:16",
+ "atualizado": "2026-11-20 19:05:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19474",
+   "plataforma": "mercadolivre",
+   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
+   "loja": "",
+   "preco": 357.99,
+   "precoDe": 397.77,
+   "precoComCupom": 304.0,
+   "desconto": 10,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/1qS2vs3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_625287-MLB120102215036_112026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-20 19:01:09"
+  },
+  {
+   "id": "p19578",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE - R$ 789",
+   "loja": "",
+   "preco": 789.0,
+   "precoDe": 1049.0,
+   "precoComCupom": 785.0,
+   "desconto": 25,
+   "cupom": "MELHORPROMOHJ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2wsxDwL",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662776-MLA96607684177_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-20 18:48:08"
+  },
+  {
+   "id": "p6643",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 144,90",
+   "loja": "",
+   "preco": 144.9,
+   "precoDe": 209.0,
+   "precoComCupom": null,
+   "desconto": 31,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Dqv1ef",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-20 18:37:52"
+  },
   {
    "id": "p6415",
    "plataforma": "mercadolivre",
@@ -579,22 +627,6 @@
    "visto": "2026-11-20 14:17:04"
   },
   {
-   "id": "p6643",
-   "plataforma": "mercadolivre",
-   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 144,90",
-   "loja": "",
-   "preco": 144.9,
-   "precoDe": 209.0,
-   "precoComCupom": null,
-   "desconto": 31,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Dqv1ef",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-20 14:14:07"
-  },
-  {
    "id": "p21412",
    "plataforma": "mercadolivre",
    "produto": "Mouse Gamer Sem Fio Logitech G Series Lightspeed G305 Preto - R$ 167",
@@ -625,22 +657,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_851016-MLB116174445930_092026-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-20 13:56:25"
-  },
-  {
-   "id": "p19474",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
-   "loja": "",
-   "preco": 357.99,
-   "precoDe": 397.77,
-   "precoComCupom": 304.0,
-   "desconto": 10,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/1qS2vs3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_625287-MLB120102215036_112026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-20 13:48:12"
   },
   {
    "id": "p19785",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_994947-MLB119283318025_102026-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-20 10:45:16"
-  },
-  {
-   "id": "p21993",
-   "plataforma": "mercadolivre",
-   "produto": "Bundle Nintendo Switch Oled + Super Mario Bros. Wonder + 3mo Branco - R$ 1.772",
-   "loja": "",
-   "preco": 1772.0,
-   "precoDe": 2892.0,
-   "precoComCupom": 1594.0,
-   "desconto": 39,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2mkeTDa",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_875362-MLB97898699548_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-20 10:42:11"
   }
  ]
 }
