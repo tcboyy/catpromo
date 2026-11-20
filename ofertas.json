@@ -1,7 +1,71 @@
 {
- "atualizado": "2026-11-20 13:36:04",
+ "atualizado": "2026-11-20 14:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21412",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Sem Fio Logitech G Series Lightspeed G305 Preto - R$ 167",
+   "loja": "",
+   "preco": 167.0,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2BFeCBa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939616-MLU69348111837_052023-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-20 14:00:20"
+  },
+  {
+   "id": "p21988",
+   "plataforma": "mercadolivre",
+   "produto": "Grand Theft Auto Vi - Playstation 5 - R$ 359,92",
+   "loja": "",
+   "preco": 359.92,
+   "precoDe": 449.9,
+   "precoComCupom": 279.0,
+   "desconto": 20,
+   "cupom": "GRAND100MP",
+   "cupomTexto": "",
+   "url": "https://meli.la/2ovA37L",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_851016-MLB116174445930_092026-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-20 13:56:25"
+  },
+  {
+   "id": "p19474",
+   "plataforma": "mercadolivre",
+   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
+   "loja": "",
+   "preco": 357.99,
+   "precoDe": 397.77,
+   "precoComCupom": 304.0,
+   "desconto": 10,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/1qS2vs3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_625287-MLB120102215036_112026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-20 13:48:12"
+  },
+  {
+   "id": "p19785",
+   "plataforma": "mercadolivre",
+   "produto": "Ssd 1tb Western Digital Green Sn350 Nvme, Gen3, M.2 2280 Azul - R$ 973,75",
+   "loja": "",
+   "preco": 973.75,
+   "precoDe": 1025.0,
+   "precoComCupom": 876.0,
+   "desconto": 5,
+   "cupom": "INOVATECHML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1KPvuaL",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_932631-MLA96073227449_102025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-20 13:41:24"
+  },
   {
    "id": "p22004",
    "plataforma": "mercadolivre",
@@ -433,22 +497,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_963489-MLB120014252913_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-20 11:41:11"
-  },
-  {
-   "id": "p21988",
-   "plataforma": "mercadolivre",
-   "produto": "Grand Theft Auto Vi - Playstation 5 - R$ 359,92",
-   "loja": "",
-   "preco": 359.92,
-   "precoDe": 449.9,
-   "precoComCupom": 323.0,
-   "desconto": 20,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2ovA37L",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_851016-MLB116174445930_092026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-20 11:30:14"
   },
   {
    "id": "p15308",
@@ -915,22 +963,6 @@
    "visto": "2026-11-20 10:01:53"
   },
   {
-   "id": "p19785",
-   "plataforma": "mercadolivre",
-   "produto": "Ssd 1tb Western Digital Green Sn350 Nvme, Gen3, M.2 2280 Azul - R$ 973,75",
-   "loja": "",
-   "preco": 973.75,
-   "precoDe": 1025.0,
-   "precoComCupom": 876.0,
-   "desconto": 5,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1KPvuaL",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_932631-MLA96073227449_102025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-20 09:59:14"
-  },
-  {
    "id": "p15904",
    "plataforma": "mercadolivre",
    "produto": "Carregador Power Bank sem fio Samsung | Potência de 45 W | 20.000 mAh | Cor bege | Carregamento super rápido 2.0 - R$ 229",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_953794-MLA121685511273_112026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-20 09:16:16"
-  },
-  {
-   "id": "p20817",
-   "plataforma": "mercadolivre",
-   "produto": "SSD Kingston NV3 1 TB M.2 NVMe 4.0 para PC e Notebook - R$ 1.059",
-   "loja": "",
-   "preco": 1059.0,
-   "precoDe": null,
-   "precoComCupom": 954.0,
-   "desconto": null,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1wudz1t",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_795231-MLA110113051682_042026-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-20 09:15:13"
-  },
-  {
-   "id": "p15610",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira de Escritório Presidente NR17 120kg Ergonômica Giratória com Tela Mesh Columbus HomeNow Cor Preto - R$ 399",
-   "loja": "",
-   "preco": 399.0,
-   "precoDe": 659.0,
-   "precoComCupom": 329.0,
-   "desconto": 39,
-   "cupom": "SITETODO2011",
-   "cupomTexto": "",
-   "url": "https://meli.la/1z4t2oC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651752-MLA95643261450_102025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-20 09:09:02"
   }
  ]
 }
