@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-19 20:36:16",
+ "atualizado": "2026-11-19 21:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15213",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira De Escritório Ergonômica Giratória B100 Boston Preta Laudo NR-17 Com Estofado Mesh Com Ajuste Lombar Luvinco - R$ 499,90",
+   "loja": "",
+   "preco": 499.9,
+   "precoDe": 588.12,
+   "precoComCupom": 429.0,
+   "desconto": 15,
+   "cupom": "SEMPREOFF",
+   "cupomTexto": "",
+   "url": "https://meli.la/1vzJr9u",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_995819-MLA97023751053_112025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-19 21:00:39"
+  },
+  {
+   "id": "p15457",
+   "plataforma": "mercadolivre",
+   "produto": "Webcam Camera Full Hd Zoom 1080p 360 Graus Videoconferencia Streamcam Web Cam Entrada Usb 2.0 Com Microfone- GoodVision - R$ 36,70",
+   "loja": "",
+   "preco": 36.7,
+   "precoDe": 78.0,
+   "precoComCupom": null,
+   "desconto": 53,
+   "cupom": "COMPRANOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2QiU6iV",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_807092-MLA100966388363_122025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-19 20:53:22"
+  },
+  {
+   "id": "p6597",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.399",
+   "loja": "",
+   "preco": 1399.0,
+   "precoDe": 2153.0,
+   "precoComCupom": 992.0,
+   "desconto": 35,
+   "cupom": "FULL1811ENTREGAS",
+   "cupomTexto": "",
+   "url": "https://meli.la/13dS6US",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-19 20:41:13"
+  },
   {
    "id": "p21060",
    "plataforma": "mercadolivre",
@@ -947,22 +995,6 @@
    "visto": "2026-11-19 14:59:01"
   },
   {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.138",
-   "loja": "",
-   "preco": 1138.0,
-   "precoDe": 1499.0,
-   "precoComCupom": 992.0,
-   "desconto": 24,
-   "cupom": "FULL1811ENTREGAS",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-19 14:41:13"
-  },
-  {
    "id": "p21981",
    "plataforma": "mercadolivre",
    "produto": "Teclado Bluetooth Recarregável Hrebos Lyra Slim P/ Tablet Cinza-escuro - R$ 289,90",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_744601-MLA99934274785_112025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-19 13:03:57"
-  },
-  {
-   "id": "p19588",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor AOC 27\" 120Hz 1ms Gaming IPS Adaptive-Sync 27B35H Preto - R$ 579",
-   "loja": "",
-   "preco": 579.0,
-   "precoDe": 819.0,
-   "precoComCupom": 539.0,
-   "desconto": 29,
-   "cupom": "LOJASOFICIAIS1911",
-   "cupomTexto": "",
-   "url": "https://meli.la/2P1JQZY",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_627111-MLA108909549606_032026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-19 12:59:10"
-  },
-  {
-   "id": "p15470",
-   "plataforma": "mercadolivre",
-   "produto": "Fones de ouvido para jogos sem fio Redragon H510-PRO H510-PRO pretos com luz LED - R$ 271,79",
-   "loja": "",
-   "preco": 271.79,
-   "precoDe": 489.66,
-   "precoComCupom": 254.0,
-   "desconto": 44,
-   "cupom": "DESCONTAOMELI",
-   "cupomTexto": "",
-   "url": "https://meli.la/1CyAnr2",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685800-MLA95634757877_102025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-19 12:45:53"
   }
  ]
 }
