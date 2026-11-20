@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-20 00:06:16",
+ "atualizado": "2026-11-20 00:35:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19637",
+   "plataforma": "mercadolivre",
+   "produto": "Smart Tv AOC 50'' Roku 4K UHD DLED Wi-Fi Dolby Audio 50U7066 - R$ 1.899",
+   "loja": "",
+   "preco": 1899.0,
+   "precoDe": 2599.0,
+   "precoComCupom": 1799.0,
+   "desconto": 27,
+   "cupom": "TODO2011SITE",
+   "cupomTexto": "",
+   "url": "https://meli.la/25LkXPA",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_817676-MLA115644044060_092026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-20 00:17:46"
+  },
+  {
+   "id": "p21894",
+   "plataforma": "mercadolivre",
+   "produto": "Impressora 3D Bambu Lab A1 Combo AMS Lite Bivolt - R$ 3.571",
+   "loja": "",
+   "preco": 3571.0,
+   "precoDe": 6207.0,
+   "precoComCupom": 3403.0,
+   "desconto": 42,
+   "cupom": "TODO2011SITE",
+   "cupomTexto": "",
+   "url": "https://meli.la/27vY1U3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_655688-MLA108658783524_032026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-20 00:17:00"
+  },
+  {
+   "id": "p15243",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Tcl 25 Polegadas Qd-Mini Led Full Hd G64 300hz 1ms (Gtg) Freesync Hdr 600 Nits 25g64 - R$ 1.099",
+   "loja": "",
+   "preco": 1099.0,
+   "precoDe": 2300.0,
+   "precoComCupom": 999.0,
+   "desconto": 52,
+   "cupom": "TODO2011SITE",
+   "cupomTexto": "",
+   "url": "https://meli.la/14dBmbe",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_994730-MLA115998386538_092026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-20 00:14:12"
+  },
   {
    "id": "p19538",
    "plataforma": "mercadolivre",
@@ -963,22 +1011,6 @@
    "visto": "2026-11-19 16:59:54"
   },
   {
-   "id": "p15243",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Tcl 25 Polegadas Qd-Mini Led Full Hd G64 300hz 1ms (Gtg) Freesync Hdr 600 Nits 25g64 - R$ 1.099",
-   "loja": "",
-   "preco": 1099.0,
-   "precoDe": 2199.0,
-   "precoComCupom": 989.0,
-   "desconto": 50,
-   "cupom": "ELETROTECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/14dBmbe",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_994730-MLA115998386538_092026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-19 16:51:02"
-  },
-  {
    "id": "p6804",
    "plataforma": "mercadolivre",
    "produto": "Memória Ram 8gb Ddr4 | Rise Mode | 3200mhz | Z Series Preto - R$ 449,99",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_662776-MLA96607684177_102025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-19 15:09:13"
-  },
-  {
-   "id": "p20945",
-   "plataforma": "shopee",
-   "produto": "Soundbar JBL Bluetooth, Cinema SB180, 2.1 Canais, Subwoofer de 6,5\" Sem Fio 110W RMS",
-   "loja": "TNTinfoLoja",
-   "preco": 859.99,
-   "precoDe": 1303.02,
-   "precoComCupom": 699.0,
-   "desconto": 34,
-   "cupom": "P1XDAY15AF",
-   "cupomTexto": "",
-   "url": "https://s.shopee.com.br/1LhSp5afjm",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8261o-mmbuxr8tvxfm4d",
-   "emoji": "🎧",
-   "visto": "2026-11-19 15:04:27"
-  },
-  {
-   "id": "p21982",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mãe Asus B650m Ayw Wi-fi B650 Amd Am5 Ddr5 Matx Cinza-escuro - R$ 799",
-   "loja": "",
-   "preco": 799.0,
-   "precoDe": 1284.0,
-   "precoComCupom": null,
-   "desconto": 38,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2MAsbKq",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_711855-MLA100039534581_122025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-19 15:01:57"
   }
  ]
 }
