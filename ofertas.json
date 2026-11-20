@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-20 14:36:17",
+ "atualizado": "2026-11-20 15:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21030",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Ram Gamer 16gb Ddr4 3200mhz Udimm Para Pc - R$ 717,25",
+   "loja": "",
+   "preco": 717.25,
+   "precoDe": 755.0,
+   "precoComCupom": 695.0,
+   "desconto": 5,
+   "cupom": "TODOSITE1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/29nxiKF",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_893919-MLB118706316033_102026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-20 15:01:07"
+  },
+  {
+   "id": "p6644",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 - R$ 627,83",
+   "loja": "",
+   "preco": 627.83,
+   "precoDe": 965.9,
+   "precoComCupom": 575.0,
+   "desconto": 35,
+   "cupom": "INOVATECHML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CAGPWa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-20 14:47:07"
+  },
+  {
+   "id": "p21147",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Para Escritorio Zinnia Aurea A160 Tampo De Madeira160cm - R$ 540",
+   "loja": "",
+   "preco": 540.0,
+   "precoDe": 776.46,
+   "precoComCupom": 460.0,
+   "desconto": 30,
+   "cupom": "OFFHOJEML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1seJ6vQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_731534-MLU76682000542_062024-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-20 14:37:04"
+  },
   {
    "id": "p21806",
    "plataforma": "mercadolivre",
@@ -931,22 +979,6 @@
    "visto": "2026-11-20 10:21:56"
   },
   {
-   "id": "p6644",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 - R$ 639",
-   "loja": "",
-   "preco": 639.0,
-   "precoDe": 699.0,
-   "precoComCupom": 575.0,
-   "desconto": 9,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1CAGPWa",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-20 10:18:18"
-  },
-  {
    "id": "p21968",
    "plataforma": "mercadolivre",
    "produto": "Smartphone Motorola Moto G Max 5g - 256gb 8gb Ram, Câmera 200mp, Ois, Tela 1.5k Extreme Amoled 120hz, Ip68 E Ip69 - Grafite - R$ 1.599",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_803119-MLA96322355465_102025-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-20 09:27:17"
-  },
-  {
-   "id": "p20934",
-   "plataforma": "mercadolivre",
-   "produto": "Memória Desktop Puskill Killblade Ddr4 16gb 2666mhz Cl19 - R$ 735",
-   "loja": "",
-   "preco": 735.0,
-   "precoDe": 980.0,
-   "precoComCupom": 661.0,
-   "desconto": 25,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qeY4yJ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLU78861210813_092024-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-20 09:25:04"
-  },
-  {
-   "id": "p21575",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Tcl 24 Mini Led 24g54 Fhd 100hz branco - R$ 809",
-   "loja": "",
-   "preco": 809.0,
-   "precoDe": 1899.0,
-   "precoComCupom": 728.0,
-   "desconto": 57,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2rQeeoQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_655276-MLA107340950895_022026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-20 09:24:39"
   }
  ]
 }
