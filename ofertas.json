@@ -1,7 +1,71 @@
 {
- "atualizado": "2026-11-20 11:05:16",
+ "atualizado": "2026-11-20 11:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21988",
+   "plataforma": "mercadolivre",
+   "produto": "Grand Theft Auto Vi - Playstation 5 - R$ 359,92",
+   "loja": "",
+   "preco": 359.92,
+   "precoDe": 449.9,
+   "precoComCupom": 323.0,
+   "desconto": 20,
+   "cupom": "INOVATECHML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2ovA37L",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_851016-MLB116174445930_092026-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-20 11:30:14"
+  },
+  {
+   "id": "p15308",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 549,90",
+   "loja": "",
+   "preco": 549.9,
+   "precoDe": 906.53,
+   "precoComCupom": 500.0,
+   "desconto": 39,
+   "cupom": "SEMPREOFF",
+   "cupomTexto": "",
+   "url": "https://meli.la/1ZDMAXC",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_764756-MLA96570589252_112025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-20 11:21:59"
+  },
+  {
+   "id": "p15470",
+   "plataforma": "mercadolivre",
+   "produto": "Fones de ouvido para jogos sem fio Redragon H510-PRO H510-PRO pretos com luz LED - R$ 269,10",
+   "loja": "",
+   "preco": 269.1,
+   "precoDe": 489.66,
+   "precoComCupom": 254.0,
+   "desconto": 45,
+   "cupom": "DESCONTAOMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CyAnr2",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685800-MLA95634757877_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-20 11:21:13"
+  },
+  {
+   "id": "p21972",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Para Escritório Diretor 1,80m Dynamica Cor Nogal / Est.Preta - R$ 323",
+   "loja": "",
+   "preco": 323.0,
+   "precoDe": 677.03,
+   "precoComCupom": null,
+   "desconto": 52,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2U4z5nj",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_611910-MLA96118096603_102025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-20 11:11:23"
+  },
   {
    "id": "p21486",
    "plataforma": "mercadolivre",
@@ -417,22 +481,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_676842-MLB113401721635_062026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-20 10:07:00"
-  },
-  {
-   "id": "p21988",
-   "plataforma": "mercadolivre",
-   "produto": "Grand Theft Auto Vi - Playstation 5 - R$ 359,92",
-   "loja": "",
-   "preco": 359.92,
-   "precoDe": 449.9,
-   "precoComCupom": 323.0,
-   "desconto": 20,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2ovA37L",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_851016-MLB116174445930_092026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-20 10:06:15"
   },
   {
    "id": "p21624",
@@ -1027,22 +1075,6 @@
    "visto": "2026-11-19 23:24:10"
   },
   {
-   "id": "p15470",
-   "plataforma": "mercadolivre",
-   "produto": "Fones de ouvido para jogos sem fio Redragon H510-PRO H510-PRO pretos com luz LED - R$ 269,10",
-   "loja": "",
-   "preco": 269.1,
-   "precoDe": 489.66,
-   "precoComCupom": 254.0,
-   "desconto": 45,
-   "cupom": "DESCONTAOMELI",
-   "cupomTexto": "",
-   "url": "https://meli.la/1CyAnr2",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685800-MLA95634757877_102025-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-19 23:00:11"
-  },
-  {
    "id": "p21983",
    "plataforma": "mercadolivre",
    "produto": "Memoria Ram Ddr4 16gb 3200mhz Rise Mode Z Rm-d4-16g-3200z - R$ 779,63",
@@ -1105,22 +1137,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_629075-MLA104879398469_012026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-19 22:22:44"
-  },
-  {
-   "id": "p15308",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 549,90",
-   "loja": "",
-   "preco": 549.9,
-   "precoDe": 906.53,
-   "precoComCupom": 500.0,
-   "desconto": 39,
-   "cupom": "SEMPREOFF",
-   "cupomTexto": "",
-   "url": "https://meli.la/1ZDMAXC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_764756-MLA96570589252_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-19 22:14:56"
   },
   {
    "id": "p15530",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_718229-MLA113595305320_072026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-19 20:31:07"
-  },
-  {
-   "id": "p21352",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG FHD Gamer & Office com telaIPS 24”, 1ms (MBR), 144Hz nativo, FreeSync, HDR10, sRGB, Modo leitura, Flicker Safe, HDMI, Black Stabi",
-   "loja": "",
-   "preco": 546.25,
-   "precoDe": 1399.0,
-   "precoComCupom": 473.0,
-   "desconto": 61,
-   "cupom": "OFFHOJENOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1RTGtcT",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_875920-MLA120721604751_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-19 20:14:03"
   }
  ]
 }
