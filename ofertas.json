@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-20 17:36:16",
+ "atualizado": "2026-11-20 18:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15442",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor 27 Aoc Gamer 27b30h3/57, Full Hd, Ips, 120hz, 1ms Cor Preto - R$ 529",
+   "loja": "",
+   "preco": 529.0,
+   "precoDe": 1027.0,
+   "precoComCupom": null,
+   "desconto": 48,
+   "cupom": "TODOSITE1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/1qngL9h",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_828968-MLA100001080083_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-20 18:00:06"
+  },
+  {
+   "id": "p21378",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira De Escritório Ergonômica Giratória B100 Boston Cinza Laudo NR-17 Com Estofado Mesh Com Ajuste Lombar Luvinco - R$ 439,90",
+   "loja": "",
+   "preco": 439.9,
+   "precoDe": 746.12,
+   "precoComCupom": 373.0,
+   "desconto": 41,
+   "cupom": "MOVEIS2011",
+   "cupomTexto": "",
+   "url": "https://meli.la/2cuD7rP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_709765-MLA105292090682_012026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-20 17:48:08"
+  },
   {
    "id": "p6597",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_875362-MLB97898699548_112025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-20 10:42:11"
-  },
-  {
-   "id": "p21997",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Sony Dualsense Adamantium Wolverine Edição Limitada - R$ 464,07",
-   "loja": "",
-   "preco": 464.07,
-   "precoDe": 499.0,
-   "precoComCupom": 417.0,
-   "desconto": 7,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1JztEnH",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_907086-MLB120816608145_112026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-20 10:38:48"
-  },
-  {
-   "id": "p15240",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Phillips 24 Evnia Ips 144hz 0.5ms Wide Fullhd Preto 127/220v - R$ 509,15",
-   "loja": "",
-   "preco": 509.15,
-   "precoDe": 999.98,
-   "precoComCupom": 458.0,
-   "desconto": 49,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1wwMr5V",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_774386-MLA109634002575_032026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-20 10:36:15"
   }
  ]
 }
