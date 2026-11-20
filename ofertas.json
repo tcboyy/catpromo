@@ -1,13 +1,29 @@
 {
- "atualizado": "2026-11-20 16:36:16",
+ "atualizado": "2026-11-20 17:06:16",
  "janelaHoras": 24,
  "ofertas": [
   {
+   "id": "p19222",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira de Escritório Presidente NR17 150kg Ergonômica Giratória com Tela Mesh Toledo HomeNow - R$ 819",
+   "loja": "",
+   "preco": 819.0,
+   "precoDe": 1064.0,
+   "precoComCupom": 632.0,
+   "desconto": 23,
+   "cupom": "MOVEIS2011",
+   "cupomTexto": "",
+   "url": "https://meli.la/1fACHuQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_763692-MLA99940510369_112025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-20 17:03:06"
+  },
+  {
    "id": "p6611",
    "plataforma": "mercadolivre",
-   "produto": "SSD Kingston NV3 1TB M.2 2280 PCIe 4.0 NVMe 6000 MB/s - R$ 1.100",
+   "produto": "SSD Kingston NV3 1TB M.2 2280 PCIe 4.0 NVMe 6000 MB/s - R$ 1.048",
    "loja": "",
-   "preco": 1100.0,
+   "preco": 1048.0,
    "precoDe": null,
    "precoComCupom": 963.0,
    "desconto": null,
@@ -16,7 +32,39 @@
    "url": "https://meli.la/2x5KqEW",
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_930129-MLU78451929490_082024-P.webp",
    "emoji": "💾",
-   "visto": "2026-11-20 16:31:51"
+   "visto": "2026-11-20 16:55:03"
+  },
+  {
+   "id": "p20172",
+   "plataforma": "mercadolivre",
+   "produto": "Mercusys MC210 Câmera Segurança Wifi 2K 3MP 360° por TP-Link - R$ 89,92",
+   "loja": "",
+   "preco": 89.92,
+   "precoDe": 159.9,
+   "precoComCupom": null,
+   "desconto": 44,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1iq1NPZ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_949687-MLA107423093255_022026-P.webp",
+   "emoji": "📷",
+   "visto": "2026-11-20 16:48:42"
+  },
+  {
+   "id": "p21414",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Pad Gamer Apex Control Profissional 49x42 Mousepad - Preto Hezágonos - R$ 67,80",
+   "loja": "",
+   "preco": 67.8,
+   "precoDe": 99.9,
+   "precoComCupom": 59.0,
+   "desconto": 32,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/2csUwi6",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_993600-MLA117027299179_092026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-20 16:45:55"
   },
   {
    "id": "p15658",
@@ -1233,54 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_968009-MLB120477141223_102026-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-20 10:28:39"
-  },
-  {
-   "id": "p15393",
-   "plataforma": "mercadolivre",
-   "produto": "Water Cooler Kalkan Aura Digital 360mm Argb Tela Lcd Preto - R$ 235,49",
-   "loja": "",
-   "preco": 235.49,
-   "precoDe": 290.0,
-   "precoComCupom": 211.0,
-   "desconto": 19,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2EyfwqN",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_845283-MLA120166519336_112026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-20 10:24:14"
-  },
-  {
-   "id": "p21284",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor LG UltraGear - Tela VA FHD 32”, 144Hz nativo, 1ms (MBR), AMD FreeSync, HDR10, sRGB 99%, Preto - 32G403B - R$ 999",
-   "loja": "",
-   "preco": 999.0,
-   "precoDe": 1448.0,
-   "precoComCupom": 899.0,
-   "desconto": 31,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qYYqfy",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_992594-MLA118348137126_102026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-20 10:22:33"
-  },
-  {
-   "id": "p21995",
-   "plataforma": "shopee",
-   "produto": "Smartphone Xiaomi Redmi 17C 4G 8GB RAM 256GB/128GB Tela 6,88\" 120Hz Bateria 5160mAh Global Celular",
-   "loja": "HK vt",
-   "preco": 1289.0,
-   "precoDe": 1302.02,
-   "precoComCupom": 1126.0,
-   "desconto": 1,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/4LL5g5jL1N",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820lz-munrrxmmefi93a",
-   "emoji": "📱",
-   "visto": "2026-11-20 10:21:56"
   }
  ]
 }
