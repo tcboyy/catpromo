@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-20 00:35:16",
+ "atualizado": "2026-11-20 08:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20611",
+   "plataforma": "mercadolivre",
+   "produto": "Carregador de Bateria 12V 6A Bivolt Inteligente Carro Moto Caminhão Automotivo 4Ah a 100Ah Com Função Reparo Display Digital Proteção Carga ",
+   "loja": "",
+   "preco": 39.01,
+   "precoDe": 89.9,
+   "precoComCupom": null,
+   "desconto": 57,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2HJKQe3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_619774-MLA121790428851_112026-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-11-20 08:16:57"
+  },
   {
    "id": "p19637",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_946205-MLB111189948271_052026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-19 15:31:23"
-  },
-  {
-   "id": "p19578",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE - R$ 799,83",
-   "loja": "",
-   "preco": 799.83,
-   "precoDe": 1049.0,
-   "precoComCupom": 785.0,
-   "desconto": 24,
-   "cupom": "MELHORPROMOHJ",
-   "cupomTexto": "",
-   "url": "https://meli.la/2wsxDwL",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662776-MLA96607684177_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-19 15:09:13"
   }
  ]
 }
