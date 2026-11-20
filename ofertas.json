@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-20 18:06:16",
+ "atualizado": "2026-11-20 18:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6415",
+   "plataforma": "mercadolivre",
+   "produto": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto - R$ 91,99",
+   "loja": "",
+   "preco": 91.99,
+   "precoDe": 199.0,
+   "precoComCupom": 76.0,
+   "desconto": 54,
+   "cupom": "VOCE10",
+   "cupomTexto": "",
+   "url": "https://meli.la/1vHjK3c",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_696266-MLA97205822349_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-20 18:24:09"
+  },
+  {
+   "id": "p22009",
+   "plataforma": "mercadolivre",
+   "produto": "Processador Gamer Amd Ryzen 5 5500 6 Núcleos 4.2ghz - R$ 483,65",
+   "loja": "",
+   "preco": 483.65,
+   "precoDe": 740.0,
+   "precoComCupom": null,
+   "desconto": 35,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1SzApt9",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_655990-MLB96262084786_102025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-20 18:12:07"
+  },
   {
    "id": "p15442",
    "plataforma": "mercadolivre",
@@ -321,22 +353,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_994544-MLB111312862178_052026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-20 15:50:13"
-  },
-  {
-   "id": "p22009",
-   "plataforma": "mercadolivre",
-   "produto": "Processador Gamer Amd Ryzen 5 5500 6 Núcleos 4.2ghz - R$ 483,65",
-   "loja": "",
-   "preco": 483.65,
-   "precoDe": 740.0,
-   "precoComCupom": null,
-   "desconto": 35,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1SzApt9",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_655990-MLB96262084786_102025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-20 15:47:06"
   },
   {
    "id": "p15243",
@@ -993,22 +1009,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_651685-MLB115351540288_082026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-20 12:04:13"
-  },
-  {
-   "id": "p6415",
-   "plataforma": "mercadolivre",
-   "produto": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto - R$ 91,99",
-   "loja": "",
-   "preco": 91.99,
-   "precoDe": 199.0,
-   "precoComCupom": 76.0,
-   "desconto": 54,
-   "cupom": "VOCE10",
-   "cupomTexto": "",
-   "url": "https://meli.la/1vHjK3c",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_696266-MLA97205822349_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-20 11:59:45"
   },
   {
    "id": "p15306",
