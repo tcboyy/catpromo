@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-19 22:35:15",
+ "atualizado": "2026-11-19 23:06:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15470",
+   "plataforma": "mercadolivre",
+   "produto": "Fones de ouvido para jogos sem fio Redragon H510-PRO H510-PRO pretos com luz LED - R$ 269,10",
+   "loja": "",
+   "preco": 269.1,
+   "precoDe": 489.66,
+   "precoComCupom": 254.0,
+   "desconto": 45,
+   "cupom": "DESCONTAOMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1CyAnr2",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_685800-MLA95634757877_102025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-19 23:00:11"
+  },
+  {
+   "id": "p21983",
+   "plataforma": "mercadolivre",
+   "produto": "Memoria Ram Ddr4 16gb 3200mhz Rise Mode Z Rm-d4-16g-3200z - R$ 779,63",
+   "loja": "",
+   "preco": 779.63,
+   "precoDe": 1013.0,
+   "precoComCupom": null,
+   "desconto": 23,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2UuEm6k",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_800858-MLB119413175400_112026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-19 22:46:09"
+  },
+  {
+   "id": "p15244",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F Preto - R$ 636,64",
+   "loja": "",
+   "preco": 636.64,
+   "precoDe": 749.0,
+   "precoComCupom": 569.0,
+   "desconto": 15,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/2jbPC3u",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_748152-MLA96322082514_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-19 22:36:14"
+  },
   {
    "id": "p21992",
    "plataforma": "mercadolivre",
@@ -1107,22 +1155,6 @@
    "visto": "2026-11-19 15:31:23"
   },
   {
-   "id": "p21983",
-   "plataforma": "mercadolivre",
-   "produto": "Memoria Ram Ddr4 16gb 3200mhz Rise Mode Z Rm-d4-16g-3200z - R$ 779,63",
-   "loja": "",
-   "preco": 779.63,
-   "precoDe": 1013.0,
-   "precoComCupom": null,
-   "desconto": 23,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2UuEm6k",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_800858-MLB119413175400_112026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-19 15:18:14"
-  },
-  {
    "id": "p19578",
    "plataforma": "mercadolivre",
    "produto": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE - R$ 799,83",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_980568-MLA103002875273_122025-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-19 14:22:47"
-  },
-  {
-   "id": "p15528",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Gamer Redragon King Pro 1K Preto - M916-PRO-1K - R$ 150,88",
-   "loja": "",
-   "preco": 150.88,
-   "precoDe": 336.6,
-   "precoComCupom": null,
-   "desconto": 55,
-   "cupom": "MELIDATADUPLA",
-   "cupomTexto": "",
-   "url": "https://meli.la/2rQTrdu",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_789229-MLA99454988196_112025-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-19 14:12:11"
-  },
-  {
-   "id": "p16141",
-   "plataforma": "mercadolivre",
-   "produto": "Console Sony Playstation 5 Edição Slim Disk 1tb Branco - R$ 4.699",
-   "loja": "",
-   "preco": 4699.0,
-   "precoDe": 5199.0,
-   "precoComCupom": 4254.0,
-   "desconto": 10,
-   "cupom": "MELHORDOTECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2EcgQGG",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_688343-MLA88139322691_072025-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-19 14:09:11"
   }
  ]
 }
