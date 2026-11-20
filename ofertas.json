@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-20 19:36:16",
+ "atualizado": "2026-11-20 20:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15506",
+   "plataforma": "mercadolivre",
+   "produto": "Akko Tac75 He Teclado Magnético Rapid Trigger 75% Rgb Preto - R$ 329",
+   "loja": "",
+   "preco": 329.0,
+   "precoDe": 379.0,
+   "precoComCupom": 242.0,
+   "desconto": 13,
+   "cupom": "CUPOMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2fRbkeP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_779595-MLA116996889213_082026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-20 20:00:10"
+  },
+  {
+   "id": "p20011",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Gigabyte Gs24f14a Preto 23.8 1080p Fhd 144hz - R$ 539,18",
+   "loja": "",
+   "preco": 539.18,
+   "precoDe": 653.05,
+   "precoComCupom": 489.0,
+   "desconto": 17,
+   "cupom": "AGORAPROMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1oj3fPw",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_757784-MLA110786467862_052026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-20 19:48:12"
+  },
   {
    "id": "p19479",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_686796-MLA99460829646_112025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-20 10:47:10"
-  },
-  {
-   "id": "p21537",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-Mãe Gigabyte B550M K para AMD Ryzen, DDR4 e Socket AM4 - R$ 621,90",
-   "loja": "",
-   "preco": 621.9,
-   "precoDe": 913.9,
-   "precoComCupom": 559.0,
-   "desconto": 32,
-   "cupom": "INOVATECHML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1TLG3Py",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_978265-MLA93722367561_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-20 10:46:01"
-  },
-  {
-   "id": "p22000",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Sony Dualsense Ps5, Sem Fio, Cosmic Red Red Cosmic - R$ 371,07",
-   "loja": "",
-   "preco": 371.07,
-   "precoDe": 399.0,
-   "precoComCupom": null,
-   "desconto": 7,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2ht6PH1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_760841-MLB121687928249_112026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-20 10:45:36"
   }
  ]
 }
