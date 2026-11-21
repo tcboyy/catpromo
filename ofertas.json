@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-21 00:36:16",
+ "atualizado": "2026-11-21 01:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6692",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 573,59",
+   "loja": "",
+   "preco": 573.59,
+   "precoDe": 1399.0,
+   "precoComCupom": 474.0,
+   "desconto": 59,
+   "cupom": "INOVATECHML",
+   "cupomTexto": "",
+   "url": "https://meli.la/15Wgjyk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-21 01:17:25"
+  },
+  {
+   "id": "p22017",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor LG Gamer 24 24ms500-b Ips Fhd 100hz Anti-reflexo Pr Preto Bivolt - R$ 456,23",
+   "loja": "",
+   "preco": 456.23,
+   "precoDe": 899.0,
+   "precoComCupom": null,
+   "desconto": 49,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/18HLD1Z",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871469-MLB93485352059_092025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-21 01:17:05"
+  },
+  {
+   "id": "p19474",
+   "plataforma": "mercadolivre",
+   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
+   "loja": "",
+   "preco": 357.99,
+   "precoDe": 397.77,
+   "precoComCupom": 304.0,
+   "desconto": 10,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/1qS2vs3",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_625287-MLB120102215036_112026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-21 01:16:38"
+  },
   {
    "id": "p20977",
    "plataforma": "shopee",
@@ -49,22 +97,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_948051-MLA119960877876_112026-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-21 00:11:21"
-  },
-  {
-   "id": "p19474",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Msi A520m-a Pro Am4 Matx Ddr4 Preto - R$ 357,99",
-   "loja": "",
-   "preco": 357.99,
-   "precoDe": 397.77,
-   "precoComCupom": 304.0,
-   "desconto": 10,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://meli.la/1qS2vs3",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_625287-MLB120102215036_112026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-21 00:08:08"
   },
   {
    "id": "p21988",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_739170-MLA98410816390_112025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-20 13:00:18"
-  },
-  {
-   "id": "p20333",
-   "plataforma": "mercadolivre",
-   "produto": "Escrivaninha Industrial 90cm Mesa Estudo Aparador Aço Mdf - R$ 112,57",
-   "loja": "",
-   "preco": 112.57,
-   "precoDe": 185.6,
-   "precoComCupom": 90.0,
-   "desconto": 39,
-   "cupom": "OFFHOJEML",
-   "cupomTexto": "",
-   "url": "https://meli.la/2HaQgPU",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_859894-MLB92479683912_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-20 12:56:57"
-  },
-  {
-   "id": "p22003",
-   "plataforma": "mercadolivre",
-   "produto": "Smart Tv 43 Qled Full Hd Q5f + Soundbar Hw B400f - R$ 1.899",
-   "loja": "",
-   "preco": 1899.0,
-   "precoDe": null,
-   "precoComCupom": null,
-   "desconto": null,
-   "cupom": "ELETRO2011",
-   "cupomTexto": "",
-   "url": "https://meli.la/2uA6pa2",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821057-MLB121778367169_112026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-20 12:54:23"
   }
  ]
 }
