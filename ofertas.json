@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-21 14:36:16",
+ "atualizado": "2026-11-21 15:05:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20647",
+   "plataforma": "mercadolivre",
+   "produto": "Controlador com fio Advantage - Interruptor de controle com fio 2 cores preto - R$ 143,10",
+   "loja": "",
+   "preco": 143.1,
+   "precoDe": 249.0,
+   "precoComCupom": 128.0,
+   "desconto": 43,
+   "cupom": "LOJASOFICIAIS2111",
+   "cupomTexto": "",
+   "url": "https://meli.la/2b5V4j6",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_803119-MLA96322355465_102025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-21 15:04:54"
+  },
+  {
+   "id": "p19448",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer M711 Cobra Chroma Redragon Com fio Para Jogos 12.400 DPI Com Led RGB Preto - R$ 69,21",
+   "loja": "",
+   "preco": 69.21,
+   "precoDe": 143.43,
+   "precoComCupom": null,
+   "desconto": 52,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2VsWN3P",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_898286-MLA95664298408_102025-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-21 15:01:12"
+  },
+  {
+   "id": "p6616",
+   "plataforma": "mercadolivre",
+   "produto": "LG UltraGear Monitor Gamer 32\"- VA 165Hz 1ms (MBR) QHD 2K (2560x1440) HDR10 AMD FreeSync, Preto - 32GN600 - R$ 1.099",
+   "loja": "",
+   "preco": 1099.0,
+   "precoDe": 2180.0,
+   "precoComCupom": 999.0,
+   "desconto": 50,
+   "cupom": "TODO2111SITE",
+   "cupomTexto": "",
+   "url": "https://meli.la/33m7bnh",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_638172-MLA119028250988_112026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-21 14:44:09"
+  },
   {
    "id": "p19875",
    "plataforma": "mercadolivre",
@@ -851,22 +899,6 @@
    "visto": "2026-11-21 10:06:53"
   },
   {
-   "id": "p6616",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 32\"- VA 165Hz 1ms (MBR) QHD 2K (2560x1440) HDR10 AMD FreeSync, Preto - 32GN600 - R$ 1.099",
-   "loja": "",
-   "preco": 1099.0,
-   "precoDe": 2180.0,
-   "precoComCupom": 999.0,
-   "desconto": 50,
-   "cupom": "TODO2111SITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/33m7bnh",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_638172-MLA119028250988_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-21 10:02:52"
-  },
-  {
    "id": "p22021",
    "plataforma": "mercadolivre",
    "produto": "Ar Condicionado LG Dual Inverter Ai Voice 12000 Btus Qf Branco - R$ 2.899",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_685909-MLA101438581463_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-21 09:20:19"
-  },
-  {
-   "id": "p22018",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Sem Fio One/Series com Cabo USB-C Preto - R$ 347,99",
-   "loja": "",
-   "preco": 347.99,
-   "precoDe": 569.0,
-   "precoComCupom": 278.0,
-   "desconto": 39,
-   "cupom": "MELIMAIS2111",
-   "cupomTexto": "",
-   "url": "https://meli.la/1V4Kn7Z",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_971617-MLU71241633076_082023-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-21 09:20:14"
-  },
-  {
-   "id": "p21787",
-   "plataforma": "mercadolivre",
-   "produto": "Câmbio Driving Force Shifter Preto Logitech G - R$ 339",
-   "loja": "",
-   "preco": 339.0,
-   "precoDe": null,
-   "precoComCupom": 269.0,
-   "desconto": null,
-   "cupom": "MELIMAIS2111",
-   "cupomTexto": "",
-   "url": "https://meli.la/1K99x2m",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_686796-MLA99460829646_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-21 09:18:57"
   }
  ]
 }
