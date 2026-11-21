@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-20 21:06:16",
+ "atualizado": "2026-11-20 21:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19459",
+   "plataforma": "shopee",
+   "produto": "Water Cooler TGT Spartel V2, Rainbow, 240mm, Preto, TGT-SPLV240-BK01",
+   "loja": "Pichau",
+   "preco": 181.9,
+   "precoDe": 298.2,
+   "precoComCupom": 129.0,
+   "desconto": 39,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/9V3CYUMWfu",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdvx-mcb4z6wjzrnlfb",
+   "emoji": "📦",
+   "visto": "2026-11-20 21:15:47"
+  },
+  {
+   "id": "p15651",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Pad Gamer Apex Control Profissional 49x42 Red Girl - R$ 67,80",
+   "loja": "",
+   "preco": 67.8,
+   "precoDe": 99.9,
+   "precoComCupom": 61.0,
+   "desconto": 32,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/1pTRHxF",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_908667-MLA112780553692_062026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-20 21:12:08"
+  },
   {
    "id": "p19875",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_963489-MLB120014252913_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-20 11:41:11"
-  },
-  {
-   "id": "p15308",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Genebra B500 NR-17 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh - R$ 549,90",
-   "loja": "",
-   "preco": 549.9,
-   "precoDe": 906.53,
-   "precoComCupom": 500.0,
-   "desconto": 39,
-   "cupom": "SEMPREOFF",
-   "cupomTexto": "",
-   "url": "https://meli.la/1ZDMAXC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_764756-MLA96570589252_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-20 11:21:59"
-  },
-  {
-   "id": "p21972",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Para Escritório Diretor 1,80m Dynamica Cor Nogal / Est.Preta - R$ 323",
-   "loja": "",
-   "preco": 323.0,
-   "precoDe": 677.03,
-   "precoComCupom": null,
-   "desconto": 52,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2U4z5nj",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_611910-MLA96118096603_102025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-20 11:11:23"
   }
  ]
 }
