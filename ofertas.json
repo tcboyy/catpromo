@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-21 01:36:16",
+ "atualizado": "2026-11-21 08:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21489",
+   "plataforma": "mercadolivre",
+   "produto": "Câmera Instantânea Inova Cases Digital Rosa para Crianças com Impressão Térmica - R$ 149,34",
+   "loja": "",
+   "preco": 149.34,
+   "precoDe": 265.71,
+   "precoComCupom": null,
+   "desconto": 44,
+   "cupom": "APROVEITAMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1bdMM7C",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_735154-MLA102602889592_122025-P.webp",
+   "emoji": "📷",
+   "visto": "2026-11-21 08:31:27"
+  },
   {
    "id": "p6692",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_990761-MLA99963806517_112025-P.webp",
    "emoji": "📷",
    "visto": "2026-11-20 13:03:23"
-  },
-  {
-   "id": "p19982",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON QUAD 27\" QHD 180Hz 0,5ms IPS HDR10 Base Ajustável Q27G4F Preto - R$ 1.049",
-   "loja": "",
-   "preco": 1049.0,
-   "precoDe": 1299.0,
-   "precoComCupom": null,
-   "desconto": 19,
-   "cupom": "SITETODO1511",
-   "cupomTexto": "",
-   "url": "https://meli.la/2qLEXn5",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_739170-MLA98410816390_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-20 13:00:18"
   }
  ]
 }
