@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-22 00:36:16",
+ "atualizado": "2026-11-22 09:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21412",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Sem Fio Logitech G Series Lightspeed G305 Preto - R$ 161,91",
+   "loja": "",
+   "preco": 161.91,
+   "precoDe": 369.9,
+   "precoComCupom": null,
+   "desconto": 56,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2BFeCBa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939616-MLU69348111837_052023-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-22 09:01:24"
+  },
   {
    "id": "p22050",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_803119-MLA96322355465_102025-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-21 15:04:54"
-  },
-  {
-   "id": "p6616",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 32\"- VA 165Hz 1ms (MBR) QHD 2K (2560x1440) HDR10 AMD FreeSync, Preto - 32GN600 - R$ 1.099",
-   "loja": "",
-   "preco": 1099.0,
-   "precoDe": 2180.0,
-   "precoComCupom": 999.0,
-   "desconto": 50,
-   "cupom": "TODO2111SITE",
-   "cupomTexto": "",
-   "url": "https://meli.la/33m7bnh",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_638172-MLA119028250988_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-21 14:44:09"
   }
  ]
 }
