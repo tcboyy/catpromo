@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-21 23:36:15",
+ "atualizado": "2026-11-22 00:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15506",
+   "plataforma": "mercadolivre",
+   "produto": "Akko Tac75 He Teclado Magnético Rapid Trigger 75% Rgb Preto - R$ 329",
+   "loja": "",
+   "preco": 329.0,
+   "precoDe": 379.0,
+   "precoComCupom": 242.0,
+   "desconto": 13,
+   "cupom": "CUPOMTECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/2fRbkeP",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_779595-MLA116996889213_082026-P.webp",
+   "emoji": "⌨️",
+   "visto": "2026-11-22 00:01:08"
+  },
+  {
+   "id": "p15258",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido Gamer Headset Havit H2015d - R$ 141",
+   "loja": "",
+   "preco": 141.0,
+   "precoDe": null,
+   "precoComCupom": 126.0,
+   "desconto": null,
+   "cupom": "FINALMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/2GL5hgq",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_925886-MLA112213424652_062026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-21 23:48:08"
+  },
   {
    "id": "p15301",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_987217-MLA99928502679_112025-P.webp",
    "emoji": "⌨️",
    "visto": "2026-11-21 14:04:29"
-  },
-  {
-   "id": "p6479",
-   "plataforma": "mercadolivre",
-   "produto": "Suporte De Mesa Para Tv/monitor De 17 Até 30 Preto Nb F80 - R$ 97,64",
-   "loja": "",
-   "preco": 97.64,
-   "precoDe": null,
-   "precoComCupom": 86.0,
-   "desconto": null,
-   "cupom": "APROVEITAAGORA",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Ubuyvt",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_967508-MLA115291492479_072026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-21 14:00:44"
-  },
-  {
-   "id": "p20059",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer 34 Curvo Branco 1ms 165hz Hq Hqw34c16 Branco - R$ 1.302",
-   "loja": "",
-   "preco": 1302.0,
-   "precoDe": 1699.0,
-   "precoComCupom": 1208.0,
-   "desconto": 23,
-   "cupom": "HOJEVAI",
-   "cupomTexto": "",
-   "url": "https://meli.la/2knza6w",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_777110-MLA100014406655_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-21 13:46:08"
   }
  ]
 }
