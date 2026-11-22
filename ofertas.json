@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-22 13:06:16",
+ "atualizado": "2026-11-22 13:35:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21225",
+   "plataforma": "mercadolivre",
+   "produto": "Ryzen 7 5700x (4.6ghz Max) - Novo (sem Caixa Box Ou Cooler) - R$ 1.057",
+   "loja": "",
+   "preco": 1057.0,
+   "precoDe": 1149.0,
+   "precoComCupom": 975.0,
+   "desconto": 8,
+   "cupom": "HOJEPRATEC",
+   "cupomTexto": "",
+   "url": "https://meli.la/1wt2Hge",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_613774-MLB119159431545_102026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-22 13:30:13"
+  },
+  {
+   "id": "p22004",
+   "plataforma": "mercadolivre",
+   "produto": "Memória Ram Rise Mode Diamond 8gb Ddr4 2666mhz Branca - R$ 399,65",
+   "loja": "",
+   "preco": 399.65,
+   "precoDe": 519.55,
+   "precoComCupom": null,
+   "desconto": 23,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1KdVtWo",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_659877-MLB121390287083_112026-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-22 13:13:10"
+  },
   {
    "id": "p19226",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_874264-MLA106268664373_012026-P.webp",
    "emoji": "💾",
    "visto": "2026-11-21 19:37:22"
-  },
-  {
-   "id": "p19448",
-   "plataforma": "mercadolivre",
-   "produto": "Mouse Gamer M711 Cobra Chroma Redragon Com fio Para Jogos 12.400 DPI Com Led RGB Preto - R$ 69,21",
-   "loja": "",
-   "preco": 69.21,
-   "precoDe": 143.43,
-   "precoComCupom": null,
-   "desconto": 52,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2VsWN3P",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_898286-MLA95664298408_102025-P.webp",
-   "emoji": "🖱️",
-   "visto": "2026-11-21 19:21:04"
-  },
-  {
-   "id": "p19538",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 27\" IPS 200Hz, 1ms (GtG), Full HD (1920x1080), HDR10, NVIDIA G-SYNC AMD, FreeSync Premium, sRGB 99%, Preto - 27G5",
-   "loja": "",
-   "preco": 799.0,
-   "precoDe": 949.0,
-   "precoComCupom": 764.0,
-   "desconto": null,
-   "cupom": "OFFHOJEMELI",
-   "cupomTexto": "",
-   "url": "https://www.mercadolivre.com.br/social/duartedarosacadorinmaiteni?matt_word=g03tech&matt_tool=35843039&forceInApp=true&ref=BEe7WgQUMiUAssbOW1Ulr49JEpHjMH%2FuzRt1h%2FTPjMhJ0Gox5TuticpWm3MyEd5uhTdQc2XXMQPrDvQP4YyQtu3OIIkz5hPCdzV%2FjTtz0iAYrg21TIMlLA0VQq9CHRmpmA6M6RvprTDjwAMkXi6NdDXXXMOa53zmlSwaSVQ%2Fzc05E3C8m4FB0RYFWJKodMcwJFqqNrDFIToB7QKv8OZAjn1dlxUA%2BmF7PW582K8G1KogVRMnNtkslH7ws29nOIh%2BypD4dw%3D%3D",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_890719-MLA119028291406_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-21 19:19:18"
   }
  ]
 }
