@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-21 23:06:15",
+ "atualizado": "2026-11-21 23:36:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15301",
+   "plataforma": "mercadolivre",
+   "produto": "SSD SanDisk SN3000 500GB WDS500G4G0E - Western Digital - R$ 629,89",
+   "loja": "",
+   "preco": 629.89,
+   "precoDe": null,
+   "precoComCupom": 566.0,
+   "desconto": null,
+   "cupom": "FINALMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/119W87e",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_812511-MLA97274188132_112025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-21 23:35:08"
+  },
+  {
+   "id": "p20928",
+   "plataforma": "mercadolivre",
+   "produto": "Memória RAM DDR4 16GB 3200MHz Hiksemi Future DIMM Preto Gamer - R$ 863,91",
+   "loja": "",
+   "preco": 863.91,
+   "precoDe": 1144.0,
+   "precoComCupom": 777.0,
+   "desconto": 24,
+   "cupom": "FINALMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/2xoUSWm",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_855718-MLU78264055354_082024-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-21 23:23:08"
+  },
+  {
+   "id": "p22048",
+   "plataforma": "mercadolivre",
+   "produto": "Placa Mãe Asrock B450m Steel Legend Amd Am4 Matx Ddr4 Preto - R$ 679",
+   "loja": "",
+   "preco": 679.0,
+   "precoDe": 769.0,
+   "precoComCupom": 560.0,
+   "desconto": 12,
+   "cupom": "FINALMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1tPNDFC",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_648387-MLA94691960806_102025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-21 23:12:08"
+  },
   {
    "id": "p19788",
    "plataforma": "mercadolivre",
@@ -321,22 +369,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_847859-MLA94128239876_102025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-21 20:14:49"
-  },
-  {
-   "id": "p15301",
-   "plataforma": "mercadolivre",
-   "produto": "SSD SanDisk SN3000 500GB WDS500G4G0E - Western Digital - R$ 629,89",
-   "loja": "",
-   "preco": 629.89,
-   "precoDe": null,
-   "precoComCupom": 566.0,
-   "desconto": null,
-   "cupom": "GOLDEOFERTA",
-   "cupomTexto": "",
-   "url": "https://meli.la/119W87e",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_812511-MLA97274188132_112025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-21 20:11:58"
   },
   {
    "id": "p15789",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_777110-MLA100014406655_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-21 13:46:08"
-  },
-  {
-   "id": "p15688",
-   "plataforma": "mercadolivre",
-   "produto": "Mesa Gamer Industrial 150cm Com Estrutura Em Aço Para Pc Preto - R$ 269,99",
-   "loja": "",
-   "preco": 269.99,
-   "precoDe": 299.99,
-   "precoComCupom": 221.0,
-   "desconto": 10,
-   "cupom": "CASA2111",
-   "cupomTexto": "",
-   "url": "https://meli.la/2YcjgLH",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_963489-MLB120014252913_102026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-21 13:42:55"
-  },
-  {
-   "id": "p22034",
-   "plataforma": "mercadolivre",
-   "produto": "Extensão Bivolt Régua Elétrica 4 Tomadas Com 4 Usb 110v/220v Branco 110/220 - R$ 31,90",
-   "loja": "",
-   "preco": 31.9,
-   "precoDe": 81.4,
-   "precoComCupom": null,
-   "desconto": 61,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2Kbcbtt",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_637848-MLB117479760407_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-21 13:28:51"
   }
  ]
 }
