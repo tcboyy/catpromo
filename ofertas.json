@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-21 21:36:16",
+ "atualizado": "2026-11-21 22:06:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6824",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G5, 27 , Qhd, 165hz Cor Preto - R$ 971,03",
+   "loja": "",
+   "preco": 971.03,
+   "precoDe": 1999.0,
+   "precoComCupom": 960.0,
+   "desconto": 51,
+   "cupom": "FINALMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1KTAXUM",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_929601-MLA99994006017_112025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-21 21:50:08"
+  },
+  {
+   "id": "p19781",
+   "plataforma": "mercadolivre",
+   "produto": "Fone De Ouvido Headset Gamer Sem Fio Titorion Mintak Pro Tri - mode (Wireless 2.4GHz , Bluetooth, Cabo) Ultraleve Preto - R$ 219,90",
+   "loja": "",
+   "preco": 219.9,
+   "precoDe": 299.9,
+   "precoComCupom": 197.0,
+   "desconto": 27,
+   "cupom": "FINALMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/2EthgBB",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_654888-MLA105359507121_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-21 21:41:13"
+  },
   {
    "id": "p20335",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_913187-MLA109313485409_032026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-21 12:44:05"
-  },
-  {
-   "id": "p21466",
-   "plataforma": "mercadolivre",
-   "produto": "Notebook ASUS Vivobook Go 15 E1504 AMD RYZEN 5 7520U 8GB Ram 256GB SSD Linux KeepOS 15,6” FHD Black E1504FA-NJ731 - R$ 2.799",
-   "loja": "",
-   "preco": 2799.0,
-   "precoDe": 4199.0,
-   "precoComCupom": 2599.0,
-   "desconto": 33,
-   "cupom": "TECH2111",
-   "cupomTexto": "",
-   "url": "https://meli.la/1x855V1",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_830301-MLA99949667885_112025-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-21 12:35:20"
-  },
-  {
-   "id": "p21759",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy S26 FE 128GB, 8GB RAM Tela 6,7\" - Grafite - R$ 3.563",
-   "loja": "",
-   "preco": 3563.0,
-   "precoDe": 5499.0,
-   "precoComCupom": 3383.0,
-   "desconto": 35,
-   "cupom": "TECH2111",
-   "cupomTexto": "",
-   "url": "https://meli.la/2LxHKiQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_778540-MLA117213952535_092026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-21 12:32:28"
   }
  ]
 }
