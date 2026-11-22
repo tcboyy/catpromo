@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-22 20:06:16",
+ "atualizado": "2026-11-22 20:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20011",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Gigabyte Gs24f14a Preto 23.8 1080p Fhd 144hz - R$ 539,18",
+   "loja": "",
+   "preco": 539.18,
+   "precoDe": 653.05,
+   "precoComCupom": 489.0,
+   "desconto": 17,
+   "cupom": "AGORAPROMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1oj3fPw",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_757784-MLA110786467862_052026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-22 20:29:07"
+  },
+  {
+   "id": "p21147",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Para Escritorio Zinnia Aurea A160 Tampo De Madeira160cm - R$ 540",
+   "loja": "",
+   "preco": 540.0,
+   "precoDe": 776.46,
+   "precoComCupom": 460.0,
+   "desconto": 30,
+   "cupom": "OFFHOJEML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1seJ6vQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_731534-MLU76682000542_062024-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-22 20:14:10"
+  },
   {
    "id": "p22066",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_843555-MLA99943173993_112025-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-22 12:41:14"
-  },
-  {
-   "id": "p22055",
-   "plataforma": "mercadolivre",
-   "produto": "Caixa De Som Bluetooth, Basike Alto-falante Portátil Com Potência De Pico De 200w Para Som Alto Ao Ar Livre, Caixa Acústica Bluetooth Sem Fi",
-   "loja": "",
-   "preco": 610.54,
-   "precoDe": 1128.0,
-   "precoComCupom": 520.0,
-   "desconto": 46,
-   "cupom": "ELETRO2211",
-   "cupomTexto": "",
-   "url": "https://meli.la/2RNqrTX",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_903000-MLA119134456024_112026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-22 12:41:09"
-  },
-  {
-   "id": "p15371",
-   "plataforma": "mercadolivre",
-   "produto": "Placa Mãe Gigabyte B550m Aorus Elite Am4 Micro Atx Ddr4 Preto - R$ 698,99",
-   "loja": "",
-   "preco": 698.99,
-   "precoDe": 776.66,
-   "precoComCupom": 658.0,
-   "desconto": 10,
-   "cupom": "LOJASOFICIAIS2111",
-   "cupomTexto": "",
-   "url": "https://meli.la/32irJRG",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_985820-MLB119955670432_112026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-22 12:38:17"
   }
  ]
 }
