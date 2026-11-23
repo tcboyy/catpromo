@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-23 17:05:41",
+ "atualizado": "2026-11-23 17:35:46",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p22112",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Escritório Industrial 150x60cm Madeira E Metal Marrom - R$ 199",
+   "loja": "",
+   "preco": 199.0,
+   "precoDe": 266.7,
+   "precoComCupom": null,
+   "desconto": 25,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2iXgGAn",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_677900-MLB121841827309_112026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-23 17:35:08"
+  },
+  {
+   "id": "p21613",
+   "plataforma": "mercadolivre",
+   "produto": "Fonte Alimentação Xpg Kyber 750w 80 Plus Gold Com Cabo Preto - R$ 399,99",
+   "loja": "",
+   "preco": 399.99,
+   "precoDe": 499.9,
+   "precoComCupom": 359.0,
+   "desconto": 20,
+   "cupom": "MELIGARANTE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2fYujw4",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_869332-MLA112982637901_062026-P.webp",
+   "emoji": "🔌",
+   "visto": "2026-11-23 17:25:38"
+  },
+  {
+   "id": "p6692",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 495,03",
+   "loja": "",
+   "preco": 495.03,
+   "precoDe": 740.0,
+   "precoComCupom": 445.0,
+   "desconto": 33,
+   "cupom": "MELIGARANTE",
+   "cupomTexto": "",
+   "url": "https://meli.la/15Wgjyk",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-23 17:12:07"
+  },
   {
    "id": "p21378",
    "plataforma": "mercadolivre",
@@ -1107,22 +1155,6 @@
    "visto": "2026-11-23 12:34:25"
   },
   {
-   "id": "p6692",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4 - R$ 495,03",
-   "loja": "",
-   "preco": 495.03,
-   "precoDe": 740.0,
-   "precoComCupom": 445.0,
-   "desconto": 33,
-   "cupom": "MELIGARANTE",
-   "cupomTexto": "",
-   "url": "https://meli.la/15Wgjyk",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-23 12:29:28"
-  },
-  {
    "id": "p22037",
    "plataforma": "mercadolivre",
    "produto": "Ar Condicionado 12.000 Btus Frio Split Elite Gv Inverter Tcl Branco - R$ 1.781",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_905060-MLA95830518783_102025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-23 12:19:15"
-  },
-  {
-   "id": "p21367",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Curvo Aoc 34'' Ultrawide Wqhd 180hz U34g4c Preto 127/220v - R$ 1.452",
-   "loja": "",
-   "preco": 1452.0,
-   "precoDe": 2812.0,
-   "precoComCupom": 1268.0,
-   "desconto": 48,
-   "cupom": "TVSCELULARES2311",
-   "cupomTexto": "",
-   "url": "https://meli.la/29YbDcp",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_774096-MLA96608370183_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-23 12:18:39"
-  },
-  {
-   "id": "p22095",
-   "plataforma": "mercadolivre",
-   "produto": "Impressora multifuncional Epson Ecotank L3250 - R$ 973",
-   "loja": "",
-   "preco": 973.0,
-   "precoDe": 1449.0,
-   "precoComCupom": 755.0,
-   "desconto": 33,
-   "cupom": "TVSCELULARES2311",
-   "cupomTexto": "",
-   "url": "https://meli.la/13qxiit",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_933227-MLA118159600116_102026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-23 12:16:47"
   }
  ]
 }
