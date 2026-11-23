@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-22 22:35:15",
+ "atualizado": "2026-11-22 23:06:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15370",
+   "plataforma": "mercadolivre",
+   "produto": "Mesa Para Escritório Diretor 1,80m Dynamica Cor Preto Ônix / Est.Preta - R$ 312",
+   "loja": "",
+   "preco": 312.0,
+   "precoDe": 451.35,
+   "precoComCupom": 278.0,
+   "desconto": 31,
+   "cupom": "TODOSITE811",
+   "cupomTexto": "",
+   "url": "https://meli.la/1QdvCqH",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_957476-MLA95686193164_102025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-22 23:02:12"
+  },
+  {
+   "id": "p15225",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Gamer Wells Preta Healer - R$ 368,59",
+   "loja": "",
+   "preco": 368.59,
+   "precoDe": 888.07,
+   "precoComCupom": 358.0,
+   "desconto": 58,
+   "cupom": "OFFNOMELIHOJE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2Axs1BU",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_859282-MLA105409191484_012026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-22 22:46:12"
+  },
   {
    "id": "p6479",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_946902-MLA113626514437_062026-P.webp",
    "emoji": "⌨️",
    "visto": "2026-11-22 14:46:08"
-  },
-  {
-   "id": "p19226",
-   "plataforma": "mercadolivre",
-   "produto": "Tênis Vans Ultrarange Vr3 Neo Preto Azul Branco 34 Ao 43 - R$ 97,65",
-   "loja": "",
-   "preco": 97.65,
-   "precoDe": 279.0,
-   "precoComCupom": 92.0,
-   "desconto": 65,
-   "cupom": "COMPRANOML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1yqDkTn",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651685-MLB115351540288_082026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-22 14:38:22"
-  },
-  {
-   "id": "p20366",
-   "plataforma": "shopee",
-   "produto": "MEMÓRIA RAM HYPERX DDR4 8G 3200MHz HYPERX KINGSTON HX432C16FB3/8 DESKTOP",
-   "loja": "KEYNES IMPORT",
-   "preco": 399.0,
-   "precoDe": null,
-   "precoComCupom": 340.0,
-   "desconto": null,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/3LSYgCmraG",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbo84s3makbdfc",
-   "emoji": "💾",
-   "visto": "2026-11-22 14:30:47"
   }
  ]
 }
