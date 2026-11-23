@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-23 07:36:16",
+ "atualizado": "2026-11-23 08:36:16",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p22076",
+   "plataforma": "mercadolivre",
+   "produto": "Fone de ouvido Tws Philips Tat1109bk/00 preto Ipx4 - R$ 89",
+   "loja": "",
+   "preco": 89.0,
+   "precoDe": 199.0,
+   "precoComCupom": null,
+   "desconto": 55,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2fvd3pQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_638013-MLA99988533713_112025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-23 08:35:58"
+  },
   {
    "id": "p21227",
    "plataforma": "shopee",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
    "emoji": "🎧",
    "visto": "2026-11-22 17:01:09"
-  },
-  {
-   "id": "p6650",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor AOC 22\" 120Hz 1ms Gaming HDMI 22B35HM23 Preto - R$ 399",
-   "loja": "",
-   "preco": 399.0,
-   "precoDe": 499.0,
-   "precoComCupom": 308.0,
-   "desconto": 20,
-   "cupom": "MELIMAISPREDD",
-   "cupomTexto": "",
-   "url": "https://meli.la/2Pc6SKd",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_744601-MLA99934274785_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-22 16:46:48"
   }
  ]
 }
