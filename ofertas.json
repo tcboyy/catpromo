@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-22 23:36:16",
+ "atualizado": "2026-11-23 00:05:15",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20730",
+   "plataforma": "shopee",
+   "produto": "Console Nintendo Switch OLED + Super Mario Bros + 3 Meses NSO",
+   "loja": "Webfones",
+   "preco": 1999.0,
+   "precoDe": 2701.35,
+   "precoComCupom": 1747.0,
+   "desconto": 26,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/9pg5p1Mdjs",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ld-mrhncjeix1jae6",
+   "emoji": "🎮",
+   "visto": "2026-11-23 00:05:10"
+  },
+  {
+   "id": "p6549",
+   "plataforma": "mercadolivre",
+   "produto": "Ssd M.2 1tb Sandisk Plus Nvme 2280 - R$ 1.049",
+   "loja": "",
+   "preco": 1049.0,
+   "precoDe": null,
+   "precoComCupom": 850.0,
+   "desconto": null,
+   "cupom": "FINALMELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1DTQKiz",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_729633-MLA99465062840_112025-P.webp",
+   "emoji": "💾",
+   "visto": "2026-11-22 23:44:10"
+  },
   {
    "id": "p19326",
    "plataforma": "mercadolivre",
@@ -1027,22 +1059,6 @@
    "visto": "2026-11-22 16:31:13"
   },
   {
-   "id": "p20730",
-   "plataforma": "shopee",
-   "produto": "Console Nintendo Switch OLED + Super Mario Bros + 3 Meses NSO",
-   "loja": "Webfones",
-   "preco": 1999.0,
-   "precoDe": 2701.35,
-   "precoComCupom": 1747.0,
-   "desconto": 26,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/9pg5p1Mdjs",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ld-mrhncjeix1jae6",
-   "emoji": "🎮",
-   "visto": "2026-11-22 16:26:34"
-  },
-  {
    "id": "p21983",
    "plataforma": "mercadolivre",
    "produto": "Memoria Ram Ddr4 16gb 3200mhz Rise Mode Z Rm-d4-16g-3200z - R$ 779,63",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_833789-MLA100590939374_122025-P.webp",
    "emoji": "📦",
    "visto": "2026-11-22 15:06:55"
-  },
-  {
-   "id": "p22058",
-   "plataforma": "shopee",
-   "produto": "Placa de Video MSI GeForce RTX 3050 LP OC Edition, 6GB, GDDR6, 96-bit, 912V812023",
-   "loja": "SETUP NINJA",
-   "preco": 1656.97,
-   "precoDe": 2367.1,
-   "precoComCupom": null,
-   "desconto": 30,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://s.shopee.com.br/1gKO0LSFz3",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-82606-mjjay1gfkrnkb4",
-   "emoji": "🎮",
-   "visto": "2026-11-22 15:04:02"
   }
  ]
 }
