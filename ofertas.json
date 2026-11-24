@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-23 21:36:41",
+ "atualizado": "2026-11-23 22:05:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p22121",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung 27'' Essential S3 120hz 5ms Ips Fullhd Preto 127/220v - R$ 602,36",
+   "loja": "",
+   "preco": 602.36,
+   "precoDe": 1099.0,
+   "precoComCupom": null,
+   "desconto": 45,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/24CkisK",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_880102-MLA96640494917_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-23 22:00:16"
+  },
+  {
+   "id": "p15359",
+   "plataforma": "mercadolivre",
+   "produto": "LG UltraGear Monitor Gamer 27\" - IPS, 144Hz (O/C), 1ms, (MBR), Full HD (1920x1080), HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 27G411A - R$ 6",
+   "loja": "",
+   "preco": 683.1,
+   "precoDe": 1098.0,
+   "precoComCupom": 614.0,
+   "desconto": 38,
+   "cupom": "MELIGARANTE",
+   "cupomTexto": "",
+   "url": "https://meli.la/2G9Bkmz",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_629075-MLA104879398469_012026-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-23 21:51:09"
+  },
+  {
+   "id": "p19226",
+   "plataforma": "mercadolivre",
+   "produto": "Tênis Vans Ultrarange Vr3 Neo Preto Azul Branco 34 Ao 43 - R$ 97,65",
+   "loja": "",
+   "preco": 97.65,
+   "precoDe": 279.0,
+   "precoComCupom": 92.0,
+   "desconto": 65,
+   "cupom": "COMPRANOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/1yqDkTn",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_651685-MLB115351540288_082026-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-23 21:42:11"
+  },
   {
    "id": "p21013",
    "plataforma": "mercadolivre",
@@ -1219,22 +1267,6 @@
    "visto": "2026-11-23 15:32:22"
   },
   {
-   "id": "p15359",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 27\" - IPS, 144Hz (O/C), 1ms, (MBR), Full HD (1920x1080), HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 27G411A - R$ 6",
-   "loja": "",
-   "preco": 683.1,
-   "precoDe": 1098.0,
-   "precoComCupom": 614.0,
-   "desconto": 38,
-   "cupom": "MELIGARANTE",
-   "cupomTexto": "",
-   "url": "https://meli.la/2G9Bkmz",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_629075-MLA104879398469_012026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-23 15:21:10"
-  },
-  {
    "id": "p15509",
    "plataforma": "mercadolivre",
    "produto": "Cadeira Escritório Ergonômica Python Fly B07 Cinza Com Suporte Lombar - R$ 372,72",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_655101-MLA114169346640_082026-P.webp",
    "emoji": "🪑",
    "visto": "2026-11-23 15:15:42"
-  },
-  {
-   "id": "p20250",
-   "plataforma": "mercadolivre",
-   "produto": "Ssd Sandisk Plus 500gb M.2 2280 Pcie Gen3 Nvme SDSSDA3N-500G-G26 Preto - R$ 659,90",
-   "loja": "",
-   "preco": 659.9,
-   "precoDe": 1097.0,
-   "precoComCupom": 593.0,
-   "desconto": 40,
-   "cupom": "MELIGARANTE",
-   "cupomTexto": "",
-   "url": "https://meli.la/21teaK4",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_730841-MLA99961088171_112025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-23 15:14:44"
-  },
-  {
-   "id": "p22106",
-   "plataforma": "mercadolivre",
-   "produto": "Suporte Notebook Cooler KinGo V1 Alumínio 15\" Prateado Refrigerado - R$ 85,12",
-   "loja": "",
-   "preco": 85.12,
-   "precoDe": 141.0,
-   "precoComCupom": null,
-   "desconto": null,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://www.mercadolivre.com.br/social/duartedarosacadorinmaiteni?matt_word=g03tech&matt_tool=35843039&forceInApp=true&ref=BMNkajntMrgqKovht8AuEPbx%2FlDPhgm1lP%2BDHsfhrg5Lm7egi2bDSPzsAMG02rTr%2B4DCuc6%2BOYRP%2FQQhM8Sm64YjLcX46s1AO%2B7r%2BZPOlb3ATOxBjb%2FzrkThALxyFU%2FNUIpCbPZAgY561rmhdQq8H7xPcQm4e52ma6jaMyC0zn%2BmoKwVZGJtz%2FOFT4N%2FNilsVaP2muCJSCkR0JWOitsR4wfslMx57FJkRVUzjOaxDZShV84J%2BFpYNHYJZThTK5aKSJuuKA%3D%3D",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_874426-MLA91568653668_092025-P.webp",
-   "emoji": "💻",
-   "visto": "2026-11-23 15:14:04"
   }
  ]
 }
