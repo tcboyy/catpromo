@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-23 22:05:41",
+ "atualizado": "2026-11-23 22:35:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p6643",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 130,41",
+   "loja": "",
+   "preco": 130.41,
+   "precoDe": 209.0,
+   "precoComCupom": null,
+   "desconto": 38,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1Dqv1ef",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-23 22:31:10"
+  },
+  {
+   "id": "p15528",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Redragon King Pro 1K Preto - M916-PRO-1K - R$ 144,94",
+   "loja": "",
+   "preco": 144.94,
+   "precoDe": 336.6,
+   "precoComCupom": null,
+   "desconto": 57,
+   "cupom": "MELIDATADUPLA",
+   "cupomTexto": "",
+   "url": "https://meli.la/2rQTrdu",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_789229-MLA99454988196_112025-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-23 22:22:12"
+  },
+  {
+   "id": "p20151",
+   "plataforma": "mercadolivre",
+   "produto": "Notebook Gamer Acer Nitro V 15 com Placa NVIDIA GeForce RTX 4050 6GB Processador Intel Core i7 13ª Geração 8GB RAM DDR5 Armazenamento 512GB ",
+   "loja": "",
+   "preco": 6399.0,
+   "precoDe": 8499.0,
+   "precoComCupom": null,
+   "desconto": 25,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1woo5Ut",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_925980-MLA118254320859_092026-P.webp",
+   "emoji": "💻",
+   "visto": "2026-11-23 22:11:16"
+  },
   {
    "id": "p22121",
    "plataforma": "mercadolivre",
@@ -113,22 +161,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_676684-MLA99937677583_112025-P.webp",
    "emoji": "💾",
    "visto": "2026-11-23 21:23:13"
-  },
-  {
-   "id": "p6643",
-   "plataforma": "mercadolivre",
-   "produto": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível - R$ 130,41",
-   "loja": "",
-   "preco": 130.41,
-   "precoDe": 209.0,
-   "precoComCupom": null,
-   "desconto": 38,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/1Dqv1ef",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-P.webp",
-   "emoji": "🎧",
-   "visto": "2026-11-23 21:22:20"
   },
   {
    "id": "p19791",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_929601-MLA99994006017_112025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-23 15:35:45"
-  },
-  {
-   "id": "p22107",
-   "plataforma": "shopee",
-   "produto": "Caixa de Som Bluetooth JBL Partybox Club 130 com 200W de Potência e AI Sound Boost - LPB130",
-   "loja": "Fast Shop Oficial",
-   "preco": 1957.87,
-   "precoDe": 3434.86,
-   "precoComCupom": 1709.0,
-   "desconto": 43,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/7AfMBHycDC",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-82593-msmu01tc2jns00",
-   "emoji": "🎧",
-   "visto": "2026-11-23 15:32:22"
-  },
-  {
-   "id": "p15509",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira Escritório Ergonômica Python Fly B07 Cinza Com Suporte Lombar - R$ 372,72",
-   "loja": "",
-   "preco": 372.72,
-   "precoDe": 699.0,
-   "precoComCupom": null,
-   "desconto": 47,
-   "cupom": "SITETODO2311",
-   "cupomTexto": "",
-   "url": "https://meli.la/1HTfJyp",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_655101-MLA114169346640_082026-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-23 15:15:42"
   }
  ]
 }
