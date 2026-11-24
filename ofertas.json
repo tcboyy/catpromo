@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-23 23:36:42",
+ "atualizado": "2026-11-24 00:06:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19578",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE - R$ 749,55",
+   "loja": "",
+   "preco": 749.55,
+   "precoDe": 1049.0,
+   "precoComCupom": null,
+   "desconto": 29,
+   "cupom": "MELHORPROMOHJ",
+   "cupomTexto": "",
+   "url": "https://meli.la/2wsxDwL",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_662776-MLA96607684177_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-23 23:48:09"
+  },
+  {
+   "id": "p22128",
+   "plataforma": "mercadolivre",
+   "produto": "Desk Pad Mouse Pad 90x45 Feroz Wf Couro Sintético E Brinde - R$ 42,09",
+   "loja": "",
+   "preco": 42.09,
+   "precoDe": 62.4,
+   "precoComCupom": null,
+   "desconto": 33,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/31bAgNZ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_624871-MLB116586213239_082026-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-23 23:47:55"
+  },
   {
    "id": "p20329",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_755357-MLA109556445022_042026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-23 16:45:02"
-  },
-  {
-   "id": "p15652",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G42 24\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 24G42HE - R$ 719,99",
-   "loja": "",
-   "preco": 719.99,
-   "precoDe": 899.0,
-   "precoComCupom": null,
-   "desconto": 20,
-   "cupom": "OFERTADEHOJE",
-   "cupomTexto": "",
-   "url": "https://meli.la/28PpTRe",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_823080-MLA96841800247_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-23 16:42:01"
-  },
-  {
-   "id": "p21759",
-   "plataforma": "mercadolivre",
-   "produto": "Celular Samsung Galaxy S26 FE 128GB, 8GB RAM Tela 6,7\" - Grafite - R$ 3.198",
-   "loja": "",
-   "preco": 3198.0,
-   "precoDe": 5499.0,
-   "precoComCupom": 2928.0,
-   "desconto": 42,
-   "cupom": "OFFPRATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/2LxHKiQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_778540-MLA117213952535_092026-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-23 16:38:01"
   }
  ]
 }
