@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-24 00:06:41",
+ "atualizado": "2026-11-24 00:36:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15427",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira Gamer Lancer Preta e Branca Healer - R$ 389,49",
+   "loja": "",
+   "preco": 389.49,
+   "precoDe": 899.9,
+   "precoComCupom": 317.0,
+   "desconto": 57,
+   "cupom": "MP1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/2ZsE481",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_951583-MLA105697862101_012026-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-24 00:34:16"
+  },
+  {
+   "id": "p20724",
+   "plataforma": "shopee",
+   "produto": "Monitor Gamer Curvo AOC AGON QUAD 32\" 180Hz 0,5ms HDR10 CQ32G4E",
+   "loja": "123 Comprou!",
+   "preco": 1099.0,
+   "precoDe": 1998.18,
+   "precoComCupom": 919.0,
+   "desconto": 45,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/6fj6BIQDnn",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-821fo-mgmdxg357zew17",
+   "emoji": "🖥️",
+   "visto": "2026-11-24 00:30:04"
+  },
+  {
+   "id": "p21680",
+   "plataforma": "shopee",
+   "produto": "Console Nintendo Switch OLED Bundle Super Mario Bros Wonder",
+   "loja": "Kabum",
+   "preco": 1899.0,
+   "precoDe": null,
+   "precoComCupom": 1655.0,
+   "desconto": null,
+   "cupom": "AFFBF05",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/2VtWzYBsyP",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259g-mu2foh6h3f2c82",
+   "emoji": "🎮",
+   "visto": "2026-11-24 00:22:24"
+  },
   {
    "id": "p19578",
    "plataforma": "mercadolivre",
@@ -481,22 +529,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-23 21:07:56"
-  },
-  {
-   "id": "p21680",
-   "plataforma": "shopee",
-   "produto": "Console Nintendo Switch OLED Bundle Super Mario Bros Wonder",
-   "loja": "Kabum",
-   "preco": 1899.0,
-   "precoDe": null,
-   "precoComCupom": 1655.0,
-   "desconto": null,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/2VtWzYBsyP",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259g-mu2foh6h3f2c82",
-   "emoji": "🎮",
-   "visto": "2026-11-23 21:04:55"
   },
   {
    "id": "p15251",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_890924-MLA99513225978_112025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-23 16:54:21"
-  },
-  {
-   "id": "p19785",
-   "plataforma": "mercadolivre",
-   "produto": "Ssd 1tb Western Digital Green Sn350 Nvme, Gen3, M.2 2280 Azul - R$ 1.025",
-   "loja": "",
-   "preco": 1025.0,
-   "precoDe": null,
-   "precoComCupom": 923.0,
-   "desconto": null,
-   "cupom": "OFERTASEMPREML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1KPvuaL",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_932631-MLA96073227449_102025-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-23 16:51:13"
-  },
-  {
-   "id": "p22024",
-   "plataforma": "mercadolivre",
-   "produto": "Roteador TP-Link EX3000 Wi-Fi 6 de Banda Dupla, 3 Gbps e 4 Antenas para até 180 m² - R$ 209,90",
-   "loja": "",
-   "preco": 209.9,
-   "precoDe": 269.9,
-   "precoComCupom": 180.0,
-   "desconto": 22,
-   "cupom": "OFERTASEMPREML",
-   "cupomTexto": "",
-   "url": "https://meli.la/1yVjSLf",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_755357-MLA109556445022_042026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-23 16:45:02"
   }
  ]
 }
