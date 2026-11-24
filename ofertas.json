@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-24 07:35:41",
+ "atualizado": "2026-11-24 08:05:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21446",
+   "plataforma": "mercadolivre",
+   "produto": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14",
+   "loja": "",
+   "preco": 28.49,
+   "precoDe": null,
+   "precoComCupom": null,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2hyy5gH",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_767887-MLA120087704221_102026-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-24 07:57:47"
+  },
+  {
+   "id": "p21019",
+   "plataforma": "mercadolivre",
+   "produto": "Celular Samsung Galaxy A07 128gb 4gb Tela Grande - R$ 719,10",
+   "loja": "",
+   "preco": 719.1,
+   "precoDe": 799.0,
+   "precoComCupom": 647.0,
+   "desconto": 10,
+   "cupom": "MELIGARANTE",
+   "cupomTexto": "",
+   "url": "https://meli.la/1fYBQzj",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_615491-MLA115287430183_072026-P.webp",
+   "emoji": "📱",
+   "visto": "2026-11-24 07:43:28"
+  },
   {
    "id": "p22132",
    "plataforma": "mercadolivre",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_987217-MLA99928502679_112025-P.webp",
    "emoji": "⌨️",
    "visto": "2026-11-23 18:06:10"
-  },
-  {
-   "id": "p16125",
-   "plataforma": "mercadolivre",
-   "produto": "Smart TV PRO LG 65'' 4K Ultra HD AI 65UN85C - R$ 3.295",
-   "loja": "",
-   "preco": 3295.0,
-   "precoDe": 3469.0,
-   "precoComCupom": 3010.0,
-   "desconto": 5,
-   "cupom": "OFFPRATECH",
-   "cupomTexto": "",
-   "url": "https://meli.la/14Th1QW",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_695281-MLA115403895560_082026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-23 18:02:49"
-  },
-  {
-   "id": "p21971",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-mãe Asus Tuf Gaming B550m-plus Am4 Ddr4 Matx Pcie 4.0 Preto - R$ 711,66",
-   "loja": "",
-   "preco": 711.66,
-   "precoDe": 1529.0,
-   "precoComCupom": 640.0,
-   "desconto": 53,
-   "cupom": "MELIGARANTE",
-   "cupomTexto": "",
-   "url": "https://meli.la/32tCvB7",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_657840-MLB99997151266_122025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-23 17:55:08"
   }
  ]
 }
