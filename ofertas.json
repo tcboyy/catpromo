@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-24 22:35:41",
+ "atualizado": "2026-11-24 23:05:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p20598",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer Samsung Odyssey G5, 32 , Qhd, 165hz Preto - R$ 1.039",
+   "loja": "",
+   "preco": 1039.0,
+   "precoDe": 1156.0,
+   "precoComCupom": 891.0,
+   "desconto": 10,
+   "cupom": "VALETECH",
+   "cupomTexto": "",
+   "url": "https://meli.la/1pPgDri",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_744927-MLB94021860591_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-24 22:55:10"
+  },
+  {
+   "id": "p19222",
+   "plataforma": "mercadolivre",
+   "produto": "Cadeira de Escritório Presidente NR17 150kg Ergonômica Giratória com Tela Mesh Toledo HomeNow - R$ 667,32",
+   "loja": "",
+   "preco": 667.32,
+   "precoDe": 1064.0,
+   "precoComCupom": 554.0,
+   "desconto": 37,
+   "cupom": "MELIUZDECOR",
+   "cupomTexto": "",
+   "url": "https://meli.la/1fACHuQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_763692-MLA99940510369_112025-P.webp",
+   "emoji": "🪑",
+   "visto": "2026-11-24 22:44:11"
+  },
   {
    "id": "p15470",
    "plataforma": "mercadolivre",
@@ -385,22 +417,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_972299-MLA114716702965_072026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-24 20:24:07"
-  },
-  {
-   "id": "p19222",
-   "plataforma": "mercadolivre",
-   "produto": "Cadeira de Escritório Presidente NR17 150kg Ergonômica Giratória com Tela Mesh Toledo HomeNow - R$ 667,32",
-   "loja": "",
-   "preco": 667.32,
-   "precoDe": 1064.0,
-   "precoComCupom": 554.0,
-   "desconto": 37,
-   "cupom": "MELIUZDECOR",
-   "cupomTexto": "",
-   "url": "https://meli.la/1fACHuQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_763692-MLA99940510369_112025-P.webp",
-   "emoji": "🪑",
-   "visto": "2026-11-24 20:23:25"
   },
   {
    "id": "p21966",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_723890-MLA116327497310_092026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-24 17:18:44"
-  },
-  {
-   "id": "p22164",
-   "plataforma": "mercadolivre",
-   "produto": "Volante Logitech G29 Driving Force Para Ps5, Ps4, Ps3 E Pc Preto - R$ 1.619",
-   "loja": "",
-   "preco": 1619.0,
-   "precoDe": 1833.0,
-   "precoComCupom": 1307.0,
-   "desconto": 12,
-   "cupom": "VEMPROMP",
-   "cupomTexto": "",
-   "url": "https://meli.la/11Ao8mm",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_794899-MLU78633345916_092024-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-24 17:18:15"
   }
  ]
 }
