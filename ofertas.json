@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-25 08:35:41",
+ "atualizado": "2026-11-25 09:06:42",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p22009",
+   "plataforma": "mercadolivre",
+   "produto": "Processador Gamer Amd Ryzen 5 5500 6 Núcleos 4.2ghz - R$ 569",
+   "loja": "",
+   "preco": 569.0,
+   "precoDe": 740.0,
+   "precoComCupom": 429.0,
+   "desconto": 23,
+   "cupom": "75MAIS1125MELI",
+   "cupomTexto": "",
+   "url": "https://meli.la/1SzApt9",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_655990-MLB96262084786_102025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-25 09:05:53"
+  },
+  {
+   "id": "p19212",
+   "plataforma": "mercadolivre",
+   "produto": "Controle Gamesir T4 Nova Lite Sem Fio Para Pc Switch Android Ios Steam Hall Effect Cor Space Purple - R$ 156,97",
+   "loja": "",
+   "preco": 156.97,
+   "precoDe": 299.0,
+   "precoComCupom": 144.0,
+   "desconto": 48,
+   "cupom": "HOJEMESMO",
+   "cupomTexto": "",
+   "url": "https://meli.la/1vGf7ch",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_628100-MLA99480320238_112025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-25 08:56:14"
+  },
+  {
+   "id": "p15457",
+   "plataforma": "mercadolivre",
+   "produto": "Webcam Camera Full Hd Zoom 1080p 360 Graus Videoconferencia Streamcam Web Cam Entrada Usb 2.0 Com Microfone- GoodVision - R$ 36,70",
+   "loja": "",
+   "preco": 36.7,
+   "precoDe": 78.0,
+   "precoComCupom": null,
+   "desconto": 53,
+   "cupom": "COMPRANOML",
+   "cupomTexto": "",
+   "url": "https://meli.la/2QiU6iV",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_807092-MLA100966388363_122025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-25 08:47:24"
+  },
   {
    "id": "p21995",
    "plataforma": "shopee",
@@ -659,22 +707,6 @@
    "visto": "2026-11-24 21:58:44"
   },
   {
-   "id": "p22009",
-   "plataforma": "mercadolivre",
-   "produto": "Processador Gamer Amd Ryzen 5 5500 6 Núcleos 4.2ghz - R$ 569",
-   "loja": "",
-   "preco": 569.0,
-   "precoDe": 740.0,
-   "precoComCupom": 512.0,
-   "desconto": 23,
-   "cupom": "TECHHOME",
-   "cupomTexto": "",
-   "url": "https://meli.la/1SzApt9",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_655990-MLB96262084786_102025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-24 21:54:13"
-  },
-  {
    "id": "p22177",
    "plataforma": "mercadolivre",
    "produto": "Toshiba Smart TV QLED FHD 32\" Polegadas 32V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal - R$ 1.049",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_948051-MLA119960877876_112026-P.webp",
    "emoji": "🎮",
    "visto": "2026-11-24 18:13:20"
-  },
-  {
-   "id": "p21996",
-   "plataforma": "mercadolivre",
-   "produto": "Controle Sem Fio Sony Dualsense, Playstation 5, Bluetooth Starlight Blue - R$ 371,99",
-   "loja": "",
-   "preco": 371.99,
-   "precoDe": 399.99,
-   "precoComCupom": 334.0,
-   "desconto": 7,
-   "cupom": "TECHHOME",
-   "cupomTexto": "",
-   "url": "https://meli.la/17M8FbQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_856085-MLB120318080646_112026-P.webp",
-   "emoji": "🎮",
-   "visto": "2026-11-24 18:12:40"
-  },
-  {
-   "id": "p19801",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-Mãe ASRock B450M Steel Legend AM4 DDR4 M-ATX com 2 Slots M.2 - R$ 611,10",
-   "loja": "",
-   "preco": 611.1,
-   "precoDe": 769.0,
-   "precoComCupom": 549.0,
-   "desconto": 21,
-   "cupom": "TECHHOME",
-   "cupomTexto": "",
-   "url": "https://meli.la/32xS1SQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_875617-MLA99977505459_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-24 18:12:11"
   }
  ]
 }
