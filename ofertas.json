@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-25 23:36:41",
+ "atualizado": "2026-11-26 00:06:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21412",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Gamer Sem Fio Logitech G Series Lightspeed G305 Preto - R$ 161,91",
+   "loja": "",
+   "preco": 161.91,
+   "precoDe": 369.9,
+   "precoComCupom": null,
+   "desconto": 56,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/2BFeCBa",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_939616-MLU69348111837_052023-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-25 23:57:20"
+  },
+  {
+   "id": "p15244",
+   "plataforma": "mercadolivre",
+   "produto": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F Preto - R$ 499",
+   "loja": "",
+   "preco": 499.0,
+   "precoDe": 749.0,
+   "precoComCupom": null,
+   "desconto": 33,
+   "cupom": "VEMPROMP",
+   "cupomTexto": "",
+   "url": "https://meli.la/2jbPC3u",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_748152-MLA96322082514_102025-P.webp",
+   "emoji": "🖥️",
+   "visto": "2026-11-25 23:42:19"
+  },
   {
    "id": "p15371",
    "plataforma": "mercadolivre",
@@ -113,22 +145,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_706585-MLB119122747373_102026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-25 23:17:20"
-  },
-  {
-   "id": "p15244",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F Preto - R$ 499",
-   "loja": "",
-   "preco": 499.0,
-   "precoDe": 749.0,
-   "precoComCupom": null,
-   "desconto": 33,
-   "cupom": "VEMPROMP",
-   "cupomTexto": "",
-   "url": "https://meli.la/2jbPC3u",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_748152-MLA96322082514_102025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-25 23:17:13"
   },
   {
    "id": "p22240",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_930129-MLU78451929490_082024-P.webp",
    "emoji": "💾",
    "visto": "2026-11-25 16:30:16"
-  },
-  {
-   "id": "p22222",
-   "plataforma": "mercadolivre",
-   "produto": "iPhone 17 Pro 1TB - Prateado - Distribuidor Autorizado - R$ 10.147",
-   "loja": "",
-   "preco": 10147.0,
-   "precoDe": 14499.0,
-   "precoComCupom": null,
-   "desconto": 30,
-   "cupom": "",
-   "cupomTexto": "",
-   "url": "https://meli.la/2FV2L15",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_872252-MLA94699919406_102025-P.webp",
-   "emoji": "📱",
-   "visto": "2026-11-25 16:27:50"
   }
  ]
 }
