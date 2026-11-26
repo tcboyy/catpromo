@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-26 01:05:41",
+ "atualizado": "2026-11-26 01:35:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p22249",
+   "plataforma": "shopee",
+   "produto": "Controle PS5 Sony Dualsense sem fio JoyStick - Midnight Black",
+   "loja": "NegociuN",
+   "preco": 360.9,
+   "precoDe": 668.33,
+   "precoComCupom": null,
+   "desconto": 46,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/gRwH3miY2",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820ls-mo65ro6coem92c",
+   "emoji": "🎮",
+   "visto": "2026-11-26 01:13:53"
+  },
+  {
+   "id": "p22248",
+   "plataforma": "shopee",
+   "produto": "Controle Sem Fio Sony DualSense, PlayStation 5, Bluetooth, Branco - 3005767",
+   "loja": "Kabum",
+   "preco": 359.91,
+   "precoDe": 399.9,
+   "precoComCupom": null,
+   "desconto": 10,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://s.shopee.com.br/9V3KnI6dPB",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-8259l-muaxyaturaiq04",
+   "emoji": "🎮",
+   "visto": "2026-11-26 01:13:51"
+  },
   {
    "id": "p22247",
    "plataforma": "shopee",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_765352-MLA99964409185_112025-P.webp",
    "emoji": "💾",
    "visto": "2026-11-25 19:28:18"
-  },
-  {
-   "id": "p19461",
-   "plataforma": "mercadolivre",
-   "produto": "Ssd Kingston Nv3 500gb M.2 2280 Nvme Pcie 4.0 5000mb/s - R$ 649,70",
-   "loja": "",
-   "preco": 649.7,
-   "precoDe": null,
-   "precoComCupom": 584.0,
-   "desconto": null,
-   "cupom": "ELETROTECHMELI",
-   "cupomTexto": "",
-   "url": "https://meli.la/2dNKJLQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_619509-MLA118552449350_102026-P.webp",
-   "emoji": "💾",
-   "visto": "2026-11-25 19:21:24"
-  },
-  {
-   "id": "p17332",
-   "plataforma": "mercadolivre",
-   "produto": "HUAWEI WATCH GT 7 Pro 46mm Smart Watch, Bateria de até 21 dias, Caixa em liga de titânio e bisel em cerâmica nano-tech, ECG, Monitoramento d",
-   "loja": "",
-   "preco": 1484.0,
-   "precoDe": 2699.0,
-   "precoComCupom": 1335.0,
-   "desconto": 45,
-   "cupom": "LIVREOFF",
-   "cupomTexto": "",
-   "url": "https://meli.la/1EMTzQB",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_935533-MLA114994321916_082026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-25 19:08:19"
   }
  ]
 }
