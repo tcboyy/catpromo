@@ -326,6 +326,18 @@ footer b{color:var(--dim)}
     } catch (e) { return ''; }
   }
 
+  // SO LINK DAS NOSSAS LOJAS no botao (revisao de 26/11/2026). O urlSegura so
+  // barrava javascript: e afins: um link de qualquer site no ofertas.json
+  // virava botao "IR PRA LOJA". Foto continua no urlSegura (CDN das lojas).
+  var LOJAS = ['meli.la', 'mercadolivre.com.br', 'mercadolibre.com', 'shopee.com.br',
+               'aliexpress.com', 'amazon.com.br', 'amzn.to', 'linkdapromo.com'];
+  function lojaSegura(u) {
+    var bom = urlSegura(u);
+    if (!bom) return '';
+    var h = new URL(bom).hostname.toLowerCase();
+    return LOJAS.some(function (d) { return h === d || h.slice(-(d.length + 1)) === '.' + d; }) ? bom : '';
+  }
+
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
@@ -369,7 +381,7 @@ footer b{color:var(--dim)}
     var el = document.createElement('article');
     el.className = 'of';
     var loja = LOJAS[o.plataforma] || { nome: '', botao: 'VER OFERTA NA LOJA' };
-    var destino = urlSegura(o.url);
+    var destino = lojaSegura(o.url);
 
     var foto = o.imagem && urlSegura(o.imagem)
       ? '<img src="' + esc(urlSegura(o.imagem)) + '" alt="" loading="lazy" referrerpolicy="no-referrer">'
@@ -425,12 +437,29 @@ footer b{color:var(--dim)}
         cx.querySelector('small').textContent = 'LIBERADO';
         btn.textContent = loja.botao.replace(/^VER /, 'IR ');
 
+        // "copiado" so quando copiou (revisao de 26/11/2026): o writeText falha
+        // DEPOIS, na promessa, e o try/catch nunca via. Sem copiar, o cupom
+        // aparece no aviso pra pessoa anotar.
         var cupom = String(o.cupom).slice(0, 64);
-        try { navigator.clipboard.writeText(cupom); aviso('Cupom ' + cupom + ' copiado!'); }
-        catch (e) { aviso('Cupom: ' + cupom); }
+        var copia;
+        try { copia = navigator.clipboard.writeText(cupom); } catch (e) { copia = Promise.reject(e); }
+        copia.then(function () { aviso('Cupom ' + cupom + ' copiado!'); },
+                   function () { aviso('Cupom: ' + cupom + ' (anote antes de ir)'); });
 
         cliqueNaLoja(o.produto, loja.nome || o.loja);
-        if (destino) setTimeout(function () { window.open(destino, '_blank', 'noopener'); }, 550);
+        // A LOJA ABRE NO PROPRIO CLIQUE (revisao de 26/11/2026). Com o
+        // window.open dentro de um setTimeout o navegador nao ve mais o toque
+        // e barra a janela, e no navegador do Instagram e do Facebook o botao
+        // nao abria nada. Ali vai na mesma aba, depois de mostrar o cupom.
+        if (destino) {
+          if (/Instagram|FBAN|FBAV|FB_IAB/i.test(navigator.userAgent)) {
+            setTimeout(function () { location.href = destino; }, 550);
+          } else {
+            var nova = window.open(destino, '_blank');
+            if (nova) { try { nova.opener = null; } catch (e) {} }
+            else setTimeout(function () { location.href = destino; }, 550);
+          }
+        }
       });
     }
     return el;
@@ -449,7 +478,7 @@ footer b{color:var(--dim)}
       var boas = [];
       lista.forEach(function (o) {
         var v = instante(o.visto);
-        if (!v || !(o.preco > 0) || !urlSegura(o.url)) return;
+        if (!v || !(o.preco > 0) || !lojaSegura(o.url)) return;
         if (agora - v.t > janela || v.t - agora > 3600 * 1000) return;
         boas.push([o, v]);
       });
