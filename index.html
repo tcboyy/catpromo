@@ -329,13 +329,15 @@ footer b{color:var(--dim)}
   // SO LINK DAS NOSSAS LOJAS no botao (revisao de 26/11/2026). O urlSegura so
   // barrava javascript: e afins: um link de qualquer site no ofertas.json
   // virava botao "IR PRA LOJA". Foto continua no urlSegura (CDN das lojas).
-  var LOJAS = ['meli.la', 'mercadolivre.com.br', 'mercadolibre.com', 'shopee.com.br',
-               'aliexpress.com', 'amazon.com.br', 'amzn.to', 'linkdapromo.com'];
+  // DOMINIOS_DAS_LOJAS e nao LOJAS: LOJAS ja e o objeto das plataformas mais
+  // abaixo, e o `var` de la passava por cima deste (Codex, 27/11/2026).
+  var DOMINIOS_DAS_LOJAS = ['meli.la', 'mercadolivre.com.br', 'mercadolibre.com', 'shopee.com.br',
+                            'aliexpress.com', 'amazon.com.br', 'amzn.to', 'linkdapromo.com'];
   function lojaSegura(u) {
     var bom = urlSegura(u);
     if (!bom) return '';
     var h = new URL(bom).hostname.toLowerCase();
-    return LOJAS.some(function (d) { return h === d || h.slice(-(d.length + 1)) === '.' + d; }) ? bom : '';
+    return DOMINIOS_DAS_LOJAS.some(function (d) { return h === d || h.slice(-(d.length + 1)) === '.' + d; }) ? bom : '';
   }
 
   function esc(s) {
