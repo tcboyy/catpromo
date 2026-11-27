@@ -808,10 +808,10 @@ var CONFIG = {
       try { history.pushState({ bk: 1 }, '', location.href); } catch (e) {}
       window.addEventListener('popstate', function () {
         if (aberto) { fecha(); return; }
-        if (!jaMostrou) {
-          abre('voltar');
-          try { history.pushState({ bk: 1 }, '', location.href); } catch (e) {}
-        }
+        // Sem empilhar de novo (revisao de 26/11/2026): empilhava, e sair
+        // custava tres toques no voltar, contra o que o comentario acima
+        // promete. Agora o primeiro mostra o aviso e o segundo sai.
+        if (!jaMostrou) abre('voltar');
       });
     }
 
