@@ -475,7 +475,8 @@ var CONFIG = {
   /* CÓPIA DA /tech/ QUE LEVA PRO TELEGRAM (18/11/2026, pedido do Pedro).
      Vai direto pro canal: o rotador (ir.linkdapromo.com) só manda pra grupo
      do WhatsApp e link de loja, então o clique daqui NÃO aparece em
-     /aquisicao. As entradas se contam no próprio Telegram. */
+     /aquisicao. As entradas se contam no próprio Telegram. O clique vai pro
+     Meta como LeadTelegram, não como Lead (27/11/2026, ver capi.js). */
   link: 'https://t.me/cattechpromo',
 
 
@@ -831,8 +832,8 @@ var CONFIG = {
     });
 
     b1.addEventListener('click', function () {
-      /* Um Lead por sessão (CAPI.lead em capi.js, 27/11/2026); capi.js antigo em cache manda como antes. */
-      if (window.CAPI) { if (CAPI.lead) CAPI.lead({ content_name: 'saida-telegram', source: origem }); else CAPI.envia('Lead', { content_name: 'saida-telegram', source: origem }); }
+      /* Clique pro Telegram é LeadTelegram, não Lead (27/11/2026, ver capi.js). capi.js antigo em cache manda sem a trava da sessão, mas nunca como Lead. */
+      if (window.CAPI) { if (CAPI.leadTelegram) CAPI.leadTelegram({ content_name: 'saida-telegram', source: origem }); else CAPI.envia('LeadTelegram', { content_name: 'saida-telegram', source: origem }, 'trackCustom'); }
     });
     b2.addEventListener('click', function () {
       if (window.CAPI) CAPI.envia('SaidaCupons', { source: origem }, 'trackCustom');
@@ -909,10 +910,10 @@ var CONFIG = {
 
   // ---- eventos ----
   $('btn').addEventListener('click', function () {
-    /* Um Lead por sessão (CAPI.lead em capi.js, 27/11/2026); capi.js antigo em cache manda como antes. */
+    /* Clique pro Telegram é LeadTelegram, não Lead (27/11/2026, ver capi.js). capi.js antigo em cache manda sem a trava da sessão, mas nunca como Lead. */
     var dadosLead = { content_name: 'entrar-telegram', source: origem };
-    var leadNovo = !window.CAPI || (CAPI.lead ? CAPI.lead(dadosLead) : (CAPI.envia('Lead', dadosLead), true));
-    if (leadNovo && window.ttq) ttq.track('ClickButton', { content_name: 'entrar' });
+    var leadNovo = !window.CAPI || (CAPI.leadTelegram ? CAPI.leadTelegram(dadosLead) : (CAPI.envia('LeadTelegram', dadosLead, 'trackCustom'), true));
+    if (leadNovo && window.ttq) ttq.track('ClickButton', { content_name: 'entrar-telegram' });
   });
   /* o link "Ver Cupons" saiu; o evento some junto */
 })();

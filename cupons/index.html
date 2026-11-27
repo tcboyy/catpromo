@@ -480,8 +480,8 @@ var CONFIG = {
     $(par[0]).href = CONFIG.linkTg;
     $(par[1]).textContent = CONFIG.botaoTg;
     $(par[0]).addEventListener('click', function () {
-      /* Um Lead por sessão (CAPI.lead em capi.js, 27/11/2026); capi.js antigo em cache manda como antes. */
-      if (window.CAPI) { if (CAPI.lead) CAPI.lead({ content_name: 'cupons-tg', source: origem }); else CAPI.envia('Lead', { content_name: 'cupons-tg', source: origem }); }
+      /* Clique pro Telegram é LeadTelegram, não Lead (27/11/2026, ver capi.js). capi.js antigo em cache manda sem a trava da sessão, mas nunca como Lead. */
+      if (window.CAPI) { if (CAPI.leadTelegram) CAPI.leadTelegram({ content_name: 'cupons-tg', source: origem }); else CAPI.envia('LeadTelegram', { content_name: 'cupons-tg', source: origem }, 'trackCustom'); }
     });
   });
 

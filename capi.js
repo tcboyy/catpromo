@@ -137,17 +137,31 @@ window.CAPI = (function () {
      esta aberta, entao abrir o anuncio de novo noutra aba e visita nova. Vale
      pra todas as paginas do dominio, porque a pessoa e a mesma. Sem storage
      (aba anonima com bloqueio), cai pra um por carregamento de pagina.
-     Devolve true quando mandou (quem chama usa pra nao repetir o TikTok). */
-  var CHAVE_LEAD = 'cat_lead_sessao';
-  var leadNestaPagina = false;
-  function lead(dados) {
-    if (leadNestaPagina) return false;
-    try { if (sessionStorage.getItem(CHAVE_LEAD)) return false; } catch (e) {}
-    leadNestaPagina = true;
-    try { sessionStorage.setItem(CHAVE_LEAD, String(Date.now())); } catch (e) {}
-    envia('Lead', dados);
+     Devolve true quando mandou (quem chama usa pra nao repetir o TikTok).
+     Cada evento tem a sua trava: o Lead do WhatsApp e o do Telegram (abaixo)
+     sao conversoes diferentes e um nao apaga o outro. */
+  var jaNestaPagina = {};
+  function umaVezPorSessao(nome, dados, tipo) {
+    var chave = nome === 'Lead' ? 'cat_lead_sessao' : 'cat_sessao_' + nome;
+    if (jaNestaPagina[nome]) return false;
+    try { if (sessionStorage.getItem(chave)) return false; } catch (e) {}
+    jaNestaPagina[nome] = true;
+    try { sessionStorage.setItem(chave, String(Date.now())); } catch (e) {}
+    envia(nome, dados, tipo);
     return true;
   }
+  function lead(dados) { return umaVezPorSessao('Lead', dados); }
 
-  return { envia: envia, lead: lead, origem: origem };
+  /* LEAD DO TELEGRAM (27/11/2026, pedido do Pedro). O clique que leva pro
+     canal do Telegram (/tech-telegram/ e o botao de Telegram da /cupons/)
+     mandava `Lead`, o mesmo evento do clique pro grupo do WhatsApp, no mesmo
+     conjunto de dados: a campanha que otimiza por Lead aprenderia com quem foi
+     pro Telegram, e o Lead do Gerenciador somava os dois destinos. Agora e um
+     evento personalizado proprio. Nenhuma campanha otimiza por ele (em 27/11
+     as 18 ativas iam pra /tech-min/); pra anunciar pro Telegram um dia, criar
+     uma conversao personalizada com ele no Gerenciador de Eventos. O Worker so
+     aceita evento da lista dele: LeadTelegram esta em EVENTOS_CUSTOM. */
+  function leadTelegram(dados) { return umaVezPorSessao('LeadTelegram', dados, 'trackCustom'); }
+
+  return { envia: envia, lead: lead, leadTelegram: leadTelegram, origem: origem };
 })();
