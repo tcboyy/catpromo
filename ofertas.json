@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-27 01:35:41",
+ "atualizado": "2026-11-27 02:06:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p21724",
+   "plataforma": "shopee",
+   "produto": "Monitor Gamer AOC Gaming 32\" QHD 180Hz VA 0,5ms HDMI DisplayPort",
+   "loja": "Magalu",
+   "preco": 989.0,
+   "precoDe": null,
+   "precoComCupom": 817.0,
+   "desconto": null,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://s.shopee.com.br/2Vtc5n6qfu",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825al-mum32klvoavbdb",
+   "emoji": "🖥️",
+   "visto": "2026-11-27 01:49:52"
+  },
+  {
+   "id": "p22389",
+   "plataforma": "aliexpress",
+   "produto": "IROK MG68 PRO 8K Interruptor Magnético Teclado Mecânico para Jogos 0.001mm Gatilho Rápido Hot Swap/SOCD/Wried/Wireless/Bt/à prova de água",
+   "loja": "IROK Flagship Store Store",
+   "preco": 523.35,
+   "precoDe": 685.89,
+   "precoComCupom": null,
+   "desconto": 23,
+   "cupom": "BLACKAE3",
+   "cupomTexto": "",
+   "url": "https://s.click.aliexpress.com/e/_c3eohHtP",
+   "imagem": "https://ae-pic-a1.aliexpress-media.com/kf/S06811c4aa4114a75845fa94cc34f8bf8n.png",
+   "emoji": "⌨️",
+   "visto": "2026-11-27 01:38:09"
+  },
   {
    "id": "p22388",
    "plataforma": "aliexpress",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-825am-muc71ngd43k8cb",
    "emoji": "📦",
    "visto": "2026-11-27 00:17:37"
-  },
-  {
-   "id": "p6616",
-   "plataforma": "mercadolivre",
-   "produto": "LG UltraGear Monitor Gamer 32\"- VA 165Hz 1ms (MBR) QHD 2K (2560x1440) HDR10 AMD FreeSync, Preto - 32GN600 - R$ 989,10",
-   "loja": "",
-   "preco": 989.1,
-   "precoDe": 2180.0,
-   "precoComCupom": 764.0,
-   "desconto": 55,
-   "cupom": "ZB9MELI",
-   "cupomTexto": "",
-   "url": "https://meli.la/33m7bnh",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_638172-MLA119028250988_112026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-27 00:17:32"
-  },
-  {
-   "id": "p15895",
-   "plataforma": "mercadolivre",
-   "produto": "Impressora multifuncional cor Epson EcoTank L3250 - R$ 843,78",
-   "loja": "",
-   "preco": 843.78,
-   "precoDe": 1712.0,
-   "precoComCupom": 742.0,
-   "desconto": 51,
-   "cupom": "ZB9MELI",
-   "cupomTexto": "",
-   "url": "https://meli.la/1JKQzzD",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_827740-MLA99943629541_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-27 00:17:12"
   }
  ]
 }
