@@ -1,7 +1,39 @@
 {
- "atualizado": "2026-11-27 02:06:41",
+ "atualizado": "2026-11-27 02:35:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p16285",
+   "plataforma": "mercadolivre",
+   "produto": "Controle Sem Fio Dualsense Playstation 5 Chroma Indigo Cor Azul - R$ 224,50",
+   "loja": "",
+   "preco": 224.5,
+   "precoDe": 549.9,
+   "precoComCupom": null,
+   "desconto": 59,
+   "cupom": "",
+   "cupomTexto": "",
+   "url": "https://meli.la/1S5NwVZ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_840115-MLA100077871957_122025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-27 02:27:14"
+  },
+  {
+   "id": "p6697",
+   "plataforma": "mercadolivre",
+   "produto": "Controle Joystick Sem Fio Sony Playstation 5 Midnight Black Preto - R$ 199,50",
+   "loja": "",
+   "preco": 199.5,
+   "precoDe": 499.9,
+   "precoComCupom": null,
+   "desconto": 60,
+   "cupom": "TODOSITE1111",
+   "cupomTexto": "",
+   "url": "https://meli.la/1J2ijGh",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_759059-MLA99508283678_112025-P.webp",
+   "emoji": "🎮",
+   "visto": "2026-11-27 02:27:06"
+  },
   {
    "id": "p21724",
    "plataforma": "shopee",
@@ -1249,38 +1281,6 @@
    "imagem": "https://cf.shopee.com.br/file/sg-11134201-82597-muaxy81oh9u213",
    "emoji": "🎮",
    "visto": "2026-11-27 00:18:35"
-  },
-  {
-   "id": "p15915",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor PC Gamer LG 24”- IPS, Full HD, 100Hz, HDMI, Preto - 24MS500-B - R$ 458,99",
-   "loja": "",
-   "preco": 458.99,
-   "precoDe": 779.0,
-   "precoComCupom": 358.0,
-   "desconto": 41,
-   "cupom": "CORREBLACK",
-   "cupomTexto": "",
-   "url": "https://meli.la/2ZTs9CC",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_921982-MLA99962503055_112025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-27 00:18:20"
-  },
-  {
-   "id": "p22349",
-   "plataforma": "shopee",
-   "produto": "Placa-Mãe MSI B550M-A PRO, AMD, AM4, Micro-ATX, DDR4 - B550MAPRO",
-   "loja": "Kabum",
-   "preco": 483.59,
-   "precoDe": 555.85,
-   "precoComCupom": 411.0,
-   "desconto": 13,
-   "cupom": "",
-   "cupomTexto": "Cupom aplicado no anúncio",
-   "url": "https://s.shopee.com.br/5AuNAMA7UL",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825am-muc71ngd43k8cb",
-   "emoji": "📦",
-   "visto": "2026-11-27 00:17:37"
   }
  ]
 }
