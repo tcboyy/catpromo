@@ -282,8 +282,10 @@ footer b{color:var(--dim)}
   // clica em cupom e vai embora, em vez de para quem entra no canal.
   // ------------------------------------------------------------------
   function entrarNoCanal(onde) {
-    if (window.CAPI) CAPI.envia('Lead', { content_name: onde, source: origem });
-    if (window.ttq) ttq.track('ClickButton', { content_name: onde });
+    /* Um Lead por sessão (CAPI.lead em capi.js, 27/11/2026); capi.js antigo em cache manda como antes. */
+    var dadosLead = { content_name: onde, source: origem };
+    var leadNovo = !window.CAPI || (CAPI.lead ? CAPI.lead(dadosLead) : (CAPI.envia('Lead', dadosLead), true));
+    if (leadNovo && window.ttq) ttq.track('ClickButton', { content_name: onde });
   }
 
   function cliqueNaLoja(oferta, loja) {

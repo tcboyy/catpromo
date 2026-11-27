@@ -468,8 +468,10 @@ var CONFIG = {
     $(par[0]).href = CONFIG.link;
     $(par[1]).textContent = CONFIG.botaoWpp;
     $(par[0]).addEventListener('click', function () {
-      if (window.CAPI) CAPI.envia('Lead', { content_name: 'cupons-wpp', source: origem });
-      if (window.ttq) ttq.track('ClickButton', { content_name: 'cupons-wpp' });
+      /* Um Lead por sessão (CAPI.lead em capi.js, 27/11/2026); capi.js antigo em cache manda como antes. */
+      var dadosLead = { content_name: 'cupons-wpp', source: origem };
+      var leadNovo = !window.CAPI || (CAPI.lead ? CAPI.lead(dadosLead) : (CAPI.envia('Lead', dadosLead), true));
+      if (leadNovo && window.ttq) ttq.track('ClickButton', { content_name: 'cupons-wpp' });
     });
   });
 
@@ -478,7 +480,8 @@ var CONFIG = {
     $(par[0]).href = CONFIG.linkTg;
     $(par[1]).textContent = CONFIG.botaoTg;
     $(par[0]).addEventListener('click', function () {
-      if (window.CAPI) CAPI.envia('Lead', { content_name: 'cupons-tg', source: origem });
+      /* Um Lead por sessão (CAPI.lead em capi.js, 27/11/2026); capi.js antigo em cache manda como antes. */
+      if (window.CAPI) { if (CAPI.lead) CAPI.lead({ content_name: 'cupons-tg', source: origem }); else CAPI.envia('Lead', { content_name: 'cupons-tg', source: origem }); }
     });
   });
 

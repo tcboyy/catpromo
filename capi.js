@@ -130,5 +130,24 @@ window.CAPI = (function () {
      evento em vez de deduplicar. */
   envia('PageView', {}, 'track', 1000);
 
-  return { envia: envia, origem: origem };
+  /* UM LEAD POR SESSAO (27/11/2026, pedido do Pedro). O Lead saia a cada
+     clique: quem clicava em entrar, voltava pela seta e clicava de novo, ou
+     usava o botao do aviso de saida depois do principal, virava duas ou tres
+     pessoas pra Meta. Agora e um por aba: sessionStorage vale enquanto a aba
+     esta aberta, entao abrir o anuncio de novo noutra aba e visita nova. Vale
+     pra todas as paginas do dominio, porque a pessoa e a mesma. Sem storage
+     (aba anonima com bloqueio), cai pra um por carregamento de pagina.
+     Devolve true quando mandou (quem chama usa pra nao repetir o TikTok). */
+  var CHAVE_LEAD = 'cat_lead_sessao';
+  var leadNestaPagina = false;
+  function lead(dados) {
+    if (leadNestaPagina) return false;
+    try { if (sessionStorage.getItem(CHAVE_LEAD)) return false; } catch (e) {}
+    leadNestaPagina = true;
+    try { sessionStorage.setItem(CHAVE_LEAD, String(Date.now())); } catch (e) {}
+    envia('Lead', dados);
+    return true;
+  }
+
+  return { envia: envia, lead: lead, origem: origem };
 })();

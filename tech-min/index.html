@@ -833,7 +833,8 @@ var CONFIG = {
     });
 
     b1.addEventListener('click', function () {
-      if (window.CAPI) CAPI.envia('Lead', { content_name: 'saida-grupo', source: origem });
+      /* Um Lead por sessão (CAPI.lead em capi.js, 27/11/2026); capi.js antigo em cache manda como antes. */
+      if (window.CAPI) { if (CAPI.lead) CAPI.lead({ content_name: 'saida-grupo', source: origem }); else CAPI.envia('Lead', { content_name: 'saida-grupo', source: origem }); }
     });
     b2.addEventListener('click', function () {
       if (window.CAPI) CAPI.envia('SaidaCupons', { source: origem }, 'trackCustom');
@@ -909,16 +910,11 @@ var CONFIG = {
   })();
 
   // ---- eventos ----
-  /* Toque duplo e UM Lead (revisao de 26/11/2026): cada toque gerava um
-     event_id novo, e a Meta contava duas pessoas. 2 s cobre o toque repetido
-     sem esconder quem volta pra pagina e clica de novo depois. */
-  var leadEm = 0;
   $('btn').addEventListener('click', function () {
-    var agora = Date.now();
-    if (agora - leadEm < 2000) return;
-    leadEm = agora;
-    if (window.CAPI) CAPI.envia('Lead', { content_name: 'entrar', source: origem });
-    if (window.ttq) ttq.track('ClickButton', { content_name: 'entrar' });
+    /* Um Lead por sessão (CAPI.lead em capi.js, 27/11/2026); capi.js antigo em cache manda como antes. */
+    var dadosLead = { content_name: 'entrar', source: origem };
+    var leadNovo = !window.CAPI || (CAPI.lead ? CAPI.lead(dadosLead) : (CAPI.envia('Lead', dadosLead), true));
+    if (leadNovo && window.ttq) ttq.track('ClickButton', { content_name: 'entrar' });
   });
   /* o link "Ver Cupons" saiu; o evento some junto */
 })();
