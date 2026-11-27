@@ -101,7 +101,13 @@ window.CAPI = (function () {
         fetch(URL_CAPI, {
           method: 'POST',
           keepalive: true,          // sobrevive a navegacao que o proprio clique dispara
-          headers: { 'Content-Type': 'application/json' },
+          /* text/plain E NAO application/json (revisao de 26/11/2026): JSON
+             entre dominios exige a pergunta previa (preflight), e o Lead sai
+             no clique que ja esta levando a pessoa embora: a pergunta morria
+             com a pagina e a copia do servidor nao chegava. text/plain e
+             pedido simples, sem pergunta, e o Worker le o corpo como texto e
+             faz o JSON.parse ele mesmo (leCorpoJson em capi/worker.js). */
+          headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
           body: JSON.stringify({
             evento:   nome,
             event_id: eid,
