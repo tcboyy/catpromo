@@ -1,7 +1,55 @@
 {
- "atualizado": "2026-11-28 11:35:41",
+ "atualizado": "2026-11-28 12:05:42",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15773",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Havit Fuxi H3 Bluetooth 5.2 Gamer Sem Fio – Áudio Imersivo, Microfone e Baixa Latência - R$ 178,86",
+   "loja": "",
+   "preco": 178.86,
+   "precoDe": 294.0,
+   "precoComCupom": null,
+   "desconto": 39,
+   "cupom": "HORABLACK",
+   "cupomTexto": "",
+   "url": "https://meli.la/1WT3eFx",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_970987-MLA99507080258_112025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-28 11:55:22"
+  },
+  {
+   "id": "p20725",
+   "plataforma": "mercadolivre",
+   "produto": "Mouse Pad Gamer Apex Control Profissional 49x42 Mousepad - Onda Degradê - R$ 69,90",
+   "loja": "",
+   "preco": 69.9,
+   "precoDe": 99.9,
+   "precoComCupom": 62.0,
+   "desconto": 30,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/2qTwkAm",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_816699-MLA97463289171_112025-P.webp",
+   "emoji": "🖱️",
+   "visto": "2026-11-28 11:46:39"
+  },
+  {
+   "id": "p6597",
+   "plataforma": "mercadolivre",
+   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.102",
+   "loja": "",
+   "preco": 1102.0,
+   "precoDe": 1499.0,
+   "precoComCupom": null,
+   "desconto": 26,
+   "cupom": "ULTIMACHANCE",
+   "cupomTexto": "",
+   "url": "https://meli.la/13dS6US",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-28 11:36:31"
+  },
   {
    "id": "p20541",
    "plataforma": "mercadolivre",
@@ -979,22 +1027,6 @@
    "visto": "2026-11-27 23:50:51"
   },
   {
-   "id": "p6597",
-   "plataforma": "mercadolivre",
-   "produto": "Processador AMD Ryzen 7 5700X 3.4GHz (4.6GHz Max Turbo) AM4 - R$ 1.042",
-   "loja": "",
-   "preco": 1042.0,
-   "precoDe": 1499.0,
-   "precoComCupom": 887.0,
-   "desconto": 30,
-   "cupom": "ULTIMACHANCE",
-   "cupomTexto": "",
-   "url": "https://meli.la/13dS6US",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_871623-MLA92019646747_092025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-27 23:50:31"
-  },
-  {
    "id": "p22220",
    "plataforma": "mercadolivre",
    "produto": "Ar-condicionado Samsung Inverter Windfree Ai Pro 12.000 Btus Frio Ar60h12d1awnaz - R$ 2.390",
@@ -1249,38 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_778419-MLA104458943229_012026-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-27 23:26:10"
-  },
-  {
-   "id": "p21525",
-   "plataforma": "mercadolivre",
-   "produto": "Smart Tv Semp 32 Polegadas Led Full Hd S42r Roku Tv Wi-Fi Dolby Audio Brilho Até 220 Nits 32s42r - R$ 920,53",
-   "loja": "",
-   "preco": 920.53,
-   "precoDe": 949.0,
-   "precoComCupom": 726.0,
-   "desconto": 3,
-   "cupom": "BFMP100",
-   "cupomTexto": "",
-   "url": "https://meli.la/1i2R4g7",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_778226-MLA114547893248_082026-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-27 23:26:01"
-  },
-  {
-   "id": "p19369",
-   "plataforma": "mercadolivre",
-   "produto": "Monitor Gamer Acer Nitro KG243Y P1bip 23,8″ | Full HD • 144Hz • 1ms VRB • IPS • HDMI • DisplayPort • ZeroFrame - R$ 520,20",
-   "loja": "",
-   "preco": 520.2,
-   "precoDe": 1261.0,
-   "precoComCupom": 412.0,
-   "desconto": 59,
-   "cupom": "BFMP100",
-   "cupomTexto": "",
-   "url": "https://meli.la/2y9dG4j",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_777139-MLA99536116310_122025-P.webp",
-   "emoji": "🖥️",
-   "visto": "2026-11-27 23:25:53"
   }
  ]
 }
