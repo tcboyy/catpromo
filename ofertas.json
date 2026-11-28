@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-28 08:35:41",
+ "atualizado": "2026-11-28 09:05:41",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p19801",
+   "plataforma": "mercadolivre",
+   "produto": "Placa-Mãe ASRock B450M Steel Legend AM4 DDR4 M-ATX com 2 Slots M.2 - R$ 593,91",
+   "loja": "",
+   "preco": 593.91,
+   "precoDe": 1067.0,
+   "precoComCupom": null,
+   "desconto": 44,
+   "cupom": "BFMP100",
+   "cupomTexto": "",
+   "url": "https://meli.la/32xS1SQ",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_875617-MLA99977505459_112025-P.webp",
+   "emoji": "📦",
+   "visto": "2026-11-28 08:57:03"
+  },
   {
    "id": "p19999",
    "plataforma": "mercadolivre",
@@ -257,22 +273,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_922246-MLA99988034526_122025-P.webp",
    "emoji": "🖥️",
    "visto": "2026-11-27 23:56:54"
-  },
-  {
-   "id": "p19801",
-   "plataforma": "mercadolivre",
-   "produto": "Placa-Mãe ASRock B450M Steel Legend AM4 DDR4 M-ATX com 2 Slots M.2 - R$ 659,90",
-   "loja": "",
-   "preco": 659.9,
-   "precoDe": 1067.0,
-   "precoComCupom": null,
-   "desconto": 38,
-   "cupom": "BFMP100",
-   "cupomTexto": "",
-   "url": "https://meli.la/32xS1SQ",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_875617-MLA99977505459_112025-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-27 23:56:47"
   },
   {
    "id": "p6578",
