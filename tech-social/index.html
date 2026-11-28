@@ -15,7 +15,8 @@
        FEITO  depoimentos — secao removida (eram clientes DELES)
        FEITO  botoes vao direto pro rotador, com ?c=, fbclid e Lead
 
-       FEITO  telas dos dois celulares — prints do grupo do CAT
+       FEITO  telas dos dois celulares: desde 28/11/2026 desenhadas em HTML,
+              com as ofertas das ultimas 24 h (o print era de setembro)
        FEITO  "Ofertas recentes": desde 28/11/2026 sao prints vivos,
               desenhados na hora com as ofertas das ultimas 24 h do
               ofertas.json (os 6 prints fixos de 17/09 tinham preco velho).
@@ -144,6 +145,64 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
       filter:none;width:2.25rem;height:2.25rem;border-radius:50%;
       background-color:rgba(0,0,0,.55);background-size:50% 50%;
     }
+
+    /* ---- os dois celulares do topo, desenhados (28/11/2026) ----------
+       Tudo medido em cqw (1% da largura do aparelho): o celular e o texto
+       crescem juntos, do celular de 390 px ao computador. O script nem
+       desenha onde o navegador nao entende cqw. aspect-ratio da caixa
+       guarda o lugar antes do json chegar, pra pagina nao pular. */
+    .cat-fones{
+      display:flex;justify-content:center;align-items:flex-start;gap:5%;
+      width:100%;max-width:620px;margin-inline:auto;aspect-ratio:1.1;
+    }
+    .fone{width:44%;container-type:inline-size}
+    .fone-corpo{
+      position:relative;aspect-ratio:9/18.6;padding:3cqw;border-radius:14cqw;background:#0d0d0f;
+      box-shadow:0 0 0 1cqw #c9cdd2,0 0 0 1.6cqw #80868c,0 12px 34px rgba(0,0,0,.5);
+    }
+    .fone-tela{
+      position:relative;display:flex;flex-direction:column;height:100%;overflow:hidden;
+      border-radius:11cqw;background:#0b141a;color:#e9edef;text-align:left;
+      font:4cqw/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    .fone-ilha{
+      position:absolute;top:2.6cqw;left:50%;width:29cqw;height:8.5cqw;margin-left:-14.5cqw;
+      border-radius:5cqw;background:#000;z-index:3;
+    }
+    .fone-status{
+      display:flex;justify-content:space-between;align-items:center;height:13cqw;
+      padding:2cqw 7cqw 0 9cqw;background:#121b22;font-weight:600;font-size:4.2cqw;
+    }
+    .fone-icones svg{height:3.4cqw;width:auto;margin-left:1.2cqw;fill:#fff;vertical-align:middle}
+    .fone-topo{
+      display:flex;align-items:center;gap:2.2cqw;padding:1.5cqw 3.5cqw 2.5cqw;
+      background:#121b22;border-bottom:.3cqw solid rgba(255,255,255,.06);
+    }
+    .fone-topo .volta{font-size:8cqw;line-height:1;margin-top:-1cqw}
+    .fone-topo img{width:9cqw;height:9cqw;border-radius:50%;object-fit:cover}
+    .fone-topo .nome{flex:1;min-width:0;font-weight:600;font-size:4.1cqw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .fone-topo .video{
+      display:flex;align-items:center;justify-content:center;width:11cqw;height:7cqw;
+      border:.4cqw solid rgba(233,237,239,.45);border-radius:4cqw;
+    }
+    .fone-topo .video svg{width:5cqw;height:5cqw;fill:none;stroke:#e9edef;stroke-width:2}
+    .fone-chat{
+      flex:1;min-height:0;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;
+      gap:2.4cqw;padding:2.5cqw 3cqw;background-color:#0b141a;
+      background-image:radial-gradient(rgba(255,255,255,.04) 1px,transparent 1.3px);background-size:5cqw 5cqw;
+    }
+    .fone-balao{
+      flex:none;align-self:flex-start;max-width:88%;padding:1cqw 1cqw .6cqw;
+      background:#202c33;border-radius:0 2.4cqw 2.4cqw 2.4cqw;
+    }
+    .fone-quem{padding:.4cqw 1.2cqw 1cqw;color:#06cf9c;font-weight:600;font-size:3.6cqw}
+    .fone-balao .wpp-foto{border-radius:1.6cqw}
+    .fone-balao .wpp-txt{padding:1.4cqw 1.4cqw 0}
+    .fone-balao .wpp-hora{padding:0 1cqw;font-size:2.8cqw}
+    .fone-rodape{display:flex;align-items:center;gap:2.6cqw;padding:2.4cqw 3.6cqw 6cqw;background:#121b22}
+    .fone-rodape .mais{font-size:7cqw;line-height:1}
+    .fone-rodape .campo{flex:1;height:8.5cqw;border-radius:5cqw;background:#2a3942}
+    .fone-rodape svg{width:6cqw;height:6cqw;fill:none;stroke:#e9edef;stroke-width:1.8}
   </style>
 </head>
   <body class="text-white">
@@ -207,15 +266,17 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
           <!-- [CAT] removido: CTA Baixar App do hero -->
         </div>
 
-      <!-- [CAT] mockup dos dois aparelhos, entre o botao e os numeros.
-           Aqui o print funciona: a imagem ocupa a largura do conteudo, nao
-           os ~90px que sobravam quando os aparelhos dividiam espaco com a
-           marca no banner do topo. O texto do chat volta a ser legivel. -->
-      <div class="cat-mockups mt-4">
-        <img src="upload/mockups.png?v=7c223ead"
-             alt="Ofertas postadas no grupo do CAT TECH PROMO no WhatsApp"
-             loading="lazy" />
-      </div>
+      <!-- [CAT] OS DOIS CELULARES, VIVOS (28/11/2026, pedido do Pedro).
+           Era um print (upload/mockups.png) do chat de setembro: SSD por
+           R$ 683, Ryzen por R$ 618, cupons vencidos e o nome de um membro.
+           Agora o aparelho e desenhado em HTML (estilo .fone no topo da
+           pagina) e o chat recebe as ofertas mais novas das ultimas 24 h do
+           ofertas.json, com as regras dos prints da secao #ofertas (script
+           "prints vivos" no fim da pagina). Sem oferta, os celulares somem.
+           Fica entre o botao e os numeros: aqui cada aparelho tem quase metade
+           da largura do conteudo e o chat le. -->
+      <div class="cat-fones mt-4" id="fones" role="img"
+           aria-label="Ofertas postadas no grupo do CAT TECH PROMO no WhatsApp"></div>
 
       <!-- KPIs com faixa brilhante -->
       <div class="metrics-band mt-4 p-3 p-md-4">
@@ -450,17 +511,19 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/social.js"></script>
-    <!-- [CAT] PRINTS VIVOS da secao #ofertas (28/11/2026). Ver o comentario
-         da secao. Falha em silencio de proposito: sem o ofertas.json, sem
-         oferta no prazo ou sem o Bootstrap, a secao so nao aparece. -->
+    <!-- [CAT] PRINTS VIVOS (28/11/2026): os dois celulares do topo (#fones) e
+         a secao #ofertas. Ver os comentarios dos dois. Um fetch do ofertas.json
+         alimenta os dois. Falha em silencio de proposito: sem o json, sem
+         oferta no prazo ou sem o Bootstrap, o que nao deu pra montar some. -->
     <script>
 (function () {
   'use strict';
   var secao = document.getElementById('ofertas');
-  if (!secao || !window.fetch || !window.bootstrap || !bootstrap.Carousel) return;
+  var fones = document.getElementById('fones');
 
-  var MAX = 6;          // tantos prints quanto havia antes
+  var MAX = 6;          // prints na secao, tantos quanto havia antes
   var MIN = 3;          // menos que isso nao enche nem um slide do computador
+  var NOS_FONES = 4;    // duas mensagens em cada celular
   var PRECO_MIN = 50;   // bugiganga de R$ 9 com 80% de desconto nao e vitrine
 
   // Mesma preposicao do selo do painel (cards/arteStatus.ts).
@@ -527,6 +590,8 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
     var corte = saida.slice(0, CAP), espaco = corte.lastIndexOf(' ');
     return limpaPonta(espaco > CAP * 0.6 ? corte.slice(0, espaco) : corte) + '…';
   }
+  // Tipo de produto = primeira palavra do titulo curto (monitor, mouse, iphone...).
+  function tipoDe(o) { return tituloCurto(semPrecoNoFim(o.produto)).split(' ')[0].toLowerCase(); }
   // A linha do cupom do padrao da casa ({cupom_line} em templates.ts).
   function linhaCupom(c) {
     c = String(c == null ? '' : c).trim();
@@ -549,55 +614,76 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
   function fotoGrande(u) {
     return /^https:\/\/http2\.mlstatic\.com\//.test(u) ? u.replace(/-P\.(webp|jpe?g|png)$/i, '-O.$1') : u;
   }
-  var TIQUES = '<svg viewBox="0 0 16 11" fill="none" stroke="currentColor" stroke-width="1.5" ' +
-               'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
-               '<path d="M1.2 5.9 4.4 9 10.6 1.9M7.4 9l.4.2 6.4-7.3"/></svg>';
-
-  function balao(o, v, p) {
-    var mini = urlSegura(o.imagem), grande = fotoGrande(mini);
-    var em = LOJA_EM[o.plataforma];
-    var preco = '💰 De <s>R$ ' + brl(p.de) + '</s> por <b>R$ ' + brl(p.por) + '</b>';
-    var cupom = linhaCupom(o.cupom);
-    return '<div class="print-vivo"><div class="wpp-balao">' +
-        '<img class="wpp-foto" src="' + esc(grande) + '" data-mini="' + (grande !== mini ? esc(mini) : '') + '"' +
-          ' alt="" loading="lazy" referrerpolicy="no-referrer">' +
-        '<div class="wpp-txt">' +
-          '<div class="wpp-titulo">🚚 <b>' + esc(tituloCurto(semPrecoNoFim(o.produto))) + '</b></div>' +
-          (em ? '<i>Oferta ' + esc(em) + '</i><br>' : '') +
-          '<br>' + preco + '<br>' +
-          (cupom ? '<br>' + cupom + '<br>' : '') +
-          '🛒 <span class="wpp-link">' + esc(lojaSegura(o.url)) + '</span>' +
-        '</div>' +
-        '<div class="wpp-hora">' + esc(v.hora) + ' ' + TIQUES + '</div>' +
-      '</div></div>';
-  }
-
-  function monta(id, porSlide, prints) {
-    var el = document.getElementById(id);
-    var html = '', bolinhas = '';
-    for (var i = 0, n = 0; i < prints.length; i += porSlide, n++) {
-      html += '<div class="carousel-item' + (n ? '' : ' active') + '">' +
-                '<div class="row g-3 justify-content-center">' +
-                  prints.slice(i, i + porSlide).map(function (h) {
-                    return '<div class="col-12' + (porSlide > 1 ? ' col-md-4' : '') + '">' + h + '</div>';
-                  }).join('') +
-                '</div>' +
-              '</div>';
-      bolinhas += '<button type="button" data-bs-target="#' + id + '" data-bs-slide-to="' + n + '"' +
-                  (n ? '' : ' class="active" aria-current="true"') + ' aria-label="Oferta ' + (n + 1) + '"></button>';
-    }
-    el.querySelector('.carousel-inner').innerHTML = html;
-    el.querySelector('.carousel-indicators').innerHTML = bolinhas;
-    // Foto: a de 500 px; se falhar, a miniatura; se falhar de novo, o balao fica so com o texto.
-    el.querySelectorAll('img.wpp-foto').forEach(function (img) {
+  // Foto: a de 500 px; se falhar, a miniatura; se falhar de novo, o balao fica so com o texto.
+  function fotosComReserva(raiz) {
+    raiz.querySelectorAll('img.wpp-foto').forEach(function (img) {
       img.addEventListener('error', function () {
         var mini = img.getAttribute('data-mini');
         if (mini) { img.setAttribute('data-mini', ''); img.src = mini; return; }
         img.remove();
       });
     });
-    new bootstrap.Carousel(el, { interval: 5000, ride: 'carousel', pause: 'hover', wrap: true });
   }
+  var TIQUES = '<svg viewBox="0 0 16 11" fill="none" stroke="currentColor" stroke-width="1.5" ' +
+               'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+               '<path d="M1.2 5.9 4.4 9 10.6 1.9M7.4 9l.4.2 6.4-7.3"/></svg>';
+
+  // O miolo do balao: foto, texto no formato da casa e a hora. Com os tiques
+  // no print de quem mandou (secao), sem eles no celular de quem recebe (topo).
+  function miolo(b, tiques) {
+    var o = b.o, p = b.p, mini = urlSegura(o.imagem), grande = fotoGrande(mini);
+    var em = LOJA_EM[o.plataforma], cupom = linhaCupom(o.cupom);
+    return '<img class="wpp-foto" src="' + esc(grande) + '" data-mini="' + (grande !== mini ? esc(mini) : '') + '"' +
+             ' alt="" loading="lazy" referrerpolicy="no-referrer">' +
+           '<div class="wpp-txt">' +
+             '<div class="wpp-titulo">🚚 <b>' + esc(tituloCurto(semPrecoNoFim(o.produto))) + '</b></div>' +
+             (em ? '<i>Oferta ' + esc(em) + '</i><br>' : '') +
+             '<br>💰 De <s>R$ ' + brl(p.de) + '</s> por <b>R$ ' + brl(p.por) + '</b><br>' +
+             (cupom ? '<br>' + cupom + '<br>' : '') +
+             '🛒 <span class="wpp-link">' + esc(lojaSegura(o.url)) + '</span>' +
+           '</div>' +
+           '<div class="wpp-hora">' + esc(b.v.hora) + (tiques ? ' ' + TIQUES : '') + '</div>';
+  }
+  function balao(b) { return '<div class="print-vivo"><div class="wpp-balao">' + miolo(b, true) + '</div></div>'; }
+  function balaoFone(b) {
+    return '<div class="fone-balao"><div class="fone-quem">CAT TECH PROMO</div>' + miolo(b, false) + '</div>';
+  }
+
+  /* ---- os dois celulares: a moldura entra ja, o chat quando o json chegar ---- */
+  var ICONES = '<svg viewBox="0 0 18 12" aria-hidden="true"><rect y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/>' +
+               '<rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" width="3" height="12" rx="1"/></svg>' +
+               '<svg viewBox="0 0 16 12" aria-hidden="true"><path d="M8 11.6 5.5 9.1a3.5 3.5 0 0 1 5 0zM3.3 6.9a6.6 6.6 0 0 1 9.4 0l-1.5 1.5a4.5 4.5 0 0 0-6.4 0zM.9 4.5a10 10 0 0 1 14.2 0l-1.4 1.4a8 8 0 0 0-11.4 0z"/></svg>' +
+               '<svg viewBox="0 0 27 12" aria-hidden="true"><rect x=".6" y=".6" width="22" height="10.8" rx="3" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1.2"/>' +
+               '<rect x="2.2" y="2.2" width="16" height="7.6" rx="1.6"/><rect x="24" y="4" width="2" height="4" rx="1" fill-opacity=".45"/></svg>';
+  var TOPO = '<div class="fone-topo"><span class="volta">‹</span>' +
+             '<img src="upload/cat-icone.png?v=e8cf79b4" alt="">' +
+             '<span class="nome">CAT TECH PROMO 👾 #5</span>' +
+             '<span class="video"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="6.5" width="13" height="11" rx="3"/><path d="m15.5 10.5 6-3.5v10l-6-3.5"/></svg></span></div>';
+  var RODAPE = '<div class="fone-rodape"><span class="mais">+</span><span class="campo"></span>' +
+               '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8.5h3l1.8-2.8h6.4L17 8.5h3v10.8H4z"/><circle cx="12" cy="13.6" r="3.4"/></svg>' +
+               '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3"/></svg></div>';
+  function moldura() {
+    return '<div class="fone"><div class="fone-corpo"><div class="fone-tela">' +
+             '<div class="fone-ilha"></div>' +
+             '<div class="fone-status"><span class="fone-relogio"></span><span class="fone-icones">' + ICONES + '</span></div>' +
+             TOPO + '<div class="fone-chat"></div>' + RODAPE +
+           '</div></div></div>';
+  }
+  // A hora do print: dois minutos depois da ultima mensagem do chat.
+  function doisMinutosDepois(hora) {
+    var h = +hora.slice(0, 2), m = +hora.slice(3, 5) + 2;
+    if (m >= 60) { m -= 60; h = (h + 1) % 24; }
+    return (h < 10 ? '0' : '') + h + ':' + (m < 10 ? '0' : '') + m;
+  }
+  function semFones() { if (fones) fones.hidden = true; }
+
+  /* O celular e desenhado em unidade do proprio aparelho (cqw): navegador
+     sem isso (iOS 15 pra tras) desenharia tudo fora de escala, entao ali os
+     celulares nem aparecem. */
+  var foneDa = !!(fones && window.CSS && CSS.supports && CSS.supports('width', '1cqw'));
+  if (foneDa) fones.innerHTML = moldura() + moldura(); else semFones();
+
+  if (!window.fetch) { semFones(); return; }
 
   fetch('../ofertas.json?v=' + Date.now(), { cache: 'no-store' })
     .then(function (r) { return r.ok ? r.json() : null; })
@@ -615,27 +701,72 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
         boas.push({ o: o, v: v, p: p, off: 1 - p.por / p.de });
       });
 
-      // As mais quentes: maior desconto primeiro; no empate, a mais nova.
-      // Uma por tipo de produto (primeira palavra do titulo): sem isso saiam
-      // tres monitores e dois iPhones iguais em cores diferentes.
-      boas.sort(function (a, b) { return (b.off - a.off) || (b.v.t - a.v.t); });
-      var tipos = {}, prints = [];
-      boas.forEach(function (b) {
-        if (prints.length >= MAX) return;
-        var tipo = tituloCurto(semPrecoNoFim(b.o.produto)).split(' ')[0].toLowerCase();
-        if (tipos[tipo]) return;
-        tipos[tipo] = true;
-        prints.push(balao(b.o, b.v, b.p));
+      // SECAO: as mais quentes, maior desconto primeiro (no empate, a mais
+      // nova). Uma por tipo de produto: sem isso saiam tres monitores e dois
+      // iPhones iguais em cores diferentes.
+      var quentes = boas.slice().sort(function (a, b) { return (b.off - a.off) || (b.v.t - a.v.t); });
+      var tipos = {}, naSecao = [];
+      quentes.forEach(function (b) {
+        if (naSecao.length >= MAX || tipos[tipoDe(b.o)]) return;
+        tipos[tipoDe(b.o)] = true;
+        naSecao.push(b);
       });
-      if (prints.length < MIN) return;
+      if (naSecao.length >= MIN && secao && window.bootstrap && bootstrap.Carousel) {
+        var prints = naSecao.map(balao);
+        monta('ofertasCarousel-m', 1, prints);
+        monta('ofertasCarousel-d', 3, prints);
+        secao.hidden = false;
+        var menu = document.getElementById('navOfertas');
+        if (menu) menu.hidden = false;
+      }
 
-      monta('ofertasCarousel-m', 1, prints);
-      monta('ofertasCarousel-d', 3, prints);
-      secao.hidden = false;
-      var menu = document.getElementById('navOfertas');
-      if (menu) menu.hidden = false;
+      // CELULARES: o que acabou de sair no grupo (as mais novas), sem repetir
+      // os prints da secao nem o tipo de produto. Dia fraco: completa com o
+      // que tiver, mais novas primeiro.
+      if (!foneDa) return;
+      var novas = boas.slice().sort(function (a, b) { return b.v.t - a.v.t; });
+      var tiposF = {}, noFone = [];
+      novas.forEach(function (b) {
+        if (noFone.length >= NOS_FONES || naSecao.indexOf(b) !== -1 || tiposF[tipoDe(b.o)]) return;
+        tiposF[tipoDe(b.o)] = true;
+        noFone.push(b);
+      });
+      novas.forEach(function (b) { if (noFone.length < NOS_FONES && noFone.indexOf(b) === -1) noFone.push(b); });
+      if (noFone.length < NOS_FONES) return semFones();
+      // O complemento entra fora de ordem: volta pra mais nova primeiro, senao
+      // a nova ia pra cima da velha e o relogio ficava antes dela (Codex, 28/11).
+      noFone.sort(function (a, b) { return b.v.t - a.v.t; });
+
+      // Em cada celular, a mais velha em cima (cortada pelo topo, como num
+      // print de verdade) e a mais nova embaixo.
+      var chats = fones.querySelectorAll('.fone-chat'), relogios = fones.querySelectorAll('.fone-relogio');
+      [[noFone[1], noFone[0]], [noFone[3], noFone[2]]].forEach(function (par, i) {
+        chats[i].innerHTML = balaoFone(par[0]) + balaoFone(par[1]);
+        relogios[i].textContent = doisMinutosDepois(par[1].v.hora);
+      });
+      fotosComReserva(fones);
     })
-    .catch(function () {});
+    .catch(semFones);
+
+  function monta(id, porSlide, prints) {
+    var el = document.getElementById(id);
+    var html = '', bolinhas = '';
+    for (var i = 0, n = 0; i < prints.length; i += porSlide, n++) {
+      html += '<div class="carousel-item' + (n ? '' : ' active') + '">' +
+                '<div class="row g-3 justify-content-center">' +
+                  prints.slice(i, i + porSlide).map(function (h) {
+                    return '<div class="col-12' + (porSlide > 1 ? ' col-md-4' : '') + '">' + h + '</div>';
+                  }).join('') +
+                '</div>' +
+              '</div>';
+      bolinhas += '<button type="button" data-bs-target="#' + id + '" data-bs-slide-to="' + n + '"' +
+                  (n ? '' : ' class="active" aria-current="true"') + ' aria-label="Oferta ' + (n + 1) + '"></button>';
+    }
+    el.querySelector('.carousel-inner').innerHTML = html;
+    el.querySelector('.carousel-indicators').innerHTML = bolinhas;
+    fotosComReserva(el);
+    new bootstrap.Carousel(el, { interval: 5000, ride: 'carousel', pause: 'hover', wrap: true });
+  }
 })();
     </script>
     <script>
