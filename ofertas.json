@@ -1,7 +1,23 @@
 {
- "atualizado": "2026-11-28 00:06:42",
+ "atualizado": "2026-11-28 00:35:42",
  "janelaHoras": 24,
  "ofertas": [
+  {
+   "id": "p15298",
+   "plataforma": "mercadolivre",
+   "produto": "Headset Gamer Sem Fio Fallen Pantera Eco Light Fone Wireless 50mm Bateria 45h Preto - R$ 321",
+   "loja": "",
+   "preco": 321.0,
+   "precoDe": 485.46,
+   "precoComCupom": 304.0,
+   "desconto": 34,
+   "cupom": "",
+   "cupomTexto": "Cupom aplicado no anúncio",
+   "url": "https://meli.la/2t9GMpH",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_629933-MLA100952608773_122025-P.webp",
+   "emoji": "🎧",
+   "visto": "2026-11-28 00:12:44"
+  },
   {
    "id": "p15528",
    "plataforma": "mercadolivre",
@@ -1265,22 +1281,6 @@
    "imagem": "https://http2.mlstatic.com/D_NQ_NP_821363-MLA118014839321_092026-P.webp",
    "emoji": "📦",
    "visto": "2026-11-27 23:11:45"
-  },
-  {
-   "id": "p22461",
-   "plataforma": "mercadolivre",
-   "produto": "Micro-ondas Philco 33L 1400W Limpa Fácil PMO39E - R$ 521",
-   "loja": "",
-   "preco": 521.0,
-   "precoDe": 799.0,
-   "precoComCupom": 421.0,
-   "desconto": 35,
-   "cupom": "BFMP100",
-   "cupomTexto": "",
-   "url": "https://meli.la/1xZPgkR",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_621120-MLA112996954810_072026-P.webp",
-   "emoji": "📦",
-   "visto": "2026-11-27 23:11:02"
   }
  ]
 }
