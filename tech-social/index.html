@@ -16,8 +16,9 @@
        FEITO  botoes vao direto pro rotador, com ?c=, fbclid e Lead
 
        FEITO  telas dos dois celulares — prints do grupo do CAT
-       FEITO  "Ofertas recentes" — 6 cards reais do grupo do CAT
-              (RTX 3050, Ryzen, Kingston, 2 monitores, mouse).
+       FEITO  "Ofertas recentes": desde 28/11/2026 sao prints vivos,
+              desenhados na hora com as ofertas das ultimas 24 h do
+              ofertas.json (os 6 prints fixos de 17/09 tinham preco velho).
        ⚠️  KPIs: R$ 18.458.958,02 e 448.882+ sao os numeros da
               OfertasGamer, mantidos por decisao do operador (17/09).
               Ver decisao 15 em 00-estrategia/decisoes.md.
@@ -102,6 +103,48 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
     />
     <!-- ULTIMO de proposito: sobrescreve bootstrap e o styles.css deles -->
   <link rel="stylesheet" href="assets/css/cat-overrides.css?v=7267efdf">
+  <!-- [CAT] "prints" vivos da secao #ofertas: o balao da mensagem do
+       WhatsApp (tema escuro), no lugar dos prints fixos (28/11/2026). -->
+  <style>
+    .print-vivo{
+      height:100%;max-width:340px;margin:0 auto;padding:14px 18px 14px 12px;
+      background:#0b141a;border:1px solid var(--stroke-glass);border-radius:14px;
+      box-shadow:0 10px 30px rgba(0,0,0,.35);text-align:left;
+    }
+    .wpp-balao{
+      position:relative;background:#005c4b;color:#e9edef;border-radius:8px 0 8px 8px;
+      padding:4px 4px 2px;box-shadow:0 1px .5px rgba(11,20,26,.13);
+      font:15px/1.38 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    .wpp-balao::after{
+      content:"";position:absolute;top:0;right:-8px;
+      border-left:8px solid #005c4b;border-bottom:10px solid transparent;
+    }
+    .wpp-foto{
+      display:block;width:100%;aspect-ratio:5/4;object-fit:contain;
+      background:#fff;border-radius:6px;
+    }
+    .wpp-txt{padding:6px 6px 0;overflow-wrap:anywhere}
+    .wpp-titulo{
+      display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+    }
+    .wpp-txt s{color:rgba(233,237,239,.75)}
+    .wpp-link{color:#53bdeb;text-decoration:underline}
+    .wpp-hora{
+      display:flex;justify-content:flex-end;align-items:center;gap:3px;
+      padding:0 4px 2px;font-size:11px;color:rgba(233,237,239,.6);
+    }
+    .wpp-hora svg{width:16px;height:11px;color:#53bdeb}
+    /* os tracinhos do carrossel vao pra baixo do print, nao por cima do link e da hora */
+    #ofertas .carousel{padding-bottom:30px}
+    #ofertas .carousel-indicators{margin-bottom:4px}
+    /* o tema escuro do Bootstrap pinta tracinho e seta de preto: no fundo escuro sumiam */
+    #ofertas .carousel-indicators [data-bs-target]{background-color:#fff}
+    #ofertas .carousel-control-prev-icon,#ofertas .carousel-control-next-icon{
+      filter:none;width:2.25rem;height:2.25rem;border-radius:50%;
+      background-color:rgba(0,0,0,.55);background-size:50% 50%;
+    }
+  </style>
 </head>
   <body class="text-white">
     <div class="bg-fixed" aria-hidden="true"></div>
@@ -130,7 +173,7 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
             <li class="nav-item">
               <!-- [CAT] removido: link do menu pros depoimentos -->
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="navOfertas" hidden>
               <a class="nav-link" href="#ofertas">Ofertas</a>
             </li>
             <li class="nav-item ms-lg-2">
@@ -255,163 +298,54 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
 
     <!-- DEPOIMENTOS -->
     
-<section id="ofertas" class="section pt-0 pt-5">
+<!-- [CAT] OFERTAS RECENTES = "PRINTS" VIVOS (28/11/2026, pedido do Pedro).
+     Eram 6 prints fixos de 17/09 com o preco daquele dia (RTX 3050 por
+     R$ 969...) debaixo do titulo "Ofertas Recentes": quem via achava que o
+     preco valia hoje. Agora cada print e desenhado na hora, no formato da
+     casa (PADRAO em 09-saas/painel/src/lib/templates.ts), com as ofertas que
+     sairam nos grupos nas ultimas 24 h: o mesmo ofertas.json da vitrine, que
+     a VPS publica de 30 em 30 min. Sem oferta boa no prazo, a secao e o
+     "Ofertas" do menu nao aparecem: print velho nunca mais. Nao clicavel de
+     proposito: a unica acao da pagina e o botao do grupo (ver .prova em /tech/). -->
+<section id="ofertas" class="section pt-0 pt-5" hidden>
   <div class="container">
     <div class="d-flex align-items-end justify-content-between mb-3">
       <div>
         <h2 class="h3 mb-1">Ofertas Recentes</h2>
         <p class="text-white-50 mb-0">
-          Prints das promoções mais quentes postadas nos grupos.
+          As promoções mais quentes que saíram nos grupos nas últimas 24 horas.
+          Preço da hora do post: na loja ele pode ter mudado.
         </p>
       </div>
     </div>
 
-          <div id="ofertasCarousel-m" class="carousel slide d-md-none" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-              <button type="button" data-bs-target="#ofertasCarousel-m" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Oferta 1"></button>
-              <button type="button" data-bs-target="#ofertasCarousel-m" data-bs-slide-to="1" aria-label="Oferta 2"></button>
-              <button type="button" data-bs-target="#ofertasCarousel-m" data-bs-slide-to="2" aria-label="Oferta 3"></button>
-              <button type="button" data-bs-target="#ofertasCarousel-m" data-bs-slide-to="3" aria-label="Oferta 4"></button>
-              <button type="button" data-bs-target="#ofertasCarousel-m" data-bs-slide-to="4" aria-label="Oferta 5"></button>
-              <button type="button" data-bs-target="#ofertasCarousel-m" data-bs-slide-to="5" aria-label="Oferta 6"></button>
-            </div>
-    
-    <div class="carousel-inner text-center">
-              <div class="carousel-item active">
-          <div class="row g-3 justify-content-center">
-                          <div class="col-12">
-                <img class="phone-img w-100"
-                     src="upload/of-rtx3050.jpg?v=86686ce4"
-                     alt="Placa de video Galax RTX 3050 6GB de R$ 2.299 por R$ 969"
-                     loading="lazy" />
-              </div>
-                      </div>
-        </div>
-              <div class="carousel-item">
-          <div class="row g-3 justify-content-center">
-                          <div class="col-12">
-                <img class="phone-img w-100"
-                     src="upload/of-ryzen.jpg?v=0f7905e2"
-                     alt="Processador AMD Ryzen 7 5700 de R$ 1.400 por R$ 618"
-                     loading="lazy" />
-              </div>
-                      </div>
-        </div>
-              <div class="carousel-item">
-          <div class="row g-3 justify-content-center">
-                          <div class="col-12">
-                <img class="phone-img w-100"
-                     src="upload/of-kingston.jpg?v=43235d2b"
-                     alt="SSD Kingston NV3 1TB de R$ 1.099 por R$ 683"
-                     loading="lazy" />
-              </div>
-                      </div>
-        </div>
-              <div class="carousel-item">
-          <div class="row g-3 justify-content-center">
-                          <div class="col-12">
-                <img class="phone-img w-100"
-                     src="upload/of-philips.jpg?v=80510bb9"
-                     alt="Monitor Philips Evnia 24 240hz de R$ 1.200 por R$ 463"
-                     loading="lazy" />
-              </div>
-                      </div>
-        </div>
-              <div class="carousel-item">
-          <div class="row g-3 justify-content-center">
-                          <div class="col-12">
-                <img class="phone-img w-100"
-                     src="upload/of-monitor.jpg?v=c2cbb1d3"
-                     alt="Monitor portatil 15.6 de R$ 1.100 por R$ 235,93"
-                     loading="lazy" />
-              </div>
-                      </div>
-        </div>
-              <div class="carousel-item">
-          <div class="row g-3 justify-content-center">
-                          <div class="col-12">
-                <img class="phone-img w-100"
-                     src="upload/of-mouse.jpg?v=af1eb690"
-                     alt="Mouse Attack Shark X11 de R$ 250 por R$ 71"
-                     loading="lazy" />
-              </div>
-                      </div>
-        </div>
-            </div>
-
+  <!-- CARROSSEL MOBILE (1 por slide): os itens entram pelo script "prints vivos" no fim da pagina -->
+  <div id="ofertasCarousel-m" class="carousel slide d-md-none">
+    <div class="carousel-indicators"></div>
+    <div class="carousel-inner text-center"></div>
     <button class="carousel-control-prev" type="button" data-bs-target="#ofertasCarousel-m" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#ofertasCarousel-m" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Próximo</span>
-      </button>
-      </div>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#ofertasCarousel-m" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
 
-  <!-- CARROSSEL DESKTOP (3 por slide) -->
-  <div id="ofertasCarousel-d" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-              <button type="button" data-bs-target="#ofertasCarousel-d" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Oferta 1"></button>
-              <button type="button" data-bs-target="#ofertasCarousel-d" data-bs-slide-to="1" aria-label="Oferta 2"></button>
-            </div>
-    
-    <div class="carousel-inner text-center">
-              <div class="carousel-item active">
-          <div class="row g-3 justify-content-center">
-                          <div class="col-12 col-md-4">
-                <img class="phone-img w-100"
-                     src="upload/of-rtx3050.jpg?v=86686ce4"
-                     alt="Placa de video Galax RTX 3050 6GB de R$ 2.299 por R$ 969"
-                     loading="lazy" />
-              </div>
-                          <div class="col-12 col-md-4">
-                <img class="phone-img w-100"
-                     src="upload/of-ryzen.jpg?v=0f7905e2"
-                     alt="Processador AMD Ryzen 7 5700 de R$ 1.400 por R$ 618"
-                     loading="lazy" />
-              </div>
-                          <div class="col-12 col-md-4">
-                <img class="phone-img w-100"
-                     src="upload/of-kingston.jpg?v=43235d2b"
-                     alt="SSD Kingston NV3 1TB de R$ 1.099 por R$ 683"
-                     loading="lazy" />
-              </div>
-                      </div>
-        </div>
-              <div class="carousel-item">
-          <div class="row g-3 justify-content-center">
-                          <div class="col-12 col-md-4">
-                <img class="phone-img w-100"
-                     src="upload/of-philips.jpg?v=80510bb9"
-                     alt="Monitor Philips Evnia 24 240hz de R$ 1.200 por R$ 463"
-                     loading="lazy" />
-              </div>
-                          <div class="col-12 col-md-4">
-                <img class="phone-img w-100"
-                     src="upload/of-monitor.jpg?v=c2cbb1d3"
-                     alt="Monitor portatil 15.6 de R$ 1.100 por R$ 235,93"
-                     loading="lazy" />
-              </div>
-                          <div class="col-12 col-md-4">
-                <img class="phone-img w-100"
-                     src="upload/of-mouse.jpg?v=af1eb690"
-                     alt="Mouse Attack Shark X11 de R$ 250 por R$ 71"
-                     loading="lazy" />
-              </div>
-                      </div>
-        </div>
-            </div>
-
+  <!-- CARROSSEL DESKTOP (3 por slide): os itens entram pelo script "prints vivos" no fim da pagina -->
+  <div id="ofertasCarousel-d" class="carousel slide d-none d-md-block">
+    <div class="carousel-indicators"></div>
+    <div class="carousel-inner text-center"></div>
     <button class="carousel-control-prev" type="button" data-bs-target="#ofertasCarousel-d" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#ofertasCarousel-d" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Próximo</span>
-      </button>
-      </div>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#ofertasCarousel-d" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
   </div>
 </section>
 <!-- [CAT] removida: secao de DEPOIMENTOS.
@@ -516,6 +450,194 @@ src="https://www.facebook.com/tr?id=1772413697427356&ev=PageView&noscript=1"></n
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/social.js"></script>
+    <!-- [CAT] PRINTS VIVOS da secao #ofertas (28/11/2026). Ver o comentario
+         da secao. Falha em silencio de proposito: sem o ofertas.json, sem
+         oferta no prazo ou sem o Bootstrap, a secao so nao aparece. -->
+    <script>
+(function () {
+  'use strict';
+  var secao = document.getElementById('ofertas');
+  if (!secao || !window.fetch || !window.bootstrap || !bootstrap.Carousel) return;
+
+  var MAX = 6;          // tantos prints quanto havia antes
+  var MIN = 3;          // menos que isso nao enche nem um slide do computador
+  var PRECO_MIN = 50;   // bugiganga de R$ 9 com 80% de desconto nao e vitrine
+
+  // Mesma preposicao do selo do painel (cards/arteStatus.ts).
+  var LOJA_EM = {
+    mercadolivre: 'no Mercado Livre', shopee: 'na Shopee', aliexpress: 'no AliExpress',
+    amazon: 'na Amazon', magalu: 'no Magalu', kabum: 'na KaBuM!'
+  };
+  // Mesma lista da vitrine (index.html): so link das nossas lojas.
+  var DOMINIOS_DAS_LOJAS = ['meli.la', 'mercadolivre.com.br', 'mercadolibre.com', 'shopee.com.br',
+                            'aliexpress.com', 'amazon.com.br', 'amzn.to', 'linkdapromo.com'];
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function urlSegura(u) {
+    var bruto = String(u == null ? '' : u).trim();
+    if (!bruto || bruto.slice(0, 2) === '//') return '';
+    try {
+      var url = new URL(bruto, location.href);
+      return url.protocol === 'https:' ? url.href : '';
+    } catch (e) { return ''; }
+  }
+  function lojaSegura(u) {
+    var bom = urlSegura(u);
+    if (!bom) return '';
+    var h = new URL(bom).hostname.toLowerCase();
+    return DOMINIOS_DAS_LOJAS.some(function (d) { return h === d || h.slice(-(d.length + 1)) === '.' + d; }) ? bom : '';
+  }
+  // Hora LOCAL de Brasilia no json ("2026-11-28 08:57:03"); sem horario de verao desde 2019.
+  function instante(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/.exec(String(s || ''));
+    if (!m) return null;
+    return { t: Date.parse(m[1] + '-' + m[2] + '-' + m[3] + 'T' + m[4] + ':' + m[5] + ':00-03:00'),
+             hora: m[4] + ':' + m[5] };
+  }
+  // Preco redondo sem centavos, como no post ("R$ 1.079", "R$ 687,03").
+  function brl(n) {
+    n = Number(n);
+    return n.toLocaleString('pt-BR', { minimumFractionDigits: Number.isInteger(n) ? 0 : 2, maximumFractionDigits: 2 });
+  }
+  // O titulo da vitrine chega com o preco colado no fim ("... - R$ 593,91").
+  function semPrecoNoFim(t) {
+    return String(t == null ? '' : t).replace(/\s+[-–—]\s*R\$\s*[\d.,]+\s*$/, '').trim();
+  }
+  // Copia do tituloCurto() de 09-saas/painel/src/lib/templates.ts: corta por
+  // pedaco (virgula, barra, travessao), nunca no meio da especificacao.
+  function limpaPonta(s) {
+    var t = s.trim(), abre = t.lastIndexOf('(');
+    if (abre > 0 && t.indexOf(')', abre) === -1) t = t.slice(0, abre);
+    return t.replace(/[\s,;:\-–—\/|+&]+$/, '').trim();
+  }
+  function tituloCurto(bruto) {
+    var CAP = 62, t = String(bruto == null ? '' : bruto).replace(/\s+/g, ' ').trim();
+    if (t.length <= CAP) return t;
+    var pedacos = t.split(/\s*[,|]\s*|\s+[-–—]\s+/).filter(Boolean);
+    var saida = pedacos[0] || t;
+    for (var i = 1; i < pedacos.length; i++) {
+      if ((saida + ', ' + pedacos[i]).length > CAP) break;
+      saida = saida + ', ' + pedacos[i];
+    }
+    if (saida.length <= CAP) return limpaPonta(saida);
+    var corte = saida.slice(0, CAP), espaco = corte.lastIndexOf(' ');
+    return limpaPonta(espaco > CAP * 0.6 ? corte.slice(0, espaco) : corte) + '…';
+  }
+  // A linha do cupom do padrao da casa ({cupom_line} em templates.ts).
+  function linhaCupom(c) {
+    c = String(c == null ? '' : c).trim();
+    if (!c || c === '@anuncio') return '';
+    if (c.indexOf('APP:') === 0) return '🎟️ Ative o cupom <b>' + esc(c.slice(4).trim()) + '</b> no app: Menu → Cupons';
+    return '🎟️ Use o cupom: <b>' + esc(c.slice(0, 40)) + '</b>';
+  }
+  // O preco do post (motor/agendador.ts, regra de 09/09/2026): com cupom que
+  // baixa o preco, o anunciado e o preco COM o cupom e o riscado e o "de"
+  // original. Sem isso o print dizia "por R$ 687,03, use o cupom" quando o
+  // post saiu "por R$ 517" (Codex, 28/11/2026).
+  function precos(o) {
+    var loja = Number(o.preco), comCupom = Number(o.precoComCupom);
+    var usaCupom = comCupom > 0 && comCupom < loja;
+    return usaCupom ? { de: Number(o.precoDe) || loja, por: comCupom }
+                    : { de: Number(o.precoDe), por: loja };
+  }
+  // A vitrine guarda a miniatura do Meli (-P, 250 px); no balao ela fica
+  // borrada. A de 500 px (-O) e o mesmo arquivo no mesmo endereco.
+  function fotoGrande(u) {
+    return /^https:\/\/http2\.mlstatic\.com\//.test(u) ? u.replace(/-P\.(webp|jpe?g|png)$/i, '-O.$1') : u;
+  }
+  var TIQUES = '<svg viewBox="0 0 16 11" fill="none" stroke="currentColor" stroke-width="1.5" ' +
+               'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+               '<path d="M1.2 5.9 4.4 9 10.6 1.9M7.4 9l.4.2 6.4-7.3"/></svg>';
+
+  function balao(o, v, p) {
+    var mini = urlSegura(o.imagem), grande = fotoGrande(mini);
+    var em = LOJA_EM[o.plataforma];
+    var preco = '💰 De <s>R$ ' + brl(p.de) + '</s> por <b>R$ ' + brl(p.por) + '</b>';
+    var cupom = linhaCupom(o.cupom);
+    return '<div class="print-vivo"><div class="wpp-balao">' +
+        '<img class="wpp-foto" src="' + esc(grande) + '" data-mini="' + (grande !== mini ? esc(mini) : '') + '"' +
+          ' alt="" loading="lazy" referrerpolicy="no-referrer">' +
+        '<div class="wpp-txt">' +
+          '<div class="wpp-titulo">🚚 <b>' + esc(tituloCurto(semPrecoNoFim(o.produto))) + '</b></div>' +
+          (em ? '<i>Oferta ' + esc(em) + '</i><br>' : '') +
+          '<br>' + preco + '<br>' +
+          (cupom ? '<br>' + cupom + '<br>' : '') +
+          '🛒 <span class="wpp-link">' + esc(lojaSegura(o.url)) + '</span>' +
+        '</div>' +
+        '<div class="wpp-hora">' + esc(v.hora) + ' ' + TIQUES + '</div>' +
+      '</div></div>';
+  }
+
+  function monta(id, porSlide, prints) {
+    var el = document.getElementById(id);
+    var html = '', bolinhas = '';
+    for (var i = 0, n = 0; i < prints.length; i += porSlide, n++) {
+      html += '<div class="carousel-item' + (n ? '' : ' active') + '">' +
+                '<div class="row g-3 justify-content-center">' +
+                  prints.slice(i, i + porSlide).map(function (h) {
+                    return '<div class="col-12' + (porSlide > 1 ? ' col-md-4' : '') + '">' + h + '</div>';
+                  }).join('') +
+                '</div>' +
+              '</div>';
+      bolinhas += '<button type="button" data-bs-target="#' + id + '" data-bs-slide-to="' + n + '"' +
+                  (n ? '' : ' class="active" aria-current="true"') + ' aria-label="Oferta ' + (n + 1) + '"></button>';
+    }
+    el.querySelector('.carousel-inner').innerHTML = html;
+    el.querySelector('.carousel-indicators').innerHTML = bolinhas;
+    // Foto: a de 500 px; se falhar, a miniatura; se falhar de novo, o balao fica so com o texto.
+    el.querySelectorAll('img.wpp-foto').forEach(function (img) {
+      img.addEventListener('error', function () {
+        var mini = img.getAttribute('data-mini');
+        if (mini) { img.setAttribute('data-mini', ''); img.src = mini; return; }
+        img.remove();
+      });
+    });
+    new bootstrap.Carousel(el, { interval: 5000, ride: 'carousel', pause: 'hover', wrap: true });
+  }
+
+  fetch('../ofertas.json?v=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (doc) {
+      var lista = Array.isArray(doc) ? doc : (doc && Array.isArray(doc.ofertas) ? doc.ofertas : []);
+      var janela = ((doc && doc.janelaHoras) || 24) * 3600 * 1000, agora = Date.now();
+
+      // So o que a vitrine tambem mostraria, e com "de/por" pra ter o que provar.
+      var boas = [];
+      lista.forEach(function (o) {
+        var v = instante(o.visto), p = precos(o);
+        if (!v || agora - v.t > janela || v.t - agora > 3600 * 1000) return;
+        if (!(p.por >= PRECO_MIN) || !(p.de > p.por)) return;
+        if (!urlSegura(o.imagem) || !lojaSegura(o.url)) return;
+        boas.push({ o: o, v: v, p: p, off: 1 - p.por / p.de });
+      });
+
+      // As mais quentes: maior desconto primeiro; no empate, a mais nova.
+      // Uma por tipo de produto (primeira palavra do titulo): sem isso saiam
+      // tres monitores e dois iPhones iguais em cores diferentes.
+      boas.sort(function (a, b) { return (b.off - a.off) || (b.v.t - a.v.t); });
+      var tipos = {}, prints = [];
+      boas.forEach(function (b) {
+        if (prints.length >= MAX) return;
+        var tipo = tituloCurto(semPrecoNoFim(b.o.produto)).split(' ')[0].toLowerCase();
+        if (tipos[tipo]) return;
+        tipos[tipo] = true;
+        prints.push(balao(b.o, b.v, b.p));
+      });
+      if (prints.length < MIN) return;
+
+      monta('ofertasCarousel-m', 1, prints);
+      monta('ofertasCarousel-d', 3, prints);
+      secao.hidden = false;
+      var menu = document.getElementById('navOfertas');
+      if (menu) menu.hidden = false;
+    })
+    .catch(function () {});
+})();
+    </script>
     <script>
   // Extrai o código do convite de links tipo: https://chat.whatsapp.com/BSIV... ?mode=...
   function extractInviteCode(href) {
